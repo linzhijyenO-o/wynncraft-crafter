@@ -1,5 +1,20 @@
 # 自制装备制作器（Wynncraft Crafting Calculator）
 
+> **English summary** — Run `start.cmd` (or `python backend/server.py --port 8765 --open`), open
+> http://127.0.0.1:8765/. It needs Python 3.7+ and `numpy`.
+>
+> A craft is 6 ingredients on a 3×2 grid. Each cell receives the percentages granted by the other
+> cells by relative position (`left`/`right`/`above`/`under`, plus `touching` for orthogonal
+> neighbours and `not_touching` for everything else — the same 5×3 map as the official item guide).
+> IDs and skill requirements scale by `trunc(value × (1 + bonus/100))`, truncating toward zero.
+> Durability is **not** affected by adjacency:
+> `base durability[type][tier] + Σ ingredient durability modifiers` (a few ingredients are positive).
+> Consumables use duration instead. Multiple targets are ranked by
+> `Σ weight × value ÷ reachable cap`, with an optional lower bound each; weight may be 0 or negative.
+> Search is a beam search over ~70 candidates with constraint bucketing (about 1 s per query).
+>
+> The detailed manual below is in Chinese.
+
 在 3×2 的格子里放 6 个原料，算出成品的**耐久 / 点数 / 词条**，并按多个目标词条**搜索最优配方**。
 
 ![English · dark](preview.png)
