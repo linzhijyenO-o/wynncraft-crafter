@@ -2,6 +2,7 @@
 """独立对拍：直接从 raw/ ingredients_raw.json 按规则手算，和引擎结果比对。"""
 import io
 import json
+import math
 import sys
 
 raw = json.load(io.open(r'D:\C++\wynnbd\raw\ingredients_raw.json', encoding='utf-8-sig'))
@@ -52,17 +53,17 @@ for i, it in enumerate(cells):
     cost += abs(it['itemOnlyIDs']['durabilityModifier']) / 1000.0
     for k, v in (it.get('identifications') or {}).items():
         cur = ids.setdefault(k, [0, 0, 0])
-        cur[0] += int(v['min'] * f)
-        cur[1] += int(v['raw'] * f)
-        cur[2] += int(v['max'] * f)
+        cur[0] += math.floor(v['min'] * f)
+        cur[1] += math.floor(v['raw'] * f)
+        cur[2] += math.floor(v['max'] * f)
 
 print('独立算的耐久: %d = %d - %d' % (1500 - cost, 1500, cost))
 print('独立算的词条:', {k: v for k, v in ids.items()})
 
 # ---------------- 引擎结果
-res = E.evaluate(ds, {'type': 'sword',
-                      'baseDurability': {'sword': [1500, 1600, 1700, 1800, 1900, 2000]},
-                      'baseTier': {'sword': 1},
+res = E.evaluate(ds, {'type': 'spear',
+                      'baseDurability': {'spear': [1500, 1600, 1700, 1800, 1900, 2000]},
+                      'baseTier': {'spear': 1},
                       'targets': [{'key': TARGET, 'weight': 1}]}, LAYOUT)
 print('引擎每格加成 :', [c['bonus'] for c in res['cells']])
 print('引擎耐久     :', res['durability'], '基础', res['baseDurability'], '消耗', res['durabilityCost'])

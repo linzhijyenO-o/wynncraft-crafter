@@ -62,6 +62,7 @@ def meta_payload():
         'types': types,
         'baseTiers': E.BASE_TIERS,
         'defaultBaseTable': list(E.DEFAULT_BASE_TABLE),
+        'defaultCharges': E.DEFAULT_BASE_CHARGES,
         'tierNames': E.TIER_NAMES,
         'tierColors': E.TIER_COLORS,
         'skills': [{'key': k, 'cn': z, 'en': e} for k, z, e in E.SKILLS],

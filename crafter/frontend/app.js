@@ -37,6 +37,10 @@ const I18N = {
     'ui.minDurPhC': 'e.g. 400, blank = no limit',
     'ui.baseDur': 'Base duration (consumables)',
     'ui.baseDurHint': 'Final duration = base + sum of ingredient duration modifiers',
+    'ui.minCharges': 'Minimum charges',
+    'ui.minChargesPh': 'e.g. 5, blank = no limit',
+    'ui.baseCharges': 'Base charges (consumables)',
+    'ui.baseChargesHint': 'Final charges = base + sum of ingredient charge modifiers (base defaults to 3)',
     'ui.points': 'Skill requirements (per skill, blank = no limit)',
     'ui.targets': 'Target IDs (multi-select)',
     'ui.searchId': 'Search IDs, e.g. health / spell…',
@@ -76,8 +80,10 @@ const I18N = {
     'ui.restore': 'Click to restore',
     'ui.weight': 'Weight (0 or negative allowed)',
     'ui.min': 'Min',
+    'ui.max': 'Max',
+    'ui.maxHint': 'Upper bound on this ID (blank = no limit)',
     'calc.1': 'Adjacency: each cell receives the percentages granted by the other cells depending on relative position (left/right/above/under, touching, not touching) — the same 5×3 grid as the official item guide.',
-    'calc.2': 'IDs and skill requirements: Σ trunc(value × (1 + bonus/100)); negatives truncate toward zero.',
+    'calc.2': 'IDs and skill requirements: Σ floor(value × (1 + bonus/100)); negatives round down (further negative).',
     'calc.3': 'Durability: base durability (item type + tier) + Σ ingredient durability modifiers, not affected by adjacency.',
     'calc.4': 'Requirements: the five skills are summed separately, each compared with its own limit.',
     'calc.5': 'Multiple targets: Σ weight × value ÷ reachable cap, with an optional lower bound per ID.',
@@ -90,6 +96,7 @@ const I18N = {
     'res.durMinus': 'Durability = base {b} (tier {t}) − {m} = {d}',
     'res.durPlus': 'Durability = base {b} (tier {t}) + {m} = {d}',
     'res.durationLine': 'Duration = base {b} + modifier {m} = {d}',
+    'res.chargesLine': 'Charges = base {b} + modifier {m} = {d}',
     'res.empty': 'no IDs',
     'res.noIds': 'No IDs',
     'err.no_candidates': 'No usable ingredients',
@@ -126,6 +133,10 @@ const I18N = {
     'ui.minDurPhC': '例如 400，不限留空',
     'ui.baseDur': '基础持续时间（消耗品）',
     'ui.baseDurHint': '成品时间 = 基础值 + 6 个原料的时长修正之和',
+    'ui.minCharges': '最低使用次数',
+    'ui.minChargesPh': '例如 5，不限留空',
+    'ui.baseCharges': '基础使用次数（消耗品）',
+    'ui.baseChargesHint': '成品次数 = 基础值 + 6 个原料的次数修正之和（基础默认 3）',
     'ui.points': '点数上限（五项分别限制，留空不限）',
     'ui.targets': '目标词条（可多选）',
     'ui.searchId': '搜索词条，例如 health / spell…',
@@ -165,8 +176,10 @@ const I18N = {
     'ui.restore': '点击恢复',
     'ui.weight': '权重（可为 0 或负数）',
     'ui.min': '下限',
+    'ui.max': '上限',
+    'ui.maxHint': '该词条的上界（留空不限）',
     'calc.1': '相邻加成：每格受到其它格按相对位置授予的百分比之和（左/右/上/下、相邻、不相邻），与官方图鉴的 5×3 效果网格一致。',
-    'calc.2': '词条与点数：Σ trunc(数值 × (1 + 加成/100))，负数向 0 取整。',
+    'calc.2': '词条与点数：Σ floor(数值 × (1 + 加成/100))，向下取整（负数往更小的方向）。',
     'calc.3': '耐久：基础耐久（种类 + 档位）+ Σ 原料耐久修正，不受相邻加成影响。',
     'calc.4': '点数：五项属性需求分别累加，各自与自己的上限比较。',
     'calc.5': '多目标：Σ 权重 × 数值 ÷ 该词条可达上限，每条可单独设下限。',
@@ -179,6 +192,7 @@ const I18N = {
     'res.durMinus': '耐久 = 基础 {b}（{t} 档） − 消耗 {m} = {d}',
     'res.durPlus': '耐久 = 基础 {b}（{t} 档） + 补正 {m} = {d}',
     'res.durationLine': '时间 = 基础 {b} + 原料修正 {m} = {d}',
+    'res.chargesLine': '次数 = 基础 {b} + 原料修正 {m} = {d}',
     'res.empty': '无词条',
     'res.noIds': '无词条',
     'err.no_candidates': '没有可用原料',
@@ -218,6 +232,7 @@ const state = {
   selected: [],
   weights: {},
   mins: {},
+  maxs: {},
   disabled: [],
   busy: false,
   last: null,
@@ -477,7 +492,9 @@ function updateTypeUi() {
   const isConsumable = ty.kind === 'consumable';
   $('#minDurLabel').textContent = isConsumable ? t('ui.minDurC') : t('ui.minDur');
   $('#minDur').placeholder = isConsumable ? t('ui.minDurPhC') : t('ui.minDurPh');
-  $('#baseDurField').style.display = isConsumable ? '' : 'none';
+  document.querySelectorAll('.only-consumable').forEach((n) => {
+    n.style.display = isConsumable ? '' : 'none';
+  });
   const names = ty.professions.map((p) => loc(state.meta.professions[p] || { zh: p, en: p })).join(' / ');
   $('#typeHint').textContent = t('ui.professions', { list: names });
 }
@@ -512,6 +529,7 @@ function toggleTarget(key) {
     state.selected.push(key);
     if (state.weights[key] === undefined) state.weights[key] = 1;
     if (state.mins[key] === undefined) state.mins[key] = '';
+    if (state.maxs[key] === undefined) state.maxs[key] = '';
   }
   buildIdList($('#idFilter').value);
   renderSelected();
@@ -547,6 +565,14 @@ function renderSelected() {
     m.value = state.mins[key];
     m.addEventListener('input', () => { state.mins[key] = m.value; });
     row.appendChild(m);
+
+    const mx = document.createElement('input');
+    mx.type = 'number';
+    mx.placeholder = t('ui.max');
+    mx.title = t('ui.maxHint');
+    mx.value = state.maxs[key];
+    mx.addEventListener('input', () => { state.maxs[key] = mx.value; });
+    row.appendChild(mx);
 
     const x = el('button', 'mini', '×');
     x.type = 'button';
@@ -643,12 +669,16 @@ function collectPreset() {
     bd,
     md: numOrNull($('#minDur').value),
     pl,
-    tg: state.selected.map((k) => [k, weightOf(k), state.mins[k] === '' || state.mins[k] === undefined ? null : Number(state.mins[k])]),
+    tg: state.selected.map((k) => [k, weightOf(k),
+      state.mins[k] === '' || state.mins[k] === undefined ? null : Number(state.mins[k]),
+      state.maxs[k] === '' || state.maxs[k] === undefined ? null : Number(state.maxs[k])]),
     cmp: $('#compare').value,
     n: Number($('#topN').value) || 12,
     e: Number($('#effort').value) || 1200,
     dup: $('#allowDupes').checked ? 1 : 0,
     cb: ty.kind === 'consumable' ? { [ty.id]: Number($('#baseDur').value) || 0 } : undefined,
+    ch: ty.kind === 'consumable' ? { [ty.id]: Number($('#baseCharges').value) || 0 } : undefined,
+    mc: ty.kind === 'consumable' ? numOrNull($('#minCharges').value) : null,
     dis: state.disabled.slice(),
     lg: state.lang,
   };
@@ -719,6 +749,7 @@ function applyPreset(p) {
   if (p.bt) state.baseTier[typeId] = Math.min(Math.max(Number(p.bt) || 1, 1), meta.baseTiers);
 
   $('#minDur').value = p.md === null || p.md === undefined ? '' : p.md;
+  $('#minCharges').value = p.mc === null || p.mc === undefined ? '' : p.mc;
   document.querySelectorAll('#skillLimits input').forEach((inp) => {
     const v = (p.pl || {})[inp.dataset.skill];
     inp.value = v === null || v === undefined ? '' : v;
@@ -727,11 +758,13 @@ function applyPreset(p) {
   state.selected = [];
   state.weights = {};
   state.mins = {};
+  state.maxs = {};
   (p.tg || []).forEach((row) => {
     if (!row || !row[0] || !state.labels[row[0]]) return;
     state.selected.push(row[0]);
     state.weights[row[0]] = row[1] === undefined || row[1] === null ? 1 : Number(row[1]);
     state.mins[row[0]] = row[2] === undefined || row[2] === null ? '' : row[2];
+    state.maxs[row[0]] = row[3] === undefined || row[3] === null ? '' : row[3];
   });
 
   $('#compare').value = p.cmp === 'min' ? 'min' : 'max';
@@ -740,6 +773,7 @@ function applyPreset(p) {
   $('#effort').value = String(eff <= 600 ? 400 : eff <= 2000 ? 1200 : 3000);
   $('#allowDupes').checked = p.dup !== 0;
   $('#baseDur').value = (p.cb && p.cb[typeId]) || 0;
+  $('#baseCharges').value = p.ch && p.ch[typeId] !== undefined ? p.ch[typeId] : 3;
   state.disabled = Array.isArray(p.dis) ? p.dis.slice() : [];
 
   renderStars();
@@ -860,12 +894,15 @@ async function onSubmit(ev) {
     baseDurability: state.baseTable,
     baseTier: state.baseTier,
     consumableBase: ty.kind === 'consumable' ? { [ty.id]: Number($('#baseDur').value) || 0 } : {},
+    chargesBase: ty.kind === 'consumable' ? { [ty.id]: Number($('#baseCharges').value) || 0 } : {},
     minDurability: numOrNull($('#minDur').value),
+    minCharges: ty.kind === 'consumable' ? numOrNull($('#minCharges').value) : null,
     pointsLimit: pointsLimits(),
     targets: state.selected.map((k) => ({
       key: k,
       weight: weightOf(k),
       min: state.mins[k] === '' || state.mins[k] === undefined ? null : Number(state.mins[k]),
+      max: state.maxs[k] === '' || state.maxs[k] === undefined ? null : Number(state.maxs[k]),
     })),
     compare: $('#compare').value,
     topN: Number($('#topN').value) || 12,
@@ -1001,6 +1038,8 @@ function renderResults(data, payload, ms) {
         : t('res.durPlus', { b: r.baseDurability, t: r.baseTier, m: mod, d: r.durability }));
     } else {
       lines.push(t('res.durationLine', { b: r.baseDuration, m: r.duration - r.baseDuration, d: r.duration }));
+      const cm = r.charges - (r.baseCharges === undefined ? 3 : r.baseCharges);
+      lines.push(t('res.chargesLine', { b: r.baseCharges === undefined ? 3 : r.baseCharges, m: cm, d: r.charges }));
     }
     card.appendChild(el('div', 'skills', esc(lines.join('　|　'))));
 

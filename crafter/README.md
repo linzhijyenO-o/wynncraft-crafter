@@ -6,7 +6,7 @@
 > A craft is 6 ingredients on a 3×2 grid. Each cell receives the percentages granted by the other
 > cells by relative position (`left`/`right`/`above`/`under`, plus `touching` for orthogonal
 > neighbours and `not_touching` for everything else — the same 5×3 map as the official item guide).
-> IDs and skill requirements scale by `trunc(value × (1 + bonus/100))`, truncating toward zero.
+> IDs and skill requirements scale by `floor(value × (1 + bonus/100))`, rounding down (negatives go further negative).
 > Durability is **not** affected by adjacency:
 > `base durability[type][tier] + Σ ingredient durability modifiers` (a few ingredients are positive).
 > Consumables use duration instead. Multiple targets are ranked by
@@ -45,11 +45,14 @@ python backend\server.py --port 8765 --open
 
 | 设置 | 含义 |
 | --- | --- |
-| 自制物品种类 | 16 种，决定可用职业、基础耐久表、可用词条（见下表） |
+| 自制物品种类 | 15 种，决定可用职业、基础耐久表、可用词条（见下表） |
 | 基础耐久（6 档） | 每种物品种类 6 个档位值，默认 **571 / 666 / 714 / 742 / 771 / 799**（1–6 档）；选一档生效，可「应用到所有种类」 |
 | 装备最低耐久 | 成品耐久下限；选消耗品时自动变成「最低持续时间」 |
+| 最低使用次数 | 消耗品专用：成品次数下限 |
+| 基础持续时间 | 消耗品专用，默认 0 |
+| 基础使用次数 | 消耗品专用，默认 **3** |
 | 点数上限 | 力量/敏捷/智力/防御/技巧**五项分别**设上限，留空表示该项不限 |
-| 目标词条 | 可多选；每条单独设**权重**和**下限**。权重可为 **0**（只保留下限约束、不参与排序）或**负数**（越低越好），排名按归一化加权和 |
+| 目标词条 | 可多选；每条单独设**权重**、**下限**、**上限**。权重可为 **0**（只作约束、不参与排序）或**负数**（越低越好），排名按归一化加权和；上下界留空即不限 |
 | 比较口径 | 用词条范围的**最高值**（默认）还是**最低值**去比较和排序 |
 | 返回前 n 条 | 结果条数 |
 | 搜索强度 | 束宽 400 / 1200 / 3000，越大越慢越准 |
@@ -65,14 +68,14 @@ python backend\server.py --port 8765 --open
 | --- | --- |
 | 防具锻造 armouring | 头盔、胸甲 |
 | 裁缝 tailoring | 护腿、靴子 |
-| 武器锻造 weaponsmithing | 剑、矛、匕首 |
-| 木工 woodworking | 弓、法杖、遗物 |
+| 武器锻造 weaponsmithing | 矛、匕首、遗物 |
+| 木工 woodworking | 弓、法杖 |
 | 珠宝 jeweling | 戒指、项链、手镯 |
 | 炼金 alchemism | 药水 |
 | 铭文 scribing | 卷轴 |
 | 烹饪 cooking | 料理 |
 
-> 剑和弓在你给的表里没提，按游戏内的分法归到武器锻造 / 木工；如果要改，动 `engine.py` 里 `ITEM_TYPES` 的第一行配置即可。
+> 没有 sword 类型；relik（遗物）归武器锻造，弓和法杖归木工。要调整就改 `engine.py` 里的 `ITEM_TYPES`。
 
 ## 计算口径
 
@@ -89,12 +92,12 @@ python backend\server.py --port 8765 --open
 | 正左 / 正右 | `left` / `right` + `touching` |
 | 斜角（任意距离） | `not_touching` |
 
-**2. 词条与点数**（受加成影响，负数向 0 取整）
+**2. 词条与点数**（受加成影响，向下取整，负数往更小的方向）
 
 ```
-value_i = trunc(原料数值 × (1 + a[i]/100))
+value_i = floor(原料数值 × (1 + a[i]/100))
 成品词条 = Σ value_i        （min / raw / max 分别累加）
-成品点数 = Σ trunc(该原料的属性需求 × (1 + a[i]/100))
+成品点数 = Σ floor(该原料的属性需求 × (1 + a[i]/100))
 ```
 
 **3. 耐久**（不受加成影响）
@@ -111,23 +114,28 @@ value_i = trunc(原料数值 × (1 + a[i]/100))
 
 ```
 成品持续时间 = 基础持续时间 + Σ 原料时长修正
+成品使用次数 = 基础使用次数 + Σ 原料次数修正
 ```
 
-基础持续时间在界面上单独填（默认 0），因为原料的时长修正几乎全是负数。
+基础持续时间在界面上单独填（默认 0），因为原料的时长修正几乎全是负数；
+**基础使用次数默认 3**，原料的 `charges` 有正有负，会在 3 的基础上加减。
+两者都可以设最低值当过滤条件（最低次数会额外把给次数的原料塞进候选池，否则搜不出来）。
 
 **5. 多目标排序**
 
 ```
 scale_k = 同职业原料中该词条最好值 × 6      （可达上限）
-得分    = Σ 权重_k × 数值_k / scale_k  −  Σ 下限惩罚_k
+得分    = Σ 权重_k × 数值_k / scale_k  −  Σ 下限惩罚_k  −  Σ 上界惩罚_k
 下限惩罚_k = max(0, 下限_k − 数值_k) / scale_k
+上界惩罚_k = max(0, 数值_k − 上界_k) / scale_k
 ```
 
 归一化是为了让「权重 1 : 1」表示**同等重要**——否则 rawHealth（几千）会把 walkSpeed（几十）完全吃掉。
 
-- **权重 0**：该词条不参与排序，只作为硬性的下限约束（留空下限就等于完全忽略）。
+- **权重 0**：该词条不参与排序，只作为硬性约束（上下界都留空就等于完全忽略）。
 - **负权重**：分数越低越好（例如 `walkSpeed` 权重 -1 就是「尽量降低走路速度」）。
-- 带下限的词条会参与搜索时的打分（扣惩罚），否则权重 0 时搜索根本不会往那个方向找；同时它的高产原料会被强制放进候选池。
+- 带下限/上界的词条会参与搜索时的打分（扣惩罚），否则权重 0 时搜索根本不会往那个方向找；
+  同时它们的高产原料（下限）或给时长的原料（消耗品）会被强制放进候选池。
 
 ## 预设配置
 
@@ -153,12 +161,14 @@ scale_k = 同职业原料中该词条最好值 × 6      （可达上限）
 
 ## 已验证
 
-- `backend/_selftest.py`：手工算例（同原料铺满 6 格、档位取基础耐久、负数取整）；束搜索 vs 9 候选**暴力枚举**的最优值一致；多目标 + 五项点数 + 耐久约束的可行性断言。
+- `backend/_selftest.py`：手工算例（同原料铺满 6 格、档位取基础耐久、向下取整）；束搜索 vs 9 候选**暴力枚举**的最优值一致；多目标 + 五项点数 + 耐久约束的可行性断言。
 - `backend/_crosscheck.py`：绕过引擎，直接从 `raw/ingredients_raw.json` 另写一份实现，对拍加成、耐久、词条，逐字段一致。
+- `backend/_floorcheck.py`：用真实原料随机组 400 个配方，筛出计算结果为小数的词条，确认取整是**向下取整**（`-7.8 → -8`、`59.8 → 59`）。
 
 ```powershell
 python backend\_selftest.py
 python backend\_crosscheck.py
+python backend\_floorcheck.py
 ```
 
 ## 接口
@@ -181,13 +191,25 @@ python backend\_crosscheck.py
   "pointsLimit": { "strength": 20, "dexterity": null, "intelligence": null,
                    "defence": 45, "agility": null },
   "targets": [
-    { "key": "rawHealth",  "weight": 1, "min": 2000 },
-    { "key": "rawDefence", "weight": 8, "min": null }
+    { "key": "rawHealth",  "weight": 1, "min": 2000, "max": null },
+    { "key": "rawDefence", "weight": 8, "min": null, "max": 600 }
   ],
   "compare": "max",
   "topN": 12,
   "beam": 1200,
   "disabled": ["Butterfly Buckler", "Unicorn Horn"]
+}
+```
+
+消耗品额外支持这几项（不填则基础次数按 3、基础时间按 0）：
+
+```json
+{
+  "type": "potion",
+  "consumableBase": { "potion": 600 },
+  "chargesBase": { "potion": 3 },
+  "minDurability": 350,
+  "minCharges": 6
 }
 ```
 

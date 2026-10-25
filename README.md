@@ -40,7 +40,7 @@ or just double-click `crafter/start.cmd`. Requires Python 3.7+ and `numpy`.
 
 Pick a target item type, set constraints, and it enumerates 6-ingredient layouts:
 
-- **16 item types × 8 professions** — ingredients are only usable in the professions they belong to
+- **15 item types × 8 professions** — ingredients are only usable in the professions they belong to
 - **Base durability** — 6 tiers per item type (571 / 666 / 714 / 742 / 771 / 799) plus the
   signed durability modifiers of the six ingredients (a few ingredients *add* durability)
 - **Multi-target search** — every target has a weight and an optional lower bound; weights may be

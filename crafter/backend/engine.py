@@ -22,6 +22,7 @@ Wynncraft 自制装备计算引擎。
 from __future__ import print_function
 
 import json
+import math
 import os
 import time
 
@@ -35,12 +36,11 @@ DATA_PATH = os.path.join(WYNNDB, 'data', 'ingredients.json')
 
 ITEM_TYPES = [
     # id, 中文, English, 分栏, 可用职业（材料只能用在它能做的物品上）
-    ('sword',      '剑',     'Sword',      'weapon',     ['weaponsmithing']),
     ('spear',      '矛',     'Spear',      'weapon',     ['weaponsmithing']),
     ('dagger',     '匕首',   'Dagger',     'weapon',     ['weaponsmithing']),
+    ('relik',      '遗物',   'Relik',      'weapon',     ['weaponsmithing']),
     ('bow',        '弓',     'Bow',        'weapon',     ['woodworking']),
     ('wand',       '法杖',   'Wand',       'weapon',     ['woodworking']),
-    ('relik',      '遗物',   'Relik',      'weapon',     ['woodworking']),
     ('helmet',     '头盔',   'Helmet',     'armour',     ['armouring']),
     ('chestplate', '胸甲',   'Chestplate', 'armour',     ['armouring']),
     ('leggings',   '护腿',   'Leggings',   'armour',     ['tailoring']),
@@ -59,6 +59,8 @@ TYPE_BY_ID = {t[0]: {'id': t[0], 'cn': t[1], 'en': t[2], 'kind': t[3], 'professi
 BASE_TIERS = 6          # 基础耐久档位数
 # 1~6 档的基础耐久默认值（所有物品种类统一）
 DEFAULT_BASE_TABLE = [571, 666, 714, 742, 771, 799]
+# 消耗品初始使用次数
+DEFAULT_BASE_CHARGES = 3
 
 PROF_CN = {
     'armouring': '防具锻造', 'tailoring': '裁缝', 'weaponsmithing': '武器锻造',
@@ -111,9 +113,9 @@ def rel_keys(target, source):
 PAIR = [[rel_keys(i, j) for j in range(ROWS * COLS)] for i in range(ROWS * COLS)]
 
 
-def trunc(x):
-    """负数向 0 取整。"""
-    return int(x)
+def floor(x):
+    """向下取整：负数往更小的方向（-5.5 -> -6）。"""
+    return int(math.floor(x))
 
 
 # ----------------------------------------------------------------- 数据
@@ -183,6 +185,16 @@ def base_tier_of(cfg, type_id):
     return min(max(v, 1), BASE_TIERS)
 
 
+def base_charges_of(cfg, type_id):
+    """消耗品的基础使用次数（默认 3）。"""
+    cb = cfg.get('chargesBase') or {}
+    v = cb.get(type_id, DEFAULT_BASE_CHARGES) if isinstance(cb, dict) else cb
+    try:
+        return float(v)
+    except (TypeError, ValueError):
+        return float(DEFAULT_BASE_CHARGES)
+
+
 def points_limits(cfg):
     """五种属性各自的点数上限，None 表示不限。"""
     raw = cfg.get('pointsLimit') or {}
@@ -197,7 +209,10 @@ def points_limits(cfg):
 
 
 def targets_of(cfg):
-    """目标词条列表：[{key, weight, min}]。weight 允许 0 和负数，只有缺省时才回落到 1。"""
+    """目标词条列表：[{key, weight, min, max}]。
+
+    weight 允许 0 和负数，只有缺省时才回落到 1；min / max 是数值的上下界（None = 不限）。
+    """
     raw = cfg.get('targets')
     if not raw:
         if cfg.get('targetId'):
@@ -205,6 +220,15 @@ def targets_of(cfg):
                     'min': cfg.get('minIdValue')}]
         else:
             raw = []
+
+    def _num(v):
+        if v == '':
+            return None
+        try:
+            return None if v is None else float(v)
+        except (TypeError, ValueError):
+            return None
+
     out = []
     for t in raw:
         key = t.get('key')
@@ -217,14 +241,8 @@ def targets_of(cfg):
             w = float(w)
         except (TypeError, ValueError):
             w = 1.0
-        mn = t.get('min')
-        if mn == '':
-            mn = None
-        try:
-            mn = None if mn is None else float(mn)
-        except (TypeError, ValueError):
-            mn = None
-        out.append({'key': key, 'weight': w, 'min': mn})
+        out.append({'key': key, 'weight': w,
+                    'min': _num(t.get('min')), 'max': _num(t.get('max'))})
     return out
 
 
@@ -267,10 +285,10 @@ def evaluate(ds, cfg, ids_list):
         duration += ing['duration']
         charges += ing['charges']
         for s in SKILL_KEYS:
-            reqs[s] += trunc(ing['req'][s] * factor)
+            reqs[s] += floor(ing['req'][s] * factor)
         ids_out = {}
         for k, (mn, rw, mx) in ing['ids'].items():
-            vmin, vraw, vmax = trunc(mn * factor), trunc(rw * factor), trunc(mx * factor)
+            vmin, vraw, vmax = floor(mn * factor), floor(rw * factor), floor(mx * factor)
             ids_out[k] = [vmin, vraw, vmax]
             cur = agg.setdefault(k, [0, 0, 0])
             cur[0] += vmin
@@ -285,12 +303,13 @@ def evaluate(ds, cfg, ids_list):
         })
 
     base_duration = float((cfg.get('consumableBase') or {}).get(type_id, 0) or 0)
+    base_charges = base_charges_of(cfg, type_id)
     compare = cfg.get('compare', 'max')
     tgts = []
     for t in targets_of(cfg):
-        v = agg.get(t['key'], [0, 0, 0])
+        v = agg.get(t.get('key'), [0, 0, 0])
         tgts.append({
-            'key': t['key'], 'weight': t['weight'], 'min': t['min'],
+            'key': t['key'], 'weight': t['weight'], 'min': t['min'], 'max': t['max'],
             'value': v[0] if compare == 'min' else v[2],
         })
 
@@ -305,7 +324,9 @@ def evaluate(ds, cfg, ids_list):
         'durability': int(round(base_dur)) + dur_mod,
         'baseDuration': int(round(base_duration)),
         'duration': int(round(duration + base_duration)),
-        'charges': charges,
+        'baseCharges': int(round(base_charges)),
+        'chargesModifier': charges,
+        'charges': int(round(base_charges)) + charges,
         'skills': reqs,
         'maxSkill': max(reqs.values()) if reqs else 0,
         'totalSkill': sum(reqs.values()),
@@ -333,8 +354,11 @@ class Searcher(object):
         self.tkeys = [t['key'] for t in self.targets]
         self.weights = np.array([t['weight'] for t in self.targets], dtype=np.float64)
         self.tmins = [t['min'] for t in self.targets]
+        self.tmaxs = [t['max'] for t in self.targets]
         # 带下限的目标：搜索时要被「引导」，否则权重为 0 时根本搜不到满足下限的组合
         self.pinned = [(i, m) for i, m in enumerate(self.tmins) if m is not None]
+        # 带上界的目标：超过要扣分，否则搜索会一路顶上去，最后全被过滤掉
+        self.capped = [(i, m) for i, m in enumerate(self.tmaxs) if m is not None]
         self.penalty_weight = float(cfg.get('penaltyWeight', 1.0) or 1.0)
         self.compare = cfg.get('compare', 'max')
         self.min_dur = cfg.get('minDurability')
@@ -350,6 +374,12 @@ class Searcher(object):
         self.base_tier = base_tier_of(cfg, self.type_id)
         self.base_dur = base_durability_for(cfg, self.type_id)[self.base_tier - 1]
         self.base_duration = float((cfg.get('consumableBase') or {}).get(self.type_id, 0) or 0)
+        self.base_charges = base_charges_of(cfg, self.type_id)
+        mc = cfg.get('minCharges')
+        try:
+            self.min_charges = None if mc in (None, '') else float(mc)
+        except (TypeError, ValueError):
+            self.min_charges = None
         self.cands = self._pick_candidates()
 
     # -- 候选筛选
@@ -381,13 +411,21 @@ class Searcher(object):
         return (vals / self.scales * self.weights).sum(axis=1)
 
     def _penalty(self, vals):
-        """低于下限的惩罚（按该词条可达上限归一化），0 表示全部达标。"""
-        if not self.pinned:
-            return 0.0
+        """低于下限 / 超过上界的惩罚（按该词条可达上限归一化），0 表示全部达标。"""
         pen = 0.0
         for t_idx, mn in self.pinned:
             pen = pen + np.maximum(0.0, mn - vals[:, t_idx]) / self.scales[t_idx]
+        for t_idx, mx in self.capped:
+            pen = pen + np.maximum(0.0, vals[:, t_idx] - mx) / self.scales[t_idx]
         return pen
+
+    def _charge_penalty(self, A):
+        """使用次数达不到下限的惩罚，0 表示达标。"""
+        if self.min_charges is None:
+            return 0.0
+        q = self.p_charges[A].sum(axis=1) + self.base_charges
+        scale = max(1.0, float(self.min_charges) - self.base_charges)
+        return np.maximum(0.0, float(self.min_charges) - q) / scale
 
     def _pick_candidates(self):
         profs = set(self.tinfo['professions'])
@@ -406,9 +444,13 @@ class Searcher(object):
                 if len(cands) >= self.cand_limit:
                     break
         seen = set(x['id'] for x in cands)
-        # 有耐久/点数约束时，补一批「最不耗耐久」的原料（含正耐久原料）
+        # 有耐久/时间/点数约束时，补一批「最省」的原料（含正耐久原料）
         if self.min_dur is not None or self.limit_keys:
-            by_cost = sorted(pool, key=lambda i: (-i['durability'], -self._weighted_max(i)))
+            if self.consumable:
+                # 消耗品看的是时长：补最能加时长的原料（例如只加时间的棉花糖）
+                by_cost = sorted(pool, key=lambda i: (-i['duration'], -self._weighted_max(i)))
+            else:
+                by_cost = sorted(pool, key=lambda i: (-i['durability'], -self._weighted_max(i)))
             for ing in by_cost[:self.filler_limit]:
                 if ing['id'] not in seen:
                     seen.add(ing['id'])
@@ -428,12 +470,20 @@ class Searcher(object):
                 if ing['id'] not in seen:
                     seen.add(ing['id'])
                     cands.append(ing)
+        # 有最低次数要求时，补一批能给次数的原料
+        if self.min_charges is not None:
+            givers = sorted(pool, key=lambda i: -i['charges'])
+            for ing in givers[:12]:
+                if ing['id'] not in seen:
+                    seen.add(ing['id'])
+                    cands.append(ing)
         self.n = len(cands)
         cands = cands[:self.n]
 
         T = len(self.tkeys)
         self.p_durmod = np.array([i['durability'] for i in cands], dtype=np.float64)
         self.p_dur = np.array([i['duration'] for i in cands], dtype=np.float64)
+        self.p_charges = np.array([i['charges'] for i in cands], dtype=np.float64)
         self.p_tmin = np.array([[i['ids'].get(k, (0, 0, 0))[0] for k in self.tkeys]
                                 for i in cands], dtype=np.float64).reshape(len(cands), T)
         self.p_tmax = np.array([[i['ids'].get(k, (0, 0, 0))[2] for k in self.tkeys]
@@ -471,14 +521,15 @@ class Searcher(object):
         vmax = np.zeros((len(seqs), T), dtype=np.float64)
         vmin = np.zeros((len(seqs), T), dtype=np.float64)
         for t in range(T):
-            vmax[:, t] = np.trunc(self.p_tmax[A, t] * factor).sum(axis=1)
-            vmin[:, t] = np.trunc(self.p_tmin[A, t] * factor).sum(axis=1)
-        key_max = self._norm_values(vmax) - self.penalty_weight * self._penalty(vmax)
-        key_min = self._norm_values(vmin) - self.penalty_weight * self._penalty(vmin)
+            vmax[:, t] = np.floor(self.p_tmax[A, t] * factor).sum(axis=1)
+            vmin[:, t] = np.floor(self.p_tmin[A, t] * factor).sum(axis=1)
+        charge_pen = self.penalty_weight * self._charge_penalty(A)
+        key_max = self._norm_values(vmax) - self.penalty_weight * self._penalty(vmax) - charge_pen
+        key_min = self._norm_values(vmin) - self.penalty_weight * self._penalty(vmin) - charge_pen
         return key_max, key_min, bonus, A, vmax, vmin
 
     def _req_array(self, A, bonus):
-        return np.trunc(self.p_req[A] * ((100.0 + bonus) / 100.0)[:, :, None]).sum(axis=1)
+        return np.floor(self.p_req[A] * ((100.0 + bonus) / 100.0)[:, :, None]).sum(axis=1)
 
     # -- 束选择：无约束时纯按目标值；有约束时分桶，保证搜索多样性
     def _beam_select(self, expand, k, key, bonus, A):
@@ -578,6 +629,7 @@ class Searcher(object):
         key_max, key_min, bonus, A, vmax, vmin = self.score(beam, 6)
         dur = self.base_dur + self.p_durmod[A].sum(axis=1)
         duration = self.p_dur[A].sum(axis=1) + self.base_duration
+        charges = self.p_charges[A].sum(axis=1) + self.base_charges
         req = self._req_array(A, bonus)
         key = key_max if self.compare == 'max' else key_min
         vals = vmax if self.compare == 'max' else vmin
@@ -585,17 +637,22 @@ class Searcher(object):
         mask = np.ones(len(beam), dtype=bool)
         if self.min_dur is not None:
             mask &= (duration >= float(self.min_dur)) if self.consumable else (dur >= float(self.min_dur))
+        if self.min_charges is not None:
+            mask &= charges >= float(self.min_charges)
         for s in self.limit_keys:
             i = SKILL_KEYS.index(s)
             mask &= req[:, i] <= float(self.limits[s])
         for t, mn in enumerate(self.tmins):
             if mn is not None:
                 mask &= vals[:, t] >= mn
+        for t, mx in enumerate(self.tmaxs):
+            if mx is not None:
+                mask &= vals[:, t] <= mx
 
         idx = np.where(mask)[0]
         if len(idx) == 0:
             return {'results': [], 'elapsedMs': int((time.time() - t0) * 1000),
-                    'message': '没有满足约束的组合，试试放宽耐久/时间/点数/词条下限',
+                    'message': '没有满足约束的组合，试试放宽耐久/时间/次数/点数/词条上下界',
                     'code': 'no_feasible'}
 
         order = idx[np.argsort(-key[idx])]

@@ -14,9 +14,9 @@ ds = E.Dataset()
 
 def cfg_of(tgt, **kw):
     c = {
-        'type': 'sword',
+        'type': 'spear',
         'baseDurability': {},
-        'baseTier': {'sword': 1},
+        'baseTier': {'spear': 1},
         'targets': [{'key': tgt, 'weight': 1, 'min': None}],
         'compare': 'max',
         'topN': 5,
@@ -44,15 +44,17 @@ assert [c['bonus'] for c in r['cells']] == expect, '加成计算不一致'
 print('  每格加成:', [c['bonus'] for c in r['cells']], '✓')
 
 # 基础耐久只看物品种类+档位
-r0 = E.evaluate(ds, cfg_of('rawHealth', baseTier={'sword': 3},
-                           baseDurability={'sword': [700, 800, 900, 1000, 1100, 1200]}),
+r0 = E.evaluate(ds, cfg_of('rawHealth', baseTier={'spear': 3},
+                           baseDurability={'spear': [700, 800, 900, 1000, 1100, 1200]}),
                 [sample['id']] * 6)
 assert r0['baseDurability'] == 900, r0['baseDurability']
 assert r0['durability'] == 900 - r0['durabilityCost']
 print('  档位取基础耐久: 档3 -> %d ✓' % r0['baseDurability'])
 
-# 取整规则：负数向 0
-assert E.trunc(-3.9) == -3 and E.trunc(3.9) == 3
+# 取整规则：向下取整，负数往更小的方向
+assert E.floor(-3.9) == -4 and E.floor(-5.5) == -6 and E.floor(3.9) == 3
+assert E.floor(-0.5) == -1
+print('  向下取整: -3.9->-4, -5.5->-6, 3.9->3 ✓')
 
 # ---------------------------------------------------------------- 2. 束搜索 vs 暴力
 
@@ -93,7 +95,7 @@ cfg = cfg_of('rawHealth', topN=5, beam=1500,
              targets=[{'key': 'rawHealth', 'weight': 1, 'min': 3000},
                       {'key': 'rawDefence', 'weight': 2, 'min': None}],
              minDurability=1500,
-             baseDurability={'sword': [2500, 2600, 2700, 2800, 2900, 3000]},
+             baseDurability={'spear': [2500, 2600, 2700, 2800, 2900, 3000]},
              pointsLimit={'defence': 30, 'strength': 10})
 t0 = time.time()
 res = E.Searcher(ds, cfg).run()
