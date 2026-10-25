@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-i18n="app.title">Wynncraft Crafting Calculator</title>
+<script>
+  // 尽早设置主题 / 语言，避免刷新时闪一下
+  (function () {
+    var t = null;
+    var mt = /[?&]theme=(light|dark)/.exec(location.search);
+    if (mt) t = mt[1];
+    try { t = t || localStorage.getItem('crafter-theme'); } catch (e) {}
+    if (t !== 'light' && t !== 'dark') {
+      t = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    }
+    document.documentElement.setAttribute('data-theme', t);
+
+    var l = null;
+    var ml = /[?&]lang=(zh|en)/.exec(location.search);
+    if (ml) l = ml[1];
+    try { l = l || localStorage.getItem('crafter-lang'); } catch (e) {}
+    if (l !== 'zh' && l !== 'en') l = 'en';
+    document.documentElement.setAttribute('data-lang', l);
+    document.documentElement.lang = l === 'zh' ? 'zh-CN' : 'en';
+  })();
+</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="logo">◆</span>
+    <div class="brand-text">
+      <h1 data-i18n="app.title">Crafting Calculator</h1>
+      <p class="sub">
+        <span data-i18n="app.subtitle">Custom item crafting · 6-ingredient search</span>
+        <span class="sep">·</span>
+        <span id="ingLine"></span>
+      </p>
+    </div>
+    <button class="tool-btn" id="langBtn" type="button" title="Language / 语言">中文</button>
+    <button class="tool-btn" id="themeBtn" type="button"></button>
+  </div>
+</header>
+
+<main class="layout">
+  <!-- ---------------------------------------------------------- 设置 -->
+  <aside class="panel">
+    <form id="form" autocomplete="off">
+
+      <div class="field">
+        <label for="type" data-i18n="ui.type">Item type</label>
+        <select id="type"></select>
+        <p class="hint" id="typeHint"></p>
+      </div>
+
+      <div class="field">
+        <div class="label-row">
+          <label data-i18n="ui.base">Base durability</label>
+          <button type="button" class="mini" id="applyAll" data-i18n="ui.applyAll">Apply to all types</button>
+        </div>
+        <div class="tier-pick">
+          <span data-i18n="ui.tier">Tier</span>
+          <select id="baseTier" class="mini-select"></select>
+          <span class="hint inline" id="baseDuraPreview"></span>
+        </div>
+        <div class="stars" id="stars"></div>
+        <p class="hint" data-i18n="ui.baseHint"></p>
+      </div>
+
+      <div class="field">
+        <label for="minDur" id="minDurLabel"></label>
+        <input type="number" id="minDur">
+      </div>
+
+      <div class="field" id="baseDurField" style="display:none">
+        <label for="baseDur" data-i18n="ui.baseDur">Base duration (consumables)</label>
+        <input type="number" id="baseDur" value="0">
+        <p class="hint" data-i18n="ui.baseDurHint"></p>
+      </div>
+
+      <div class="field">
+        <label data-i18n="ui.points">Skill requirements</label>
+        <div class="skill-grid" id="skillLimits"></div>
+      </div>
+
+      <div class="field">
+        <label data-i18n="ui.targets">Target IDs</label>
+        <input type="text" id="idFilter" data-i18n-ph="ui.searchId">
+        <div class="idlist" id="idList"></div>
+        <div class="selected" id="selected"></div>
+        <p class="hint" id="weightHint"></p>
+      </div>
+
+      <div class="field row2">
+        <div>
+          <label for="compare" data-i18n="ui.compare">Compare</label>
+          <select id="compare">
+            <option value="max" selected data-i18n="ui.cmpMax">Range max</option>
+            <option value="min" data-i18n="ui.cmpMin">Range min</option>
+          </select>
+        </div>
+        <div>
+          <label for="topN" data-i18n="ui.topN">Top N</label>
+          <input type="number" id="topN" value="12" min="1" max="100">
+        </div>
+      </div>
+
+      <div class="field row2">
+        <div>
+          <label for="effort" data-i18n="ui.effort">Search effort</label>
+          <select id="effort">
+            <option value="400" data-i18n="ui.fast">Fast</option>
+            <option value="1200" selected data-i18n="ui.normal">Normal</option>
+            <option value="3000" data-i18n="ui.thorough">Thorough</option>
+          </select>
+        </div>
+        <div class="check-wrap">
+          <label class="check"><input type="checkbox" id="allowDupes" checked> <span data-i18n="ui.allowDupes">Allow duplicates</span></label>
+        </div>
+      </div>
+
+      <button type="submit" class="primary" id="go" data-i18n="ui.search">Search</button>
+      <p class="hint center" id="status"></p>
+    </form>
+
+    <details class="calc" id="banBox">
+      <summary><span data-i18n="ui.bans">Banned ingredients</span> <span class="pill" id="banCount">0</span></summary>
+      <input type="text" id="banFilter" data-i18n-ph="ui.banPlaceholder">
+      <div class="idlist" id="banList"></div>
+      <div class="detail" id="banChips"></div>
+    </details>
+
+    <details class="calc" id="presetBox">
+      <summary data-i18n="ui.presets">Presets</summary>
+      <div class="row2">
+        <input type="text" id="presetName" data-i18n-ph="ui.presetName">
+        <button type="button" class="mini" id="presetExport" data-i18n="ui.export">Save &amp; export</button>
+      </div>
+      <textarea id="presetCode" rows="3" readonly data-i18n-ph="ui.codePlaceholder"></textarea>
+      <div class="row2">
+        <button type="button" class="mini" id="presetCopy" data-i18n="ui.copy">Copy</button>
+        <button type="button" class="mini" id="presetClear" data-i18n="ui.clear">Clear</button>
+      </div>
+      <div class="preset-list" id="presetList"></div>
+      <input type="text" id="presetImport" data-i18n-ph="ui.importPlaceholder">
+      <p class="hint" id="presetStatus"></p>
+    </details>
+
+    <details class="calc">
+      <summary data-i18n="ui.how">How it works</summary>
+      <ul>
+        <li data-i18n="calc.1"></li>
+        <li data-i18n="calc.2"></li>
+        <li data-i18n="calc.3"></li>
+        <li data-i18n="calc.4"></li>
+        <li data-i18n="calc.5"></li>
+      </ul>
+    </details>
+  </aside>
+
+  <!-- ---------------------------------------------------------- 结果 -->
+  <section class="results">
+    <div class="result-head">
+      <h2 data-i18n="ui.results">Results</h2>
+      <span id="summary" class="summary"></span>
+    </div>
+    <div id="list" class="list"></div>
+  </section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

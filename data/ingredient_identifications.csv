@@ -1,0 +1,2017 @@
+﻿item_id,item_name,identification,label,min,raw,max
+Brown Mushroom,Brown Mushroom,rawHealth,Raw Health,3,3,5
+Coastal Sand,Coastal Sand,lootBonus,Loot Bonus,2,2,3
+Potato,Potato,lootBonus,Loot Bonus,1,1,4
+Red Mushroom,Red Mushroom,healthRegenRaw,Health Regen Raw,1,1,2
+Rotten Flesh,Rotten Flesh,mainAttackDamage,Main Attack Damage,2,2,4
+Wool,Wool,airDefence,Air Defence,1,1,2
+Wool,Wool,waterDefence,Water Defence,1,1,2
+Egg,Egg,rawHealth,Raw Health,2,2,4
+Leather,Leather,rawDefence,Raw Defence,1,1,1
+Forest Web,Forest Web,walkSpeed,Walk Speed,2,2,2
+Rat Hair,Rat Hair,lifeSteal,Life Steal,2,2,3
+Putrid Gunk,Putrid Gunk,earthDamage,Earth Damage,1,1,3
+Fresh Water,Fresh Water,waterDamage,Water Damage,1,1,3
+Grook Feather,Grook Feather,combatExperience,Combat Experience,1,1,3
+Spider Fang,Spider Fang,poison,Poison,1,1,2
+Tarnished Gold Foil,Tarnished Gold Foil,combatExperience,Combat Experience,1,1,2
+Used Fireball,Used Fireball,fireDamage,Fire Damage,1,1,6
+Corruption Shard,Corruption Shard,thunderDamage,Thunder Damage,1,1,3
+Fungi Spores,Fungi Spores,poison,Poison,0,0,1
+Rotten Bone,Rotten Bone,rawDefence,Raw Defence,1,1,1
+Rotten Bone,Rotten Bone,walkSpeed,Walk Speed,-2,-2,-1
+Sheep Hoof,Sheep Hoof,sprint,Sprint,3,3,5
+Thin Quill,Thin Quill,airDamage,Air Damage,1,1,3
+Boar Meat,Boar Meat,thorns,Thorns,1,1,2
+Apple,Apple,rawHealth,Raw Health,4,4,6
+Soft Blue Wool,Soft Blue Wool,waterDefence,Water Defence,2,2,3
+Soft Green Wool,Soft Green Wool,earthDefence,Earth Defence,2,2,3
+Soft Red Wool,Soft Red Wool,fireDefence,Fire Defence,2,2,3
+Soft White Wool,Soft White Wool,airDefence,Air Defence,2,2,3
+Soft Yellow Wool,Soft Yellow Wool,thunderDefence,Thunder Defence,2,2,3
+Pigman Meat,Pigman Meat,mainAttackDamage,Main Attack Damage,2,2,4
+Drained Bone,Drained Bone,lifeSteal,Life Steal,1,1,5
+Bone Ash,Bone Ash,exploding,Exploding,1,1,10
+Warped Skin,Warped Skin,rawDefence,Raw Defence,1,1,2
+Altered Ash,Altered Ash,spellDamage,Spell Damage,1,1,5
+Bat Ear,Bat Ear,walkSpeed,Walk Speed,1,1,2
+Depreciating Flesh,Depreciating Flesh,thorns,Thorns,3,3,6
+Firefly Dust,Firefly Dust,reflection,Reflection,1,1,3
+Wood Snippet,Wood Snippet,rawHealth,Raw Health,10,10,20
+Worn Memorabilia,Worn Memorabilia,healthRegen,Health Regen,1,1,1
+Rose,Rose,thorns,Thorns,2,2,5
+Spellbound Ash,Spellbound Ash,spellDamage,Spell Damage,3,3,6
+Dry Seeds,Dry Seeds,fireDefence,Fire Defence,-4,-4,-2
+Dry Seeds,Dry Seeds,walkSpeed,Walk Speed,2,2,3
+Mixed Seeds,Mixed Seeds,rawAgility,Raw Agility,-3,-3,-2
+Old Bone,Old Bone,spellDamage,Spell Damage,2,2,3
+Snake Eye,Snake Eye,rawAgility,Raw Agility,1,1,3
+Waterlogged Branch,Waterlogged Branch,mainAttackDamage,Main Attack Damage,2,2,5
+Waterlogged Branch,Waterlogged Branch,spellDamage,Spell Damage,-5,-5,-3
+Bone Meal,Bone Meal,spellDamage,Spell Damage,2,2,3
+Salt Water,Salt Water,rawHealth,Raw Health,10,10,15
+Thick Mud,Thick Mud,rawStrength,Raw Strength,1,1,1
+Thick Mud,Thick Mud,walkSpeed,Walk Speed,-3,-3,-2
+Bug Parts,Bug Parts,mainAttackDamage,Main Attack Damage,2,2,3
+Bug Parts,Bug Parts,thorns,Thorns,1,1,2
+Decaying Skin,Decaying Skin,poison,Poison,5,5,5
+Ocelot Pelt,Ocelot Pelt,walkSpeed,Walk Speed,0,0,4
+River Clay,River Clay,mainAttackDamage,Main Attack Damage,-4,-4,-2
+River Clay,River Clay,waterDamage,Water Damage,3,3,4
+Seagrass,Seagrass,rawStrength,Raw Strength,1,1,4
+Seagrass,Seagrass,walkSpeed,Walk Speed,-4,-4,-1
+Shredded Bone,Shredded Bone,thorns,Thorns,2,2,4
+Spider Eggs,Spider Eggs,poison,Poison,3,3,3
+Tendon Clump,Tendon Clump,rawAgility,Raw Agility,3,3,4
+Conscription Letter,Conscription Letter,stealing,Stealing,1,1,2
+Crawler Sludge,Crawler Sludge,mainAttackDamage,Main Attack Damage,2,2,4
+Crawler Sludge,Crawler Sludge,walkSpeed,Walk Speed,-4,-4,-2
+Gold Tooth,Gold Tooth,lootBonus,Loot Bonus,1,1,2
+Ocelot Tail,Ocelot Tail,rawStrength,Raw Strength,-2,-2,-1
+Ocelot Tail,Ocelot Tail,walkSpeed,Walk Speed,1,1,3
+Blaze Powder,Blaze Powder,fireDamage,Fire Damage,1,1,5
+Blaze Powder,Blaze Powder,fireDefence,Fire Defence,1,1,5
+Seabird Feather,Seabird Feather,airDamage,Air Damage,2,2,6
+Seabird Feather,Seabird Feather,mainAttackDamage,Main Attack Damage,-3,-3,-1
+Oceanic Silt,Oceanic Silt,rawMainAttackDamage,Raw Main Attack Damage,4,4,11
+Squid Ink,Squid Ink,waterDamage,Water Damage,3,3,4
+Cracked Skin,Cracked Skin,airDefence,Air Defence,-8,-8,-4
+Cracked Skin,Cracked Skin,rawDefence,Raw Defence,1,1,2
+Mashed Insect,Mashed Insect,healthRegen,Health Regen,1,1,1
+Mashed Insect,Mashed Insect,healthRegenRaw,Health Regen Raw,6,6,7
+Soft Sand,Soft Sand,mainAttackDamage,Main Attack Damage,1,1,1
+Soft Sand,Soft Sand,walkSpeed,Walk Speed,-3,-3,-2
+Crawler Web,Crawler Web,rawDefence,Raw Defence,-2,-2,-1
+Dead Naval Shard,Dead Naval Shard,spellDamage,Spell Damage,1,1,2
+Gold Bar,Gold Bar,lootBonus,Loot Bonus,1,1,2
+Gold Bar,Gold Bar,mainAttackDamage,Main Attack Damage,-4,-4,-3
+Crawler Eye,Crawler Eye,healthRegen,Health Regen,-4,-4,-2
+Crawler Eye,Crawler Eye,walkSpeed,Walk Speed,3,3,5
+Gritty Rocks,Gritty Rocks,rawMainAttackDamage,Raw Main Attack Damage,8,8,12
+Gritty Rocks,Gritty Rocks,rawSpellDamage,Raw Spell Damage,-12,-12,-8
+Lunar Dust,Lunar Dust,spellDamage,Spell Damage,3,3,4
+Terracotta Chunk,Terracotta Chunk,earthDefence,Earth Defence,3,3,5
+Coyote Fang,Coyote Fang,rawDexterity,Raw Dexterity,1,1,1
+Sandy Bonemeal,Sandy Bonemeal,airDefence,Air Defence,-3,-3,-2
+Sandy Bonemeal,Sandy Bonemeal,earthDamage,Earth Damage,3,3,3
+Tanned Flesh,Tanned Flesh,fireDefence,Fire Defence,2,2,4
+Rusty Spurs,Rusty Spurs,sprint,Sprint,1,1,3
+Rusty Spurs,Rusty Spurs,sprintRegen,Sprint Regen,0,0,-2
+Lava Blisters,Lava Blisters,fireDamage,Fire Damage,2,2,4
+Ice Sliver,Ice Sliver,rawDexterity,Raw Dexterity,1,1,3
+Wolf Fang,Wolf Fang,mainAttackDamage,Main Attack Damage,1,1,2
+Wolf Fang,Wolf Fang,walkSpeed,Walk Speed,1,1,2
+Gold Nugget,Gold Nugget,lootBonus,Loot Bonus,-1,-1,2
+Troll Hair,Troll Hair,mainAttackDamage,Main Attack Damage,2,2,4
+Troll Hair,Troll Hair,walkSpeed,Walk Speed,-6,-6,-4
+Snow Heart,Snow Heart,spellDamage,Spell Damage,2,2,4
+Snow Heart,Snow Heart,waterDamage,Water Damage,1,1,4
+Spider Leg,Spider Leg,rawHealth,Raw Health,-50,-50,-40
+Spider Leg,Spider Leg,walkSpeed,Walk Speed,1,1,3
+Wood Shavings,Wood Shavings,combatExperience,Combat Experience,2,2,3
+Orc Eye,Orc Eye,rawMainAttackDamage,Raw Main Attack Damage,7,7,13
+Orc Eye,Orc Eye,walkSpeed,Walk Speed,-5,-5,-3
+Bloodweb,Bloodweb,lifeSteal,Life Steal,6,6,10
+Bloodweb,Bloodweb,walkSpeed,Walk Speed,-4,-4,-2
+Icy Shard,Icy Shard,thorns,Thorns,2,2,5
+Icy Shard,Icy Shard,waterDamage,Water Damage,1,1,2
+Snow Clump,Snow Clump,reflection,Reflection,2,2,5
+Snow Clump,Snow Clump,waterDamage,Water Damage,1,1,2
+Bandit Rations,Bandit Rations,combatExperience,Combat Experience,2,2,5
+Orc Teeth,Orc Teeth,earthDamage,Earth Damage,1,1,2
+Orc Teeth,Orc Teeth,mainAttackDamage,Main Attack Damage,1,1,2
+Ghostly Essence,Ghostly Essence,rawAgility,Raw Agility,0,0,1
+Ghostly Essence,Ghostly Essence,thunderDamage,Thunder Damage,0,0,3
+Torn Skin,Torn Skin,poison,Poison,50,50,60
+Corroded Chunk,Corroded Chunk,mainAttackDamage,Main Attack Damage,-6,-6,-4
+Corroded Chunk,Corroded Chunk,rawMainAttackDamage,Raw Main Attack Damage,20,20,24
+Viscous Slime,Viscous Slime,poison,Poison,55,55,65
+Reptile Scales,Reptile Scales,lifeSteal,Life Steal,8,8,15
+Reptile Scales,Reptile Scales,rawDefence,Raw Defence,1,1,2
+Cursed Venom Sac,Cursed Venom Sac,poison,Poison,65,65,80
+Lizard Scale,Lizard Scale,earthDefence,Earth Defence,3,3,5
+Lizard Scale,Lizard Scale,rawHealth,Raw Health,110,110,130
+Stolen Harvest,Stolen Harvest,healthRegenRaw,Health Regen Raw,8,8,11
+Thick Vines,Thick Vines,earthDefence,Earth Defence,4,4,6
+Thick Vines,Thick Vines,walkSpeed,Walk Speed,-5,-5,-3
+Zombie Eye,Zombie Eye,rawMainAttackDamage,Raw Main Attack Damage,8,8,15
+Zombie Eye,Zombie Eye,rawStrength,Raw Strength,1,1,2
+Broken Antic Bead,Broken Antic Bead,combatExperience,Combat Experience,-3,-3,-2
+Broken Antic Bead,Broken Antic Bead,lootBonus,Loot Bonus,2,2,3
+Lizard Tail,Lizard Tail,healthRegen,Health Regen,1,1,2
+Lizard Tail,Lizard Tail,healthRegenRaw,Health Regen Raw,8,8,13
+Mineral Cinder,Mineral Cinder,exploding,Exploding,1,1,7
+Naga Tail,Naga Tail,earthDamage,Earth Damage,4,4,6
+Zhight Herbal Mix,Zhight Herbal Mix,mainAttackDamage,Main Attack Damage,-4,-4,-1
+Zhight Herbal Mix,Zhight Herbal Mix,spellDamage,Spell Damage,-4,-4,-1
+Broken Ram Horn,Broken Ram Horn,sprint,Sprint,4,4,7
+Metal Scraps,Metal Scraps,walkSpeed,Walk Speed,-4,-4,-2
+Severed Leg,Severed Leg,rawMainAttackDamage,Raw Main Attack Damage,12,12,16
+Crumbly Rock,Crumbly Rock,rawStrength,Raw Strength,2,2,4
+Big Jawbreaker,Big Jawbreaker,mainAttackDamage,Main Attack Damage,2,2,6
+Candy Button,Candy Button,rawIntelligence,Raw Intelligence,1,1,2
+Climber's Padding,Climber's Padding,rawHealth,Raw Health,40,40,65
+Climber's Padding,Climber's Padding,sprintRegen,Sprint Regen,6,6,7
+Licorice Ropes,Licorice Ropes,healthRegen,Health Regen,-3,-3,-2
+Licorice Ropes,Licorice Ropes,walkSpeed,Walk Speed,2,2,3
+Victim's Skull,Victim's Skull,combatExperience,Combat Experience,-4,-4,-2
+Victim's Skull,Victim's Skull,lootBonus,Loot Bonus,-4,-4,-2
+Fresh Bone,Fresh Bone,combatExperience,Combat Experience,2,2,5
+Fresh Bone,Fresh Bone,lootBonus,Loot Bonus,1,1,4
+Looted Alloy,Looted Alloy,fireDefence,Fire Defence,3,3,4
+Looted Alloy,Looted Alloy,rawHealth,Raw Health,140,140,160
+Overgrown Bones,Overgrown Bones,healthRegenRaw,Health Regen Raw,11,11,17
+Black Steel,Black Steel,rawMainAttackDamage,Raw Main Attack Damage,16,16,20
+Feline Claws,Feline Claws,mainAttackDamage,Main Attack Damage,2,2,3
+Feline Claws,Feline Claws,rawMainAttackDamage,Raw Main Attack Damage,12,12,16
+Unholy Spirit,Unholy Spirit,reflection,Reflection,-5,-5,-3
+Orc Skin,Orc Skin,fireDefence,Fire Defence,3,3,6
+Orc Skin,Orc Skin,rawStrength,Raw Strength,1,1,3
+Ancient Metal,Ancient Metal,rawMainAttackDamage,Raw Main Attack Damage,20,20,21
+Cocoa Caps,Cocoa Caps,earthDefence,Earth Defence,3,3,5
+Ice Cream Sandwich,Ice Cream Sandwich,rawAgility,Raw Agility,1,1,2
+Sugar Stick,Sugar Stick,spellDamage,Spell Damage,2,2,6
+Wybel Taffy,Wybel Taffy,rawDefence,Raw Defence,1,1,3
+Leafy Stalk,Leafy Stalk,healthRegenRaw,Health Regen Raw,7,7,21
+Severed Heart,Severed Heart,healthRegenRaw,Health Regen Raw,-28,-28,-21
+Severed Heart,Severed Heart,lifeSteal,Life Steal,15,15,20
+Broken Amulet,Broken Amulet,healthRegen,Health Regen,1,1,1
+Ghostly Membrane,Ghostly Membrane,rawAgility,Raw Agility,1,1,3
+Rancid Flesh,Rancid Flesh,mainAttackDamage,Main Attack Damage,5,5,7
+Myconid Spores,Myconid Spores,airDamage,Air Damage,3,3,6
+Myconid Spores,Myconid Spores,earthDamage,Earth Damage,3,3,6
+Myconid Spores,Myconid Spores,fireDamage,Fire Damage,3,3,6
+Myconid Spores,Myconid Spores,thunderDamage,Thunder Damage,3,3,6
+Myconid Spores,Myconid Spores,waterDamage,Water Damage,3,3,6
+Fairy Dust,Fairy Dust,rawSpellDamage,Raw Spell Damage,30,30,33
+Shining Wool,Shining Wool,airDamage,Air Damage,1,1,2
+Shining Wool,Shining Wool,earthDamage,Earth Damage,1,1,2
+Shining Wool,Shining Wool,fireDamage,Fire Damage,1,1,2
+Shining Wool,Shining Wool,thunderDamage,Thunder Damage,1,1,2
+Shining Wool,Shining Wool,waterDamage,Water Damage,1,1,2
+Werewolf Tail,Werewolf Tail,rawDefence,Raw Defence,-3,-3,-1
+Werewolf Tail,Werewolf Tail,walkSpeed,Walk Speed,2,2,3
+Bright Petal,Bright Petal,combatExperience,Combat Experience,3,3,6
+Bright Petal,Bright Petal,reflection,Reflection,2,2,4
+Prickly Grass,Prickly Grass,thorns,Thorns,2,2,5
+Stack of Coins,Stack of Coins,combatExperience,Combat Experience,1,1,2
+Stack of Coins,Stack of Coins,lootBonus,Loot Bonus,1,1,2
+Gollier Iron,Gollier Iron,rawDefence,Raw Defence,2,2,4
+Gollier Iron,Gollier Iron,walkSpeed,Walk Speed,-5,-5,-3
+Arcane Anomaly,Arcane Anomaly,manaRegen,Mana Regen,3,3,3
+Arcane Anomaly,Arcane Anomaly,spellDamage,Spell Damage,-11,-11,-8
+Fish Scales,Fish Scales,thunderDefence,Thunder Defence,-4,-4,-2
+Fish Scales,Fish Scales,waterDefence,Water Defence,2,2,6
+Illuminated Spirit,Illuminated Spirit,rawDexterity,Raw Dexterity,1,1,1
+Illuminated Spirit,Illuminated Spirit,stealing,Stealing,-2,-2,-1
+Wood Scrap,Wood Scrap,rawMainAttackDamage,Raw Main Attack Damage,20,20,26
+Royal Bug’s Blood,Royal Bug’s Blood,combatExperience,Combat Experience,1,1,3
+Royal Bug’s Blood,Royal Bug’s Blood,spellDamage,Spell Damage,2,2,4
+Soggy Stone,Soggy Stone,thunderDefence,Thunder Defence,-5,-5,-2
+Soggy Stone,Soggy Stone,waterDamage,Water Damage,2,2,5
+Pure Rain Stone,Pure Rain Stone,mainAttackDamage,Main Attack Damage,1,1,2
+Gert Skin,Gert Skin,rawHealth,Raw Health,300,300,330
+Pig's Remains,Pig's Remains,healthRegenRaw,Health Regen Raw,21,21,25
+Resilient Stone,Resilient Stone,earthDefence,Earth Defence,1,1,3
+Resilient Stone,Resilient Stone,rawDefence,Raw Defence,1,1,1
+Ball of Slime,Ball of Slime,earthDamage,Earth Damage,3,3,6
+Ball of Slime,Ball of Slime,walkSpeed,Walk Speed,-5,-5,-3
+Magic Feather,Magic Feather,healthRegenRaw,Health Regen Raw,28,28,34
+Corbys Innards,Corbys Innards,healthRegenRaw,Health Regen Raw,21,21,28
+Poorly-Made Pouch,Poorly-Made Pouch,lootBonus,Loot Bonus,4,4,6
+Gold,Gold,lootBonus,Loot Bonus,3,3,5
+Gold,Gold,walkSpeed,Walk Speed,-4,-4,-2
+Harpy Bone,Harpy Bone,airDamage,Air Damage,1,1,6
+Goblin Tooth,Goblin Tooth,rawMainAttackDamage,Raw Main Attack Damage,1,1,2
+Goblin Tooth,Goblin Tooth,stealing,Stealing,1,1,2
+Plucked Feather,Plucked Feather,rawHealth,Raw Health,-320,-320,-200
+Plucked Feather,Plucked Feather,walkSpeed,Walk Speed,2,2,3
+Shattered Blade,Shattered Blade,rawMainAttackDamage,Raw Main Attack Damage,20,20,23
+Tough Skin,Tough Skin,rawDefence,Raw Defence,2,2,4
+Tough Skin,Tough Skin,rawHealth,Raw Health,300,300,400
+Magmatic Skin,Magmatic Skin,fireDefence,Fire Defence,3,3,5
+Magmatic Skin,Magmatic Skin,rawDefence,Raw Defence,1,1,3
+Protective Fabric,Protective Fabric,airDefence,Air Defence,1,1,2
+Protective Fabric,Protective Fabric,earthDefence,Earth Defence,1,1,2
+Protective Fabric,Protective Fabric,fireDefence,Fire Defence,1,1,2
+Protective Fabric,Protective Fabric,thunderDefence,Thunder Defence,1,1,2
+Protective Fabric,Protective Fabric,waterDefence,Water Defence,1,1,2
+Robot Antenna,Robot Antenna,rawDexterity,Raw Dexterity,1,1,2
+Sharp Claw,Sharp Claw,mainAttackDamage,Main Attack Damage,1,1,3
+Sharp Claw,Sharp Claw,rawMainAttackDamage,Raw Main Attack Damage,10,10,13
+Charred Carapace,Charred Carapace,fireDamage,Fire Damage,1,1,3
+Charred Carapace,Charred Carapace,mainAttackDamage,Main Attack Damage,2,2,3
+Hardened Magma,Hardened Magma,rawHealth,Raw Health,400,400,440
+Hybrid Skin,Hybrid Skin,lifeSteal,Life Steal,27,27,55
+Hybrid Skin,Hybrid Skin,rawMainAttackDamage,Raw Main Attack Damage,15,15,22
+Charcoal Lump,Charcoal Lump,rawDefence,Raw Defence,1,1,2
+Chunky Ash,Chunky Ash,earthDamage,Earth Damage,3,3,4
+Chunky Ash,Chunky Ash,exploding,Exploding,3,3,4
+Chunky Ash,Chunky Ash,fireDamage,Fire Damage,3,3,4
+Fluffy Fur,Fluffy Fur,airDefence,Air Defence,6,6,9
+Fluffy Fur,Fluffy Fur,fireDefence,Fire Defence,-6,-6,-4
+Melted Steel,Melted Steel,fireDefence,Fire Defence,4,4,8
+Melted Steel,Melted Steel,waterDamage,Water Damage,-8,-8,-6
+Marsufosa Pelt,Marsufosa Pelt,walkSpeed,Walk Speed,2,2,4
+Perkish Potato,Perkish Potato,mainAttackDamage,Main Attack Damage,2,2,4
+Shorting Wire,Shorting Wire,thunderDamage,Thunder Damage,2,2,5
+Shorting Wire,Shorting Wire,thunderDefence,Thunder Defence,-5,-5,-2
+Sunken Scales,Sunken Scales,waterDamage,Water Damage,2,2,3
+Sunken Scales,Sunken Scales,waterDefence,Water Defence,6,6,8
+Turtle Shell,Turtle Shell,rawDefence,Raw Defence,1,1,1
+Turtle Shell,Turtle Shell,thorns,Thorns,2,2,4
+Twisted Coral,Twisted Coral,healthRegen,Health Regen,7,7,8
+Twisted Coral,Twisted Coral,healthRegenRaw,Health Regen Raw,-105,-105,-91
+Wybel Fluff,Wybel Fluff,rawDefence,Raw Defence,2,2,3
+Acid Magma,Acid Magma,poison,Poison,480,480,500
+Acid Magma,Acid Magma,waterDefence,Water Defence,-10,-10,-8
+Broken Helmet,Broken Helmet,mainAttackDamage,Main Attack Damage,4,4,7
+Broken Helmet,Broken Helmet,rawDefence,Raw Defence,-3,-3,-1
+Stolen Seeds,Stolen Seeds,stealing,Stealing,3,3,5
+Stolen Seeds,Stolen Seeds,thorns,Thorns,4,4,7
+Unmeltable Ice,Unmeltable Ice,fireDamage,Fire Damage,1,1,2
+Unmeltable Ice,Unmeltable Ice,waterDamage,Water Damage,2,2,3
+Withered Root,Withered Root,thunderDefence,Thunder Defence,-5,-5,-2
+Withered Root,Withered Root,walkSpeed,Walk Speed,4,4,6
+Demonic Ashes,Demonic Ashes,fireDamage,Fire Damage,2,2,9
+Demonic Ashes,Demonic Ashes,rawDefence,Raw Defence,1,1,4
+Luu Luu Vertebrae,Luu Luu Vertebrae,rawHealth,Raw Health,380,380,420
+Manis Carapace,Manis Carapace,thorns,Thorns,4,4,7
+Void Essence,Void Essence,rawAgility,Raw Agility,2,2,3
+Void Essence,Void Essence,spellDamage,Spell Damage,2,2,4
+Blighted Skull,Blighted Skull,walkSpeed,Walk Speed,3,3,4
+Broken Pick,Broken Pick,earthDamage,Earth Damage,1,1,3
+Broken Pick,Broken Pick,rawMainAttackDamage,Raw Main Attack Damage,22,22,30
+Grey Cloud,Grey Cloud,airDefence,Air Defence,3,3,6
+Grey Cloud,Grey Cloud,waterDefence,Water Defence,4,4,8
+Silver Feather,Silver Feather,lootBonus,Loot Bonus,0,0,7
+Silver Feather,Silver Feather,rawAgility,Raw Agility,1,1,4
+Storm Horn,Storm Horn,airDamage,Air Damage,3,3,5
+Storm Horn,Storm Horn,thunderDamage,Thunder Damage,2,2,6
+Ominous Pearl,Ominous Pearl,combatExperience,Combat Experience,4,4,6
+Dragonling Scale,Dragonling Scale,earthDefence,Earth Defence,5,5,8
+Dragonling Scale,Dragonling Scale,thunderDefence,Thunder Defence,-8,-8,-6
+Dragonling Scale,Dragonling Scale,waterDefence,Water Defence,3,3,7
+Ghostly Plume,Ghostly Plume,rawAgility,Raw Agility,2,2,3
+Holy Powder,Holy Powder,healthRegenRaw,Health Regen Raw,119,119,126
+Holy Powder,Holy Powder,reflection,Reflection,8,8,12
+Skyraider Coin,Skyraider Coin,rawMainAttackDamage,Raw Main Attack Damage,9,9,10
+Skyraider Coin,Skyraider Coin,stealing,Stealing,3,3,4
+Retinal Membrane,Retinal Membrane,lootQuality,Loot Quality,1,1,1
+Optic Fiber,Optic Fiber,reflection,Reflection,9,9,18
+Calcified Ligament,Calcified Ligament,rawStrength,Raw Strength,2,2,3
+Calcified Ligament,Calcified Ligament,spellDamage,Spell Damage,3,3,4
+Cystic Lard,Cystic Lard,poison,Poison,500,500,550
+Sludge Parasite,Sludge Parasite,poison,Poison,525,525,575
+Sludge Parasite,Sludge Parasite,rawDefence,Raw Defence,-4,-4,-2
+Toxic Lumps,Toxic Lumps,earthDamage,Earth Damage,8,8,10
+Toxic Lumps,Toxic Lumps,healthRegen,Health Regen,-15,-15,-12
+Toxic Lumps,Toxic Lumps,thunderDamage,Thunder Damage,5,5,6
+Alnamar Meat,Alnamar Meat,earthDefence,Earth Defence,-9,-9,-7
+Alnamar Meat,Alnamar Meat,fireDefence,Fire Defence,7,7,8
+Alnamar Meat,Alnamar Meat,thunderDefence,Thunder Defence,7,7,10
+Decaying Arteries,Decaying Arteries,healthRegenRaw,Health Regen Raw,-101,-101,-92
+Decaying Arteries,Decaying Arteries,spellDamage,Spell Damage,8,8,9
+Soul Essence,Soul Essence,mainAttackDamage,Main Attack Damage,5,5,6
+Soul Essence,Soul Essence,rawMainAttackDamage,Raw Main Attack Damage,23,23,27
+Liff Leaf,Liff Leaf,rawAgility,Raw Agility,0,0,1
+Liff Leaf,Liff Leaf,rawDefence,Raw Defence,0,0,1
+Earthenware Clay,Earthenware Clay,fireDefence,Fire Defence,5,5,7
+Earthenware Clay,Earthenware Clay,rawDefence,Raw Defence,-7,-7,-5
+Expelled Shrapnel,Expelled Shrapnel,rawHealth,Raw Health,-275,-275,-250
+Expelled Shrapnel,Expelled Shrapnel,rawMainAttackDamage,Raw Main Attack Damage,35,35,40
+Grookiva Feather,Grookiva Feather,combatExperience,Combat Experience,2,2,6
+Maple Bark,Maple Bark,thunderDefence,Thunder Defence,-7,-7,-5
+Reishi Mushroom,Reishi Mushroom,exploding,Exploding,-8,-8,-6
+Reishi Mushroom,Reishi Mushroom,healthRegen,Health Regen,4,4,5
+Tea Tree Mushroom,Tea Tree Mushroom,exploding,Exploding,-8,-8,-6
+Tea Tree Mushroom,Tea Tree Mushroom,manaRegen,Mana Regen,5,5,7
+Bloodstained Steel,Bloodstained Steel,rawIntelligence,Raw Intelligence,-3,-3,-2
+Torn Fabric,Torn Fabric,earthDefence,Earth Defence,5,5,7
+Linty Fiber,Linty Fiber,manaRegen,Mana Regen,3,3,5
+Linty Fiber,Linty Fiber,rawIntelligence,Raw Intelligence,-4,-4,-2
+Mucoid Matter,Mucoid Matter,healthRegen,Health Regen,-5,-5,-4
+Mucoid Matter,Mucoid Matter,manaRegen,Mana Regen,5,5,6
+Meal Scraps,Meal Scraps,knockback,Knockback,1,1,2
+Stale Bread,Stale Bread,sprintRegen,Sprint Regen,11,11,15
+Mruck,Mruck,earthDamage,Earth Damage,3,3,4
+Mruck,Mruck,walkSpeed,Walk Speed,-2,-2,-1
+Saltpetre,Saltpetre,knockback,Knockback,1,1,1
+Saltpetre,Saltpetre,waterDefence,Water Defence,-3,-3,-2
+Soldier Rations,Soldier Rations,combatExperience,Combat Experience,3,3,4
+Soldier Rations,Soldier Rations,lootBonus,Loot Bonus,3,3,4
+Warm Hide,Warm Hide,airDefence,Air Defence,6,6,8
+Warm Hide,Warm Hide,fireDefence,Fire Defence,7,7,8
+Pocket Torch,Pocket Torch,exploding,Exploding,3,3,5
+Pocket Torch,Pocket Torch,rawDefence,Raw Defence,-2,-2,-1
+Cardboard Bat,Cardboard Bat,damage,Damage,-4,-4,-3
+Cardboard Bat,Cardboard Bat,knockback,Knockback,4,4,6
+Sharper Claw,Sharper Claw,mainAttackDamage,Main Attack Damage,5,5,6
+Sharper Claw,Sharper Claw,rawDexterity,Raw Dexterity,7,7,8
+Winged Helmet,Winged Helmet,airDefence,Air Defence,2,2,5
+Winged Helmet,Winged Helmet,elementalDamage,Elemental Damage,5,5,7
+Damp Hairs,Damp Hairs,fireDefence,Fire Defence,4,4,7
+Damp Hairs,Damp Hairs,walkSpeed,Walk Speed,-2,-2,-1
+Stackpeak Plumage,Stackpeak Plumage,reflection,Reflection,5,5,6
+Young Cheese,Young Cheese,reflection,Reflection,4,4,6
+Young Cheese,Young Cheese,sprint,Sprint,2,2,5
+Crumpled Propaganda,Crumpled Propaganda,fireDefence,Fire Defence,12,12,13
+Crumpled Propaganda,Crumpled Propaganda,rawIntelligence,Raw Intelligence,-2,-2,0
+Crumpled Propaganda,Crumpled Propaganda,thunderDefence,Thunder Defence,11,11,15
+Pink Wool,Pink Wool,airDefence,Air Defence,3,3,4
+Pink Wool,Pink Wool,thunderDefence,Thunder Defence,3,3,4
+Pink Wool,Pink Wool,waterDefence,Water Defence,3,3,4
+Strong Flesh,Strong Flesh,mainAttackDamage,Main Attack Damage,2,2,4
+Strong Flesh,Strong Flesh,rawMainAttackDamage,Raw Main Attack Damage,1,1,2
+Zombie Brain,Zombie Brain,gatherXpBonus,Gather Xp Bonus,1,1,1
+Active Fireball,Active Fireball,fireDamage,Fire Damage,2,2,4
+Dead Bee,Dead Bee,rawHealth,Raw Health,-6,-6,-4
+Dead Bee,Dead Bee,rawMainAttackDamage,Raw Main Attack Damage,6,6,8
+Poisonous Spider Eye,Poisonous Spider Eye,poison,Poison,1,1,1
+Coagulated Clot,Coagulated Clot,healthRegenRaw,Health Regen Raw,2,2,4
+Karl Johan Cap,Karl Johan Cap,healthRegenRaw,Health Regen Raw,2,2,5
+Beak of the Nivlan Beauty,Beak of the Nivlan Beauty,rawHealth,Raw Health,10,10,14
+Flugsvamp Cap,Flugsvamp Cap,walkSpeed,Walk Speed,3,3,6
+Assorted Seeds,Assorted Seeds,rawMainAttackDamage,Raw Main Attack Damage,5,5,6
+Assorted Seeds,Assorted Seeds,walkSpeed,Walk Speed,3,3,4
+Charred Bone,Charred Bone,fireDamage,Fire Damage,4,4,7
+Webbed Offshoot,Webbed Offshoot,rawSpellDamage,Raw Spell Damage,5,5,8
+Webbed Offshoot,Webbed Offshoot,walkSpeed,Walk Speed,3,3,4
+Wooly Armour,Wooly Armour,airDefence,Air Defence,2,2,5
+Wooly Armour,Wooly Armour,waterDefence,Water Defence,2,2,5
+Mooshroom Ear,Mooshroom Ear,combatExperience,Combat Experience,5,5,10
+Forgotten Axe,Forgotten Axe,rawMainAttackDamage,Raw Main Attack Damage,7,7,10
+Jolting Geode,Jolting Geode,rawMainAttackDamage,Raw Main Attack Damage,2,2,3
+Jolting Geode,Jolting Geode,thunderDamage,Thunder Damage,3,3,4
+Outdated Newspaper,Outdated Newspaper,combatExperience,Combat Experience,3,3,4
+Outdated Newspaper,Outdated Newspaper,gatherSpeed,Gather Speed,2,2,2
+Outdated Newspaper,Outdated Newspaper,lootBonus,Loot Bonus,2,2,2
+Luciolum,Luciolum,healingEfficiency,Healing Efficiency,1,1,1
+Luciolum,Luciolum,healthRegen,Health Regen,2,2,3
+Luminescent Ink,Luminescent Ink,elementalDefence,Elemental Defence,1,1,5
+Pigman Ivory,Pigman Ivory,rawMainAttackDamage,Raw Main Attack Damage,5,5,9
+Pigman Ivory,Pigman Ivory,sprintRegen,Sprint Regen,6,6,8
+Cultist Ashes,Cultist Ashes,healthRegenRaw,Health Regen Raw,-7,-7,-4
+Cultist Ashes,Cultist Ashes,lifeSteal,Life Steal,8,8,10
+Lively Apple,Lively Apple,healthRegenRaw,Health Regen Raw,4,4,7
+Undead Heart,Undead Heart,rawDefence,Raw Defence,1,1,2
+Undead Heart,Undead Heart,rawHealth,Raw Health,10,10,15
+Waterfall Thyme,Waterfall Thyme,waterDamage,Water Damage,2,2,3
+Waterfall Thyme,Waterfall Thyme,waterDefence,Water Defence,4,4,6
+Munched Grass,Munched Grass,poison,Poison,2,2,3
+Munched Grass,Munched Grass,rawStrength,Raw Strength,1,1,1
+Toxic Spores,Toxic Spores,mainAttackDamage,Main Attack Damage,4,4,7
+Toxic Spores,Toxic Spores,poison,Poison,3,3,5
+Infused Gold,Infused Gold,lootBonus,Loot Bonus,3,3,3
+Smooth Silt,Smooth Silt,rawHealth,Raw Health,15,15,25
+Smooth Silt,Smooth Silt,waterDefence,Water Defence,3,3,5
+Truffle,Truffle,healthRegen,Health Regen,4,4,6
+Truffle,Truffle,rawHealth,Raw Health,30,30,40
+Muscle,Muscle,mainAttackDamage,Main Attack Damage,4,4,8
+Muscle,Muscle,rawHealth,Raw Health,20,20,30
+Horse Mane,Horse Mane,rawAgility,Raw Agility,1,1,1
+Horse Mane,Horse Mane,walkSpeed,Walk Speed,2,2,4
+Kaolin Clay,Kaolin Clay,gatherXpBonus,Gather Xp Bonus,1,1,2
+Kaolin Clay,Kaolin Clay,mainAttackDamage,Main Attack Damage,-4,-4,-3
+Kaolin Clay,Kaolin Clay,waterDefence,Water Defence,7,7,10
+Laryngeal Flesh,Laryngeal Flesh,mainAttackDamage,Main Attack Damage,10,10,12
+Laryngeal Flesh,Laryngeal Flesh,rawSpellDamage,Raw Spell Damage,-16,-16,-14
+Tough Bone,Tough Bone,rawDefence,Raw Defence,0,0,2
+Carapace Fragment,Carapace Fragment,rawMainAttackDamage,Raw Main Attack Damage,8,8,10
+Carapace Fragment,Carapace Fragment,walkSpeed,Walk Speed,4,4,6
+Corn Husk,Corn Husk,healthRegenRaw,Health Regen Raw,6,6,10
+Fuming Lava Rock,Fuming Lava Rock,exploding,Exploding,3,3,4
+Fuming Lava Rock,Fuming Lava Rock,fireDamage,Fire Damage,3,3,4
+Cracked Geode,Cracked Geode,rawStrength,Raw Strength,2,2,5
+Beef Tongue,Beef Tongue,healthRegen,Health Regen,2,2,5
+Beef Tongue,Beef Tongue,rawHealth,Raw Health,24,24,36
+Piranha Jaw,Piranha Jaw,thunderDamage,Thunder Damage,3,3,6
+Piranha Jaw,Piranha Jaw,walkSpeed,Walk Speed,2,2,6
+Savannah Stone,Savannah Stone,fireDamage,Fire Damage,3,3,4
+Savannah Stone,Savannah Stone,rawDefence,Raw Defence,1,1,1
+Snake Tooth,Snake Tooth,poison,Poison,9,9,11
+Snake Tooth,Snake Tooth,walkSpeed,Walk Speed,3,3,4
+Sticky Fern,Sticky Fern,lifeSteal,Life Steal,5,5,10
+Worn Coin,Worn Coin,lootBonus,Loot Bonus,2,2,4
+Worn Coin,Worn Coin,walkSpeed,Walk Speed,-5,-5,-3
+Intermittenstirrups,Intermittenstirrups,sprint,Sprint,4,4,6
+Intermittenstirrups,Intermittenstirrups,sprintRegen,Sprint Regen,5,5,7
+Spike Residue,Spike Residue,rawHealth,Raw Health,36,36,48
+Spike Residue,Spike Residue,thorns,Thorns,6,6,11
+Captain's Glass,Captain's Glass,rawMainAttackDamage,Raw Main Attack Damage,15,15,16
+Captain's Glass,Captain's Glass,walkSpeed,Walk Speed,-6,-6,-3
+Lion Fang,Lion Fang,rawMainAttackDamage,Raw Main Attack Damage,4,4,6
+Lion Fang,Lion Fang,rawSpellDamage,Raw Spell Damage,6,6,8
+Strange Geode,Strange Geode,earthDefence,Earth Defence,5,5,6
+Strange Geode,Strange Geode,walkSpeed,Walk Speed,-4,-4,-3
+Oceanic Sand,Oceanic Sand,earthDefence,Earth Defence,3,3,4
+Oceanic Sand,Oceanic Sand,waterDefence,Water Defence,3,3,4
+Powdery Bone,Powdery Bone,walkSpeed,Walk Speed,5,5,7
+Red Shale,Red Shale,healthRegenRaw,Health Regen Raw,15,15,20
+Red Shale,Red Shale,rawDefence,Raw Defence,4,4,5
+Snake Scale,Snake Scale,reflection,Reflection,3,3,7
+Snake Scale,Snake Scale,thorns,Thorns,3,3,7
+Illicit Hemlock,Illicit Hemlock,lifeSteal,Life Steal,14,14,18
+Illicit Hemlock,Illicit Hemlock,poison,Poison,12,12,13
+Illicit Quince,Illicit Quince,healthRegenRaw,Health Regen Raw,15,15,18
+Illicit Quince,Illicit Quince,rawHealth,Raw Health,40,40,45
+Illicit Tingflower,Illicit Tingflower,thunderDamage,Thunder Damage,2,2,4
+Illicit Tingflower,Illicit Tingflower,thunderDefence,Thunder Defence,2,2,4
+Illicit Whitethorn,Illicit Whitethorn,airDamage,Air Damage,4,4,6
+Illicit Whitethorn,Illicit Whitethorn,rawAgility,Raw Agility,2,2,3
+Illicit Yarrow,Illicit Yarrow,rawIntelligence,Raw Intelligence,1,1,2
+Illicit Yarrow,Illicit Yarrow,rawSpellDamage,Raw Spell Damage,10,10,12
+Lunar Shard,Lunar Shard,manaSteal,Mana Steal,2,2,4
+Scalding Sand,Scalding Sand,fireDamage,Fire Damage,2,2,6
+Scalding Sand,Scalding Sand,rawDefence,Raw Defence,1,1,3
+Chain Loop,Chain Loop,rawHealth,Raw Health,50,50,70
+Chain Loop,Chain Loop,waterDefence,Water Defence,-6,-6,-4
+Condor Feather,Condor Feather,airDamage,Air Damage,5,5,7
+Crystal Dust,Crystal Dust,spellDamage,Spell Damage,4,4,6
+Crystal Dust,Crystal Dust,walkSpeed,Walk Speed,-5,-5,-2
+Sharp Edge,Sharp Edge,mainAttackDamage,Main Attack Damage,8,8,9
+Sharp Edge,Sharp Edge,spellDamage,Spell Damage,-9,-9,-8
+Algae Mat,Algae Mat,reflection,Reflection,5,5,8
+Algae Mat,Algae Mat,thorns,Thorns,6,6,10
+Gunpowder,Gunpowder,exploding,Exploding,11,11,16
+Squid Beak,Squid Beak,mainAttackDamage,Main Attack Damage,2,2,6
+Squid Beak,Squid Beak,spellDamage,Spell Damage,1,1,7
+Stretched Rawhide,Stretched Rawhide,rawDefence,Raw Defence,2,2,4
+Stretched Rawhide,Stretched Rawhide,rawStrength,Raw Strength,-4,-4,-2
+Ice Fishing Bait,Ice Fishing Bait,airDamage,Air Damage,3,3,5
+Ice Fishing Bait,Ice Fishing Bait,walkSpeed,Walk Speed,3,3,5
+Ice Fishing Bait,Ice Fishing Bait,waterDamage,Water Damage,3,3,5
+Ice Fishing Hook,Ice Fishing Hook,rawHealth,Raw Health,-100,-100,-80
+Ice Fishing Hook,Ice Fishing Hook,rawMainAttackDamage,Raw Main Attack Damage,16,16,20
+Ice Fishing Hook,Ice Fishing Hook,rawSpellDamage,Raw Spell Damage,16,16,20
+Ice Fishing Net,Ice Fishing Net,rawHealth,Raw Health,25,25,40
+Ice Fishing Net,Ice Fishing Net,rawMainAttackDamage,Raw Main Attack Damage,10,10,10
+Ice Fishing Net,Ice Fishing Net,rawSpellDamage,Raw Spell Damage,10,10,10
+Ice Fishing Twine,Ice Fishing Twine,rawHealth,Raw Health,80,80,100
+Ice Fishing Twine,Ice Fishing Twine,rawMainAttackDamage,Raw Main Attack Damage,-20,-20,-16
+Ice Fishing Twine,Ice Fishing Twine,rawSpellDamage,Raw Spell Damage,-20,-20,-16
+Rotten Log,Rotten Log,earthDamage,Earth Damage,3,3,7
+Goblin Trinket,Goblin Trinket,combatExperience,Combat Experience,3,3,3
+Goblin Trinket,Goblin Trinket,gatherXpBonus,Gather Xp Bonus,1,1,1
+Goblin Trinket,Goblin Trinket,stealing,Stealing,3,3,4
+Ice Silver,Ice Silver,lootBonus,Loot Bonus,2,2,5
+Ice Silver,Ice Silver,rawAgility,Raw Agility,2,2,4
+Natural Nitrates,Natural Nitrates,sprintRegen,Sprint Regen,12,12,12
+Owl Feather,Owl Feather,walkSpeed,Walk Speed,3,3,5
+Runner's Bandages,Runner's Bandages,sprintRegen,Sprint Regen,8,8,11
+Torn Rawhide,Torn Rawhide,rawDefence,Raw Defence,-4,-4,-2
+Torn Rawhide,Torn Rawhide,rawStrength,Raw Strength,2,2,4
+Frostbitten Flesh,Frostbitten Flesh,rawHealth,Raw Health,120,120,140
+Frostbitten Flesh,Frostbitten Flesh,walkSpeed,Walk Speed,-4,-4,-3
+Green Scale,Green Scale,earthDamage,Earth Damage,2,2,6
+Green Scale,Green Scale,earthDefence,Earth Defence,2,2,6
+Poison Sac,Poison Sac,poison,Poison,55,55,65
+Ursine Claw,Ursine Claw,gatherXpBonus,Gather Xp Bonus,2,2,2
+Ursine Claw,Ursine Claw,rawMainAttackDamage,Raw Main Attack Damage,20,20,25
+Ursine Claw,Ursine Claw,rawSpellDamage,Raw Spell Damage,-25,-25,-20
+Chipped Quartz,Chipped Quartz,rawSpellDamage,Raw Spell Damage,10,10,15
+Chipped Quartz,Chipped Quartz,spellDamage,Spell Damage,1,1,4
+Empty Casings,Empty Casings,exploding,Exploding,3,3,4
+Empty Casings,Empty Casings,mainAttackDamage,Main Attack Damage,2,2,3
+Penguin Egg,Penguin Egg,airDefence,Air Defence,3,3,5
+Penguin Egg,Penguin Egg,waterDefence,Water Defence,3,3,5
+Pillaged Fragment,Pillaged Fragment,lootBonus,Loot Bonus,2,2,3
+Pillaged Fragment,Pillaged Fragment,stealing,Stealing,3,3,4
+Viking Stone,Viking Stone,rawIntelligence,Raw Intelligence,2,2,3
+Viking Stone,Viking Stone,waterDamage,Water Damage,4,4,6
+Canned Sardines,Canned Sardines,healthRegen,Health Regen,-3,-3,-2
+Canned Sardines,Canned Sardines,thunderDamage,Thunder Damage,5,5,7
+Canned Sardines,Canned Sardines,waterDamage,Water Damage,5,5,7
+Nightmare Fuel,Nightmare Fuel,lifeSteal,Life Steal,12,12,16
+Nightmare Fuel,Nightmare Fuel,manaSteal,Mana Steal,4,4,4
+Primitive Delicacy,Primitive Delicacy,spellDamage,Spell Damage,-10,-10,-6
+Bionic Fiber,Bionic Fiber,rawDexterity,Raw Dexterity,4,4,5
+Bionic Fiber,Bionic Fiber,thunderDamage,Thunder Damage,3,3,4
+Pink Pelute,Pink Pelute,combatExperience,Combat Experience,1,1,6
+Pink Pelute,Pink Pelute,lootBonus,Loot Bonus,1,1,6
+Tropical Honeysuckle,Tropical Honeysuckle,gatherSpeed,Gather Speed,4,4,5
+Tropical Honeysuckle,Tropical Honeysuckle,healthRegenRaw,Health Regen Raw,28,28,35
+Tropical Honeysuckle,Tropical Honeysuckle,walkSpeed,Walk Speed,4,4,6
+Broken Steel Blade,Broken Steel Blade,mainAttackDamage,Main Attack Damage,2,2,6
+Broken Steel Blade,Broken Steel Blade,rawStrength,Raw Strength,3,3,4
+Broken Steel Hook,Broken Steel Hook,rawDexterity,Raw Dexterity,2,2,5
+Broken Steel Hook,Broken Steel Hook,rawMainAttackDamage,Raw Main Attack Damage,18,18,22
+Worm Sign,Worm Sign,combatExperience,Combat Experience,3,3,4
+Worm Sign,Worm Sign,gatherXpBonus,Gather Xp Bonus,2,2,3
+Gloomy Orb,Gloomy Orb,lifeSteal,Life Steal,-12,-12,-10
+Gloomy Orb,Gloomy Orb,thunderDamage,Thunder Damage,3,3,5
+Zhight Coral Piece,Zhight Coral Piece,fireDefence,Fire Defence,1,1,4
+Zhight Coral Piece,Zhight Coral Piece,waterDefence,Water Defence,4,4,6
+Zhight Shiny Stone,Zhight Shiny Stone,combatExperience,Combat Experience,2,2,4
+Zhight Shiny Stone,Zhight Shiny Stone,lootBonus,Loot Bonus,2,2,6
+Bloodstained Remains,Bloodstained Remains,healthRegenRaw,Health Regen Raw,-34,-34,-28
+Bloodstained Remains,Bloodstained Remains,lifeSteal,Life Steal,20,20,30
+Soapstone,Soapstone,rawHealth,Raw Health,-150,-150,-120
+Soapstone,Soapstone,rawMainAttackDamage,Raw Main Attack Damage,20,20,25
+Adventurer's Diary,Adventurer's Diary,combatExperience,Combat Experience,4,4,8
+Alga,Alga,rawMainAttackDamage,Raw Main Attack Damage,24,24,26
+Alga,Alga,rawStrength,Raw Strength,2,2,3
+Consecrated Ivory,Consecrated Ivory,reflection,Reflection,8,8,10
+Consecrated Ivory,Consecrated Ivory,sprint,Sprint,8,8,12
+Ibjub Fruit,Ibjub Fruit,lifeSteal,Life Steal,10,10,15
+Ibjub Fruit,Ibjub Fruit,rawDefence,Raw Defence,2,2,3
+Red Scale,Red Scale,fireDefence,Fire Defence,5,5,7
+Red Scale,Red Scale,healingEfficiency,Healing Efficiency,0,0,3
+Resistant Strain,Resistant Strain,earthDefence,Earth Defence,4,4,5
+Resistant Strain,Resistant Strain,fireDefence,Fire Defence,6,6,8
+Resistant Strain,Resistant Strain,poison,Poison,55,55,70
+Resistant Strain,Resistant Strain,thunderDefence,Thunder Defence,3,3,3
+Rusty Axe Head,Rusty Axe Head,mainAttackDamage,Main Attack Damage,-8,-8,-5
+Spiked Capsule,Spiked Capsule,healthRegen,Health Regen,3,3,5
+Spiked Capsule,Spiked Capsule,mainAttackDamage,Main Attack Damage,-7,-7,-4
+Pilfered Silver,Pilfered Silver,lootBonus,Loot Bonus,4,4,5
+Pilfered Silver,Pilfered Silver,rawMainAttackDamage,Raw Main Attack Damage,45,45,45
+Putrid Spores,Putrid Spores,poison,Poison,180,180,200
+Spectral Spike,Spectral Spike,airDamage,Air Damage,7,7,8
+Spectral Spike,Spectral Spike,rawMainAttackDamage,Raw Main Attack Damage,40,40,45
+Terramarine Dust,Terramarine Dust,earthDamage,Earth Damage,5,5,7
+Terramarine Dust,Terramarine Dust,waterDamage,Water Damage,5,5,7
+Native Jadeite,Native Jadeite,spellDamage,Spell Damage,3,3,3
+Tangy Nectar,Tangy Nectar,fireDamage,Fire Damage,4,4,6
+Tangy Nectar,Tangy Nectar,gatherSpeed,Gather Speed,3,3,3
+Tangy Nectar,Tangy Nectar,rawSpellDamage,Raw Spell Damage,15,15,18
+Chitin Plate,Chitin Plate,rawDexterity,Raw Dexterity,2,2,4
+Chitin Plate,Chitin Plate,rawHealth,Raw Health,175,175,210
+Essence Of Dusk,Essence Of Dusk,rawSpellDamage,Raw Spell Damage,17,17,24
+Essence Of Dusk,Essence Of Dusk,spellDamage,Spell Damage,4,4,5
+Faebloom Petal,Faebloom Petal,earthDamage,Earth Damage,3,3,4
+Faebloom Petal,Faebloom Petal,fireDefence,Fire Defence,-6,-6,-5
+Faebloom Petal,Faebloom Petal,rawStrength,Raw Strength,1,1,1
+Nasty Residue,Nasty Residue,mainAttackDamage,Main Attack Damage,2,2,3
+Nasty Residue,Nasty Residue,spellDamage,Spell Damage,2,2,3
+Snake Skin,Snake Skin,airDamage,Air Damage,8,8,10
+Snake Skin,Snake Skin,rawHealth,Raw Health,-300,-300,-250
+Snake Skin,Snake Skin,walkSpeed,Walk Speed,6,6,8
+Phrumkin Seeds,Phrumkin Seeds,mainAttackDamage,Main Attack Damage,5,5,8
+Phrumkin Seeds,Phrumkin Seeds,rawHealth,Raw Health,130,130,170
+Elemental Crystal,Elemental Crystal,rawHealth,Raw Health,200,200,230
+Elemental Crystal,Elemental Crystal,rawMainAttackDamage,Raw Main Attack Damage,14,14,20
+Elemental Crystal,Elemental Crystal,rawSpellDamage,Raw Spell Damage,18,18,25
+Elemental Crystal,Elemental Crystal,reflection,Reflection,4,4,5
+Elemental Crystal,Elemental Crystal,thorns,Thorns,4,4,5
+Letvus Delight,Letvus Delight,airDamage,Air Damage,4,4,5
+Letvus Delight,Letvus Delight,earthDamage,Earth Damage,4,4,5
+Letvus Delight,Letvus Delight,fireDamage,Fire Damage,4,4,5
+Letvus Delight,Letvus Delight,thunderDamage,Thunder Damage,4,4,5
+Letvus Delight,Letvus Delight,waterDamage,Water Damage,4,4,5
+Pearlescent Jewel,Pearlescent Jewel,airDamage,Air Damage,2,2,3
+Pearlescent Jewel,Pearlescent Jewel,rawSpellDamage,Raw Spell Damage,10,10,15
+Pristine Claw,Pristine Claw,rawMainAttackDamage,Raw Main Attack Damage,18,18,20
+Pristine Claw,Pristine Claw,rawSpellDamage,Raw Spell Damage,-15,-15,-12
+Titanium Chunk,Titanium Chunk,rawHealth,Raw Health,350,350,375
+Titanium Chunk,Titanium Chunk,thorns,Thorns,10,10,12
+Wriggling Darkness,Wriggling Darkness,lifeSteal,Life Steal,35,35,45
+Wriggling Darkness,Wriggling Darkness,thunderDamage,Thunder Damage,4,4,8
+Foul Fluid,Foul Fluid,healthRegenRaw,Health Regen Raw,-50,-50,-34
+Foul Fluid,Foul Fluid,poison,Poison,260,260,275
+Lost Talisman,Lost Talisman,reflection,Reflection,3,3,4
+Lost Talisman,Lost Talisman,thorns,Thorns,3,3,4
+Glowing Scales,Glowing Scales,reflection,Reflection,5,5,12
+Glowing Scales,Glowing Scales,thorns,Thorns,5,5,12
+Recluse Venom Sac,Recluse Venom Sac,poison,Poison,255,255,285
+Broken Dagger,Broken Dagger,mainAttackDamage,Main Attack Damage,8,8,12
+Ivy Sprout,Ivy Sprout,exploding,Exploding,10,10,12
+Ivy Sprout,Ivy Sprout,gatherXpBonus,Gather Xp Bonus,1,1,2
+Ivy Sprout,Ivy Sprout,poison,Poison,65,65,80
+Luxic Plasma,Luxic Plasma,earthDamage,Earth Damage,5,5,8
+Luxic Plasma,Luxic Plasma,reflection,Reflection,2,2,4
+Luxic Plasma,Luxic Plasma,thorns,Thorns,2,2,4
+Nova Bloom,Nova Bloom,fireDamage,Fire Damage,3,3,3
+Nova Bloom,Nova Bloom,gatherXpBonus,Gather Xp Bonus,1,1,1
+Nova Bloom,Nova Bloom,rawSpellDamage,Raw Spell Damage,12,12,15
+Golden Coin,Golden Coin,combatExperience,Combat Experience,4,4,4
+Golden Coin,Golden Coin,lootBonus,Loot Bonus,4,4,5
+Hatchling Remnant,Hatchling Remnant,airDamage,Air Damage,4,4,5
+Hatchling Remnant,Hatchling Remnant,lifeSteal,Life Steal,45,45,60
+Iceberries,Iceberries,manaRegen,Mana Regen,4,4,5
+Magicule Sample,Magicule Sample,gatherXpBonus,Gather Xp Bonus,4,4,4
+Magicule Sample,Magicule Sample,manaSteal,Mana Steal,4,4,4
+Magicule Sample,Magicule Sample,spellDamage,Spell Damage,-7,-7,-5
+Durable Skin,Durable Skin,earthDefence,Earth Defence,6,6,7
+Durable Skin,Durable Skin,rawDefence,Raw Defence,2,2,3
+Flytrap Fangs,Flytrap Fangs,rawDexterity,Raw Dexterity,2,2,4
+Flytrap Fangs,Flytrap Fangs,rawStrength,Raw Strength,3,3,3
+Hunter's Disguise,Hunter's Disguise,rawAgility,Raw Agility,2,2,5
+Pig's Skull,Pig's Skull,rawStrength,Raw Strength,2,2,5
+Regenerative Pins,Regenerative Pins,healthRegenRaw,Health Regen Raw,50,50,60
+Regenerative Pins,Regenerative Pins,thorns,Thorns,7,7,8
+Giant Petal,Giant Petal,gatherSpeed,Gather Speed,3,3,3
+Giant Petal,Giant Petal,walkSpeed,Walk Speed,3,3,3
+Bamboo,Bamboo,mainAttackDamage,Main Attack Damage,-4,-4,-1
+Bamboo,Bamboo,spellDamage,Spell Damage,-4,-4,-1
+Congealed Slime,Congealed Slime,earthDefence,Earth Defence,6,6,12
+Congealed Slime,Congealed Slime,walkSpeed,Walk Speed,-6,-6,-4
+Energetic Aura,Energetic Aura,lifeSteal,Life Steal,40,40,45
+Energetic Aura,Energetic Aura,rawDexterity,Raw Dexterity,3,3,7
+Lotus Seedpod,Lotus Seedpod,healthRegen,Health Regen,2,2,3
+Lotus Seedpod,Lotus Seedpod,healthRegenRaw,Health Regen Raw,-28,-28,-21
+Agullo Beak,Agullo Beak,airDamage,Air Damage,6,6,11
+Agullo Beak,Agullo Beak,walkSpeed,Walk Speed,3,3,7
+Lockpicking Kit,Lockpicking Kit,lootBonus,Loot Bonus,1,1,6
+Lockpicking Kit,Lockpicking Kit,stealing,Stealing,1,1,5
+Stone Plating,Stone Plating,rawHealth,Raw Health,480,480,550
+Stone Plating,Stone Plating,walkSpeed,Walk Speed,-10,-10,-6
+Windy Aura,Windy Aura,rawAgility,Raw Agility,3,3,7
+Windy Aura,Windy Aura,walkSpeed,Walk Speed,7,7,8
+Altitude Shard,Altitude Shard,airDefence,Air Defence,12,12,15
+Altitude Shard,Altitude Shard,gatherXpBonus,Gather Xp Bonus,3,3,3
+Altitude Shard,Altitude Shard,walkSpeed,Walk Speed,8,8,10
+Cat Tail,Cat Tail,walkSpeed,Walk Speed,3,3,5
+Cortrich Eggs,Cortrich Eggs,rawStrength,Raw Strength,2,2,4
+Rock-Hard Beak,Rock-Hard Beak,rawAgility,Raw Agility,2,2,6
+Rock-Hard Beak,Rock-Hard Beak,rawDefence,Raw Defence,2,2,6
+Shiny Pebble,Shiny Pebble,combatExperience,Combat Experience,3,3,4
+Shiny Pebble,Shiny Pebble,earthDamage,Earth Damage,4,4,5
+Stolen Goods,Stolen Goods,combatExperience,Combat Experience,4,4,5
+Cyclops Eye,Cyclops Eye,rawStrength,Raw Strength,3,3,5
+Earthly Aura,Earthly Aura,mainAttackDamage,Main Attack Damage,5,5,7
+Earthly Aura,Earthly Aura,rawStrength,Raw Strength,4,4,6
+Insulated Wiring,Insulated Wiring,fireDefence,Fire Defence,6,6,9
+Insulated Wiring,Insulated Wiring,gatherXpBonus,Gather Xp Bonus,3,3,3
+Insulated Wiring,Insulated Wiring,thunderDefence,Thunder Defence,6,6,9
+Burning Soul,Burning Soul,fireDamage,Fire Damage,8,8,13
+Burning Soul,Burning Soul,waterDefence,Water Defence,-10,-10,-6
+Fancy Pelt,Fancy Pelt,earthDefence,Earth Defence,8,8,12
+Fancy Pelt,Fancy Pelt,fireDefence,Fire Defence,8,8,12
+Tender Pork Fillet,Tender Pork Fillet,earthDamage,Earth Damage,3,3,8
+Tentacle,Tentacle,rawIntelligence,Raw Intelligence,4,4,7
+Tentacle,Tentacle,waterDefence,Water Defence,7,7,10
+Ivory Tusk,Ivory Tusk,healthRegenRaw,Health Regen Raw,34,34,45
+Ivory Tusk,Ivory Tusk,poison,Poison,-90,-90,-80
+Watery Aura,Watery Aura,rawIntelligence,Raw Intelligence,3,3,5
+Watery Aura,Watery Aura,spellDamage,Spell Damage,6,6,8
+Fiery Aura,Fiery Aura,rawDefence,Raw Defence,4,4,6
+Fiery Aura,Fiery Aura,rawHealth,Raw Health,450,450,550
+Terra Steel,Terra Steel,earthDamage,Earth Damage,5,5,8
+Terra Steel,Terra Steel,fireDamage,Fire Damage,5,5,8
+Ashen Hide,Ashen Hide,waterDefence,Water Defence,-12,-12,-8
+Igneous Thread,Igneous Thread,rawAgility,Raw Agility,-4,-4,-3
+Igneous Thread,Igneous Thread,rawFireSpellDamage,Raw Fire Spell Damage,52,52,58
+Optic Lens,Optic Lens,rawAirDamage,Raw Air Damage,13,13,18
+Optic Lens,Optic Lens,rawWaterDamage,Raw Water Damage,13,13,18
+Pirate Beard,Pirate Beard,rawMainAttackDamage,Raw Main Attack Damage,48,48,60
+Pirate Beard,Pirate Beard,waterDamage,Water Damage,8,8,15
+Rotten Teeth,Rotten Teeth,lifeSteal,Life Steal,-55,-55,-50
+Rotten Teeth,Rotten Teeth,mainAttackDamage,Main Attack Damage,10,10,15
+Throbbing Avos Heart,Throbbing Avos Heart,healthRegenRaw,Health Regen Raw,28,28,35
+Throbbing Avos Heart,Throbbing Avos Heart,spellDamage,Spell Damage,6,6,8
+Warm Fleris,Warm Fleris,healthRegenRaw,Health Regen Raw,35,35,42
+Warm Fleris,Warm Fleris,rawDefence,Raw Defence,5,5,5
+Angler's Light,Angler's Light,rawWaterMainAttackDamage,Raw Water Main Attack Damage,40,40,45
+Angler's Light,Angler's Light,thunderDefence,Thunder Defence,6,6,10
+Deepborn Scavenger,Deepborn Scavenger,lifeSteal,Life Steal,35,35,40
+Deepborn Scavenger,Deepborn Scavenger,rawMainAttackDamage,Raw Main Attack Damage,27,27,32
+Hardened Mandible,Hardened Mandible,airDefence,Air Defence,-10,-10,-7
+Hardened Mandible,Hardened Mandible,waterDefence,Water Defence,-10,-10,-7
+Obsidian Shards,Obsidian Shards,healthRegenRaw,Health Regen Raw,-56,-56,-45
+Obsidian Shards,Obsidian Shards,rawDexterity,Raw Dexterity,6,6,8
+Marrow Dust,Marrow Dust,healthRegenRaw,Health Regen Raw,70,70,98
+Sentient Shadow,Sentient Shadow,airDefence,Air Defence,6,6,8
+Sentient Shadow,Sentient Shadow,walkSpeed,Walk Speed,4,4,6
+Roasted Tissue,Roasted Tissue,fireDamage,Fire Damage,3,3,5
+Roasted Tissue,Roasted Tissue,gatherXpBonus,Gather Xp Bonus,2,2,2
+Roasted Tissue,Roasted Tissue,mainAttackDamage,Main Attack Damage,3,3,5
+Kaian Scroll,Kaian Scroll,rawDexterity,Raw Dexterity,5,5,7
+Mixed Jewel Deposit,Mixed Jewel Deposit,mainAttackDamage,Main Attack Damage,2,2,4
+Mixed Jewel Deposit,Mixed Jewel Deposit,spellDamage,Spell Damage,2,2,4
+Mural Shard,Mural Shard,fireDefence,Fire Defence,5,5,6
+Mural Shard,Mural Shard,gatherXpBonus,Gather Xp Bonus,3,3,3
+Mural Shard,Mural Shard,rawDefence,Raw Defence,3,3,4
+Shiny Mineral Deposit,Shiny Mineral Deposit,rawAgility,Raw Agility,0,0,1
+Shiny Mineral Deposit,Shiny Mineral Deposit,rawDefence,Raw Defence,0,0,1
+Shiny Mineral Deposit,Shiny Mineral Deposit,rawDexterity,Raw Dexterity,0,0,1
+Shiny Mineral Deposit,Shiny Mineral Deposit,rawIntelligence,Raw Intelligence,0,0,1
+Shiny Mineral Deposit,Shiny Mineral Deposit,rawStrength,Raw Strength,0,0,1
+Sky Snail Shell,Sky Snail Shell,healthRegen,Health Regen,3,3,4
+Sky Snail Shell,Sky Snail Shell,reflection,Reflection,10,10,13
+Sky Snail Shell,Sky Snail Shell,thorns,Thorns,9,9,14
+Forgotten Pickaxe,Forgotten Pickaxe,earthDamage,Earth Damage,6,6,7
+Forgotten Pickaxe,Forgotten Pickaxe,rawMainAttackDamage,Raw Main Attack Damage,40,40,50
+Voidstone Sample,Voidstone Sample,lifeSteal,Life Steal,35,35,40
+Voidstone Sample,Voidstone Sample,walkSpeed,Walk Speed,2,2,4
+Dragonling Egg,Dragonling Egg,airDefence,Air Defence,6,6,12
+Dragonling Egg,Dragonling Egg,earthDefence,Earth Defence,8,8,13
+Dragonling Egg,Dragonling Egg,thunderDefence,Thunder Defence,5,5,11
+Red Mercury,Red Mercury,healthRegenRaw,Health Regen Raw,-168,-168,-126
+Red Mercury,Red Mercury,rawHealth,Raw Health,600,600,800
+Sylphid Tears,Sylphid Tears,airDamage,Air Damage,8,8,16
+Sylphid Tears,Sylphid Tears,airDefence,Air Defence,10,10,18
+Demonic Blood,Demonic Blood,lifeSteal,Life Steal,80,80,90
+Demonic Blood,Demonic Blood,poison,Poison,250,250,290
+Essence of Dissolution,Essence of Dissolution,airDamage,Air Damage,3,3,4
+Essence of Dissolution,Essence of Dissolution,rawAgility,Raw Agility,0,0,2
+Impure Nullity,Impure Nullity,mainAttackDamage,Main Attack Damage,5,5,8
+Impure Nullity,Impure Nullity,rawThunderMainAttackDamage,Raw Thunder Main Attack Damage,19,19,25
+Cataratite,Cataratite,healthRegen,Health Regen,-6,-6,-4
+Crystallized Organ,Crystallized Organ,lootQuality,Loot Quality,2,2,3
+Serafite,Serafite,gatherXpBonus,Gather Xp Bonus,1,1,2
+Serafite,Serafite,rawHealth,Raw Health,-150,-150,-120
+Serafite,Serafite,spellDamage,Spell Damage,3,3,4
+Fragmentation,Fragmentation,rawAgility,Raw Agility,6,6,8
+Fragmentation,Fragmentation,rawHealth,Raw Health,-59,-59,-31
+Acidic Remains,Acidic Remains,fireDamage,Fire Damage,8,8,10
+Acidic Remains,Acidic Remains,healthRegenRaw,Health Regen Raw,-101,-101,-84
+Viral Tentacle,Viral Tentacle,earthDamage,Earth Damage,6,6,9
+Viral Tentacle,Viral Tentacle,rawStrength,Raw Strength,2,2,4
+Green Foot,Green Foot,rawDefence,Raw Defence,4,4,5
+Green Foot,Green Foot,rawHealth,Raw Health,350,350,400
+Green Foot,Green Foot,walkSpeed,Walk Speed,-8,-8,-6
+Insanity Star,Insanity Star,airDefence,Air Defence,-5,-5,-3
+Insanity Star,Insanity Star,earthDefence,Earth Defence,-5,-5,-3
+Insanity Star,Insanity Star,elementalDamage,Elemental Damage,3,3,5
+Insanity Star,Insanity Star,fireDefence,Fire Defence,-5,-5,-3
+Insanity Star,Insanity Star,thunderDefence,Thunder Defence,-5,-5,-3
+Insanity Star,Insanity Star,waterDefence,Water Defence,-5,-5,-3
+Lactic Acid Crystal,Lactic Acid Crystal,healthRegen,Health Regen,-7,-7,-4
+Lactic Acid Crystal,Lactic Acid Crystal,poison,Poison,850,850,900
+Larbonic Sheddings,Larbonic Sheddings,airDefence,Air Defence,-8,-8,-6
+Larbonic Sheddings,Larbonic Sheddings,earthDefence,Earth Defence,-8,-8,-6
+Larbonic Sheddings,Larbonic Sheddings,waterDefence,Water Defence,12,12,15
+Leg Eater Tooth,Leg Eater Tooth,earthDamage,Earth Damage,6,6,9
+Leg Eater Tooth,Leg Eater Tooth,healthRegen,Health Regen,-12,-12,-8
+Leg Eater Tooth,Leg Eater Tooth,thunderDamage,Thunder Damage,6,6,9
+Olmic Artifact,Olmic Artifact,healthRegenRaw,Health Regen Raw,84,84,105
+Olmic Artifact,Olmic Artifact,rawAgility,Raw Agility,4,4,6
+Dense Void Hole Chunk,Dense Void Hole Chunk,earthDamage,Earth Damage,5,5,5
+Dense Void Hole Chunk,Dense Void Hole Chunk,walkSpeed,Walk Speed,-5,-5,-5
+Neon Seawater,Neon Seawater,lifeSteal,Life Steal,-90,-90,-75
+Neon Seawater,Neon Seawater,rawMainAttackDamage,Raw Main Attack Damage,110,110,135
+Sandy Loam,Sandy Loam,earthDamage,Earth Damage,7,7,8
+Sandy Loam,Sandy Loam,lootQuality,Loot Quality,1,1,1
+Shattered Ammunition,Shattered Ammunition,damage,Damage,3,3,5
+Shattered Ammunition,Shattered Ammunition,exploding,Exploding,11,11,14
+Fox Coat,Fox Coat,sprint,Sprint,5,5,7
+Fox Coat,Fox Coat,sprintRegen,Sprint Regen,7,7,9
+Fox Coat,Fox Coat,walkSpeed,Walk Speed,4,4,6
+Raccoon Tail,Raccoon Tail,sprint,Sprint,8,8,10
+Raccoon Tail,Raccoon Tail,sprintRegen,Sprint Regen,10,10,12
+Discarded Junk,Discarded Junk,rawMaxMana,Raw Max Mana,4,4,5
+Sphagnum Moss,Sphagnum Moss,healthRegenRaw,Health Regen Raw,-35,-35,-28
+Sphagnum Moss,Sphagnum Moss,sprint,Sprint,5,5,6
+Water Dropwort,Water Dropwort,healthRegen,Health Regen,-5,-5,-4
+Water Dropwort,Water Dropwort,sprintRegen,Sprint Regen,6,6,7
+Filched Purse,Filched Purse,stealing,Stealing,7,7,8
+Inscribed Collar,Inscribed Collar,sprint,Sprint,5,5,6
+Inscribed Collar,Inscribed Collar,waterDefence,Water Defence,-4,-4,-3
+Eviction Notice,Eviction Notice,gatherSpeed,Gather Speed,3,3,4
+Eviction Notice,Eviction Notice,walkSpeed,Walk Speed,6,6,7
+Giant Stinger,Giant Stinger,poison,Poison,90,90,100
+Giant Stinger,Giant Stinger,thunderDamage,Thunder Damage,1,1,5
+Barbed Stinger,Barbed Stinger,poison,Poison,450,450,500
+Barbed Stinger,Barbed Stinger,thorns,Thorns,12,12,17
+Noble Ribbon,Noble Ribbon,rawHealth,Raw Health,500,500,575
+Noble Ribbon,Noble Ribbon,rawStrength,Raw Strength,5,5,6
+Slippery Muscle,Slippery Muscle,mainAttackDamage,Main Attack Damage,8,8,10
+Slippery Muscle,Slippery Muscle,rawHealth,Raw Health,350,350,400
+Spectral Horns,Spectral Horns,rawAirSpellDamage,Raw Air Spell Damage,22,22,24
+Spectral Horns,Spectral Horns,rawEarthSpellDamage,Raw Earth Spell Damage,25,25,27
+Spectral Horns,Spectral Horns,reflection,Reflection,6,6,8
+Spiky Vine,Spiky Vine,rawStrength,Raw Strength,5,5,6
+Spiky Vine,Spiky Vine,thorns,Thorns,14,14,16
+Glaive Head,Glaive Head,mainAttackRange,Main Attack Range,0,0,1
+Glaive Head,Glaive Head,rawDexterity,Raw Dexterity,3,3,5
+Green Fin,Green Fin,rawHealth,Raw Health,350,350,400
+Green Fin,Green Fin,rawStrength,Raw Strength,4,4,5
+Emergency Stimulant,Emergency Stimulant,gatherSpeed,Gather Speed,7,7,8
+Emergency Stimulant,Emergency Stimulant,walkSpeed,Walk Speed,7,7,8
+Giant Ivory Tusk,Giant Ivory Tusk,healthRegen,Health Regen,2,2,3
+Giant Ivory Tusk,Giant Ivory Tusk,healthRegenRaw,Health Regen Raw,42,42,49
+Potent Venom,Potent Venom,poison,Poison,1000,1000,1100
+Serrated Canine,Serrated Canine,healthRegen,Health Regen,-4,-4,-2
+Serrated Canine,Serrated Canine,rawAirMainAttackDamage,Raw Air Main Attack Damage,40,40,42
+Thorny Shoot,Thorny Shoot,fireDefence,Fire Defence,-6,-6,-5
+Thorny Shoot,Thorny Shoot,thorns,Thorns,5,5,7
+Titanic Tail,Titanic Tail,earthMainAttackDamage,Earth Main Attack Damage,10,10,14
+Titanic Tail,Titanic Tail,waterMainAttackDamage,Water Main Attack Damage,8,8,12
+Misprinted Newspaper,Misprinted Newspaper,elementalDefence,Elemental Defence,5,5,6
+Misprinted Newspaper,Misprinted Newspaper,waterDamage,Water Damage,6,6,7
+Warm Parka,Warm Parka,healthRegenRaw,Health Regen Raw,49,49,56
+Warm Parka,Warm Parka,rawDefence,Raw Defence,2,2,3
+Congealing Viscera,Congealing Viscera,gatherXpBonus,Gather Xp Bonus,3,3,5
+Congealing Viscera,Congealing Viscera,walkSpeed,Walk Speed,-4,-4,-3
+High Explosive,High Explosive,exploding,Exploding,18,18,20
+Loose Ammunition,Loose Ammunition,rawEarthMainAttackDamage,Raw Earth Main Attack Damage,35,35,45
+Loose Ammunition,Loose Ammunition,rawStrength,Raw Strength,1,1,2
+Manufactured Shortsword,Manufactured Shortsword,fireDamage,Fire Damage,8,8,9
+Manufactured Shortsword,Manufactured Shortsword,thunderDamage,Thunder Damage,7,7,12
+Osprey Egg,Osprey Egg,lootBonus,Loot Bonus,4,4,5
+Osprey Egg,Osprey Egg,rawAgility,Raw Agility,1,1,1
+Rusted Operating Scissors,Rusted Operating Scissors,rawHealth,Raw Health,-350,-350,-300
+Rusted Operating Scissors,Rusted Operating Scissors,rawMainAttackDamage,Raw Main Attack Damage,60,60,70
+Tailored Garments,Tailored Garments,elementalDamage,Elemental Damage,4,4,5
+Tailored Garments,Tailored Garments,elementalDefence,Elemental Defence,7,7,8
+Delectable Morsel,Delectable Morsel,healthRegenRaw,Health Regen Raw,70,70,77
+Delectable Morsel,Delectable Morsel,poison,Poison,-150,-150,-125
+Suspicious Mixture,Suspicious Mixture,elementalDamage,Elemental Damage,2,2,4
+Suspicious Mixture,Suspicious Mixture,rawHealth,Raw Health,200,200,400
+Suspicious Mixture,Suspicious Mixture,reflection,Reflection,2,2,4
+Suspicious Mixture,Suspicious Mixture,thorns,Thorns,2,2,4
+Rare Potato,Rare Potato,lootBonus,Loot Bonus,4,4,6
+Therck's Chain,Therck's Chain,rawHealth,Raw Health,3,3,4
+Therck's Chain,Therck's Chain,rawMainAttackDamage,Raw Main Attack Damage,3,3,4
+Cleaned Saccharum,Cleaned Saccharum,healthRegenRaw,Health Regen Raw,3,3,4
+Cleaned Saccharum,Cleaned Saccharum,rawHealth,Raw Health,16,16,20
+Nivlan Honeycomb,Nivlan Honeycomb,healthRegenRaw,Health Regen Raw,3,3,5
+Nivlan Honeycomb,Nivlan Honeycomb,rawHealth,Raw Health,10,10,12
+Blazing Fireball,Blazing Fireball,fireDamage,Fire Damage,8,8,12
+Earthly Pebble,Earthly Pebble,earthDamage,Earth Damage,6,6,7
+Sharpening Stone,Sharpening Stone,rawDexterity,Raw Dexterity,2,2,2
+Sharpening Stone,Sharpening Stone,rawStrength,Raw Strength,2,2,2
+Paralyzing Spores,Paralyzing Spores,mainAttackDamage,Main Attack Damage,5,5,6
+Paralyzing Spores,Paralyzing Spores,spellDamage,Spell Damage,5,5,6
+Paralyzing Spores,Paralyzing Spores,walkSpeed,Walk Speed,-8,-8,-6
+Feather of Grace,Feather of Grace,walkSpeed,Walk Speed,3,3,3
+Lucky Spider Egg,Lucky Spider Egg,combatExperience,Combat Experience,10,10,12
+Lucky Spider Egg,Lucky Spider Egg,lootBonus,Loot Bonus,10,10,12
+Burnt Skull,Burnt Skull,fireDamage,Fire Damage,3,3,6
+Burnt Skull,Burnt Skull,waterDefence,Water Defence,-6,-6,-4
+Corrupted Ichor,Corrupted Ichor,lifeSteal,Life Steal,8,8,10
+Corrupted Ichor,Corrupted Ichor,walkSpeed,Walk Speed,1,1,3
+Weakening Catalyst,Weakening Catalyst,combatExperience,Combat Experience,12,12,16
+Weakening Catalyst,Weakening Catalyst,mainAttackDamage,Main Attack Damage,-12,-12,-12
+Weakening Catalyst,Weakening Catalyst,spellDamage,Spell Damage,-12,-12,-12
+Digestible Fungi,Digestible Fungi,gatherXpBonus,Gather Xp Bonus,1,1,1
+Digestible Fungi,Digestible Fungi,healthRegen,Health Regen,-3,-3,-2
+Digestible Fungi,Digestible Fungi,poison,Poison,2,2,2
+Herbal Extract,Herbal Extract,gatherSpeed,Gather Speed,3,3,4
+Herbal Extract,Herbal Extract,mainAttackDamage,Main Attack Damage,-4,-4,-2
+Herbal Extract,Herbal Extract,rawHealth,Raw Health,35,35,45
+Dried Gill,Dried Gill,combatExperience,Combat Experience,8,8,10
+Dried Gill,Dried Gill,lootBonus,Loot Bonus,5,5,8
+Relic of the Past,Relic of the Past,healthRegen,Health Regen,3,3,3
+Relic of the Past,Relic of the Past,rawDefence,Raw Defence,3,3,3
+Scarred Leather,Scarred Leather,lifeSteal,Life Steal,10,10,12
+Scarred Leather,Scarred Leather,rawHealth,Raw Health,-10,-10,-7
+Highland Basil,Highland Basil,airDamage,Air Damage,5,5,7
+Highland Basil,Highland Basil,gatherXpBonus,Gather Xp Bonus,2,2,2
+Highland Basil,Highland Basil,rawAgility,Raw Agility,3,3,4
+Rotting Bone,Rotting Bone,poison,Poison,4,4,5
+Rotting Bone,Rotting Bone,waterDamage,Water Damage,3,3,4
+Split Essence,Split Essence,manaSteal,Mana Steal,2,2,3
+Split Essence,Split Essence,rawSpellDamage,Raw Spell Damage,8,8,12
+Sticky Mudball,Sticky Mudball,mainAttackDamage,Main Attack Damage,5,5,8
+Sticky Mudball,Sticky Mudball,walkSpeed,Walk Speed,-4,-4,-2
+Haleva Plant,Haleva Plant,manaRegen,Mana Regen,4,4,6
+Haleva Plant,Haleva Plant,manaSteal,Mana Steal,2,2,3
+Residual Spirit,Residual Spirit,lifeSteal,Life Steal,8,8,12
+Residual Spirit,Residual Spirit,thunderDamage,Thunder Damage,6,6,8
+Aged Medallion,Aged Medallion,combatExperience,Combat Experience,3,3,4
+Aged Medallion,Aged Medallion,spellDamage,Spell Damage,2,2,3
+Corrupted Bracken,Corrupted Bracken,healingEfficiency,Healing Efficiency,-5,-5,-2
+Corrupted Bracken,Corrupted Bracken,rawFireMainAttackDamage,Raw Fire Main Attack Damage,11,11,13
+Mysterious Mist,Mysterious Mist,gatherXpBonus,Gather Xp Bonus,2,2,2
+Mysterious Mist,Mysterious Mist,rawAgility,Raw Agility,4,4,4
+Mysterious Mist,Mysterious Mist,spellDamage,Spell Damage,4,4,4
+Reinforced Leather,Reinforced Leather,rawHealth,Raw Health,45,45,56
+Reinforced Leather,Reinforced Leather,rawStrength,Raw Strength,2,2,3
+Shattered Memory Shard,Shattered Memory Shard,airDamage,Air Damage,5,5,9
+Shattered Memory Shard,Shattered Memory Shard,airDefence,Air Defence,3,3,7
+Mangled Soul,Mangled Soul,thunderDamage,Thunder Damage,5,5,8
+Premium Hay Bale,Premium Hay Bale,fireDefence,Fire Defence,-9,-9,-7
+Premium Hay Bale,Premium Hay Bale,gatherXpBonus,Gather Xp Bonus,1,1,2
+Premium Hay Bale,Premium Hay Bale,walkSpeed,Walk Speed,4,4,6
+Enraged Soul,Enraged Soul,fireDamage,Fire Damage,6,6,7
+Seabird Egg,Seabird Egg,airDefence,Air Defence,6,6,10
+Seabird Egg,Seabird Egg,rawAgility,Raw Agility,3,3,4
+Cat Food,Cat Food,combatExperience,Combat Experience,-10,-10,-8
+Cat Food,Cat Food,manaRegen,Mana Regen,3,3,3
+Portal Emanation,Portal Emanation,manaRegen,Mana Regen,5,5,6
+Portal Emanation,Portal Emanation,spellDamage,Spell Damage,-8,-8,-6
+Chaotic Embers,Chaotic Embers,fireDamage,Fire Damage,9,9,10
+Chaotic Embers,Chaotic Embers,fireDefence,Fire Defence,-10,-10,-9
+Desert Fossil,Desert Fossil,rawAgility,Raw Agility,2,2,2
+Desert Fossil,Desert Fossil,rawDefence,Raw Defence,2,2,2
+Router's Shield,Router's Shield,rawDefence,Raw Defence,5,5,6
+Router's Shield,Router's Shield,rawHealth,Raw Health,65,65,80
+Scoria Pollen,Scoria Pollen,rawDexterity,Raw Dexterity,2,2,3
+Scoria Pollen,Scoria Pollen,rawFireDamage,Raw Fire Damage,21,21,26
+Glittering Silt,Glittering Silt,lootBonus,Loot Bonus,3,3,5
+Glittering Silt,Glittering Silt,stealing,Stealing,3,3,5
+Scarab Husk,Scarab Husk,rawDefence,Raw Defence,2,2,3
+Dried Kelp,Dried Kelp,healthRegen,Health Regen,3,3,5
+Prized Pelt,Prized Pelt,reflection,Reflection,4,4,8
+Prized Pelt,Prized Pelt,thorns,Thorns,4,4,8
+Pokey Cactus,Pokey Cactus,gatherXpBonus,Gather Xp Bonus,2,2,2
+Pokey Cactus,Pokey Cactus,rawHealth,Raw Health,30,30,40
+Pokey Cactus,Pokey Cactus,thorns,Thorns,10,10,15
+Stonewalker Core,Stonewalker Core,earthDefence,Earth Defence,6,6,10
+Stonewalker Core,Stonewalker Core,rawStrength,Raw Strength,3,3,5
+Burial Talisman,Burial Talisman,airDefence,Air Defence,-5,-5,-4
+Burial Talisman,Burial Talisman,thunderDamage,Thunder Damage,4,4,5
+Burial Talisman,Burial Talisman,waterDefence,Water Defence,-5,-5,-4
+Contraband Absinthe,Contraband Absinthe,rawAgility,Raw Agility,2,2,2
+Contraband Absinthe,Contraband Absinthe,rawDefence,Raw Defence,2,2,2
+Contraband Absinthe,Contraband Absinthe,rawDexterity,Raw Dexterity,2,2,2
+Contraband Absinthe,Contraband Absinthe,rawIntelligence,Raw Intelligence,2,2,2
+Contraband Absinthe,Contraband Absinthe,rawStrength,Raw Strength,2,2,2
+Contraband Hibiscus,Contraband Hibiscus,airDamage,Air Damage,5,5,7
+Contraband Hibiscus,Contraband Hibiscus,earthDamage,Earth Damage,5,5,7
+Contraband Hibiscus,Contraband Hibiscus,fireDamage,Fire Damage,5,5,7
+Contraband Hibiscus,Contraband Hibiscus,thunderDamage,Thunder Damage,5,5,7
+Contraband Hibiscus,Contraband Hibiscus,waterDamage,Water Damage,5,5,7
+Contraband Miracle Berry,Contraband Miracle Berry,mainAttackDamage,Main Attack Damage,-6,-6,-4
+Contraband Miracle Berry,Contraband Miracle Berry,spellDamage,Spell Damage,-6,-6,-4
+Lunar Chunk,Lunar Chunk,spellDamage,Spell Damage,4,4,5
+Ancient Panel,Ancient Panel,fireDamage,Fire Damage,6,6,8
+Ancient Panel,Ancient Panel,healthRegen,Health Regen,4,4,5
+Eternal Flame,Eternal Flame,healthRegenRaw,Health Regen Raw,28,28,34
+Eternal Flame,Eternal Flame,mainAttackDamage,Main Attack Damage,-10,-10,-8
+Eternal Flame,Eternal Flame,rawDefence,Raw Defence,5,5,6
+Eternal Flame,Eternal Flame,spellDamage,Spell Damage,-10,-10,-8
+Lucky Rabbit's Foot,Lucky Rabbit's Foot,combatExperience,Combat Experience,3,3,8
+Lucky Rabbit's Foot,Lucky Rabbit's Foot,lootBonus,Loot Bonus,2,2,8
+Shinesting Scorpion Tail,Shinesting Scorpion Tail,rawMainAttackDamage,Raw Main Attack Damage,15,15,25
+Shinesting Scorpion Tail,Shinesting Scorpion Tail,thunderDamage,Thunder Damage,5,5,10
+Swooper Wing,Swooper Wing,airDamage,Air Damage,4,4,5
+Swooper Wing,Swooper Wing,earthDefence,Earth Defence,3,3,4
+Corrupted Metal Scrap,Corrupted Metal Scrap,manaRegen,Mana Regen,4,4,5
+Corrupted Metal Scrap,Corrupted Metal Scrap,manaSteal,Mana Steal,-2,-2,-1
+Moldy Wrapping,Moldy Wrapping,rawHealth,Raw Health,-30,-30,-20
+Moldy Wrapping,Moldy Wrapping,rawSpellDamage,Raw Spell Damage,9,9,12
+Moldy Wrapping,Moldy Wrapping,thunderDamage,Thunder Damage,4,4,6
+Stolen Egg,Stolen Egg,healthRegenRaw,Health Regen Raw,25,25,34
+Stolen Egg,Stolen Egg,walkSpeed,Walk Speed,6,6,7
+Rabbit Carcass,Rabbit Carcass,rawAgility,Raw Agility,2,2,2
+Rabbit Carcass,Rabbit Carcass,rawDefence,Raw Defence,2,2,2
+Rabbit Carcass,Rabbit Carcass,rawDexterity,Raw Dexterity,2,2,2
+Rabbit Carcass,Rabbit Carcass,rawIntelligence,Raw Intelligence,2,2,2
+Rabbit Carcass,Rabbit Carcass,rawStrength,Raw Strength,2,2,2
+Shimmering Jewel,Shimmering Jewel,reflection,Reflection,5,5,8
+Shimmering Jewel,Shimmering Jewel,spellDamage,Spell Damage,6,6,10
+Fish Tail,Fish Tail,manaRegen,Mana Regen,5,5,7
+Fish Tail,Fish Tail,waterDefence,Water Defence,8,8,10
+Acidic Blood,Acidic Blood,poison,Poison,60,60,70
+Twisted Organ,Twisted Organ,manaRegen,Mana Regen,-6,-6,-6
+Twisted Organ,Twisted Organ,spellDamage,Spell Damage,11,11,13
+Wendigo Bone,Wendigo Bone,healthRegenRaw,Health Regen Raw,-25,-25,-21
+Wendigo Bone,Wendigo Bone,lifeSteal,Life Steal,30,30,35
+Black Sulphur,Black Sulphur,exploding,Exploding,10,10,14
+Black Sulphur,Black Sulphur,fireDamage,Fire Damage,4,4,10
+Jagged Icicle,Jagged Icicle,lifeSteal,Life Steal,12,12,16
+Jagged Icicle,Jagged Icicle,rawNeutralMainAttackDamage,Raw Neutral Main Attack Damage,30,30,35
+Primeval Skin,Primeval Skin,rawDefence,Raw Defence,2,2,3
+Primeval Skin,Primeval Skin,rawIntelligence,Raw Intelligence,-5,-5,-5
+Primeval Skin,Primeval Skin,rawStrength,Raw Strength,3,3,4
+Pure Quartz,Pure Quartz,rawSpellDamage,Raw Spell Damage,16,16,24
+Pure Quartz,Pure Quartz,spellDamage,Spell Damage,3,3,4
+Quartz Cluster,Quartz Cluster,combatExperience,Combat Experience,6,6,8
+Quartz Cluster,Quartz Cluster,rawSpellDamage,Raw Spell Damage,25,25,35
+Frozen Ghostly Essence,Frozen Ghostly Essence,rawIntelligence,Raw Intelligence,1,1,3
+Frozen Ghostly Essence,Frozen Ghostly Essence,rawSpellDamage,Raw Spell Damage,12,12,16
+Frozen Ghostly Essence,Frozen Ghostly Essence,walkSpeed,Walk Speed,-7,-7,-6
+Flashfrost,Flashfrost,walkSpeed,Walk Speed,-4,-4,-3
+Flashfrost,Flashfrost,waterDamage,Water Damage,7,7,10
+Pykrete,Pykrete,waterDefence,Water Defence,3,3,5
+Yeti Fur,Yeti Fur,airDefence,Air Defence,7,7,9
+Yeti Fur,Yeti Fur,fireDefence,Fire Defence,-9,-9,-7
+Yeti Fur,Yeti Fur,waterDefence,Water Defence,7,7,9
+Ancient Core,Ancient Core,healingEfficiency,Healing Efficiency,2,2,3
+Ancient Core,Ancient Core,rawDefence,Raw Defence,3,3,5
+Enchanted Chain Link,Enchanted Chain Link,mainAttackDamage,Main Attack Damage,7,7,10
+Enchanted Chain Link,Enchanted Chain Link,manaRegen,Mana Regen,-4,-4,-4
+Enchanted Chain Link,Enchanted Chain Link,spellDamage,Spell Damage,8,8,9
+Flesh-forged Circuit,Flesh-forged Circuit,rawDexterity,Raw Dexterity,3,3,4
+Flesh-forged Circuit,Flesh-forged Circuit,thunderDamage,Thunder Damage,6,6,8
+Wriggling Wooden Arm,Wriggling Wooden Arm,fireDefence,Fire Defence,-14,-14,-10
+Wriggling Wooden Arm,Wriggling Wooden Arm,mainAttackDamage,Main Attack Damage,8,8,9
+Gelatinous Slime Chunk,Gelatinous Slime Chunk,walkSpeed,Walk Speed,-4,-4,-2
+Cyclone Blue Leaves,Cyclone Blue Leaves,jumpHeight,Jump Height,1,1,1
+Cyclone Blue Leaves,Cyclone Blue Leaves,walkSpeed,Walk Speed,-6,-6,-5
+Pink Pelulite,Pink Pelulite,rawMainAttackDamage,Raw Main Attack Damage,45,45,50
+Pink Pelulite,Pink Pelulite,sprint,Sprint,4,4,6
+Mellow Mango,Mellow Mango,gatherXpBonus,Gather Xp Bonus,1,1,2
+Mellow Mango,Mellow Mango,rawMainAttackDamage,Raw Main Attack Damage,20,20,25
+Mellow Mango,Mellow Mango,rawSpellDamage,Raw Spell Damage,16,16,20
+Bioluminescent Moss,Bioluminescent Moss,thunderDamage,Thunder Damage,5,5,9
+Bioluminescent Moss,Bioluminescent Moss,waterDamage,Water Damage,6,6,7
+Bloated Artery,Bloated Artery,healthRegenRaw,Health Regen Raw,40,40,50
+Bloated Artery,Bloated Artery,lifeSteal,Life Steal,-40,-40,-35
+Creepvine Cluster,Creepvine Cluster,gatherXpBonus,Gather Xp Bonus,4,4,4
+Creepvine Cluster,Creepvine Cluster,rawStrength,Raw Strength,5,5,7
+Creepvine Cluster,Creepvine Cluster,walkSpeed,Walk Speed,-5,-5,-3
+Grootslang Fin,Grootslang Fin,rawStrength,Raw Strength,3,3,5
+Grootslang Fin,Grootslang Fin,walkSpeed,Walk Speed,3,3,4
+Tattered Magic Cloth,Tattered Magic Cloth,fireSpellDamage,Fire Spell Damage,6,6,7
+Tattered Magic Cloth,Tattered Magic Cloth,manaRegen,Mana Regen,3,3,4
+Big Carapace,Big Carapace,earthDamage,Earth Damage,6,6,7
+Big Carapace,Big Carapace,walkSpeed,Walk Speed,3,3,4
+Herbstzeitlose,Herbstzeitlose,poison,Poison,110,110,130
+Herbstzeitlose,Herbstzeitlose,waterDamage,Water Damage,9,9,12
+Rotting Bandage,Rotting Bandage,healingEfficiency,Healing Efficiency,2,2,3
+Rotting Bandage,Rotting Bandage,healthRegen,Health Regen,-7,-7,-6
+Bottled Decay,Bottled Decay,earthDamage,Earth Damage,12,12,18
+Bottled Decay,Bottled Decay,healthRegenRaw,Health Regen Raw,-63,-63,-56
+Bottled Decay,Bottled Decay,thunderDamage,Thunder Damage,12,12,18
+Tacky Goop,Tacky Goop,manaSteal,Mana Steal,4,4,5
+Tacky Goop,Tacky Goop,stealing,Stealing,6,6,7
+Blazing Stimulants,Blazing Stimulants,healthRegenRaw,Health Regen Raw,-56,-56,-49
+Blazing Stimulants,Blazing Stimulants,sprintRegen,Sprint Regen,16,16,19
+Blazing Stimulants,Blazing Stimulants,walkSpeed,Walk Speed,8,8,9
+Rototilled Soil,Rototilled Soil,manaRegen,Mana Regen,4,4,7
+Rototilled Soil,Rototilled Soil,thorns,Thorns,7,7,8
+Squid Brain,Squid Brain,rawMainAttackDamage,Raw Main Attack Damage,30,30,35
+Squid Brain,Squid Brain,spellDamage,Spell Damage,8,8,10
+Zhight Weird Magic Rock,Zhight Weird Magic Rock,spellDamage,Spell Damage,3,3,6
+Zhight Weird Magic Rock,Zhight Weird Magic Rock,sprintRegen,Sprint Regen,5,5,10
+Sealed Blaze,Sealed Blaze,airDefence,Air Defence,8,8,10
+Sealed Blaze,Sealed Blaze,earthDefence,Earth Defence,4,4,5
+Sealed Blaze,Sealed Blaze,fireDefence,Fire Defence,12,12,15
+Sealed Blaze,Sealed Blaze,thunderDefence,Thunder Defence,4,4,5
+Sealed Blaze,Sealed Blaze,waterDefence,Water Defence,-10,-10,-8
+Secret Herb,Secret Herb,healingEfficiency,Healing Efficiency,1,1,3
+Secret Herb,Secret Herb,healthRegenRaw,Health Regen Raw,35,35,42
+Slate Sheet,Slate Sheet,rawAgility,Raw Agility,-4,-4,-3
+Slate Sheet,Slate Sheet,rawHealth,Raw Health,280,280,315
+Acidic Solution,Acidic Solution,poison,Poison,170,170,190
+Shiny Gravel,Shiny Gravel,lootBonus,Loot Bonus,2,2,3
+Shiny Gravel,Shiny Gravel,rawEarthMainAttackDamage,Raw Earth Main Attack Damage,14,14,16
+Scuttling Syenite,Scuttling Syenite,healthRegenRaw,Health Regen Raw,21,21,25
+Scuttling Syenite,Scuttling Syenite,lifeSteal,Life Steal,16,16,20
+Soft Silk,Soft Silk,rawAgility,Raw Agility,3,3,4
+Soft Silk,Soft Silk,rawDefence,Raw Defence,3,3,4
+Broken Fiddle,Broken Fiddle,fireDamage,Fire Damage,5,5,6
+Broken Fiddle,Broken Fiddle,spellDamage,Spell Damage,-3,-3,-2
+Broken Fiddle,Broken Fiddle,walkSpeed,Walk Speed,4,4,7
+Devilish Delight,Devilish Delight,fireDamage,Fire Damage,10,10,11
+Devilish Delight,Devilish Delight,walkSpeed,Walk Speed,2,2,3
+Hellish Cinders,Hellish Cinders,rawDefence,Raw Defence,3,3,4
+Hellish Cinders,Hellish Cinders,spellDamage,Spell Damage,3,3,5
+Hellish Cinders,Hellish Cinders,waterDefence,Water Defence,-35,-35,-20
+Lithoflesh,Lithoflesh,rawHealth,Raw Health,-300,-300,-250
+Maroferrous,Maroferrous,earthDamage,Earth Damage,6,6,9
+Maroferrous,Maroferrous,rawStrength,Raw Strength,2,2,5
+Maromagnetite,Maromagnetite,fireDefence,Fire Defence,7,7,10
+Maromagnetite,Maromagnetite,rawDefence,Raw Defence,4,4,5
+Naval Shard,Naval Shard,mainAttackDamage,Main Attack Damage,-5,-5,-4
+Naval Shard,Naval Shard,waterDamage,Water Damage,4,4,5
+Strange Trinket,Strange Trinket,rawAgility,Raw Agility,-7,-7,-6
+Strange Trinket,Strange Trinket,rawDefence,Raw Defence,-7,-7,-6
+Strange Trinket,Strange Trinket,rawDexterity,Raw Dexterity,4,4,5
+Strange Trinket,Strange Trinket,rawIntelligence,Raw Intelligence,4,4,5
+Strange Trinket,Strange Trinket,rawStrength,Raw Strength,4,4,5
+Defiled Luxroot,Defiled Luxroot,airDefence,Air Defence,-8,-8,-6
+Defiled Luxroot,Defiled Luxroot,thunderDefence,Thunder Defence,6,6,8
+Luxroot Cuttings,Luxroot Cuttings,earthDefence,Earth Defence,6,6,8
+Luxroot Cuttings,Luxroot Cuttings,fireDefence,Fire Defence,-8,-8,-6
+Ruins Shard,Ruins Shard,gatherXpBonus,Gather Xp Bonus,1,1,2
+Ruins Shard,Ruins Shard,poison,Poison,50,50,55
+Ruins Shard,Ruins Shard,rawStrength,Raw Strength,2,2,2
+Soul Amalgamate,Soul Amalgamate,gatherSpeed,Gather Speed,4,4,5
+Soul Amalgamate,Soul Amalgamate,healthRegen,Health Regen,4,4,5
+Soul Amalgamate,Soul Amalgamate,mainAttackDamage,Main Attack Damage,4,4,5
+Soul Amalgamate,Soul Amalgamate,spellDamage,Spell Damage,4,4,5
+Windswept Roots,Windswept Roots,mainAttackDamage,Main Attack Damage,4,4,6
+Windswept Roots,Windswept Roots,rawAgility,Raw Agility,4,4,6
+Windswept Roots,Windswept Roots,spellDamage,Spell Damage,4,4,6
+Cursed Ashes,Cursed Ashes,manaSteal,Mana Steal,4,4,5
+Tenebrous Plasma,Tenebrous Plasma,mainAttackDamage,Main Attack Damage,-20,-20,-12
+Tenebrous Plasma,Tenebrous Plasma,spellDamage,Spell Damage,10,10,16
+Tenebrous Plasma,Tenebrous Plasma,walkSpeed,Walk Speed,6,6,10
+Tribal Tome,Tribal Tome,healingEfficiency,Healing Efficiency,3,3,4
+Tribal Tome,Tribal Tome,healthRegen,Health Regen,-5,-5,-4
+Tribal Tome,Tribal Tome,spellDamage,Spell Damage,3,3,4
+Curse Gland,Curse Gland,earthDamage,Earth Damage,10,10,13
+Curse Gland,Curse Gland,waterDefence,Water Defence,-9,-9,-6
+Leopard Blood,Leopard Blood,rawMainAttackDamage,Raw Main Attack Damage,85,85,110
+Leopard Blood,Leopard Blood,rawSpellDamage,Raw Spell Damage,-110,-110,-85
+Fresh Game,Fresh Game,rawHealth,Raw Health,250,250,300
+Ironwood Chips,Ironwood Chips,healthRegenRaw,Health Regen Raw,112,112,126
+Ironwood Chips,Ironwood Chips,mainAttackDamage,Main Attack Damage,26,26,30
+Ironwood Chips,Ironwood Chips,rawAttackSpeed,Raw Attack Speed,-1,-1,-1
+Beastial Viscera,Beastial Viscera,mainAttackDamage,Main Attack Damage,6,6,8
+Beastial Viscera,Beastial Viscera,rawHealth,Raw Health,400,400,550
+Conflagrite,Conflagrite,healingEfficiency,Healing Efficiency,3,3,3
+Conflagrite,Conflagrite,rawFireDamage,Raw Fire Damage,35,35,40
+Generator Chip,Generator Chip,rawDexterity,Raw Dexterity,5,5,7
+Generator Chip,Generator Chip,thunderDefence,Thunder Defence,7,7,8
+Purest Tear,Purest Tear,healthRegen,Health Regen,1,1,4
+Smokebomb,Smokebomb,rawAgility,Raw Agility,5,5,6
+Smokebomb,Smokebomb,rawHealth,Raw Health,-400,-400,-350
+Smokebomb,Smokebomb,walkSpeed,Walk Speed,11,11,12
+Radiant Seeds,Radiant Seeds,gatherXpBonus,Gather Xp Bonus,3,3,4
+Radiant Seeds,Radiant Seeds,thunderDamage,Thunder Damage,8,8,10
+Radiant Seeds,Radiant Seeds,thunderDefence,Thunder Defence,6,6,9
+Shadow of Ruin,Shadow of Ruin,healthRegenRaw,Health Regen Raw,-59,-59,-49
+Shadow of Ruin,Shadow of Ruin,mainAttackDamage,Main Attack Damage,12,12,14
+Atmospheric Aspect,Atmospheric Aspect,airDamage,Air Damage,8,8,8
+Atmospheric Aspect,Atmospheric Aspect,mainAttackDamage,Main Attack Damage,-12,-12,-12
+Atmospheric Aspect,Atmospheric Aspect,rawSpellDamage,Raw Spell Damage,20,20,20
+Atmospheric Aspect,Atmospheric Aspect,thunderDamage,Thunder Damage,8,8,8
+Compressed Aspect,Compressed Aspect,airDamage,Air Damage,8,8,8
+Compressed Aspect,Compressed Aspect,fireDamage,Fire Damage,8,8,8
+Compressed Aspect,Compressed Aspect,healthRegenRaw,Health Regen Raw,98,98,98
+Compressed Aspect,Compressed Aspect,rawMainAttackDamage,Raw Main Attack Damage,-80,-80,-80
+Igneous Aspect,Igneous Aspect,earthDamage,Earth Damage,8,8,8
+Igneous Aspect,Igneous Aspect,fireDamage,Fire Damage,8,8,8
+Igneous Aspect,Igneous Aspect,rawHealth,Raw Health,500,500,500
+Igneous Aspect,Igneous Aspect,spellDamage,Spell Damage,-10,-10,-10
+Sentient Water,Sentient Water,manaSteal,Mana Steal,4,4,5
+Sentient Water,Sentient Water,rawIntelligence,Raw Intelligence,3,3,6
+Unholy Water,Unholy Water,damage,Damage,6,6,7
+Unholy Water,Unholy Water,healingEfficiency,Healing Efficiency,-6,-6,-6
+Wintery Aspect,Wintery Aspect,airDamage,Air Damage,8,8,8
+Wintery Aspect,Wintery Aspect,manaRegen,Mana Regen,-6,-6,-6
+Wintery Aspect,Wintery Aspect,spellDamage,Spell Damage,4,4,4
+Wintery Aspect,Wintery Aspect,waterDamage,Water Damage,8,8,8
+Accursed Effigy,Accursed Effigy,fireDamage,Fire Damage,8,8,11
+Accursed Effigy,Accursed Effigy,manaSteal,Mana Steal,3,3,4
+Accursed Effigy,Accursed Effigy,walkSpeed,Walk Speed,-8,-8,-5
+Astral Alloy,Astral Alloy,elementalDamage,Elemental Damage,9,9,11
+Astral Alloy,Astral Alloy,gatherXpBonus,Gather Xp Bonus,3,3,3
+Erratic Aspect,Erratic Aspect,fireDamage,Fire Damage,8,8,8
+Erratic Aspect,Erratic Aspect,healthRegen,Health Regen,-7,-7,-7
+Erratic Aspect,Erratic Aspect,lifeSteal,Life Steal,80,80,80
+Erratic Aspect,Erratic Aspect,thunderDamage,Thunder Damage,8,8,8
+Overload Aspect,Overload Aspect,lifeSteal,Life Steal,-100,-100,-100
+Overload Aspect,Overload Aspect,manaSteal,Mana Steal,2,2,2
+Overload Aspect,Overload Aspect,thunderDamage,Thunder Damage,8,8,8
+Overload Aspect,Overload Aspect,waterDamage,Water Damage,8,8,8
+Repulsive Aspect,Repulsive Aspect,earthDamage,Earth Damage,8,8,8
+Repulsive Aspect,Repulsive Aspect,healthRegenRaw,Health Regen Raw,-91,-91,-91
+Repulsive Aspect,Repulsive Aspect,mainAttackDamage,Main Attack Damage,15,15,15
+Repulsive Aspect,Repulsive Aspect,thunderDamage,Thunder Damage,8,8,8
+Shattered Aspect,Shattered Aspect,airDamage,Air Damage,8,8,8
+Shattered Aspect,Shattered Aspect,earthDamage,Earth Damage,8,8,8
+Shattered Aspect,Shattered Aspect,rawMainAttackDamage,Raw Main Attack Damage,80,80,80
+Shattered Aspect,Shattered Aspect,rawSpellDamage,Raw Spell Damage,-65,-65,-65
+Disturbed Aspect,Disturbed Aspect,earthDamage,Earth Damage,8,8,8
+Disturbed Aspect,Disturbed Aspect,manaRegen,Mana Regen,4,4,4
+Disturbed Aspect,Disturbed Aspect,rawHealth,Raw Health,-600,-600,-600
+Disturbed Aspect,Disturbed Aspect,waterDamage,Water Damage,8,8,8
+Evaporated Aspect,Evaporated Aspect,fireDamage,Fire Damage,8,8,8
+Evaporated Aspect,Evaporated Aspect,healthRegen,Health Regen,8,8,8
+Evaporated Aspect,Evaporated Aspect,manaSteal,Mana Steal,-4,-4,-4
+Evaporated Aspect,Evaporated Aspect,waterDamage,Water Damage,8,8,8
+Gylia Essence,Gylia Essence,rawIntelligence,Raw Intelligence,3,3,5
+Gylia Essence,Gylia Essence,waterDamage,Water Damage,3,3,7
+Gylia Essence,Gylia Essence,waterDefence,Water Defence,4,4,8
+Larvae Cluster,Larvae Cluster,rawDexterity,Raw Dexterity,4,4,6
+Larvae Cluster,Larvae Cluster,rawMainAttackDamage,Raw Main Attack Damage,90,90,120
+Organic Explosive,Organic Explosive,exploding,Exploding,4,4,6
+Organic Explosive,Organic Explosive,rawHealth,Raw Health,90,90,100
+Pig's Blood,Pig's Blood,lifeSteal,Life Steal,70,70,80
+World Illuminator,World Illuminator,rawIntelligence,Raw Intelligence,5,5,7
+World Illuminator,World Illuminator,waterDefence,Water Defence,8,8,10
+Adaptive Tissue,Adaptive Tissue,healthRegenRaw,Health Regen Raw,70,70,85
+Adaptive Tissue,Adaptive Tissue,rawStrength,Raw Strength,5,5,8
+Ancient Moss,Ancient Moss,earthDamage,Earth Damage,5,5,6
+Ancient Moss,Ancient Moss,rawMainAttackDamage,Raw Main Attack Damage,25,25,25
+Antique Metal,Antique Metal,rawDefence,Raw Defence,2,2,3
+Antique Metal,Antique Metal,walkSpeed,Walk Speed,-4,-4,-3
+Cherry Sapling,Cherry Sapling,rawIntelligence,Raw Intelligence,4,4,5
+Cherry Sapling,Cherry Sapling,rawStrength,Raw Strength,4,4,5
+Slimy Skin,Slimy Skin,manaRegen,Mana Regen,5,5,5
+Slimy Skin,Slimy Skin,manaSteal,Mana Steal,-3,-3,-3
+Slimy Skin,Slimy Skin,waterDamage,Water Damage,5,5,10
+Coagulated Blood Gelatin,Coagulated Blood Gelatin,healingEfficiency,Healing Efficiency,-3,-3,-3
+Coagulated Blood Gelatin,Coagulated Blood Gelatin,rawHealth,Raw Health,425,425,475
+Diseased Fluids,Diseased Fluids,poison,Poison,399,399,401
+Diseased Fluids,Diseased Fluids,rawHealth,Raw Health,-357,-357,-314
+Spreading Fireweed,Spreading Fireweed,fireDefence,Fire Defence,9,9,12
+Spreading Fireweed,Spreading Fireweed,gatherXpBonus,Gather Xp Bonus,5,5,6
+Spreading Fireweed,Spreading Fireweed,rawDefence,Raw Defence,7,7,8
+Volatile Light,Volatile Light,airDefence,Air Defence,11,11,16
+Volatile Light,Volatile Light,earthDefence,Earth Defence,10,10,12
+Volatile Light,Volatile Light,fireDefence,Fire Defence,12,12,13
+Volatile Light,Volatile Light,spellDamage,Spell Damage,-9,-9,-6
+Volatile Light,Volatile Light,thunderDefence,Thunder Defence,7,7,16
+Volatile Light,Volatile Light,waterDefence,Water Defence,10,10,14
+Je Ne Sais Quoi,Je Ne Sais Quoi,gatherSpeed,Gather Speed,-1,-1,-1
+Je Ne Sais Quoi,Je Ne Sais Quoi,gatherXpBonus,Gather Xp Bonus,1,1,2
+Purest Prism,Purest Prism,elementalDefence,Elemental Defence,1,1,3
+Purest Prism,Purest Prism,rawAgility,Raw Agility,1,1,1
+Purest Prism,Purest Prism,rawDefence,Raw Defence,1,1,1
+Purest Prism,Purest Prism,rawDexterity,Raw Dexterity,1,1,1
+Purest Prism,Purest Prism,rawIntelligence,Raw Intelligence,1,1,1
+Purest Prism,Purest Prism,rawStrength,Raw Strength,1,1,1
+Aged Tome,Aged Tome,mainAttackDamage,Main Attack Damage,-12,-12,-9
+Aged Tome,Aged Tome,spellDamage,Spell Damage,10,10,14
+Cloudtwine,Cloudtwine,airDamage,Air Damage,6,6,8
+Cloudtwine,Cloudtwine,rawAgility,Raw Agility,3,3,4
+Cloudtwine,Cloudtwine,sprint,Sprint,4,4,5
+Cat's Ears,Cat's Ears,healingEfficiency,Healing Efficiency,1,1,1
+Cat's Ears,Cat's Ears,rawAgility,Raw Agility,5,5,6
+Cat's Ears,Cat's Ears,sprint,Sprint,3,3,4
+Engraved Tablet,Engraved Tablet,rawIntelligence,Raw Intelligence,5,5,10
+Engraved Tablet,Engraved Tablet,walkSpeed,Walk Speed,-10,-10,-5
+Fluid Light,Fluid Light,airDamage,Air Damage,8,8,9
+Fluid Light,Fluid Light,thunderDamage,Thunder Damage,7,7,11
+Helio Wing,Helio Wing,airDamage,Air Damage,7,7,9
+Helio Wing,Helio Wing,rawAgility,Raw Agility,1,1,3
+Helio Wing,Helio Wing,rawDexterity,Raw Dexterity,2,2,2
+Marble Statuette,Marble Statuette,mainAttackDamage,Main Attack Damage,7,7,9
+Marble Statuette,Marble Statuette,rawDefence,Raw Defence,5,5,6
+Marble Statuette,Marble Statuette,walkSpeed,Walk Speed,-5,-5,-4
+Nose Ring,Nose Ring,mainAttackDamage,Main Attack Damage,1,1,2
+Nose Ring,Nose Ring,walkSpeed,Walk Speed,-4,-4,-3
+Flameheart,Flameheart,healthRegenRaw,Health Regen Raw,100,100,120
+Flameheart,Flameheart,rawHealth,Raw Health,560,560,680
+Harpy Wing,Harpy Wing,rawAgility,Raw Agility,1,1,2
+Harpy Wing,Harpy Wing,walkSpeed,Walk Speed,4,4,6
+Illusory Idol,Illusory Idol,airDamage,Air Damage,4,4,5
+Illusory Idol,Illusory Idol,gatherXpBonus,Gather Xp Bonus,1,1,2
+Illusory Idol,Illusory Idol,reflection,Reflection,4,4,6
+Zealous Illuminator,Zealous Illuminator,rawMainAttackDamage,Raw Main Attack Damage,55,55,60
+Defective Circuits,Defective Circuits,gatherXpBonus,Gather Xp Bonus,3,3,4
+Defective Circuits,Defective Circuits,rawDexterity,Raw Dexterity,3,3,4
+Defective Circuits,Defective Circuits,rawSpellDamage,Raw Spell Damage,30,30,35
+Elephant Toenail,Elephant Toenail,rawHealth,Raw Health,1000,1000,1200
+Old Explosives,Old Explosives,exploding,Exploding,20,20,25
+Old Explosives,Old Explosives,rawHealth,Raw Health,-500,-500,-400
+Piercing Talons,Piercing Talons,rawDexterity,Raw Dexterity,1,1,1
+Piercing Talons,Piercing Talons,rawMainAttackDamage,Raw Main Attack Damage,35,35,40
+Succulent Crab Meat,Succulent Crab Meat,earthDamage,Earth Damage,8,8,10
+Succulent Crab Meat,Succulent Crab Meat,waterDefence,Water Defence,10,10,16
+Thorned Tusk,Thorned Tusk,mainAttackDamage,Main Attack Damage,12,12,25
+Thorned Tusk,Thorned Tusk,thorns,Thorns,30,30,50
+Razor-Sharp Tooth,Razor-Sharp Tooth,rawDexterity,Raw Dexterity,2,2,2
+Razor-Sharp Tooth,Razor-Sharp Tooth,rawMainAttackDamage,Raw Main Attack Damage,40,40,60
+Crystalline Growth,Crystalline Growth,manaRegen,Mana Regen,6,6,6
+Crystalline Growth,Crystalline Growth,rawSpellDamage,Raw Spell Damage,40,40,45
+Lost Spirit,Lost Spirit,rawSpellDamage,Raw Spell Damage,0,0,75
+Lost Spirit,Lost Spirit,spellDamage,Spell Damage,0,0,8
+Fighting Stick,Fighting Stick,rawAttackSpeed,Raw Attack Speed,1,1,1
+Fighting Stick,Fighting Stick,rawMainAttackDamage,Raw Main Attack Damage,-70,-70,-70
+Fighting Stick,Fighting Stick,walkSpeed,Walk Speed,5,5,5
+Serpent Tongue,Serpent Tongue,mainAttackDamage,Main Attack Damage,14,14,21
+Serpent Tongue,Serpent Tongue,spellDamage,Spell Damage,14,14,21
+Enhanced Behaviour Microchip,Enhanced Behaviour Microchip,manaRegen,Mana Regen,6,6,6
+Enhanced Behaviour Microchip,Enhanced Behaviour Microchip,spellDamage,Spell Damage,5,5,6
+Enhanced Dynamics Microchip,Enhanced Dynamics Microchip,manaSteal,Mana Steal,4,4,4
+Enhanced Dynamics Microchip,Enhanced Dynamics Microchip,rawMainAttackDamage,Raw Main Attack Damage,70,70,80
+Enhanced Pathfinding Microchip,Enhanced Pathfinding Microchip,mainAttackDamage,Main Attack Damage,12,12,16
+Enhanced Pathfinding Microchip,Enhanced Pathfinding Microchip,poison,Poison,600,600,650
+Enhanced Physics Microchip,Enhanced Physics Microchip,airDamage,Air Damage,9,9,15
+Enhanced Physics Microchip,Enhanced Physics Microchip,reflection,Reflection,18,18,22
+Enhanced Post-Processing Microchip,Enhanced Post-Processing Microchip,healthRegen,Health Regen,5,5,7
+Enhanced Post-Processing Microchip,Enhanced Post-Processing Microchip,lifeSteal,Life Steal,90,90,100
+Enhanced Potential Microchip,Enhanced Potential Microchip,mainAttackDamage,Main Attack Damage,10,10,10
+Enhanced Potential Microchip,Enhanced Potential Microchip,spellDamage,Spell Damage,7,7,7
+Fiberglass Frame,Fiberglass Frame,fireDefence,Fire Defence,10,10,12
+Fiberglass Frame,Fiberglass Frame,rawDefence,Raw Defence,6,6,7
+Repair Toolkit,Repair Toolkit,healingEfficiency,Healing Efficiency,3,3,4
+Repair Toolkit,Repair Toolkit,lifeSteal,Life Steal,70,70,75
+Bioluminescent Blood,Bioluminescent Blood,reflection,Reflection,10,10,15
+Bioluminescent Blood,Bioluminescent Blood,thunderDamage,Thunder Damage,11,11,13
+Epipelagic Eye,Epipelagic Eye,rawIntelligence,Raw Intelligence,2,2,3
+Epipelagic Eye,Epipelagic Eye,rawWaterMainAttackDamage,Raw Water Main Attack Damage,16,16,18
+Flerisi Bark,Flerisi Bark,rawEarthSpellDamage,Raw Earth Spell Damage,40,40,45
+Flerisi Bark,Flerisi Bark,rawStrength,Raw Strength,3,3,4
+Flerisi Bark,Flerisi Bark,walkSpeed,Walk Speed,-5,-5,-3
+Myocardial Leg,Myocardial Leg,healthRegen,Health Regen,-7,-7,-5
+Myocardial Leg,Myocardial Leg,mainAttackDamage,Main Attack Damage,6,6,8
+Myocardial Leg,Myocardial Leg,manaSteal,Mana Steal,2,2,3
+Mythical Hoof,Mythical Hoof,rawAgility,Raw Agility,3,3,3
+Mythical Hoof,Mythical Hoof,rawDefence,Raw Defence,3,3,3
+Mythical Hoof,Mythical Hoof,rawDexterity,Raw Dexterity,3,3,3
+Mythical Hoof,Mythical Hoof,rawIntelligence,Raw Intelligence,3,3,3
+Mythical Hoof,Mythical Hoof,rawStrength,Raw Strength,3,3,3
+Prized Feather,Prized Feather,airDamage,Air Damage,10,10,12
+Prized Feather,Prized Feather,walkSpeed,Walk Speed,3,3,4
+Soulbound Cinders,Soulbound Cinders,fireDamage,Fire Damage,6,6,8
+Soulbound Cinders,Soulbound Cinders,manaSteal,Mana Steal,4,4,4
+Soulbound Cinders,Soulbound Cinders,rawSpellDamage,Raw Spell Damage,45,45,55
+Ashstained Basalt,Ashstained Basalt,rawMainAttackDamage,Raw Main Attack Damage,-70,-70,-70
+Ashstained Basalt,Ashstained Basalt,rawSpellDamage,Raw Spell Damage,-40,-40,-40
+Infernal Flesh,Infernal Flesh,fireDamage,Fire Damage,6,6,8
+Infernal Flesh,Infernal Flesh,fireDefence,Fire Defence,8,8,10
+Infernal Flesh,Infernal Flesh,rawHealth,Raw Health,400,400,500
+Gravitation Crystal,Gravitation Crystal,rawAttackSpeed,Raw Attack Speed,-1,-1,-1
+Gravitation Crystal,Gravitation Crystal,spellDamage,Spell Damage,10,10,12
+Mixed Mineral Deposit,Mixed Mineral Deposit,mainAttackDamage,Main Attack Damage,7,7,10
+Mixed Mineral Deposit,Mixed Mineral Deposit,rawHealth,Raw Health,540,540,600
+Mixed Mineral Deposit,Mixed Mineral Deposit,rawSpellDamage,Raw Spell Damage,-75,-75,-60
+Remedial Paste,Remedial Paste,airDefence,Air Defence,3,3,4
+Remedial Paste,Remedial Paste,earthDefence,Earth Defence,3,3,4
+Remedial Paste,Remedial Paste,healingEfficiency,Healing Efficiency,2,2,4
+Silver Bullet,Silver Bullet,rawMainAttackDamage,Raw Main Attack Damage,25,25,30
+Silver Bullet,Silver Bullet,thunderDamage,Thunder Damage,3,3,4
+Calmed Thunder,Calmed Thunder,earthDefence,Earth Defence,10,10,16
+Calmed Thunder,Calmed Thunder,thunderDefence,Thunder Defence,12,12,18
+Sought-After Ore,Sought-After Ore,lootQuality,Loot Quality,1,1,2
+Angel's Blessing,Angel's Blessing,elementalDamage,Elemental Damage,-3,-3,-4
+Angel's Blessing,Angel's Blessing,healingEfficiency,Healing Efficiency,2,2,2
+Glimmering Beak,Glimmering Beak,airDamage,Air Damage,10,10,16
+Glimmering Beak,Glimmering Beak,lootBonus,Loot Bonus,3,3,8
+Hollow Psyche,Hollow Psyche,manaSteal,Mana Steal,3,3,5
+Hollow Psyche,Hollow Psyche,spellDamage,Spell Damage,5,5,6
+Hydrofluoric Acid,Hydrofluoric Acid,poison,Poison,800,800,850
+Hydrofluoric Acid,Hydrofluoric Acid,waterDamage,Water Damage,10,10,12
+Inactive Rune,Inactive Rune,healthRegenRaw,Health Regen Raw,42,42,49
+Inactive Rune,Inactive Rune,rawMainAttackDamage,Raw Main Attack Damage,60,60,65
+Inactive Rune,Inactive Rune,rawSpellDamage,Raw Spell Damage,40,40,50
+Angelic Gem,Angelic Gem,airDefence,Air Defence,4,4,5
+Angelic Gem,Angelic Gem,earthDefence,Earth Defence,4,4,5
+Angelic Gem,Angelic Gem,fireDefence,Fire Defence,4,4,5
+Angelic Gem,Angelic Gem,thunderDefence,Thunder Defence,4,4,5
+Angelic Gem,Angelic Gem,waterDefence,Water Defence,4,4,5
+Dragon Aura,Dragon Aura,rawMainAttackDamage,Raw Main Attack Damage,75,75,90
+Dragon Aura,Dragon Aura,rawSpellDamage,Raw Spell Damage,60,60,75
+Fissured Tablet,Fissured Tablet,manaRegen,Mana Regen,6,6,8
+Fissured Tablet,Fissured Tablet,rawDefence,Raw Defence,5,5,7
+Float Stone,Float Stone,airDamage,Air Damage,10,10,12
+Float Stone,Float Stone,jumpHeight,Jump Height,1,1,1
+Extremely Dense Pebble,Extremely Dense Pebble,earthDamage,Earth Damage,3,3,3
+Extremely Dense Pebble,Extremely Dense Pebble,exploding,Exploding,3,3,4
+Extremely Dense Pebble,Extremely Dense Pebble,knockback,Knockback,1,1,2
+Fairy Powder,Fairy Powder,manaRegen,Mana Regen,3,3,4
+Fairy Powder,Fairy Powder,rawSpellDamage,Raw Spell Damage,45,45,60
+Fairy Powder,Fairy Powder,spellDamage,Spell Damage,10,10,13
+Haphazard Serum,Haphazard Serum,airDamage,Air Damage,4,4,18
+Haphazard Serum,Haphazard Serum,earthDamage,Earth Damage,-14,-14,-8
+Haphazard Serum,Haphazard Serum,healingEfficiency,Healing Efficiency,3,3,4
+Infernal Antifreeze,Infernal Antifreeze,rawDefence,Raw Defence,4,4,5
+Infernal Antifreeze,Infernal Antifreeze,rawFireDamage,Raw Fire Damage,8,8,10
+Infernal Antifreeze,Infernal Antifreeze,rawIntelligence,Raw Intelligence,3,3,6
+Infernal Antifreeze,Infernal Antifreeze,rawWaterDamage,Raw Water Damage,8,8,10
+Rocky Spirit,Rocky Spirit,knockback,Knockback,2,2,3
+Rocky Spirit,Rocky Spirit,rawStrength,Raw Strength,2,2,3
+Sky Flux,Sky Flux,airDamage,Air Damage,6,6,10
+Sky Flux,Sky Flux,airDefence,Air Defence,14,14,18
+Dark Iris,Dark Iris,combatExperience,Combat Experience,-15,-15,-15
+Dark Iris,Dark Iris,healthRegenRaw,Health Regen Raw,168,168,210
+Dark Matter,Dark Matter,manaRegen,Mana Regen,-1,-1,-1
+Dark Matter,Dark Matter,rawMainAttackDamage,Raw Main Attack Damage,90,90,100
+Flow of Fate,Flow of Fate,lifeSteal,Life Steal,-110,-110,-100
+Flow of Fate,Flow of Fate,waterDamage,Water Damage,16,16,20
+Green Opal,Green Opal,earthDefence,Earth Defence,4,4,6
+Green Opal,Green Opal,healthRegenRaw,Health Regen Raw,56,56,67
+Peculiar Oddity,Peculiar Oddity,rawSpellDamage,Raw Spell Damage,50,50,50
+Psionic Quill,Psionic Quill,thunderDamage,Thunder Damage,8,8,11
+Psionic Quill,Psionic Quill,walkSpeed,Walk Speed,3,3,4
+Undiscovered Plant,Undiscovered Plant,gatherXpBonus,Gather Xp Bonus,5,5,5
+Undiscovered Plant,Undiscovered Plant,rawHealth,Raw Health,1400,1400,1550
+Vista Mist,Vista Mist,manaRegen,Mana Regen,6,6,8
+Vista Mist,Vista Mist,walkSpeed,Walk Speed,8,8,10
+Vortex Expulsion,Vortex Expulsion,exploding,Exploding,14,14,17
+Vortex Expulsion,Vortex Expulsion,reflection,Reflection,19,19,23
+Wind Ornament,Wind Ornament,earthDefence,Earth Defence,-10,-10,-8
+Wind Ornament,Wind Ornament,walkSpeed,Walk Speed,5,5,6
+Void Particulates,Void Particulates,gatherXpBonus,Gather Xp Bonus,4,4,4
+Void Particulates,Void Particulates,rawAgility,Raw Agility,-2,-2,-2
+Void Particulates,Void Particulates,rawDefence,Raw Defence,-2,-2,-2
+Void Particulates,Void Particulates,rawDexterity,Raw Dexterity,-2,-2,-2
+Void Particulates,Void Particulates,rawIntelligence,Raw Intelligence,-2,-2,-2
+Void Particulates,Void Particulates,rawStrength,Raw Strength,-2,-2,-2
+Void Particulates,Void Particulates,spellDamage,Spell Damage,12,12,12
+Ancient Currency,Ancient Currency,lootBonus,Loot Bonus,5,5,7
+Ancient Currency,Ancient Currency,lootQuality,Loot Quality,4,4,5
+Condensed Darkness,Condensed Darkness,manaSteal,Mana Steal,3,3,3
+Condensed Darkness,Condensed Darkness,rawHealth,Raw Health,-260,-260,-240
+Condensed Darkness,Condensed Darkness,rawSpellDamage,Raw Spell Damage,-25,-25,-20
+Popped Pustule,Popped Pustule,fireDamage,Fire Damage,11,11,13
+Popped Pustule,Popped Pustule,waterDamage,Water Damage,11,11,13
+Vile Stone,Vile Stone,rawIntelligence,Raw Intelligence,-5,-5,-3
+Vile Stone,Vile Stone,walkSpeed,Walk Speed,5,5,8
+Fleshbark,Fleshbark,earthDefence,Earth Defence,20,20,25
+Fleshbark,Fleshbark,rawStrength,Raw Strength,4,4,5
+Pluripotent Tissue,Pluripotent Tissue,earthDamage,Earth Damage,-2,-2,-1
+Pluripotent Tissue,Pluripotent Tissue,mainAttackDamage,Main Attack Damage,4,4,5
+Plutonium Waste,Plutonium Waste,poison,Poison,280,280,300
+Plutonium Waste,Plutonium Waste,walkSpeed,Walk Speed,-6,-6,-4
+Scopaesthesia,Scopaesthesia,airDefence,Air Defence,11,11,15
+Scopaesthesia,Scopaesthesia,earthDefence,Earth Defence,11,11,15
+Scopaesthesia,Scopaesthesia,fireDefence,Fire Defence,11,11,15
+Scopaesthesia,Scopaesthesia,healthRegen,Health Regen,5,5,7
+Scopaesthesia,Scopaesthesia,thunderDefence,Thunder Defence,11,11,15
+Scopaesthesia,Scopaesthesia,waterDefence,Water Defence,11,11,15
+Toxxulous Ripper’s Legs,Toxxulous Ripper’s Legs,rawDefence,Raw Defence,-6,-6,-4
+Toxxulous Ripper’s Legs,Toxxulous Ripper’s Legs,rawMainAttackDamage,Raw Main Attack Damage,60,60,60
+Toxxulous Ripper’s Legs,Toxxulous Ripper’s Legs,walkSpeed,Walk Speed,7,7,10
+Acidulous Plating,Acidulous Plating,healthRegenRaw,Health Regen Raw,-84,-84,-63
+Acidulous Plating,Acidulous Plating,manaRegen,Mana Regen,6,6,7
+Acidulous Plating,Acidulous Plating,rawDefence,Raw Defence,4,4,5
+Cavitated Bone,Cavitated Bone,exploding,Exploding,7,7,8
+Cavitated Bone,Cavitated Bone,rawDexterity,Raw Dexterity,-5,-5,-4
+Cavitated Bone,Cavitated Bone,rawStrength,Raw Strength,-5,-5,-4
+Dernic Hydroid,Dernic Hydroid,manaRegen,Mana Regen,-6,-6,-5
+Dernic Hydroid,Dernic Hydroid,rawWaterSpellDamage,Raw Water Spell Damage,40,40,45
+Dernic Hydroid,Dernic Hydroid,waterDamage,Water Damage,6,6,8
+Dernic Parasite,Dernic Parasite,gatherSpeed,Gather Speed,-4,-4,-3
+Dernic Parasite,Dernic Parasite,gatherXpBonus,Gather Xp Bonus,3,3,4
+Dernic Parasite,Dernic Parasite,manaSteal,Mana Steal,4,4,5
+Extremophile Pelt,Extremophile Pelt,elementalDamage,Elemental Damage,11,11,13
+Extremophile Pelt,Extremophile Pelt,elementalDefence,Elemental Defence,-14,-14,-11
+Eyes Yet Open,Eyes Yet Open,lootBonus,Loot Bonus,8,8,9
+Eyes Yet Open,Eyes Yet Open,lootQuality,Loot Quality,1,1,2
+Eyes Yet Open,Eyes Yet Open,rawHealth,Raw Health,-430,-430,-375
+Giant Teratoma,Giant Teratoma,healthRegen,Health Regen,-7,-7,-8
+Giant Teratoma,Giant Teratoma,rawHealth,Raw Health,-105,-105,-90
+Giant Teratoma,Giant Teratoma,rawMainAttackDamage,Raw Main Attack Damage,115,115,135
+Migratory Coconut,Migratory Coconut,airDefence,Air Defence,10,10,12
+Migratory Coconut,Migratory Coconut,earthDefence,Earth Defence,10,10,12
+Migratory Coconut,Migratory Coconut,fireDefence,Fire Defence,10,10,12
+Migratory Coconut,Migratory Coconut,thunderDefence,Thunder Defence,10,10,12
+Migratory Coconut,Migratory Coconut,waterDefence,Water Defence,10,10,12
+Retinal Barbs,Retinal Barbs,rawDefence,Raw Defence,10,10,13
+Retinal Barbs,Retinal Barbs,thorns,Thorns,15,15,20
+Ultramarine Minnow,Ultramarine Minnow,healingEfficiency,Healing Efficiency,-4,-4,-3
+Ultramarine Minnow,Ultramarine Minnow,waterDamage,Water Damage,16,16,19
+Dernic Sludgebomb,Dernic Sludgebomb,lifeSteal,Life Steal,155,155,170
+Dernic Sludgebomb,Dernic Sludgebomb,manaRegen,Mana Regen,-3,-3,-3
+Dernic Sludgebomb,Dernic Sludgebomb,poison,Poison,1500,1500,1500
+Negative Rafflesia,Negative Rafflesia,rawHealth,Raw Health,-650,-650,-575
+Negative Rafflesia,Negative Rafflesia,rawNeutralDamage,Raw Neutral Damage,-40,-40,-40
+Photophobic Kelp,Photophobic Kelp,rawAgility,Raw Agility,-2,-2,-2
+Photophobic Kelp,Photophobic Kelp,rawDefence,Raw Defence,-2,-2,-2
+Photophobic Kelp,Photophobic Kelp,rawDexterity,Raw Dexterity,2,2,2
+Photophobic Kelp,Photophobic Kelp,rawStrength,Raw Strength,2,2,2
+Portal Rift,Portal Rift,manaSteal,Mana Steal,5,5,6
+Portal Rift,Portal Rift,rawAgility,Raw Agility,7,7,8
+Psych Starfruit,Psych Starfruit,airDamage,Air Damage,4,4,6
+Psych Starfruit,Psych Starfruit,earthDamage,Earth Damage,5,5,6
+Psych Starfruit,Psych Starfruit,fireDamage,Fire Damage,4,4,5
+Psych Starfruit,Psych Starfruit,rawAgility,Raw Agility,2,2,3
+Psych Starfruit,Psych Starfruit,rawDefence,Raw Defence,2,2,3
+Psych Starfruit,Psych Starfruit,rawDexterity,Raw Dexterity,2,2,3
+Psych Starfruit,Psych Starfruit,rawIntelligence,Raw Intelligence,2,2,3
+Psych Starfruit,Psych Starfruit,rawStrength,Raw Strength,2,2,3
+Psych Starfruit,Psych Starfruit,thunderDamage,Thunder Damage,4,4,7
+Psych Starfruit,Psych Starfruit,waterDamage,Water Damage,5,5,6
+Rigid Fin,Rigid Fin,sprintRegen,Sprint Regen,4,4,6
+Rigid Fin,Rigid Fin,waterDamage,Water Damage,4,4,6
+Shrieker's Head,Shrieker's Head,rawHealth,Raw Health,1100,1100,1150
+Shrieker's Head,Shrieker's Head,rawIntelligence,Raw Intelligence,-9,-9,-7
+Shrieker's Head,Shrieker's Head,walkSpeed,Walk Speed,-7,-7,-5
+Subjoined Brain,Subjoined Brain,earthDamage,Earth Damage,3,3,4
+Subjoined Brain,Subjoined Brain,fireDamage,Fire Damage,-6,-6,-4
+Subjoined Brain,Subjoined Brain,thunderDamage,Thunder Damage,2,2,5
+Subjoined Brain,Subjoined Brain,waterDamage,Water Damage,2,2,4
+Cherished Heirloom,Cherished Heirloom,rawAgility,Raw Agility,7,7,9
+Cherished Heirloom,Cherished Heirloom,rawMaxMana,Raw Max Mana,14,14,17
+Exquisite Marsh Scale,Exquisite Marsh Scale,healingEfficiency,Healing Efficiency,-5,-5,-4
+Exquisite Marsh Scale,Exquisite Marsh Scale,rawStrength,Raw Strength,6,6,7
+Deceptively Large Bag,Deceptively Large Bag,combatExperience,Combat Experience,7,7,10
+Deceptively Large Bag,Deceptively Large Bag,lootBonus,Loot Bonus,7,7,10
+Deceptively Large Bag,Deceptively Large Bag,stealing,Stealing,8,8,11
+Wings Armour Fragment,Wings Armour Fragment,rawHealth,Raw Health,350,350,425
+Wings Armour Fragment,Wings Armour Fragment,spellDamage,Spell Damage,5,5,6
+Decomposing Snapdragon,Decomposing Snapdragon,earthDamage,Earth Damage,8,8,10
+Decomposing Snapdragon,Decomposing Snapdragon,lifeSteal,Life Steal,100,100,120
+Decomposing Snapdragon,Decomposing Snapdragon,waterDamage,Water Damage,8,8,10
+Granite Maul,Granite Maul,fireDamage,Fire Damage,14,14,16
+Granite Maul,Granite Maul,rawStrength,Raw Strength,2,2,3
+Prehistoric Bread,Prehistoric Bread,rawHealth,Raw Health,750,750,900
+Prehistoric Bread,Prehistoric Bread,walkSpeed,Walk Speed,-10,-10,-8
+Commander's Spyglass,Commander's Spyglass,mainAttackRange,Main Attack Range,16,16,18
+Crab Legs,Crab Legs,combatExperience,Combat Experience,10,10,12
+Crab Legs,Crab Legs,lootBonus,Loot Bonus,8,8,10
+Crazy Horse Glue,Crazy Horse Glue,jumpHeight,Jump Height,1,1,1
+Delectable Escargot,Delectable Escargot,rawDefence,Raw Defence,5,5,5
+Delectable Escargot,Delectable Escargot,rawStrength,Raw Strength,4,4,6
+Mangled Titanium Scrap,Mangled Titanium Scrap,rawHealth,Raw Health,250,250,275
+Mangled Titanium Scrap,Mangled Titanium Scrap,walkSpeed,Walk Speed,-2,-2,-2
+Permafrost Anomaly,Permafrost Anomaly,rawMaxMana,Raw Max Mana,-7,-7,-5
+Permafrost Anomaly,Permafrost Anomaly,sprint,Sprint,-6,-6,-4
+Permafrost Anomaly,Permafrost Anomaly,waterSpellDamage,Water Spell Damage,11,11,13
+Premium Nectar,Premium Nectar,healthRegenRaw,Health Regen Raw,63,63,70
+Premium Nectar,Premium Nectar,walkSpeed,Walk Speed,5,5,6
+Skeleton Key,Skeleton Key,lootBonus,Loot Bonus,4,4,6
+Skeleton Key,Skeleton Key,rawDexterity,Raw Dexterity,1,1,2
+Sluggish Substance,Sluggish Substance,jumpHeight,Jump Height,-2,-2,-2
+Sluggish Substance,Sluggish Substance,walkSpeed,Walk Speed,-9,-9,-7
+Hardened Icicle,Hardened Icicle,rawMaxMana,Raw Max Mana,12,12,14
+Hardened Icicle,Hardened Icicle,rawWaterDamage,Raw Water Damage,55,55,70
+Hardened Icicle,Hardened Icicle,walkSpeed,Walk Speed,-6,-6,-5
+Peacock Plume,Peacock Plume,airDefence,Air Defence,5,5,8
+Peacock Plume,Peacock Plume,earthDefence,Earth Defence,5,5,8
+Peacock Plume,Peacock Plume,fireDefence,Fire Defence,5,5,8
+Peacock Plume,Peacock Plume,manaRegen,Mana Regen,6,6,8
+Peacock Plume,Peacock Plume,thunderDefence,Thunder Defence,5,5,8
+Peacock Plume,Peacock Plume,waterDefence,Water Defence,5,5,8
+Gilded Regalia,Gilded Regalia,healthRegenRaw,Health Regen Raw,196,196,210
+Gilded Regalia,Gilded Regalia,rawDexterity,Raw Dexterity,4,4,7
+Gilded Regalia,Gilded Regalia,waterDamage,Water Damage,-8,-8,-6
+Stackpeak Egg,Stackpeak Egg,combatExperience,Combat Experience,13,13,15
+Stackpeak Egg,Stackpeak Egg,healthRegen,Health Regen,-8,-8,-6
+Stackpeak Egg,Stackpeak Egg,rawMaxMana,Raw Max Mana,12,12,15
+Venom-Tipped Bolts,Venom-Tipped Bolts,mainAttackRange,Main Attack Range,12,12,16
+Venom-Tipped Bolts,Venom-Tipped Bolts,poison,Poison,1500,1500,1600
+Ancient Scripture,Ancient Scripture,combatExperience,Combat Experience,7,7,9
+Ancient Scripture,Ancient Scripture,gatherXpBonus,Gather Xp Bonus,4,4,5
+Butterfly Buckler,Butterfly Buckler,healthRegenRaw,Health Regen Raw,84,84,91
+Butterfly Buckler,Butterfly Buckler,rawHealth,Raw Health,900,900,945
+Combustion Shard,Combustion Shard,manaRegen,Mana Regen,-4,-4,-3
+Combustion Shard,Combustion Shard,rawFireSpellDamage,Raw Fire Spell Damage,45,45,50
+Combustion Shard,Combustion Shard,rawThunderSpellDamage,Raw Thunder Spell Damage,40,40,60
+Jagged Rime,Jagged Rime,rawMaxMana,Raw Max Mana,13,13,15
+Jagged Rime,Jagged Rime,thorns,Thorns,17,17,21
+Moth Antennae,Moth Antennae,elementalSpellDamage,Elemental Spell Damage,12,12,14
+Moth Antennae,Moth Antennae,healingEfficiency,Healing Efficiency,5,5,6
+Mulched Devil Wurst,Mulched Devil Wurst,fireDamage,Fire Damage,12,12,14
+Mulched Devil Wurst,Mulched Devil Wurst,healthRegenRaw,Health Regen Raw,-140,-140,-112
+Mulched Devil Wurst,Mulched Devil Wurst,walkSpeed,Walk Speed,6,6,8
+Quick Claw,Quick Claw,rawDexterity,Raw Dexterity,7,7,9
+Quick Claw,Quick Claw,rawStrength,Raw Strength,-9,-9,-7
+Quick Claw,Quick Claw,walkSpeed,Walk Speed,6,6,8
+Wrathful Catalyst,Wrathful Catalyst,manaSteal,Mana Steal,2,2,3
+Wrathful Catalyst,Wrathful Catalyst,rawThunderDamage,Raw Thunder Damage,25,25,30
+Compressed Powders,Compressed Powders,rawAirDamage,Raw Air Damage,3,3,5
+Compressed Powders,Compressed Powders,rawEarthDamage,Raw Earth Damage,3,3,5
+Compressed Powders,Compressed Powders,rawFireDamage,Raw Fire Damage,3,3,5
+Compressed Powders,Compressed Powders,rawThunderDamage,Raw Thunder Damage,3,3,5
+Compressed Powders,Compressed Powders,rawWaterDamage,Raw Water Damage,3,3,5
+Forsaken Catalyst,Forsaken Catalyst,rawAirDamage,Raw Air Damage,25,25,30
+Forsaken Catalyst,Forsaken Catalyst,walkSpeed,Walk Speed,4,4,6
+Royal Cake Slice,Royal Cake Slice,healthRegenRaw,Health Regen Raw,7,7,10
+Royal Cake Slice,Royal Cake Slice,walkSpeed,Walk Speed,4,4,5
+Sturdy Flesh,Sturdy Flesh,rawHealth,Raw Health,15,15,25
+Luxurious Silk,Luxurious Silk,rawAgility,Raw Agility,1,1,3
+Defender's Stone,Defender's Stone,rawHealth,Raw Health,5,5,7
+Defender's Stone,Defender's Stone,rawMainAttackDamage,Raw Main Attack Damage,6,6,8
+Defender's Stone,Defender's Stone,rawSpellDamage,Raw Spell Damage,4,4,6
+Old Treasure֎,Old Treasure֎,combatExperience,Combat Experience,3,3,5
+Old Treasure֎,Old Treasure֎,lootBonus,Loot Bonus,4,4,6
+Corrupted Fragment,Corrupted Fragment,rawIntelligence,Raw Intelligence,-4,-4,-3
+Corrupted Fragment,Corrupted Fragment,rawMainAttackDamage,Raw Main Attack Damage,12,12,16
+Corrupted Fragment,Corrupted Fragment,walkSpeed,Walk Speed,4,4,6
+Mana Extract,Mana Extract,gatherXpBonus,Gather Xp Bonus,2,2,3
+Mana Extract,Mana Extract,rawSpellDamage,Raw Spell Damage,10,10,12
+Vibrant Augment,Vibrant Augment,airDamage,Air Damage,6,6,7
+Vibrant Augment,Vibrant Augment,earthDamage,Earth Damage,6,6,7
+Vibrant Augment,Vibrant Augment,fireDamage,Fire Damage,6,6,7
+Vibrant Augment,Vibrant Augment,thunderDamage,Thunder Damage,6,6,7
+Vibrant Augment,Vibrant Augment,waterDamage,Water Damage,6,6,7
+Blood of the Nivlan Beauty,Blood of the Nivlan Beauty,manaSteal,Mana Steal,2,2,4
+Blood of the Nivlan Beauty,Blood of the Nivlan Beauty,reflection,Reflection,2,2,4
+Familiar Essence,Familiar Essence,manaRegen,Mana Regen,6,6,6
+Glowing Tree Sap,Glowing Tree Sap,gatherXpBonus,Gather Xp Bonus,1,1,1
+Glowing Tree Sap,Glowing Tree Sap,rawSpellDamage,Raw Spell Damage,5,5,5
+Glowing Tree Sap,Glowing Tree Sap,thunderDamage,Thunder Damage,3,3,4
+Corrupted Beef,Corrupted Beef,rawMainAttackDamage,Raw Main Attack Damage,8,8,9
+Corrupted Beef,Corrupted Beef,rawStrength,Raw Strength,3,3,4
+Relic of the Future,Relic of the Future,rawSpellDamage,Raw Spell Damage,8,8,14
+Relic of the Future,Relic of the Future,thunderDamage,Thunder Damage,5,5,7
+Platinum Grook Egg,Platinum Grook Egg,combatExperience,Combat Experience,4,4,4
+Platinum Grook Egg,Platinum Grook Egg,gatherXpBonus,Gather Xp Bonus,2,2,2
+Platinum Grook Egg,Platinum Grook Egg,lootBonus,Loot Bonus,4,4,4
+Canyon Parsley,Canyon Parsley,earthDamage,Earth Damage,3,3,4
+Canyon Parsley,Canyon Parsley,gatherXpBonus,Gather Xp Bonus,2,2,2
+Canyon Parsley,Canyon Parsley,rawStrength,Raw Strength,4,4,5
+Coastal Shell,Coastal Shell,rawDefence,Raw Defence,4,4,6
+Blighted Brain,Blighted Brain,combatExperience,Combat Experience,-11,-11,-9
+Blighted Brain,Blighted Brain,lootBonus,Loot Bonus,9,9,11
+Volatile Matter,Volatile Matter,exploding,Exploding,8,8,13
+Volatile Matter,Volatile Matter,rawDefence,Raw Defence,-4,-4,-3
+Volatile Matter,Volatile Matter,rawMainAttackDamage,Raw Main Attack Damage,14,14,22
+Unsettling Soul,Unsettling Soul,manaSteal,Mana Steal,4,4,4
+Electroplasm,Electroplasm,rawDexterity,Raw Dexterity,4,4,6
+Glimmering Coin,Glimmering Coin,healthRegenRaw,Health Regen Raw,-35,-35,-28
+Glimmering Coin,Glimmering Coin,lootBonus,Loot Bonus,6,6,8
+Glimmering Coin,Glimmering Coin,walkSpeed,Walk Speed,3,3,5
+Lion Heart,Lion Heart,fireDamage,Fire Damage,8,8,12
+Lion Heart,Lion Heart,healthRegen,Health Regen,-12,-12,-8
+Lion Heart,Lion Heart,rawDefence,Raw Defence,4,4,6
+Sun-Stained Skin,Sun-Stained Skin,gatherXpBonus,Gather Xp Bonus,2,2,2
+Sun-Stained Skin,Sun-Stained Skin,healthRegen,Health Regen,-8,-8,-6
+Sun-Stained Skin,Sun-Stained Skin,healthRegenRaw,Health Regen Raw,11,11,17
+Salted Salmon,Salted Salmon,gatherSpeed,Gather Speed,2,2,3
+Coagulated Soulmass,Coagulated Soulmass,spellDamage,Spell Damage,3,3,5
+Fiery Essence,Fiery Essence,fireDamage,Fire Damage,12,12,16
+Haros' Broken Badge,Haros' Broken Badge,rawDexterity,Raw Dexterity,1,1,2
+Haros' Broken Badge,Haros' Broken Badge,spellDamage,Spell Damage,1,1,2
+Spark of the Oasis,Spark of the Oasis,rawMainAttackDamage,Raw Main Attack Damage,28,28,28
+Spark of the Oasis,Spark of the Oasis,rawSpellDamage,Raw Spell Damage,32,32,32
+Sentient Magmatic Gem,Sentient Magmatic Gem,fireDamage,Fire Damage,3,3,4
+Stolen Pearls,Stolen Pearls,stealing,Stealing,2,2,5
+Weathered Idol,Weathered Idol,airDamage,Air Damage,10,10,14
+Weathered Idol,Weathered Idol,rawSpellDamage,Raw Spell Damage,30,30,36
+Weathered Idol,Weathered Idol,walkSpeed,Walk Speed,6,6,8
+Bat Heart,Bat Heart,mainAttackDamage,Main Attack Damage,-20,-20,-20
+Bat Heart,Bat Heart,spellDamage,Spell Damage,-20,-20,-20
+Bat Heart,Bat Heart,walkSpeed,Walk Speed,24,24,28
+Limestone Core,Limestone Core,rawDefence,Raw Defence,6,6,8
+Limestone Core,Limestone Core,waterDefence,Water Defence,-12,-12,-8
+Spirograph Tablet,Spirograph Tablet,mainAttackDamage,Main Attack Damage,-6,-6,-4
+Spirograph Tablet,Spirograph Tablet,rawAgility,Raw Agility,3,3,3
+Spirograph Tablet,Spirograph Tablet,rawDefence,Raw Defence,3,3,3
+Spirograph Tablet,Spirograph Tablet,rawDexterity,Raw Dexterity,3,3,3
+Spirograph Tablet,Spirograph Tablet,rawIntelligence,Raw Intelligence,3,3,3
+Spirograph Tablet,Spirograph Tablet,rawStrength,Raw Strength,3,3,3
+Spirograph Tablet,Spirograph Tablet,spellDamage,Spell Damage,-6,-6,-4
+Regretless Talisman,Regretless Talisman,healingEfficiency,Healing Efficiency,1,1,1
+Regretless Talisman,Regretless Talisman,healthRegenRaw,Health Regen Raw,12,12,15
+Regretless Talisman,Regretless Talisman,rawHealth,Raw Health,25,25,30
+Defishious,Defishious,manaRegen,Mana Regen,4,4,4
+Foul Fairy Dust,Foul Fairy Dust,manaRegen,Mana Regen,-8,-8,-7
+Foul Fairy Dust,Foul Fairy Dust,spellDamage,Spell Damage,12,12,16
+Ancient Heart,Ancient Heart,mainAttackDamage,Main Attack Damage,-6,-6,-4
+Ancient Heart,Ancient Heart,spellDamage,Spell Damage,-8,-8,-6
+Archaic Medallion,Archaic Medallion,healthRegen,Health Regen,3,3,5
+Archaic Medallion,Archaic Medallion,spellDamage,Spell Damage,-5,-5,-4
+Bottled Fairy,Bottled Fairy,manaRegen,Mana Regen,12,12,12
+Lost Heirloom,Lost Heirloom,gatherXpBonus,Gather Xp Bonus,3,3,3
+Lost Heirloom,Lost Heirloom,manaSteal,Mana Steal,4,4,5
+Lost Heirloom,Lost Heirloom,thunderDamage,Thunder Damage,6,6,8
+Icy Crampons,Icy Crampons,sprint,Sprint,10,10,15
+Icy Crampons,Icy Crampons,thorns,Thorns,8,8,12
+Large Lapis,Large Lapis,rawIntelligence,Raw Intelligence,-6,-6,-4
+Large Lapis,Large Lapis,spellDamage,Spell Damage,3,3,4
+Massive Anchor,Massive Anchor,earthDamage,Earth Damage,13,13,15
+Massive Anchor,Massive Anchor,jumpHeight,Jump Height,-1,-1,-1
+Massive Anchor,Massive Anchor,walkSpeed,Walk Speed,-10,-10,-8
+Soul Stone,Soul Stone,gatherXpBonus,Gather Xp Bonus,1,1,2
+Soul Stone,Soul Stone,walkSpeed,Walk Speed,3,3,5
+Eye of The Beast,Eye of The Beast,manaRegen,Mana Regen,4,4,4
+Eye of The Beast,Eye of The Beast,spellDamage,Spell Damage,-4,-4,-4
+Galvanic Stone,Galvanic Stone,earthDamage,Earth Damage,8,8,8
+Galvanic Stone,Galvanic Stone,fireDamage,Fire Damage,8,8,10
+Festering Face,Festering Face,manaSteal,Mana Steal,5,5,6
+Festering Face,Festering Face,walkSpeed,Walk Speed,7,7,10
+Red Crystal Dust,Red Crystal Dust,lifeSteal,Life Steal,22,22,35
+Red Crystal Dust,Red Crystal Dust,rawDefence,Raw Defence,3,3,7
+Mangrove Root,Mangrove Root,gatherXpBonus,Gather Xp Bonus,2,2,2
+Mangrove Root,Mangrove Root,mainAttackDamage,Main Attack Damage,5,5,9
+Mangrove Root,Mangrove Root,rawStrength,Raw Strength,5,5,6
+The Grootslang's Heart,The Grootslang's Heart,earthDefence,Earth Defence,16,16,24
+The Grootslang's Heart,The Grootslang's Heart,rawHealth,Raw Health,320,320,350
+The Grootslang's Heart,The Grootslang's Heart,walkSpeed,Walk Speed,-8,-8,-6
+Sentient Slimeball,Sentient Slimeball,earthDamage,Earth Damage,6,6,7
+Sentient Slimeball,Sentient Slimeball,gatherXpBonus,Gather Xp Bonus,3,3,3
+Sentient Slimeball,Sentient Slimeball,spellDamage,Spell Damage,6,6,7
+Ancient Coins,Ancient Coins,combatExperience,Combat Experience,4,4,6
+Ancient Coins,Ancient Coins,lootBonus,Loot Bonus,4,4,6
+Ancient Coins,Ancient Coins,walkSpeed,Walk Speed,-6,-6,-5
+Scorching Horn,Scorching Horn,fireDamage,Fire Damage,5,5,6
+Scorching Horn,Scorching Horn,manaRegen,Mana Regen,7,7,8
+Aqua Vitae,Aqua Vitae,waterDamage,Water Damage,15,15,17
+Aquatic Beauty,Aquatic Beauty,rawAgility,Raw Agility,2,2,6
+Aquatic Beauty,Aquatic Beauty,rawDefence,Raw Defence,4,4,4
+Aquatic Beauty,Aquatic Beauty,rawDexterity,Raw Dexterity,2,2,5
+Aquatic Beauty,Aquatic Beauty,rawIntelligence,Raw Intelligence,2,2,4
+Aquatic Beauty,Aquatic Beauty,rawStrength,Raw Strength,2,2,3
+Solcrystal Horn,Solcrystal Horn,fireDamage,Fire Damage,3,3,3
+Solcrystal Horn,Solcrystal Horn,rawAgility,Raw Agility,2,2,2
+Solcrystal Horn,Solcrystal Horn,sprint,Sprint,4,4,6
+Naval Stone,Naval Stone,mainAttackDamage,Main Attack Damage,-6,-6,-5
+Naval Stone,Naval Stone,spellDamage,Spell Damage,4,4,5
+Tungsten Chunk,Tungsten Chunk,fireDefence,Fire Defence,8,8,10
+Tungsten Chunk,Tungsten Chunk,rawHealth,Raw Health,80,80,100
+Ironwood Scale,Ironwood Scale,earthDefence,Earth Defence,18,18,22
+Ironwood Scale,Ironwood Scale,gatherXpBonus,Gather Xp Bonus,3,3,4
+Ironwood Scale,Ironwood Scale,rawDefence,Raw Defence,4,4,6
+Sanctified Sheep Soul,Sanctified Sheep Soul,fireDefence,Fire Defence,10,10,12
+Sanctified Sheep Soul,Sanctified Sheep Soul,sprint,Sprint,14,14,16
+Sanctified Sheep Soul,Sanctified Sheep Soul,sprintRegen,Sprint Regen,8,8,10
+Sanctified Sheep Soul,Sanctified Sheep Soul,waterDefence,Water Defence,12,12,14
+Thermal Replication,Thermal Replication,fireDamage,Fire Damage,11,11,14
+Thermal Replication,Thermal Replication,rawHealth,Raw Health,-360,-360,-330
+Kerasot Sporehead,Kerasot Sporehead,lifeSteal,Life Steal,35,35,45
+Kerasot Sporehead,Kerasot Sporehead,poison,Poison,140,140,170
+Kerasot Sporehead,Kerasot Sporehead,rawAttackSpeed,Raw Attack Speed,-1,-1,-1
+Mahogany Heartwood,Mahogany Heartwood,fireDefence,Fire Defence,-10,-10,-8
+Mahogany Heartwood,Mahogany Heartwood,mainAttackDamage,Main Attack Damage,8,8,12
+Mahogany Heartwood,Mahogany Heartwood,rawStrength,Raw Strength,4,4,6
+Ignited Faebloom,Ignited Faebloom,airDamage,Air Damage,-10,-10,-8
+Ignited Faebloom,Ignited Faebloom,earthDamage,Earth Damage,-10,-10,-8
+Ignited Faebloom,Ignited Faebloom,manaSteal,Mana Steal,6,6,7
+Ignited Faebloom,Ignited Faebloom,rawStrength,Raw Strength,5,5,7
+Ignited Faebloom,Ignited Faebloom,thunderDamage,Thunder Damage,-10,-10,-8
+Ignited Faebloom,Ignited Faebloom,waterDamage,Water Damage,-10,-10,-8
+Shattered Dawnlight,Shattered Dawnlight,gatherXpBonus,Gather Xp Bonus,3,3,3
+Shattered Dawnlight,Shattered Dawnlight,healingEfficiency,Healing Efficiency,-4,-4,-3
+Shattered Dawnlight,Shattered Dawnlight,spellDamage,Spell Damage,9,9,10
+Shattered Dawnlight,Shattered Dawnlight,waterDamage,Water Damage,-6,-6,-5
+Devourer's Maw,Devourer's Maw,lifeSteal,Life Steal,100,100,120
+Devourer's Maw,Devourer's Maw,manaRegen,Mana Regen,-4,-4,-2
+Devourer's Maw,Devourer's Maw,manaSteal,Mana Steal,-3,-3,-2
+Iridescent Elytra,Iridescent Elytra,airDefence,Air Defence,6,6,10
+Iridescent Elytra,Iridescent Elytra,earthDamage,Earth Damage,-9,-9,-7
+Iridescent Elytra,Iridescent Elytra,walkSpeed,Walk Speed,6,6,8
+Squid,Squid,manaSteal,Mana Steal,6,6,6
+Large Titanium Chunk,Large Titanium Chunk,rawHealth,Raw Health,640,640,680
+Large Titanium Chunk,Large Titanium Chunk,reflection,Reflection,-12,-12,-10
+More-Pearlescent Jewel,More-Pearlescent Jewel,rawSpellDamage,Raw Spell Damage,25,25,30
+More-Pearlescent Jewel,More-Pearlescent Jewel,thunderDefence,Thunder Defence,-4,-4,-2
+Subsuming Darkness,Subsuming Darkness,lifeSteal,Life Steal,100,100,110
+Subsuming Darkness,Subsuming Darkness,mainAttackDamage,Main Attack Damage,-8,-8,-4
+Prismatic Spores,Prismatic Spores,elementalDamage,Elemental Damage,6,6,7
+Prismatic Spores,Prismatic Spores,healingEfficiency,Healing Efficiency,3,3,4
+Gilded Bark,Gilded Bark,healthRegen,Health Regen,4,4,6
+Gilded Bark,Gilded Bark,healthRegenRaw,Health Regen Raw,42,42,70
+Gilded Bark,Gilded Bark,manaRegen,Mana Regen,6,6,6
+Luminous Rune,Luminous Rune,mainAttackDamage,Main Attack Damage,4,4,5
+Luminous Rune,Luminous Rune,spellDamage,Spell Damage,4,4,5
+Alginate Dressing,Alginate Dressing,healingEfficiency,Healing Efficiency,3,3,4
+Alginate Dressing,Alginate Dressing,walkSpeed,Walk Speed,-6,-6,-5
+Evolving Spores,Evolving Spores,airDamage,Air Damage,19,19,21
+Evolving Spores,Evolving Spores,earthDamage,Earth Damage,17,17,19
+Evolving Spores,Evolving Spores,fireDamage,Fire Damage,16,16,23
+Evolving Spores,Evolving Spores,gatherSpeed,Gather Speed,9,9,10
+Evolving Spores,Evolving Spores,gatherXpBonus,Gather Xp Bonus,-5,-5,-4
+Evolving Spores,Evolving Spores,thunderDamage,Thunder Damage,15,15,22
+Evolving Spores,Evolving Spores,waterDamage,Water Damage,18,18,20
+Braveheart,Braveheart,healthRegen,Health Regen,4,4,6
+Braveheart,Braveheart,healthRegenRaw,Health Regen Raw,80,80,90
+Depth's Gem,Depth's Gem,rawIntelligence,Raw Intelligence,8,8,9
+Depth's Gem,Depth's Gem,spellDamage,Spell Damage,5,5,7
+Ritual Catalyst,Ritual Catalyst,lifeSteal,Life Steal,-100,-100,-100
+Ritual Catalyst,Ritual Catalyst,mainAttackDamage,Main Attack Damage,-12,-12,-12
+Ritual Catalyst,Ritual Catalyst,manaSteal,Mana Steal,8,8,8
+Ritual Catalyst,Ritual Catalyst,spellDamage,Spell Damage,6,6,6
+Azure Blossom,Azure Blossom,healingEfficiency,Healing Efficiency,11,11,11
+Azure Blossom,Azure Blossom,manaRegen,Mana Regen,6,6,6
+Chromatic Bloom,Chromatic Bloom,rawAgility,Raw Agility,1,1,1
+Chromatic Bloom,Chromatic Bloom,rawDefence,Raw Defence,1,1,1
+Chromatic Bloom,Chromatic Bloom,rawDexterity,Raw Dexterity,1,1,1
+Chromatic Bloom,Chromatic Bloom,rawIntelligence,Raw Intelligence,1,1,1
+Chromatic Bloom,Chromatic Bloom,rawMainAttackDamage,Raw Main Attack Damage,-45,-45,-45
+Chromatic Bloom,Chromatic Bloom,rawSpellDamage,Raw Spell Damage,-45,-45,-45
+Chromatic Bloom,Chromatic Bloom,rawStrength,Raw Strength,1,1,1
+Memory Dye,Memory Dye,airSpellDamage,Air Spell Damage,7,7,8
+Memory Dye,Memory Dye,manaRegen,Mana Regen,5,5,6
+Memory Dye,Memory Dye,manaSteal,Mana Steal,-3,-3,-3
+Memory Dye,Memory Dye,waterSpellDamage,Water Spell Damage,7,7,9
+Roots of Eternity,Roots of Eternity,combatExperience,Combat Experience,5,5,6
+Roots of Eternity,Roots of Eternity,lootBonus,Loot Bonus,5,5,6
+Mega Fern,Mega Fern,healthRegenRaw,Health Regen Raw,84,84,91
+Mega Fern,Mega Fern,rawHealth,Raw Health,325,325,375
+Mega Fern,Mega Fern,rawMainAttackDamage,Raw Main Attack Damage,50,50,55
+Mega Fern,Mega Fern,rawSpellDamage,Raw Spell Damage,30,30,35
+Parasitic Abscission,Parasitic Abscission,manaRegen,Mana Regen,12,12,12
+Suspicious Shrubs,Suspicious Shrubs,gatherXpBonus,Gather Xp Bonus,2,2,3
+Suspicious Shrubs,Suspicious Shrubs,mainAttackDamage,Main Attack Damage,7,7,10
+Suspicious Shrubs,Suspicious Shrubs,poison,Poison,200,200,250
+Magical Fire,Magical Fire,fireDamage,Fire Damage,4,4,5
+Magical Fire,Magical Fire,healingEfficiency,Healing Efficiency,1,1,1
+Magical Fire,Magical Fire,rawDefence,Raw Defence,-3,-3,-2
+Magical Fire,Magical Fire,rawSpellDamage,Raw Spell Damage,8,8,11
+Parasitic Chitin,Parasitic Chitin,lifeSteal,Life Steal,80,80,90
+Parasitic Chitin,Parasitic Chitin,rawDefence,Raw Defence,-5,-5,-5
+Parasitic Chitin,Parasitic Chitin,rawHealth,Raw Health,675,675,700
+Piquant Pork Fillet,Piquant Pork Fillet,healthRegen,Health Regen,6,6,6
+Elephelk Trunk,Elephelk Trunk,earthDefence,Earth Defence,24,24,28
+Elephelk Trunk,Elephelk Trunk,waterDefence,Water Defence,24,24,28
+Sliver of Sunrise,Sliver of Sunrise,elementalDefence,Elemental Defence,6,6,7
+Sliver of Sunrise,Sliver of Sunrise,fireDamage,Fire Damage,10,10,12
+Sliver of Sunrise,Sliver of Sunrise,thunderDamage,Thunder Damage,9,9,13
+Antler Fragment,Antler Fragment,rawDexterity,Raw Dexterity,3,3,5
+Antler Fragment,Antler Fragment,thunderDamage,Thunder Damage,12,12,14
+Mountain's Heart,Mountain's Heart,earthDamage,Earth Damage,8,8,11
+Mountain's Heart,Mountain's Heart,manaRegen,Mana Regen,5,5,6
+Splintered Greathammer,Splintered Greathammer,earthDamage,Earth Damage,8,8,10
+Splintered Greathammer,Splintered Greathammer,manaRegen,Mana Regen,-8,-8,-6
+Splintered Greathammer,Splintered Greathammer,rawStrength,Raw Strength,5,5,7
+Autonomous Core,Autonomous Core,fireDamage,Fire Damage,4,4,5
+Autonomous Core,Autonomous Core,gatherXpBonus,Gather Xp Bonus,2,2,2
+Autonomous Core,Autonomous Core,healthRegen,Health Regen,2,2,3
+Colossus' Shard,Colossus' Shard,rawDexterity,Raw Dexterity,12,12,14
+Colossus' Shard,Colossus' Shard,rawStrength,Raw Strength,12,12,14
+Rocky Mind,Rocky Mind,rawStrength,Raw Strength,8,8,8
+Rocky Mind,Rocky Mind,walkSpeed,Walk Speed,-14,-14,-10
+Panda King's Crown,Panda King's Crown,airDefence,Air Defence,15,15,20
+Panda King's Crown,Panda King's Crown,earthDefence,Earth Defence,15,15,20
+Panda King's Crown,Panda King's Crown,fireDefence,Fire Defence,15,15,20
+Panda King's Crown,Panda King's Crown,manaRegen,Mana Regen,-6,-6,-6
+Panda King's Crown,Panda King's Crown,thunderDefence,Thunder Defence,15,15,20
+Panda King's Crown,Panda King's Crown,waterDefence,Water Defence,15,15,20
+Panda King’s Crown,Panda King’s Crown,airDefence,Air Defence,15,15,20
+Panda King’s Crown,Panda King’s Crown,earthDefence,Earth Defence,15,15,20
+Panda King’s Crown,Panda King’s Crown,fireDefence,Fire Defence,15,15,20
+Panda King’s Crown,Panda King’s Crown,manaRegen,Mana Regen,-6,-6,-6
+Panda King’s Crown,Panda King’s Crown,thunderDefence,Thunder Defence,15,15,20
+Panda King’s Crown,Panda King’s Crown,waterDefence,Water Defence,15,15,20
+Incremental Mapping Module,Incremental Mapping Module,manaRegen,Mana Regen,5,5,6
+Incremental Mapping Module,Incremental Mapping Module,rawHealth,Raw Health,-575,-575,-475
+Incremental Mapping Module,Incremental Mapping Module,walkSpeed,Walk Speed,11,11,14
+Overheated Processor,Overheated Processor,lifeSteal,Life Steal,55,55,70
+Overheated Processor,Overheated Processor,rawDefence,Raw Defence,1,1,1
+Overheated Processor,Overheated Processor,rawDexterity,Raw Dexterity,1,1,1
+Frostbound Memory,Frostbound Memory,healingEfficiency,Healing Efficiency,4,4,7
+Frostbound Memory,Frostbound Memory,manaRegen,Mana Regen,2,2,3
+Frostbound Memory,Frostbound Memory,rawWaterMainAttackDamage,Raw Water Main Attack Damage,125,125,140
+Glacial Anomaly,Glacial Anomaly,manaRegen,Mana Regen,8,8,8
+Glacial Anomaly,Glacial Anomaly,rawSpellDamage,Raw Spell Damage,55,55,60
+Pegasus Feather,Pegasus Feather,airDamage,Air Damage,12,12,20
+Pegasus Feather,Pegasus Feather,airDefence,Air Defence,12,12,20
+Pegasus Feather,Pegasus Feather,rawStrength,Raw Strength,-10,-10,-8
+Tempered Core,Tempered Core,fireDamage,Fire Damage,14,14,17
+Tempered Core,Tempered Core,rawHealth,Raw Health,-550,-550,-500
+Fathomflooded Flesh,Fathomflooded Flesh,rawAgility,Raw Agility,-3,-3,-3
+Fathomflooded Flesh,Fathomflooded Flesh,rawDefence,Raw Defence,-3,-3,-3
+Fathomflooded Flesh,Fathomflooded Flesh,rawDexterity,Raw Dexterity,-3,-3,-3
+Fathomflooded Flesh,Fathomflooded Flesh,rawIntelligence,Raw Intelligence,10,10,10
+Fathomflooded Flesh,Fathomflooded Flesh,rawStrength,Raw Strength,-3,-3,-3
+Searing Heartwood,Searing Heartwood,mainAttackDamage,Main Attack Damage,13,13,16
+Searing Heartwood,Searing Heartwood,rawAttackSpeed,Raw Attack Speed,-1,-1,-1
+Searing Heartwood,Searing Heartwood,rawHealth,Raw Health,-245,-245,-220
+Searing Heartwood,Searing Heartwood,rawStrength,Raw Strength,2,2,4
+Serpent's Fang,Serpent's Fang,poison,Poison,1600,1600,1750
+Serpent's Fang,Serpent's Fang,rawMainAttackDamage,Raw Main Attack Damage,70,70,80
+Amber-Encased Fleris,Amber-Encased Fleris,healthRegenRaw,Health Regen Raw,98,98,105
+Linear Accelerator,Linear Accelerator,rawHealth,Raw Health,-820,-820,-780
+Linear Accelerator,Linear Accelerator,rawSpellDamage,Raw Spell Damage,45,45,65
+Linear Accelerator,Linear Accelerator,thunderDamage,Thunder Damage,10,10,14
+Stolen Burnmilk,Stolen Burnmilk,healingEfficiency,Healing Efficiency,-10,-10,-8
+Stolen Burnmilk,Stolen Burnmilk,healthRegenRaw,Health Regen Raw,-119,-119,-98
+Stolen Burnmilk,Stolen Burnmilk,walkSpeed,Walk Speed,12,12,13
+Contorted Stone,Contorted Stone,healthRegenRaw,Health Regen Raw,-49,-49,-21
+Contorted Stone,Contorted Stone,rawEarthMainAttackDamage,Raw Earth Main Attack Damage,40,40,50
+Contorted Stone,Contorted Stone,rawStrength,Raw Strength,9,9,12
+Soulfire Matterweave,Soulfire Matterweave,fireDamage,Fire Damage,13,13,14
+Soulfire Matterweave,Soulfire Matterweave,gatherXpBonus,Gather Xp Bonus,4,4,5
+Ocea Steel,Ocea Steel,airDamage,Air Damage,13,13,15
+Ocea Steel,Ocea Steel,earthDamage,Earth Damage,13,13,15
+Ocea Steel,Ocea Steel,fireDamage,Fire Damage,13,13,15
+Ocea Steel,Ocea Steel,thunderDamage,Thunder Damage,13,13,15
+Ocea Steel,Ocea Steel,waterDamage,Water Damage,13,13,15
+Cursed Wings,Cursed Wings,earthDamage,Earth Damage,16,16,18
+Cursed Wings,Cursed Wings,rawHealth,Raw Health,-800,-800,-650
+Cursed Wings,Cursed Wings,thunderDamage,Thunder Damage,16,16,19
+Farcor's Trust,Farcor's Trust,fireDefence,Fire Defence,25,25,40
+Farcor's Trust,Farcor's Trust,rawHealth,Raw Health,1900,1900,2150
+Adamastor's Faceplate,Adamastor's Faceplate,airDefence,Air Defence,25,25,30
+Adamastor's Faceplate,Adamastor's Faceplate,earthDefence,Earth Defence,-20,-20,-15
+Adamastor's Faceplate,Adamastor's Faceplate,rawHealth,Raw Health,625,625,750
+Black Hole,Black Hole,mainAttackDamage,Main Attack Damage,-20,-20,-15
+Black Hole,Black Hole,rawAttackSpeed,Raw Attack Speed,1,1,1
+Claw of Demise,Claw of Demise,fireDamage,Fire Damage,23,23,26
+Claw of Demise,Claw of Demise,healthRegen,Health Regen,-20,-20,-15
+Claw of Demise,Claw of Demise,rawDefence,Raw Defence,-5,-5,-3
+Deep Ice Core,Deep Ice Core,fireDefence,Fire Defence,-24,-24,-16
+Deep Ice Core,Deep Ice Core,rawMaxMana,Raw Max Mana,6,6,10
+Deep Ice Core,Deep Ice Core,spellDamage,Spell Damage,4,4,5
+Deep Ice Core,Deep Ice Core,waterDamage,Water Damage,8,8,9
+Dogun Alert Sigil,Dogun Alert Sigil,healthRegenRaw,Health Regen Raw,98,98,112
+Dogun Alert Sigil,Dogun Alert Sigil,rawDefence,Raw Defence,5,5,6
+Dogun Alert Sigil,Dogun Alert Sigil,rawFireSpellDamage,Raw Fire Spell Damage,40,40,45
+Engored Oculus,Engored Oculus,healthRegen,Health Regen,-24,-24,-20
+Engored Oculus,Engored Oculus,lifeSteal,Life Steal,160,160,225
+Engored Oculus,Engored Oculus,walkSpeed,Walk Speed,7,7,9
+Urdar's Stone,Urdar's Stone,earthDamage,Earth Damage,15,15,16
+Urdar's Stone,Urdar's Stone,fireDefence,Fire Defence,-24,-24,-20
+Giant Sword Shard,Giant Sword Shard,mainAttackDamage,Main Attack Damage,40,40,50
+Giant Sword Shard,Giant Sword Shard,rawAttackSpeed,Raw Attack Speed,-2,-2,-2
+Giant Sword Shard,Giant Sword Shard,rawDefence,Raw Defence,4,4,6
+Giant Sword Shard,Giant Sword Shard,rawMainAttackDamage,Raw Main Attack Damage,140,140,150
+Remnant of the Ruined,Remnant of the Ruined,manaRegen,Mana Regen,3,3,3
+Remnant of the Ruined,Remnant of the Ruined,rawStrength,Raw Strength,2,2,2
+Skybound Remnant,Skybound Remnant,rawAgility,Raw Agility,11,11,12
+Skybound Remnant,Skybound Remnant,spellDamage,Spell Damage,7,7,8
+Gunkfueled Core,Gunkfueled Core,exploding,Exploding,10,10,15
+Gunkfueled Core,Gunkfueled Core,healthRegenRaw,Health Regen Raw,-180,-180,-150
+Gunkfueled Core,Gunkfueled Core,rawStrength,Raw Strength,5,5,7
+Voidtossed Memory,Voidtossed Memory,rawAgility,Raw Agility,9,9,10
+Voidtossed Memory,Voidtossed Memory,rawThunderDamage,Raw Thunder Damage,21,21,27
+Rejected Geode,Rejected Geode,healthRegenRaw,Health Regen Raw,-126,-126,-98
+Rejected Geode,Rejected Geode,rawHealth,Raw Health,845,845,903
+Rejected Geode,Rejected Geode,rawStrength,Raw Strength,3,3,5
+Sentient Leukocyte,Sentient Leukocyte,healingEfficiency,Healing Efficiency,6,6,7
+Sentient Leukocyte,Sentient Leukocyte,reflection,Reflection,5,5,6
+Sentient Leukocyte,Sentient Leukocyte,thorns,Thorns,5,5,6
+Sentient Leukocyte,Sentient Leukocyte,walkSpeed,Walk Speed,-4,-4,-3
+Vim Veins,Vim Veins,rawDefence,Raw Defence,2,2,2
+Vim Veins,Vim Veins,rawHealth,Raw Health,175,175,200
+Blueshift Beacon,Blueshift Beacon,damage,Damage,19,19,19
+Blueshift Beacon,Blueshift Beacon,rawHealth,Raw Health,-1500,-1500,-1400
+Depurinated Genome,Depurinated Genome,mainAttackDamage,Main Attack Damage,22,22,24
+Depurinated Genome,Depurinated Genome,rawAgility,Raw Agility,-4,-4,-4
+Depurinated Genome,Depurinated Genome,rawDefence,Raw Defence,-4,-4,-4
+Depurinated Genome,Depurinated Genome,rawDexterity,Raw Dexterity,-4,-4,-4
+Depurinated Genome,Depurinated Genome,rawIntelligence,Raw Intelligence,-4,-4,-4
+Depurinated Genome,Depurinated Genome,rawStrength,Raw Strength,-4,-4,-4
+Depurinated Genome,Depurinated Genome,spellDamage,Spell Damage,22,22,24
+Disturbed Dye,Disturbed Dye,rawSpellDamage,Raw Spell Damage,70,70,75
+Dizzying Void,Dizzying Void,rawHealth,Raw Health,-1200,-1200,-1000
+Electromagnetic Shield Plating,Electromagnetic Shield Plating,rawAgility,Raw Agility,5,5,6
+Electromagnetic Shield Plating,Electromagnetic Shield Plating,rawDefence,Raw Defence,5,5,6
+Electromagnetic Shield Plating,Electromagnetic Shield Plating,rawHealth,Raw Health,425,425,475
+Gaze of Darkness,Gaze of Darkness,gatherSpeed,Gather Speed,6,6,7
+Gaze of Darkness,Gaze of Darkness,healthRegenRaw,Health Regen Raw,161,161,182
+Gaze of Darkness,Gaze of Darkness,lifeSteal,Life Steal,160,160,185
+Glow Bulb Seeds,Glow Bulb Seeds,healthRegenRaw,Health Regen Raw,182,182,196
+Glow Bulb Seeds,Glow Bulb Seeds,mainAttackDamage,Main Attack Damage,-12,-12,-9
+Glow Bulb Seeds,Glow Bulb Seeds,rawIntelligence,Raw Intelligence,9,9,10
+Gruesome Carnassial,Gruesome Carnassial,rawAgility,Raw Agility,-3,-3,-3
+Gruesome Carnassial,Gruesome Carnassial,rawHealth,Raw Health,-180,-180,-165
+Inverted Grotesque,Inverted Grotesque,rawAgility,Raw Agility,7,7,7
+Inverted Grotesque,Inverted Grotesque,rawHealth,Raw Health,-400,-400,-300
+Inverted Grotesque,Inverted Grotesque,rawIntelligence,Raw Intelligence,7,7,8
+Inverted Grotesque,Inverted Grotesque,thorns,Thorns,-15,-15,-12
+Malignant Nuclei,Malignant Nuclei,earthDamage,Earth Damage,12,12,14
+Malignant Nuclei,Malignant Nuclei,earthDefence,Earth Defence,-15,-15,-12
+Malignant Nuclei,Malignant Nuclei,healingEfficiency,Healing Efficiency,4,4,4
+Plane of Nonexistence,Plane of Nonexistence,airDamage,Air Damage,15,15,18
+Plane of Nonexistence,Plane of Nonexistence,earthDamage,Earth Damage,15,15,18
+Plane of Nonexistence,Plane of Nonexistence,fireDamage,Fire Damage,15,15,18
+Plane of Nonexistence,Plane of Nonexistence,thunderDamage,Thunder Damage,15,15,18
+Plane of Nonexistence,Plane of Nonexistence,waterDamage,Water Damage,15,15,18
+Solid Ultraviolet Ray,Solid Ultraviolet Ray,healthRegenRaw,Health Regen Raw,154,154,168
+Solid Ultraviolet Ray,Solid Ultraviolet Ray,manaRegen,Mana Regen,8,8,10
+Solid Ultraviolet Ray,Solid Ultraviolet Ray,rawDefence,Raw Defence,5,5,5
+Solid Ultraviolet Ray,Solid Ultraviolet Ray,rawIntelligence,Raw Intelligence,5,5,5
+Unsettling Void,Unsettling Void,manaRegen,Mana Regen,-5,-5,-5
+Unsettling Void,Unsettling Void,rawSpellDamage,Raw Spell Damage,-40,-40,-35
+Vortexian Event Horizon,Vortexian Event Horizon,lifeSteal,Life Steal,-80,-80,-70
+Vortexian Event Horizon,Vortexian Event Horizon,mainAttackDamage,Main Attack Damage,12,12,12
+Vortexian Event Horizon,Vortexian Event Horizon,manaSteal,Mana Steal,-3,-3,-3
+Incendiary Alloy,Incendiary Alloy,fireDamage,Fire Damage,8,8,10
+Incendiary Alloy,Incendiary Alloy,rawDefence,Raw Defence,-5,-5,-4
+Incendiary Alloy,Incendiary Alloy,rawFireMainAttackDamage,Raw Fire Main Attack Damage,120,120,150
+Ripe Aureate Fruit,Ripe Aureate Fruit,combatExperience,Combat Experience,7,7,8
+Ripe Aureate Fruit,Ripe Aureate Fruit,gatherXpBonus,Gather Xp Bonus,4,4,6
+Ripe Aureate Fruit,Ripe Aureate Fruit,walkSpeed,Walk Speed,-9,-9,-6
+Frog Eyeball,Frog Eyeball,fireDefence,Fire Defence,-13,-13,-10
+Frog Eyeball,Frog Eyeball,jumpHeight,Jump Height,1,1,1
+Frog Eyeball,Frog Eyeball,rawAgility,Raw Agility,6,6,9
+Preserved Relic,Preserved Relic,combatExperience,Combat Experience,5,5,6
+Preserved Relic,Preserved Relic,rawDexterity,Raw Dexterity,2,2,3
+Preserved Relic,Preserved Relic,reflection,Reflection,6,6,7
+Pristine Liff Leaf,Pristine Liff Leaf,elementalDamage,Elemental Damage,16,16,18
+Pristine Liff Leaf,Pristine Liff Leaf,neutralDamage,Neutral Damage,-6,-6,-5
+Radioactive Soil,Radioactive Soil,damage,Damage,11,11,13
+Radioactive Soil,Radioactive Soil,healthRegenRaw,Health Regen Raw,-98,-98,-84
+Radioactive Soil,Radioactive Soil,poison,Poison,1200,1200,1300
+Moonlight Essence,Moonlight Essence,manaRegen,Mana Regen,2,2,3
+Moonlight Essence,Moonlight Essence,manaSteal,Mana Steal,-3,-3,-2
+Moonlight Essence,Moonlight Essence,spellDamage,Spell Damage,1,1,2
+Pipistrelle Wing,Pipistrelle Wing,jumpHeight,Jump Height,1,1,1
+Pipistrelle Wing,Pipistrelle Wing,rawDefence,Raw Defence,-6,-6,-5
+Pipistrelle Wing,Pipistrelle Wing,sprint,Sprint,12,12,15
+Glistening Slime,Glistening Slime,rawMaxMana,Raw Max Mana,20,20,22
+Glistening Slime,Glistening Slime,rawStrength,Raw Strength,6,6,6
+Queen Bee's Stinger,Queen Bee's Stinger,poison,Poison,1000,1000,1250
+Queen Bee's Stinger,Queen Bee's Stinger,rawDexterity,Raw Dexterity,4,4,5
+Queen Bee's Stinger,Queen Bee's Stinger,rawThunderMainAttackDamage,Raw Thunder Main Attack Damage,90,90,115
+Stolen Heirloom,Stolen Heirloom,rawSpellDamage,Raw Spell Damage,33,33,37
+Stolen Heirloom,Stolen Heirloom,walkSpeed,Walk Speed,2,2,3
+Iridescent Fortrepace,Iridescent Fortrepace,poison,Poison,800,800,900
+Iridescent Fortrepace,Iridescent Fortrepace,rawHealth,Raw Health,400,400,425
+Iridescent Fortrepace,Iridescent Fortrepace,reflection,Reflection,15,15,20
+Iridescent Fortrepace,Iridescent Fortrepace,thorns,Thorns,15,15,20
+Aged Cheese,Aged Cheese,rawAttackSpeed,Raw Attack Speed,-1,-1,-1
+Bottomless Emerald Pouch,Bottomless Emerald Pouch,lootQuality,Loot Quality,8,8,13
+Bottomless Emerald Pouch,Bottomless Emerald Pouch,rawAgility,Raw Agility,-4,-4,-3
+Feathered Bricks,Feathered Bricks,mainAttackDamage,Main Attack Damage,24,24,24
+Feathered Bricks,Feathered Bricks,rawAttackSpeed,Raw Attack Speed,-1,-1,-1
+Feathered Bricks,Feathered Bricks,rawHealth,Raw Health,350,350,500
+Feathered Bricks,Feathered Bricks,walkSpeed,Walk Speed,-8,-8,-6
+Ostentatious Cape,Ostentatious Cape,rawStrength,Raw Strength,5,5,5
+Ostentatious Cape,Ostentatious Cape,reflection,Reflection,14,14,16
+Ostentatious Cape,Ostentatious Cape,spellDamage,Spell Damage,7,7,8
+Cerulean Rectrix,Cerulean Rectrix,airDamage,Air Damage,12,12,15
+Cerulean Rectrix,Cerulean Rectrix,walkSpeed,Walk Speed,12,12,15
+Ornamental Horn,Ornamental Horn,lifeSteal,Life Steal,180,180,220
+Ornamental Horn,Ornamental Horn,rawFireSpellDamage,Raw Fire Spell Damage,65,65,70
+Quality Stackpeak Egg,Quality Stackpeak Egg,lootBonus,Loot Bonus,12,12,14
+Quality Stackpeak Egg,Quality Stackpeak Egg,sprint,Sprint,13,13,16
+Quality Stackpeak Egg,Quality Stackpeak Egg,sprintRegen,Sprint Regen,14,14,15
+Jewel of Sin,Jewel of Sin,manaSteal,Mana Steal,3,3,3
+Jewel of Sin,Jewel of Sin,rawHealth,Raw Health,-300,-300,-280
+Jewel of Sin,Jewel of Sin,rawThunderDamage,Raw Thunder Damage,20,20,24
+Manifestation of Agony,Manifestation of Agony,combatExperience,Combat Experience,-24,-24,-20
+Manifestation of Agony,Manifestation of Agony,lootBonus,Loot Bonus,20,20,24
+Rapid-Fire Mechanism,Rapid-Fire Mechanism,rawAttackSpeed,Raw Attack Speed,1,1,1
+Rapid-Fire Mechanism,Rapid-Fire Mechanism,rawEarthMainAttackDamage,Raw Earth Main Attack Damage,65,65,75
+Rayscorched Plating,Rayscorched Plating,2ndSpellCost,2nd Spell Cost,8,8,10
+Rayscorched Plating,Rayscorched Plating,rawDefence,Raw Defence,5,5,7
+Rayscorched Plating,Rayscorched Plating,rawHealth,Raw Health,1200,1200,1275
+Veil of Hatred,Veil of Hatred,healthRegenRaw,Health Regen Raw,126,126,147
+Veil of Hatred,Veil of Hatred,lifeSteal,Life Steal,100,100,120
+Veil of Hatred,Veil of Hatred,rawDefence,Raw Defence,4,4,5
+Veil of Hatred,Veil of Hatred,rawStrength,Raw Strength,4,4,5

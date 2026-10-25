@@ -1,0 +1,5221 @@
+{
+  "generated_at": "2026-10-24T20:09:57+08:00",
+  "source": "POST https://api.wynncraft.com/v3/item/search  body: {\"type\":[\"ingredient\"]}",
+  "drop_source_count": 1193,
+  "index": {
+    "Aaouu": [
+      "Bob's Tear"
+    ],
+    "Aberrated Lutho Citizen": [
+      "Doom Stone",
+      "Sludge Parasite",
+      "Toxic Lumps"
+    ],
+    "Aberration": [
+      "Foul Fluid",
+      "Rancid Flesh"
+    ],
+    "Abnormal Miner": [
+      "Rotten Flesh"
+    ],
+    "Abyss Rukh": [
+      "Flow of Fate",
+      "Void Essence"
+    ],
+    "Abyssal Knight": [
+      "Black Steel",
+      "Decaying Heart",
+      "Essence Of Dusk"
+    ],
+    "Acrobatics Trainer": [
+      "Broken Amulet"
+    ],
+    "Acromantula": [
+      "Acidic Blood",
+      "Poison Sac",
+      "Spider Leg"
+    ],
+    "Adamastor": [
+      "Adamastor's Faceplate",
+      "Urdar's Stone"
+    ],
+    "Adder": [
+      "Potent Venom"
+    ],
+    "Adolfo": [
+      "Bob's Tear"
+    ],
+    "Adventuring Skyraider": [
+      "Haphazard Serum",
+      "Skyraider Coin"
+    ],
+    "Aelumia Citizen": [
+      "Crumpled Propaganda",
+      "Tailored Garments"
+    ],
+    "Affectionate Wybel": [
+      "Wybel Fluff"
+    ],
+    "Aggressive Runabout": [
+      "Sharp Edge"
+    ],
+    "Agullos": [
+      "Agullo Beak"
+    ],
+    "Ailuropoda Shaman": [
+      "Fighting Stick",
+      "Fluffy Fur"
+    ],
+    "Ailuropoda Warrior": [
+      "Fighting Stick",
+      "Fluffy Fur"
+    ],
+    "Air-Infused Mech": [
+      "Repair Toolkit",
+      "Robot Antenna"
+    ],
+    "Aldor-Nix": [
+      "Alga",
+      "Alginate Dressing",
+      "Elemental Crystal",
+      "Glowing Scales"
+    ],
+    "Altitude Walker": [
+      "Crumbly Rock",
+      "Maromagnetite",
+      "Soapstone"
+    ],
+    "Amethyst Dragonling": [
+      "Dragonling Scale"
+    ],
+    "Amoral Miner": [
+      "Strange Geode"
+    ],
+    "Ancient Guardian": [
+      "Infused Gold"
+    ],
+    "Ancient Iboju Shaman": [
+      "Zombie Eye"
+    ],
+    "Ancient Iboju Undead": [
+      "Ancient Coins",
+      "Zombie Eye"
+    ],
+    "Ancient Idol": [
+      "Ancient Coins",
+      "Ancient Metal"
+    ],
+    "Ancient Nemract Resident": [
+      "Bone Meal",
+      "Rotten Flesh"
+    ],
+    "Ancient Nemract Scout": [
+      "Bone Meal"
+    ],
+    "Ancient Nemract Soldier": [
+      "Bone Meal"
+    ],
+    "Ancient Resurrected Orc": [
+      "Ancient Heart",
+      "Archaic Medallion",
+      "Goblin Trinket",
+      "Lost Heirloom",
+      "Primeval Skin",
+      "Quartz Cluster"
+    ],
+    "Angel Of Battle": [
+      "Angelic Gem",
+      "Cursed Wings",
+      "Holy Powder",
+      "Red Mercury"
+    ],
+    "Angel Of Nature": [
+      "Angelic Gem",
+      "Cursed Wings",
+      "Green Opal",
+      "Holy Powder"
+    ],
+    "Angel Of Wind": [
+      "Angelic Gem",
+      "Cursed Wings",
+      "Holy Powder",
+      "Ocea Steel",
+      "Red Mercury",
+      "Wind Ornament"
+    ],
+    "Angry Goblin": [
+      "Gold Nugget"
+    ],
+    "Anima Weird": [
+      "Arcane Anomaly",
+      "Erratic Aspect",
+      "Evaporated Aspect",
+      "Overload Aspect"
+    ],
+    "Antifloret": [
+      "Bright Petal",
+      "Luxic Plasma"
+    ],
+    "Apiary Hornet": [
+      "Giant Stinger"
+    ],
+    "Aquifer Silkworm": [
+      "Mashed Insect"
+    ],
+    "Aries Priest": [
+      "Broken Ram Horn",
+      "Consecrated Ivory",
+      "Maroferrous",
+      "Maromagnetite",
+      "Sanctified Sheep Soul",
+      "Soapstone"
+    ],
+    "Armored Rebel Cow": [
+      "Leather"
+    ],
+    "Armored Tank A131": [
+      "Enhanced Behaviour Microchip"
+    ],
+    "Astrochelys": [
+      "Turtle Shell"
+    ],
+    "Astrochelys Manis": [
+      "Manis Carapace",
+      "Turtle Shell"
+    ],
+    "Atomic Gunk": [
+      "Dernic Parasite",
+      "Doom Stone",
+      "Gaze of Darkness",
+      "Gunkfueled Core",
+      "Olmic Artifact",
+      "Plutonium Waste",
+      "Sludge Parasite"
+    ],
+    "Auresc Bough": [
+      "Fairy Dust",
+      "Gilded Bark",
+      "Ivy Sprout",
+      "Luminous Rune",
+      "Luxroot Cuttings",
+      "Radiant Seeds"
+    ],
+    "Avos Modified Warrior": [
+      "Repair Toolkit",
+      "Robot Antenna"
+    ],
+    "Avos Shaman": [
+      "Remedial Paste",
+      "Throbbing Avos Heart"
+    ],
+    "Avos Warrior": [
+      "Remedial Paste"
+    ],
+    "Avos Young Soldier": [
+      "Remedial Paste",
+      "Throbbing Avos Heart"
+    ],
+    "Ayri Drifter": [
+      "Ancient Coins",
+      "Cursed Ashes",
+      "Native Jadeite"
+    ],
+    "Ayri Whisperer": [
+      "Snake Skin"
+    ],
+    "Ayri Wraith": [
+      "Cursed Ashes",
+      "Lost Talisman"
+    ],
+    "Azer Foot Soldier": [
+      "Broken Helmet",
+      "Tempered Core"
+    ],
+    "Azer Ironmage": [
+      "Broken Helmet",
+      "Tempered Core"
+    ],
+    "Azer Taskmaster": [
+      "Broken Helmet",
+      "Tempered Core"
+    ],
+    "Azer Vanquisher": [
+      "Broken Helmet",
+      "Tempered Core"
+    ],
+    "Azur Myconid": [
+      "Elemental Crystal",
+      "Myconid Spores",
+      "Prismatic Spores"
+    ],
+    "Baby Yeti": [
+      "Large Lapis",
+      "Snow Clump",
+      "Yeti Fur"
+    ],
+    "Bandit": [
+      "Gold Bar"
+    ],
+    "Bandit Alchemist": [
+      "Prickly Grass",
+      "Stack of Coins"
+    ],
+    "Bandit Ambusher": [
+      "Poorly-Made Pouch",
+      "Shattered Blade"
+    ],
+    "Bandit Brawler": [
+      "Gold",
+      "Stolen Goods"
+    ],
+    "Bandit Houndmaster": [
+      "Gold",
+      "Stolen Goods"
+    ],
+    "Bandit Hunter": [
+      "Golden Coin",
+      "Stack of Coins"
+    ],
+    "Bandit Knife Juggler": [
+      "Broken Dagger",
+      "Stack of Coins"
+    ],
+    "Bandit Ranger": [
+      "Gold",
+      "Lockpicking Kit"
+    ],
+    "Bandit Tracker": [
+      "Smokebomb",
+      "Stack of Coins"
+    ],
+    "Bandit Trickster": [
+      "Gold",
+      "Old Explosives",
+      "Poorly-Made Pouch"
+    ],
+    "Banshee Stag": [
+      "Spectral Horns"
+    ],
+    "Bark Scuttler": [
+      "Maple Bark",
+      "Ripe Aureate Fruit"
+    ],
+    "Basher": [
+      "Bloodstained Steel",
+      "Granite Maul"
+    ],
+    "Basin Wight": [
+      "Corrupted Bracken",
+      "Portal Emanation",
+      "Spike Residue"
+    ],
+    "Battered Warrior": [
+      "Corruption Shard"
+    ],
+    "Beach Crab": [
+      "Carapace Fragment"
+    ],
+    "Beach Hopper": [
+      "Mashed Insect"
+    ],
+    "Bedrock Buster": [
+      "Crumbly Rock",
+      "Maroferrous",
+      "Soapstone"
+    ],
+    "Bee Hive": [
+      "Dead Bee",
+      "Digestible Fungi",
+      "Glowing Tree Sap",
+      "Nivlan Honey",
+      "Nivlan Honeycomb",
+      "Webbed Offshoot"
+    ],
+    "Bee Swarm": [
+      "Dead Bee"
+    ],
+    "Belua the Unquenchable": [
+      "Watery Aura"
+    ],
+    "Big Weevil": [
+      "Maple Bark",
+      "Ripe Aureate Fruit"
+    ],
+    "Biohazard Amalgamate": [
+      "Coagulated Clot",
+      "Gelatinous Slime Chunk",
+      "Putrid Gunk",
+      "River Clay",
+      "Sticky Fern",
+      "Thick Mud",
+      "Viscous Slime",
+      "Waterlogged Branch"
+    ],
+    "Biting Bug": [
+      "Bug Parts"
+    ],
+    "Bitter Avo Exile": [
+      "Remedial Paste"
+    ],
+    "Bitter Avo Shaman": [
+      "Remedial Paste"
+    ],
+    "Bitter Avos Berserker": [
+      "Remedial Paste"
+    ],
+    "Black Bat": [
+      "Bat Ear",
+      "Laryngeal Flesh"
+    ],
+    "Black Dragonling": [
+      "Dragonling Scale"
+    ],
+    "Blackened Soul": [
+      "Ghostly Membrane",
+      "Ritual Catalyst"
+    ],
+    "Blade of Shade": [
+      "Subsuming Darkness",
+      "Wriggling Darkness"
+    ],
+    "Bladestorm Idol": [
+      "Ironwood Scale",
+      "Lithoflesh",
+      "Ruins Shard",
+      "Tangy Nectar",
+      "Tungsten Chunk"
+    ],
+    "Blast Chemist": [
+      "Saltpetre"
+    ],
+    "Blazing Construct": [
+      "Blaze Powder",
+      "Corrupted Bracken"
+    ],
+    "Blazing Host": [
+      "Depreciating Flesh",
+      "Fuming Lava Rock"
+    ],
+    "Blinder": [
+      "Condensed Darkness",
+      "Dark Iris",
+      "Engored Oculus"
+    ],
+    "Blinders": [
+      "Dark Iris",
+      "Dernic Parasite",
+      "Engored Oculus",
+      "Gaze of Darkness",
+      "Olmic Artifact",
+      "Retinal Membrane",
+      "Vim Veins"
+    ],
+    "Blixen": [
+      "Bob's Tear"
+    ],
+    "Bloodweb Spider Broody": [
+      "Bloodweb",
+      "Poison Sac"
+    ],
+    "Blue Antifloret": [
+      "Azure Blossom",
+      "Bright Petal",
+      "Luxic Plasma"
+    ],
+    "Blue Cyclone": [
+      "Bionic Fiber",
+      "Creepvine Cluster",
+      "Cyclone Blue Leaves",
+      "Death Whistle Leaf",
+      "Mangrove Root",
+      "Pink Pelulite",
+      "Pink Pelute"
+    ],
+    "Bluebell": [
+      "Wybel Fluff"
+    ],
+    "Boar": [
+      "Pigman Ivory",
+      "Pigman Meat"
+    ],
+    "Bomb": [
+      "Noble Ribbon"
+    ],
+    "Bone Juggler": [
+      "Fresh Bone"
+    ],
+    "Bone Parasite": [
+      "Bug Parts"
+    ],
+    "Bonecrusher Spider": [
+      "Soft Silk"
+    ],
+    "Bonesy": [
+      "Kaolin Clay",
+      "Mysterious Mist",
+      "Old Bone",
+      "Salted Salmon",
+      "Tough Bone"
+    ],
+    "Box Freak": [
+      "Cardboard Bat"
+    ],
+    "Breathless Weird": [
+      "Arcane Anomaly",
+      "Disturbed Aspect",
+      "Erratic Aspect",
+      "Evaporated Aspect",
+      "Gylia Essence",
+      "Igneous Aspect",
+      "Overload Aspect",
+      "Repulsive Aspect"
+    ],
+    "Bringer of Red Sands": [
+      "Scalding Sand"
+    ],
+    "Bubbling Mud Pile": [
+      "Thick Mud"
+    ],
+    "Burned Suburb Resident": [
+      "Burnt Skull",
+      "Charred Bone",
+      "Corrupted Fragment",
+      "Rotten Bone"
+    ],
+    "Burning Bronco": [
+      "Corrupted Bracken",
+      "Horse Mane"
+    ],
+    "Burning Man": [
+      "Fiery Aura"
+    ],
+    "Bush Zombie": [
+      "Rotten Flesh"
+    ],
+    "Bushpig": [
+      "Tender Pork Fillet"
+    ],
+    "Bushpig Matriarch": [
+      "Autonomous Core",
+      "Defective Circuits",
+      "Insulated Wiring",
+      "Mega Fern",
+      "Piquant Pork Fillet",
+      "Thorned Tusk"
+    ],
+    "Bushwhacker": [
+      "Depreciating Flesh",
+      "Wood Snippet"
+    ],
+    "Cadaverous Pirate": [
+      "Gold Tooth"
+    ],
+    "Canopy Leopard": [
+      "Ancient Coins",
+      "Leopard Blood"
+    ],
+    "Canyon Bat": [
+      "Bat Heart"
+    ],
+    "Canyon Condor": [
+      "Condor Feather"
+    ],
+    "Canyon Fleris": [
+      "Burning Soul",
+      "Flameheart",
+      "Warm Fleris"
+    ],
+    "Canyon Ooze": [
+      "Ball of Slime",
+      "Coagulated Blood Gelatin",
+      "Congealed Slime"
+    ],
+    "Canyon Rooster": [
+      "Egg"
+    ],
+    "Canyon Thug": [
+      "Gold",
+      "Lockpicking Kit"
+    ],
+    "Capital Guard": [
+      "Crumpled Propaganda",
+      "Tailored Garments"
+    ],
+    "Captain Larkster": [
+      "Tarnished Gold Foil"
+    ],
+    "Captain Nomor Beard": [
+      "Waterlogged Branch"
+    ],
+    "Captured Cow": [
+      "Leather"
+    ],
+    "Cardboard Box": [
+      "Cardboard Bat",
+      "Oddly Untouched Marshmallow"
+    ],
+    "Carnagator": [
+      "Ancient Coins",
+      "Ibjub Fruit"
+    ],
+    "Carrion Spider": [
+      "Charred Carapace",
+      "Hardened Mandible",
+      "Infernal Flesh",
+      "Marrow Dust"
+    ],
+    "Carver": [
+      "Foul Fluid",
+      "Rancid Flesh"
+    ],
+    "Catapult Operator": [
+      "Ice Silver",
+      "Ice Sliver",
+      "Icy Crampons",
+      "Viking Stone"
+    ],
+    "Cath-o-Bucie": [
+      "Feline Claws",
+      "Pilfered Silver"
+    ],
+    "Catsith": [
+      "Feline Claws",
+      "Pilfered Silver"
+    ],
+    "Caustic Crystallite": [
+      "Acidulous Plating",
+      "Dark Iris",
+      "Lactic Acid Crystal",
+      "Malignant Nuclei"
+    ],
+    "Cavalry Specter": [
+      "Ghostly Essence",
+      "Pillaged Fragment"
+    ],
+    "Cave Bat": [
+      "Bat Ear"
+    ],
+    "Cave Boar": [
+      "Truffle"
+    ],
+    "Cave Crab": [
+      "Fresh Water",
+      "Old Treasure֎"
+    ],
+    "Cave Crawler": [
+      "Mashed Insect"
+    ],
+    "Cave Troll": [
+      "Troll Hair"
+    ],
+    "Chalky Kanter": [
+      "Calcified Ligament",
+      "Condensed Darkness"
+    ],
+    "Chalky Kantyr": [
+      "Calcified Ligament",
+      "Condensed Darkness"
+    ],
+    "Chamber Lurker": [
+      "Shredded Bone"
+    ],
+    "Charging Minotaur": [
+      "Ivory Tusk",
+      "Nose Ring",
+      "Tough Skin"
+    ],
+    "Charred Zombie": [
+      "Active Fireball",
+      "Blazing Fireball",
+      "Used Fireball"
+    ],
+    "Charring Minotaur": [
+      "Ashen Hide",
+      "Infernal Flesh"
+    ],
+    "Cherry Treent": [
+      "Bright Petal",
+      "Cherry Sapling"
+    ],
+    "Chimneysweep": [
+      "Discarded Junk"
+    ],
+    "Chromancer": [
+      "Chromatic Bloom",
+      "Flytrap Fangs",
+      "Spreading Fireweed",
+      "Suspicious Shrubs",
+      "Volatile Light"
+    ],
+    "Cirrus Cloud": [
+      "Calmed Thunder",
+      "Grey Cloud"
+    ],
+    "Cirruskater": [
+      "Sentient Water",
+      "Soggy Stone"
+    ],
+    "Clay Soldier": [
+      "Earthly Aura"
+    ],
+    "Cliffhearth Orc Chopper": [
+      "Orc Eye",
+      "Orc Teeth",
+      "Rabbit Carcass",
+      "Rotten Log",
+      "Runner's Bandages",
+      "Torn Rawhide",
+      "Wood Shavings"
+    ],
+    "Cliffhearth Orc Kindler": [
+      "Orc Eye",
+      "Orc Teeth",
+      "Rabbit Carcass",
+      "Rotten Log",
+      "Runner's Bandages",
+      "Torn Rawhide",
+      "Wood Shavings"
+    ],
+    "Cliffhearth Orc Smoker": [
+      "Orc Eye",
+      "Orc Teeth",
+      "Rabbit Carcass",
+      "Rotten Log",
+      "Runner's Bandages",
+      "Torn Rawhide",
+      "Wood Shavings"
+    ],
+    "Clipped-Wing Shimmer Moth": [
+      "Watery Aura"
+    ],
+    "Clobber Captain": [
+      "Bloodstained Steel",
+      "Granite Maul"
+    ],
+    "Clobber Soldier": [
+      "Bloodstained Steel",
+      "Granite Maul"
+    ],
+    "Coast Lobster": [
+      "Carapace Fragment",
+      "Mashed Insect"
+    ],
+    "Cockatrice": [
+      "Severed Heart"
+    ],
+    "Cold Fang": [
+      "Bob's Tear",
+      "Large Lapis",
+      "Snow Clump",
+      "Wolf Fang"
+    ],
+    "Cold Shadow": [
+      "Ghostly Essence",
+      "Large Lapis",
+      "Snow Clump"
+    ],
+    "Colossus Spawn": [
+      "Altitude Shard",
+      "Colossus' Shard",
+      "Engraved Tablet",
+      "Illusory Idol",
+      "Mountain's Heart"
+    ],
+    "Confused Cow": [
+      "Leather"
+    ],
+    "Confused Zombie": [
+      "Rotten Flesh"
+    ],
+    "Congealed Blood": [
+      "Ball of Slime",
+      "Coagulated Blood Gelatin",
+      "Congealed Slime"
+    ],
+    "Congestion": [
+      "Mucoid Matter"
+    ],
+    "Constable Enforcer": [
+      "Noble Ribbon"
+    ],
+    "Constable Gatekeeper": [
+      "Noble Ribbon"
+    ],
+    "Constable Guard": [
+      "Bloodstained Steel",
+      "Noble Ribbon",
+      "Torn Fabric"
+    ],
+    "Constable Mancatcher": [
+      "Noble Ribbon"
+    ],
+    "Constable Shotgunner": [
+      "Noble Ribbon"
+    ],
+    "Consumed Spirit": [
+      "Essence Of Dusk"
+    ],
+    "Controller": [
+      "High Explosive"
+    ],
+    "Corbys": [
+      "Corbys Innards"
+    ],
+    "Corktopus": [
+      "Tentacle"
+    ],
+    "Corkus Bandit": [
+      "Protective Fabric"
+    ],
+    "Corrupt Hex": [
+      "Therck's Chain"
+    ],
+    "Corrupt Stone": [
+      "Blaze Powder",
+      "Corrupted Bracken",
+      "Spike Residue"
+    ],
+    "Corrupted Apple": [
+      "Apple",
+      "Lively Apple"
+    ],
+    "Corrupted Arbalest": [
+      "Lost Talisman",
+      "Rancid Flesh",
+      "Tribal Tome"
+    ],
+    "Corrupted Blade": [
+      "Ancient Coins",
+      "Ancient Metal"
+    ],
+    "Corrupted Globule": [
+      "Blaze Powder",
+      "Corrupted Bracken"
+    ],
+    "Corrupted Idol": [
+      "Ancient Coins",
+      "Ancient Metal",
+      "Lithoflesh"
+    ],
+    "Corrupted Infantry": [
+      "Rotten Flesh"
+    ],
+    "Corrupted Keeper": [
+      "Lost Talisman",
+      "Rancid Flesh",
+      "Tribal Tome"
+    ],
+    "Corrupted Knight": [
+      "Rotten Flesh"
+    ],
+    "Corrupted Lookout": [
+      "Lost Talisman",
+      "Rancid Flesh",
+      "Tribal Tome"
+    ],
+    "Corrupted Lumberjack": [
+      "Wood Snippet"
+    ],
+    "Corrupted Miner": [
+      "Rotten Flesh",
+      "Strange Geode"
+    ],
+    "Corrupted Scout": [
+      "Lost Talisman",
+      "Tribal Tome"
+    ],
+    "Corrupted Sentinel": [
+      "Large Lapis",
+      "Rotten Flesh",
+      "Snow Clump"
+    ],
+    "Corrupted Watcher": [
+      "Rotten Flesh"
+    ],
+    "Corruption Victim": [
+      "Rotten Flesh"
+    ],
+    "Cortrich": [
+      "Cortrich Eggs"
+    ],
+    "Cosmic Weird": [
+      "Arcane Anomaly"
+    ],
+    "Cow": [
+      "Leather"
+    ],
+    "Crab": [
+      "Coastal Sand"
+    ],
+    "Cracked Husk": [
+      "Bone Meal"
+    ],
+    "Crazed Donkey": [
+      "Prized Pelt"
+    ],
+    "Crazy Cat Lady": [
+      "Cat Food",
+      "Ocelot Pelt",
+      "Premium Hay Bale",
+      "Savannah Stone",
+      "Sun-Stained Skin"
+    ],
+    "Crazy Lady": [
+      "Brown Mushroom"
+    ],
+    "Crazy Wolf Tamer": [
+      "Bob's Tear",
+      "Wolf Fang"
+    ],
+    "Cryostone Golem": [
+      "Frostbound Memory",
+      "Glacial Anomaly",
+      "Unmeltable Ice"
+    ],
+    "Crypt Parasite": [
+      "Depreciating Flesh"
+    ],
+    "Crypt Walker": [
+      "Rotten Flesh"
+    ],
+    "Crystal Dragonling": [
+      "Dragonling Scale"
+    ],
+    "Crystal Fanatic Leader": [
+      "Crystal Dust"
+    ],
+    "Crystal Guardian": [
+      "Void Essence"
+    ],
+    "Crystal of Insanity": [
+      "Glow Bulb Seeds",
+      "Insanity Star",
+      "Soul Essence"
+    ],
+    "Crystalline Behemoth": [
+      "Altitude Shard",
+      "Crystalline Growth",
+      "Illusory Idol",
+      "Mountain's Heart",
+      "Rocky Mind"
+    ],
+    "Crystallized Flare": [
+      "Blazing Stimulants",
+      "Galvanic Stone",
+      "Mineral Cinder",
+      "Red Crystal Dust",
+      "Sealed Blaze"
+    ],
+    "Crystallized Miner": [
+      "Crystal Dust"
+    ],
+    "Crystallized Scarab": [
+      "Crystal Dust",
+      "Mashed Insect"
+    ],
+    "Cuisine Trader": [
+      "Crumpled Propaganda",
+      "Delectable Morsel",
+      "Tailored Garments"
+    ],
+    "Cultist": [
+      "Altered Ash",
+      "Worn Memorabilia"
+    ],
+    "Curious Weird": [
+      "Arcane Anomaly",
+      "Repulsive Aspect"
+    ],
+    "Cursed Adventurer": [
+      "Adventurer's Diary",
+      "Cursed Ashes",
+      "Nasty Residue"
+    ],
+    "Cursed Farmer": [
+      "Cursed Ashes",
+      "Nasty Residue"
+    ],
+    "Cursed Mutineer": [
+      "Conscription Letter",
+      "Gold Tooth"
+    ],
+    "Cursed Pirate": [
+      "Glittering Silt",
+      "Seagrass",
+      "Waterlogged Branch"
+    ],
+    "Cursed Shrieker": [
+      "Glow Bulb Seeds",
+      "Shrieker's Head",
+      "Soul Essence"
+    ],
+    "Cursed Silk Spider": [
+      "Cursed Venom Sac",
+      "Primitive Delicacy",
+      "Torn Skin"
+    ],
+    "Cursed Silk Spiderling": [
+      "Cursed Venom Sac",
+      "Torn Skin"
+    ],
+    "Cursed Villager": [
+      "Cursed Ashes",
+      "Nasty Residue"
+    ],
+    "Cyclops": [
+      "Cyclops Eye",
+      "Nose Ring",
+      "Stone Plating",
+      "Tough Skin"
+    ],
+    "Dark Cultist": [
+      "Residual Spirit",
+      "Split Essence"
+    ],
+    "Dark Executioner": [
+      "Black Steel",
+      "Decaying Heart",
+      "Essence Of Dusk"
+    ],
+    "Dark Hive": [
+      "Hatchling Remnant",
+      "Larvae Cluster"
+    ],
+    "Dark Knight": [
+      "Black Steel",
+      "Decaying Heart",
+      "Essence Of Dusk"
+    ],
+    "Dark Weird": [
+      "Arcane Anomaly",
+      "Ritual Catalyst"
+    ],
+    "Darkening Soul": [
+      "Ghostly Membrane"
+    ],
+    "Darkloid Beetle": [
+      "Kerasot Sporehead",
+      "Nasty Residue"
+    ],
+    "Dead Cowboy": [
+      "Cracked Skin",
+      "Gold Bar",
+      "Rusty Spurs",
+      "Tanned Flesh"
+    ],
+    "Dead Ice Cutter": [
+      "Bob's Tear",
+      "Frostbitten Flesh",
+      "Icy Shard",
+      "Large Lapis",
+      "Snow Clump"
+    ],
+    "Dead Island Bovemist": [
+      "Severed Heart"
+    ],
+    "Dead Lumberjack": [
+      "Forgotten Axe"
+    ],
+    "Dead Merchant": [
+      "Rotten Flesh"
+    ],
+    "Dead Miner": [
+      "Zombie Eye"
+    ],
+    "Dead Pirate": [
+      "Massive Anchor"
+    ],
+    "Dead Pirate Guard": [
+      "Bone Meal",
+      "Pigman Meat"
+    ],
+    "Dead Prospector": [
+      "Cracked Skin",
+      "Gold Bar",
+      "Gold Tooth",
+      "Gritty Rocks",
+      "Gunpowder"
+    ],
+    "Dead Suburb Resident": [
+      "Corrupted Fragment",
+      "Crumbling Skull",
+      "Rotten Bone"
+    ],
+    "Dead Villager": [
+      "Severed Heart"
+    ],
+    "Death Oni": [
+      "Rotten Flesh"
+    ],
+    "Death Whistle": [
+      "Bionic Fiber",
+      "Creepvine Cluster",
+      "Cyclone Blue Leaves",
+      "Death Whistle Leaf",
+      "Mangrove Root",
+      "Pink Pelulite",
+      "Pink Pelute"
+    ],
+    "Death Worm": [
+      "Snake Scale"
+    ],
+    "Decay Weird": [
+      "Arcane Anomaly",
+      "Repulsive Aspect",
+      "Ritual Catalyst"
+    ],
+    "Deep Blue Squid": [
+      "Algae Mat",
+      "Squid",
+      "Squid Beak",
+      "Squid Brain",
+      "Squid Ink"
+    ],
+    "Deep Volcano Sludge": [
+      "Blazing Stimulants",
+      "Mineral Cinder"
+    ],
+    "Defender of the Plains": [
+      "Defender's Stone",
+      "Earthly Pebble",
+      "Mana Extract",
+      "Sharpening Stone",
+      "Zombie Brain"
+    ],
+    "Defiled Explorer": [
+      "Rotten Flesh"
+    ],
+    "Defishious": [
+      "Defishious",
+      "Fish Tail"
+    ],
+    "Dern Beast": [
+      "Beastial Viscera"
+    ],
+    "Dern Minion": [
+      "Beastial Viscera"
+    ],
+    "Dernic Lurker": [
+      "Contorted Stone",
+      "Ominous Pearl"
+    ],
+    "Desert Crawler": [
+      "Mashed Insect"
+    ],
+    "Desert Rattler": [
+      "Cracked Skin",
+      "Snake Scale"
+    ],
+    "Destrachan": [
+      "Charred Carapace",
+      "Hybrid Skin",
+      "Serpent Tongue"
+    ],
+    "Detached Shadow": [
+      "Sentient Shadow"
+    ],
+    "Devourer": [
+      "Defiled Luxroot",
+      "Devourer's Maw",
+      "Nasty Residue"
+    ],
+    "Devouring Destrachan": [
+      "Charred Carapace",
+      "Hybrid Skin",
+      "Serpent Tongue"
+    ],
+    "Digested Muck": [
+      "Coagulated Clot",
+      "Putrid Gunk"
+    ],
+    "Dire Fang": [
+      "Large Lapis",
+      "Snow Clump",
+      "Wolf Fang"
+    ],
+    "Dire Subaltern": [
+      "Chain Loop",
+      "Sharp Edge"
+    ],
+    "Dirt Crawler": [
+      "Rotten Flesh"
+    ],
+    "Disembodied Head": [
+      "Frozen Ghostly Essence",
+      "Ghostly Essence",
+      "Large Lapis"
+    ],
+    "Disgruntled Grook": [
+      "Fresh Game",
+      "Grook Feather"
+    ],
+    "Displaced Troll": [
+      "Troll Hair"
+    ],
+    "Distorted Body": [
+      "Void Essence"
+    ],
+    "Diurnal Canyon Swooper": [
+      "Bat Heart",
+      "Lucky Rabbit's Foot",
+      "Pokey Cactus",
+      "Red Shale",
+      "Spirograph Tablet",
+      "Swooper Wing",
+      "Tanned Flesh"
+    ],
+    "Docile Wolf": [
+      "Wolf Fang"
+    ],
+    "Draconic Aspect": [
+      "Soulbound Cinders"
+    ],
+    "Draconic Spirit": [
+      "Soulbound Cinders"
+    ],
+    "Dragonling Of The Depths": [
+      "Dragonling Scale"
+    ],
+    "Drenched Zombie": [
+      "Fresh Water",
+      "Rotten Flesh",
+      "Watery Aura"
+    ],
+    "Drifting Spirit": [
+      "Illuminated Spirit"
+    ],
+    "Drowned Corpse": [
+      "Rotten Flesh"
+    ],
+    "Drowned Sarnfic Citizen": [
+      "Aquatic Beauty",
+      "Naval Shard",
+      "Naval Stone"
+    ],
+    "Drssren": [
+      "Brown Mushroom",
+      "Red Mushroom"
+    ],
+    "Drunk Bandit": [
+      "Gold Tooth"
+    ],
+    "Drunk Captain": [
+      "Captain's Glass"
+    ],
+    "Drunken Guard": [
+      "Damp Hairs",
+      "Torn Fabric"
+    ],
+    "Dry Zombie": [
+      "Cracked Skin"
+    ],
+    "Dullahan's Gargoyle": [
+      "Black Steel",
+      "Decaying Heart"
+    ],
+    "Durum Cow": [
+      "Leather"
+    ],
+    "Durum Protector β": [
+      "Beef Tongue",
+      "Corn Husk",
+      "Reinforced Leather"
+    ],
+    "Durum Scarecrow": [
+      "Corn Husk",
+      "Mixed Seeds"
+    ],
+    "Dusk Kanter": [
+      "Calcified Ligament",
+      "Condensed Darkness"
+    ],
+    "Dusk Kantyri Calf": [
+      "Calcified Ligament",
+      "Condensed Darkness"
+    ],
+    "Dust Devil": [
+      "Earthly Aura"
+    ],
+    "Dying Angel": [
+      "Cursed Wings",
+      "Holy Powder",
+      "Sylphid Tears"
+    ],
+    "Dynamite": [
+      "Black Sulphur",
+      "Empty Casings"
+    ],
+    "ERROR": [
+      "Rotten Flesh"
+    ],
+    "Earth Basilisk": [
+      "Snake Skin"
+    ],
+    "Earth Borer Beetle": [
+      "Earthly Aura"
+    ],
+    "Earth Dragonling": [
+      "Dragonling Scale"
+    ],
+    "Earth Weird": [
+      "Arcane Anomaly"
+    ],
+    "Earth Zombie": [
+      "Earthly Aura",
+      "Rotten Flesh",
+      "Sturdy Flesh"
+    ],
+    "Earthpit Orc Drummer": [
+      "Ancient Heart",
+      "Green Scale",
+      "Natural Nitrates",
+      "Orc Eye",
+      "Orc Teeth",
+      "Primeval Skin",
+      "Torn Rawhide"
+    ],
+    "Earthpit Orc Reveler": [
+      "Ancient Heart",
+      "Green Scale",
+      "Natural Nitrates",
+      "Orc Eye",
+      "Orc Teeth",
+      "Primeval Skin",
+      "Torn Rawhide"
+    ],
+    "Earthsculpter Uraqi": [
+      "Ancient Coins",
+      "Cursed Ashes",
+      "Native Jadeite"
+    ],
+    "Echidna Serpent": [
+      "Snake Skin"
+    ],
+    "Effulgent Antibody": [
+      "Illuminated Spirit",
+      "Organic Explosive"
+    ],
+    "Elefolk Hunter": [
+      "Elephant Toenail",
+      "Ivory Tusk",
+      "Stone Plating",
+      "Tough Skin"
+    ],
+    "Elefolk Warrior": [
+      "Elephant Toenail",
+      "Ivory Tusk",
+      "Stone Plating",
+      "Tough Skin"
+    ],
+    "Elemental Miasma": [
+      "Elemental Crystal"
+    ],
+    "Elemental Weird": [
+      "Arcane Anomaly",
+      "Gylia Essence"
+    ],
+    "Ellida Whale": [
+      "Blessed Heart",
+      "Flytrap Fangs",
+      "Spreading Fireweed",
+      "Suspicious Shrubs",
+      "World Illuminator"
+    ],
+    "Emerald Dragonling": [
+      "Dragon Aura",
+      "Dragonling Egg",
+      "Dragonling Scale"
+    ],
+    "Emerald Knives Bandit": [
+      "Gold Bar"
+    ],
+    "Emerald-Enthralled": [
+      "Forgotten Pickaxe",
+      "Sought-After Ore"
+    ],
+    "Empty Bottle": [
+      "Bat Ear"
+    ],
+    "Endurance Trainer": [
+      "Broken Amulet"
+    ],
+    "Energized Weird": [
+      "Arcane Anomaly"
+    ],
+    "Enflamed Lava Monster": [
+      "Fiery Aura"
+    ],
+    "Enraged Bull": [
+      "Leather"
+    ],
+    "Enraged Corrupted Cow": [
+      "Corrupted Beef",
+      "Herbal Extract",
+      "Outdated Newspaper",
+      "Platinum Grook Egg",
+      "Scarred Leather"
+    ],
+    "Enraged Minotaur": [
+      "Ivory Tusk",
+      "Nose Ring",
+      "Tough Skin"
+    ],
+    "Enraged Snow-Bear": [
+      "Large Lapis",
+      "Snow Clump"
+    ],
+    "Enraged Werewolf": [
+      "Pristine Claw",
+      "Werewolf Tail"
+    ],
+    "Ethrela Myconid": [
+      "Elemental Crystal",
+      "Myconid Spores",
+      "Prismatic Spores"
+    ],
+    "Explosive Weird": [
+      "Arcane Anomaly",
+      "Erratic Aspect"
+    ],
+    "Extinguished Husk": [
+      "Bone Meal"
+    ],
+    "Eyeball": [
+      "Tendon Clump"
+    ],
+    "Eyebawl": [
+      "Cataratite",
+      "Condensed Darkness"
+    ],
+    "Face of Fear": [
+      "Crystallized Organ",
+      "Dernic Parasite",
+      "Gaze of Darkness",
+      "Olmic Artifact",
+      "Retinal Barbs",
+      "Vim Veins"
+    ],
+    "Failing LN-72": [
+      "Defective Circuits",
+      "Optic Fiber",
+      "Overheated Processor",
+      "Robot Antenna",
+      "Shorting Wire"
+    ],
+    "Fallen Avos Warrior": [
+      "Remedial Paste"
+    ],
+    "Fallen Soldier": [
+      "Rotten Flesh"
+    ],
+    "Fat Firefly": [
+      "Firefly Dust"
+    ],
+    "Feligember Frog": [
+      "Alga"
+    ],
+    "Felroc": [
+      "Pure Rain Stone"
+    ],
+    "Felroc Brutahealen": [
+      "Pure Rain Stone"
+    ],
+    "Fermented Captive": [
+      "Acidic Remains",
+      "Cavitated Bone",
+      "Forgotten Pickaxe",
+      "Malignant Nuclei"
+    ],
+    "Ferrous Crushbeast": [
+      "Crumbly Rock",
+      "Maroferrous",
+      "Maromagnetite",
+      "Soapstone"
+    ],
+    "Festering Fleshmass'": [
+      "Bionic Fiber",
+      "Bloated Artery",
+      "Creepvine Cluster",
+      "Festering Face",
+      "Mangrove Root"
+    ],
+    "Festering Titan": [
+      "Acidulous Plating",
+      "Dark Iris",
+      "Green Foot",
+      "Malignant Nuclei",
+      "Pluripotent Tissue"
+    ],
+    "Feyborne Alraune": [
+      "Faebloom Petal",
+      "Ignited Faebloom",
+      "Leafy Stalk"
+    ],
+    "Fire Scarab": [
+      "Charred Carapace",
+      "Hardened Mandible",
+      "Tempered Core"
+    ],
+    "Fire Weird": [
+      "Arcane Anomaly",
+      "Gylia Essence"
+    ],
+    "Fire-Infused Mech": [
+      "Repair Toolkit",
+      "Robot Antenna"
+    ],
+    "Fishy Zombie": [
+      "Haleva Plant"
+    ],
+    "Flame Grilling Swine": [
+      "Active Fireball",
+      "Blazing Fireball",
+      "Pigman Ivory",
+      "Pigman Meat"
+    ],
+    "Flaming Skull": [
+      "Hellish Cinders",
+      "Victim's Skull"
+    ],
+    "Flaming Wisp": [
+      "Soulbound Cinders"
+    ],
+    "Flera Myconid": [
+      "Elemental Crystal",
+      "Myconid Spores",
+      "Prismatic Spores"
+    ],
+    "Fleris Matriarch": [
+      "Warm Fleris"
+    ],
+    "Flicker Frog": [
+      "Thick Vines"
+    ],
+    "Fluffy": [
+      "Wybel Fluff"
+    ],
+    "Forest Cave Spider": [
+      "Forest Web"
+    ],
+    "Forest Grook": [
+      "Fresh Game",
+      "Grook Feather"
+    ],
+    "Forest Spider": [
+      "Forest Web",
+      "Lucky Spider Egg",
+      "Luxurious Silk",
+      "Poisonous Spider Eye",
+      "Spider Fang"
+    ],
+    "Formative Weird": [
+      "Arcane Anomaly",
+      "Wintery Aspect"
+    ],
+    "Foul Bat": [
+      "Bat Ear"
+    ],
+    "Foxhound": [
+      "Fox Coat"
+    ],
+    "Fragmented Dragonbone": [
+      "Marrow Dust"
+    ],
+    "Freelancer": [
+      "Looted Alloy",
+      "Windswept Roots"
+    ],
+    "Freewheeler": [
+      "Looted Alloy",
+      "Windswept Roots"
+    ],
+    "Frigid Climber": [
+      "Ice Silver",
+      "Ice Sliver",
+      "Icy Crampons"
+    ],
+    "Frigid Fang": [
+      "Large Lapis",
+      "Snow Clump",
+      "Wolf Fang"
+    ],
+    "Frog": [
+      "Frog Eyeball"
+    ],
+    "Frost Golem": [
+      "Ancient Core"
+    ],
+    "Frost Weird": [
+      "Arcane Anomaly",
+      "Gylia Essence",
+      "Iceberries",
+      "Wintery Aspect"
+    ],
+    "Frostbite": [
+      "Icy Shard",
+      "Large Lapis",
+      "Snow Clump"
+    ],
+    "Frosted Guard": [
+      "Frostbound Memory",
+      "Glacial Anomaly",
+      "Unmeltable Ice"
+    ],
+    "Frosted Shaman": [
+      "Ice Silver",
+      "Ice Sliver",
+      "Icy Crampons"
+    ],
+    "Frozen Berserker": [
+      "Icy Shard",
+      "Large Lapis",
+      "Snow Clump"
+    ],
+    "Frozen Nesaak Citizen": [
+      "Rotten Flesh"
+    ],
+    "Frozen Spirit": [
+      "Frozen Ghostly Essence",
+      "Ghostly Essence",
+      "Large Lapis",
+      "Snow Clump"
+    ],
+    "Frozen Warrior": [
+      "Ice Silver",
+      "Ice Sliver",
+      "Icy Crampons",
+      "Viking Stone"
+    ],
+    "Fruit Bat": [
+      "Ancient Coins",
+      "Ibjub Fruit"
+    ],
+    "Fulgurant Amatiti": [
+      "Conflagrite"
+    ],
+    "Fuming Ferrite": [
+      "Fuming Lava Rock"
+    ],
+    "Fungal Knight": [
+      "Dried Gill",
+      "Toxic Spores"
+    ],
+    "Fungal Parasite": [
+      "Flugsvamp Cap",
+      "Fungi Spores",
+      "Karl Johan Cap",
+      "Paralyzing Spores"
+    ],
+    "Furtive Uraqi": [
+      "Native Jadeite"
+    ],
+    "Gale Dragonling": [
+      "Dragon Aura",
+      "Dragonling Egg",
+      "Dragonling Scale"
+    ],
+    "Galeforce Weird": [
+      "Arcane Anomaly"
+    ],
+    "Galvambler": [
+      "Blazing Stimulants",
+      "Crumbly Rock",
+      "Mineral Cinder"
+    ],
+    "Ganhir": [
+      "Snake Skin"
+    ],
+    "Gargoyle": [
+      "Lost Spirit",
+      "Stone Plating"
+    ],
+    "Gatling Gun": [
+      "Loose Ammunition",
+      "Rapid-Fire Mechanism"
+    ],
+    "Gel Weird": [
+      "Arcane Anomaly"
+    ],
+    "Gelid Commander": [
+      "Ice Silver",
+      "Ice Sliver",
+      "Icy Crampons",
+      "Viking Stone"
+    ],
+    "Gendarme Kenshi": [
+      "Gilded Regalia",
+      "Image of a Loved One",
+      "Noble Ribbon",
+      "Ornamental Horn"
+    ],
+    "Gendarme Knight": [
+      "Butterfly Buckler",
+      "Noble Ribbon"
+    ],
+    "Gendarme Sentinel": [
+      "Noble Ribbon"
+    ],
+    "Geodesic Cluster": [
+      "Cracked Geode"
+    ],
+    "Gert": [
+      "Gert Skin",
+      "Pig's Remains",
+      "Pig's Skull"
+    ],
+    "Gerten Hunter": [
+      "Gert Skin",
+      "Hunter's Disguise",
+      "Pig's Skull"
+    ],
+    "Ghastly Shadow": [
+      "Windy Aura"
+    ],
+    "Ghost Of Saints Row": [
+      "Electroplasm",
+      "Enraged Soul",
+      "Kaolin Clay",
+      "Mangled Soul",
+      "Mysterious Mist",
+      "Salted Salmon"
+    ],
+    "Ghost The Direwolf": [
+      "Wolf Fang"
+    ],
+    "Giant Ant Larva": [
+      "Mashed Insect"
+    ],
+    "Giant Ant Soldier": [
+      "Mashed Insect"
+    ],
+    "Giant Ant Worker": [
+      "Mashed Insect"
+    ],
+    "Giant Crusher Mantis": [
+      "Chitin Plate"
+    ],
+    "Giant Panda King": [
+      "Altitude Shard",
+      "Fighting Stick",
+      "Fluffy Fur",
+      "Illusory Idol",
+      "Mountain's Heart",
+      "Panda King’s Crown"
+    ],
+    "Giant Pipistrelle": [
+      "Pipistrelle Wing"
+    ],
+    "Giant Prayer Mantis": [
+      "Mashed Insect"
+    ],
+    "Giant Spearer Mantis": [
+      "Mashed Insect"
+    ],
+    "Giant Squid": [
+      "Squid",
+      "Squid Beak",
+      "Squid Brain",
+      "Squid Ink",
+      "Tentacle"
+    ],
+    "Giant Weevil": [
+      "Munched Grass",
+      "Wood Snippet"
+    ],
+    "Glacial Golem": [
+      "Ancient Core"
+    ],
+    "Gnarled Cadaver": [
+      "Rotten Flesh"
+    ],
+    "Goblin Forager": [
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Runner's Bandages",
+      "Torn Rawhide"
+    ],
+    "Goblin Pickpocket": [
+      "Chipped Quartz",
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Pure Quartz",
+      "Runner's Bandages",
+      "Torn Rawhide"
+    ],
+    "Goblin Revenge Seeker": [
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Runner's Bandages",
+      "Stretched Rawhide",
+      "Torn Rawhide"
+    ],
+    "Goblin Traveller": [
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Runner's Bandages",
+      "Shimmering Jewel",
+      "Stretched Rawhide"
+    ],
+    "Goblin Wayfinder": [
+      "Chipped Quartz",
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Pure Quartz",
+      "Runner's Bandages",
+      "Shimmering Jewel",
+      "Stretched Rawhide"
+    ],
+    "Golden Avia": [
+      "Golden Avia Feather"
+    ],
+    "Golden Dragonling": [
+      "Dragonling Scale"
+    ],
+    "Golden Horde": [
+      "Strange Geode"
+    ],
+    "Golden King of Yales": [
+      "Fresh Game",
+      "Looted Alloy",
+      "Orc Skin"
+    ],
+    "Goldring Swimmer": [
+      "Fish Scales",
+      "Gylia Essence",
+      "Soggy Stone"
+    ],
+    "Gollier": [
+      "Gollier Iron"
+    ],
+    "Goo Czar": [
+      "Coagulated Clot",
+      "Putrid Gunk"
+    ],
+    "Gooligan": [
+      "Discarded Junk",
+      "Meal Scraps",
+      "Mucoid Matter",
+      "Oddly Untouched Marshmallow"
+    ],
+    "Gore Czar": [
+      "Coagulated Clot",
+      "Putrid Gunk"
+    ],
+    "Grand Magus": [
+      "More-Pearlescent Jewel",
+      "Pearlescent Jewel"
+    ],
+    "Grass Muncher": [
+      "Munched Grass"
+    ],
+    "Gravitic Weird": [
+      "Arcane Anomaly"
+    ],
+    "Greedy Zombie": [
+      "Old Treasure֎",
+      "Rotten Flesh",
+      "Tarnished Gold Foil"
+    ],
+    "Green Foot": [
+      "Doom Stone",
+      "Green Foot",
+      "Sludge Parasite"
+    ],
+    "Gritty Zombie": [
+      "Gritty Rocks"
+    ],
+    "Grook": [
+      "Egg",
+      "Grook Feather"
+    ],
+    "Grookiva": [
+      "Grookiva Feather"
+    ],
+    "Ground Crawler": [
+      "Rotten Flesh"
+    ],
+    "Groundshaker": [
+      "Rotten Flesh"
+    ],
+    "Guard Coyote": [
+      "Coyote Fang"
+    ],
+    "Gunk Czar": [
+      "Coagulated Clot",
+      "Putrid Gunk"
+    ],
+    "Gunpowder Imp": [
+      "Gunpowder"
+    ],
+    "Guzzler": [
+      "Depreciating Flesh"
+    ],
+    "Gylia Beast": [
+      "Astral Alloy",
+      "Depth's Gem",
+      "Etheric Fern",
+      "Magicule Sample",
+      "Slimy Skin"
+    ],
+    "H-10ar Machine": [
+      "Enhanced Dynamics Microchip",
+      "Repair Toolkit",
+      "Robot Antenna"
+    ],
+    "H-20ar Machine": [
+      "Enhanced Dynamics Microchip",
+      "Repair Toolkit",
+      "Robot Antenna"
+    ],
+    "H-21ar Machine": [
+      "Enhanced Dynamics Microchip",
+      "Repair Toolkit",
+      "Robot Antenna"
+    ],
+    "Hangry Seagull": [
+      "Glittering Silt",
+      "Seabird Egg",
+      "Seabird Feather",
+      "Waterlogged Branch"
+    ],
+    "Hanja Abomination": [
+      "Snake Skin"
+    ],
+    "Hanja Brood Guard": [
+      "Primitive Delicacy",
+      "Snake Skin"
+    ],
+    "Hanja Guardian": [
+      "Reptile Scales",
+      "Snake Skin"
+    ],
+    "Hanja Ranger": [
+      "Reptile Scales",
+      "Snake Skin"
+    ],
+    "Hardpacked Zombie": [
+      "Rotten Flesh"
+    ],
+    "Harnort Compound Grunt": [
+      "Bandit Rations",
+      "Chipped Quartz",
+      "Pure Quartz"
+    ],
+    "Harnort Compound Matron": [
+      "Bandit Rations",
+      "Chipped Quartz",
+      "Pure Quartz"
+    ],
+    "Harnort Compound Roughneck": [
+      "Bandit Rations",
+      "Chipped Quartz",
+      "Pure Quartz"
+    ],
+    "Harnort Compound Tally Checker": [
+      "Bandit Rations",
+      "Chipped Quartz",
+      "Pure Quartz"
+    ],
+    "Harnort Compound Watch": [
+      "Bandit Rations",
+      "Chipped Quartz",
+      "Pure Quartz"
+    ],
+    "Haros": [
+      "Haros' Broken Badge",
+      "Powdery Bone",
+      "Router's Shield"
+    ],
+    "Harpy": [
+      "Plucked Feather"
+    ],
+    "Harpy Broodmother": [
+      "Piercing Talons",
+      "Plucked Feather"
+    ],
+    "Harpy Ranger": [
+      "Harpy Bone",
+      "Harpy Wing",
+      "Rock-Hard Beak"
+    ],
+    "Harpy Rockthrower": [
+      "Plucked Feather",
+      "Shiny Pebble"
+    ],
+    "Harvest Imp": [
+      "Stolen Seeds"
+    ],
+    "Hatchling": [
+      "Hatchling Remnant"
+    ],
+    "Headless Horseman": [
+      "Ghostly Essence"
+    ],
+    "Hedoro": [
+      "Mucoid Matter",
+      "Oddly Untouched Marshmallow"
+    ],
+    "Hell Avem": [
+      "Ashen Hide"
+    ],
+    "Hellblaze God": [
+      "Blaze Powder",
+      "Chaotic Embers",
+      "Fiery Essence"
+    ],
+    "Hellkite": [
+      "Rotten Teeth"
+    ],
+    "Herb Spawn": [
+      "Ancient Coins",
+      "Thick Vines"
+    ],
+    "Hexed Gem-Parasite": [
+      "Native Jadeite"
+    ],
+    "High Fire Elemental": [
+      "Fiery Aura"
+    ],
+    "Highlands Arbalist": [
+      "Soldier Rations",
+      "Stolen Heirloom"
+    ],
+    "Highlands Captain": [
+      "Soldier Rations",
+      "Stolen Heirloom"
+    ],
+    "Highlands Constable": [
+      "Noble Ribbon"
+    ],
+    "Highlands Defender": [
+      "Soldier Rations",
+      "Stolen Heirloom"
+    ],
+    "Highlands Glaive Master": [
+      "Glaive Head",
+      "Soldier Rations",
+      "Stolen Heirloom"
+    ],
+    "Highlands Ranger": [
+      "Commander's Spyglass",
+      "Emergency Stimulant",
+      "Honoured Commander's Medal",
+      "Soldier Rations",
+      "Stolen Heirloom"
+    ],
+    "Highlands Soldier": [
+      "Soldier Rations",
+      "Stolen Heirloom"
+    ],
+    "Highway Bandit": [
+      "Glimmering Coin",
+      "Worn Coin"
+    ],
+    "Highwayman": [
+      "Glimmering Coin",
+      "Premium Hay Bale",
+      "Savannah Stone",
+      "Sun-Stained Skin",
+      "Worn Coin"
+    ],
+    "Hobgoblin Caster": [
+      "Goblin Tooth",
+      "Nose Ring"
+    ],
+    "Hobgoblin Commander": [
+      "Goblin Tooth",
+      "Nose Ring"
+    ],
+    "Hobgoblin Farmer": [
+      "Goblin Tooth"
+    ],
+    "Hobgoblin Warrior": [
+      "Goblin Tooth",
+      "Nose Ring"
+    ],
+    "Holehold Orc Gofer": [
+      "Ancient Heart",
+      "Green Scale",
+      "Natural Nitrates",
+      "Orc Eye",
+      "Orc Teeth",
+      "Primeval Skin",
+      "Runner's Bandages",
+      "Stretched Rawhide"
+    ],
+    "Holehold Orc Keeper": [
+      "Ancient Heart",
+      "Green Scale",
+      "Natural Nitrates",
+      "Orc Eye",
+      "Orc Teeth",
+      "Primeval Skin",
+      "Runner's Bandages",
+      "Stretched Rawhide"
+    ],
+    "Holehold Orc Marathon": [
+      "Ancient Heart",
+      "Green Scale",
+      "Natural Nitrates",
+      "Orc Eye",
+      "Orc Teeth",
+      "Primeval Skin",
+      "Runner's Bandages",
+      "Stretched Rawhide"
+    ],
+    "Hollow Grovetender": [
+      "Hollow Psyche",
+      "Void Essence"
+    ],
+    "Hollow Weird": [
+      "Arcane Anomaly",
+      "Shattered Aspect"
+    ],
+    "Honeydew": [
+      "Wybel Fluff"
+    ],
+    "Host": [
+      "Depreciating Flesh"
+    ],
+    "Hothead": [
+      "Fuming Lava Rock"
+    ],
+    "Howling Phantom": [
+      "Frozen Ghostly Essence",
+      "Ghostly Essence",
+      "Large Lapis"
+    ],
+    "Howling Salamander": [
+      "Serpent Tongue"
+    ],
+    "Humyn Bystander": [
+      "Stolen Burnmilk"
+    ],
+    "Humyn Worker": [
+      "Stolen Burnmilk"
+    ],
+    "Hungry Wendigo": [
+      "Bob's Tear",
+      "Flashfrost",
+      "Large Lapis",
+      "Rotten Flesh",
+      "Snow Clump",
+      "Soul Stone",
+      "Ursine Claw",
+      "Wendigo Bone"
+    ],
+    "Hunter": [
+      "Bob's Tear"
+    ],
+    "Hurricane": [
+      "Aquatic Beauty",
+      "Naval Shard",
+      "Naval Stone"
+    ],
+    "Hwacha Arrow": [
+      "Rapid-Fire Mechanism"
+    ],
+    "Hyhethe Apostate": [
+      "Combustion Shard",
+      "Congealing Viscera",
+      "Rayscorched Plating"
+    ],
+    "Iboju Exile": [
+      "Ancient Coins",
+      "Zombie Eye"
+    ],
+    "Ice": [
+      "Bob's Tear",
+      "Jagged Rime"
+    ],
+    "Ice Elemental": [
+      "Icy Shard",
+      "Large Lapis",
+      "Snow Clump",
+      "Snow Heart"
+    ],
+    "Ice Zombie": [
+      "Bob's Tear",
+      "Frostbitten Flesh",
+      "Icy Shard",
+      "Large Lapis",
+      "Rotten Flesh",
+      "Snow Clump"
+    ],
+    "Icy Gorgon": [
+      "Snake Skin"
+    ],
+    "Icy Ranger": [
+      "Ice Silver",
+      "Ice Sliver",
+      "Icy Crampons"
+    ],
+    "Idol Guardian": [
+      "Ancient Coins",
+      "Ancient Metal"
+    ],
+    "Ifrit": [
+      "Demonic Ashes",
+      "Tempered Core"
+    ],
+    "Igneous Paladin": [
+      "Ancient Metal",
+      "Conflagrite"
+    ],
+    "Ijaba Molsk": [
+      "Ancient Coins",
+      "Gelatinous Slime Chunk",
+      "Mellow Mango",
+      "Sentient Slimeball",
+      "Thick Vines",
+      "Tropical Honeysuckle",
+      "Viscous Slime"
+    ],
+    "Imphirnu": [
+      "Conflagrite"
+    ],
+    "Industrial District Constable": [
+      "Noble Ribbon"
+    ],
+    "Infected Goo": [
+      "Coagulated Clot",
+      "Putrid Gunk"
+    ],
+    "Infected Gore": [
+      "Coagulated Clot",
+      "Putrid Gunk"
+    ],
+    "Infected Gunk": [
+      "Coagulated Clot",
+      "Putrid Gunk"
+    ],
+    "Infermyrial Stalker": [
+      "Foul Fluid",
+      "Hellish Cinders",
+      "Lashing Hellfire",
+      "Nasty Residue",
+      "Shattered Dawnlight",
+      "Soul Amalgamate",
+      "Spectral Spike"
+    ],
+    "Infested Zombie": [
+      "Rotten Flesh"
+    ],
+    "Ingredient Dummy": [
+      "Bamboo",
+      "Bloodstained Remains",
+      "Cleaned Saccharum",
+      "Familiar Essence",
+      "Metal Scraps",
+      "Panda King's Crown",
+      "Potato",
+      "Rusty Axe Head",
+      "Shattered Memory Shard",
+      "Soft Blue Wool",
+      "Soft Green Wool",
+      "Soft Red Wool",
+      "Soft White Wool",
+      "Soft Yellow Wool",
+      "The Grootslang's Heart",
+      "Vibrant Augment",
+      "Weakening Catalyst",
+      "Zhight Coral Piece",
+      "Zhight Herbal Mix",
+      "Zhight Shiny Stone",
+      "Zhight Weird Magic Rock"
+    ],
+    "Intense Weird": [
+      "Arcane Anomaly",
+      "Gylia Essence",
+      "Overload Aspect"
+    ],
+    "Intermittenstallion": [
+      "Intermittenstirrups"
+    ],
+    "Ironwood Uraqi": [
+      "Bob's Tear",
+      "Ironwood Chips"
+    ],
+    "Island Crab": [
+      "Glittering Silt",
+      "Oceanic Sand",
+      "Salt Water",
+      "Sea Salt",
+      "Seagrass"
+    ],
+    "Jad'lr Myconid": [
+      "Elemental Crystal",
+      "Myconid Spores",
+      "Prismatic Spores"
+    ],
+    "Jewel Miner": [
+      "Zombie Eye"
+    ],
+    "Jewel Scavenger": [
+      "Climber's Padding",
+      "Soapstone"
+    ],
+    "Jinkito": [
+      "Cat Tail",
+      "Cat's Ears"
+    ],
+    "Jinko Bandito": [
+      "Cat Tail",
+      "Cat's Ears",
+      "Sharp Claw"
+    ],
+    "Jinko Loco Asesino": [
+      "Cat's Ears"
+    ],
+    "Jinko Shanker": [
+      "Cat Tail",
+      "Cat's Ears",
+      "Razor-Sharp Tooth",
+      "Sharp Claw"
+    ],
+    "Jungle Cat": [
+      "Cat Tail"
+    ],
+    "Jungle Fetish": [
+      "Ancient Coins",
+      "Ibjub Fruit",
+      "Thick Vines"
+    ],
+    "Jungle Slime": [
+      "Ancient Coins",
+      "Gelatinous Slime Chunk",
+      "Viscous Slime"
+    ],
+    "Jungle Viper": [
+      "Ancient Coins",
+      "Snake Skin"
+    ],
+    "Kaian Observer": [
+      "Gravitation Crystal",
+      "Kaian Scroll"
+    ],
+    "Kaian Sorcerer": [
+      "Kaian Scroll"
+    ],
+    "Kaian Watcher": [
+      "Kaian Scroll"
+    ],
+    "Kandrekk Archwraith": [
+      "Evolving Spores",
+      "Hellish Cinders",
+      "Nova Bloom",
+      "Ritual Catalyst",
+      "Shadow of Ruin",
+      "Tenebrous Plasma"
+    ],
+    "Kandrekk Spiritbinder": [
+      "Ritual Catalyst"
+    ],
+    "Karoc Turncoat": [
+      "Bandit Rations",
+      "Chipped Quartz",
+      "Pure Quartz"
+    ],
+    "Katoa Crab": [
+      "Coastal Sand",
+      "Fresh Water"
+    ],
+    "Kerasot Toxifont": [
+      "Curse Gland",
+      "Kerasot Sporehead",
+      "Shattered Dawnlight",
+      "Soul Amalgamate",
+      "Spectral Spike"
+    ],
+    "King Crab": [
+      "Succulent Crab Meat"
+    ],
+    "Kipchak Guard": [
+      "Crumpled Propaganda",
+      "Manufactured Shortsword"
+    ],
+    "Kipchak Runner": [
+      "Crumpled Propaganda",
+      "Manufactured Shortsword"
+    ],
+    "Kipchak Sentry": [
+      "Crumpled Propaganda",
+      "Manufactured Shortsword"
+    ],
+    "Kipchak Swordancer": [
+      "Crumpled Propaganda",
+      "High Explosive",
+      "Manufactured Shortsword"
+    ],
+    "Kivaraptor": [
+      "Exquisite Marsh Scale"
+    ],
+    "Kivaraptor Rider": [
+      "Venom-Tipped Bolts"
+    ],
+    "Knife": [
+      "Zombie Eye"
+    ],
+    "Kobalscale Moth": [
+      "Chitin Plate",
+      "Iridescent Elytra",
+      "Ironwood Scale",
+      "Ruins Shard",
+      "Soft Silk",
+      "Tangy Nectar"
+    ],
+    "Kuklops": [
+      "Alga"
+    ],
+    "L-2nforcer Drone": [
+      "Enhanced Post-Processing Microchip",
+      "Repair Toolkit",
+      "Robot Antenna"
+    ],
+    "L-2unition Drone": [
+      "Enhanced Post-Processing Microchip",
+      "Repair Toolkit",
+      "Robot Antenna"
+    ],
+    "Larbonic Canker": [
+      "Doom Stone",
+      "Popped Pustule",
+      "Sludge Parasite"
+    ],
+    "Larkster Pirate": [
+      "Tarnished Gold Foil"
+    ],
+    "Larkster's Cook": [
+      "Tarnished Gold Foil"
+    ],
+    "Lava Geyser": [
+      "Eternal Flame"
+    ],
+    "Lava Infused Miner": [
+      "Fuming Lava Rock"
+    ],
+    "Lava Monster": [
+      "Eternal Flame",
+      "Lava Blisters"
+    ],
+    "Lava Spitting Limus": [
+      "Ashstained Basalt",
+      "Demonic Ashes",
+      "Roasted Tissue",
+      "Soulbound Cinders",
+      "Soulfire Matterweave",
+      "Tempered Core"
+    ],
+    "Ledant Broodmother": [
+      "Chitin Plate"
+    ],
+    "Ledant Droneling": [
+      "Chitin Plate"
+    ],
+    "Ledant Grub": [
+      "Chitin Plate"
+    ],
+    "Ledant Queen": [
+      "Chitin Plate",
+      "Mashed Insect"
+    ],
+    "Leg Eater": [
+      "Expelled Shrapnel",
+      "Glow Bulb Seeds",
+      "Leg Eater Tooth",
+      "Myocardial Leg",
+      "Toxxulous Ripper’s Legs"
+    ],
+    "Lesionary Sagittarii": [
+      "Subjoined Brain"
+    ],
+    "Lesser Phoenix": [
+      "Magic Feather",
+      "Magical Fire"
+    ],
+    "Leukocytic Growth": [
+      "Sentient Leukocyte"
+    ],
+    "Lichenous Alnamar": [
+      "Alnamar Meat",
+      "Subjoined Brain"
+    ],
+    "Liff": [
+      "Liff Leaf",
+      "Pristine Liff Leaf"
+    ],
+    "Liftal Vanguard": [
+      "Glaive Head"
+    ],
+    "Light Fairy": [
+      "Alginate Dressing",
+      "Fairy Dust",
+      "Purest Tear"
+    ],
+    "Light Weird": [
+      "Arcane Anomaly"
+    ],
+    "Lilyfish": [
+      "Cherished Heirloom",
+      "Frog Eyeball",
+      "Preserved Relic",
+      "Sphagnum Moss"
+    ],
+    "Limestone Machination": [
+      "Ancient Panel",
+      "Gritty Rocks",
+      "Limestone Core",
+      "Pokey Cactus",
+      "Red Shale",
+      "Spirograph Tablet"
+    ],
+    "Lion Master": [
+      "Rotten Flesh"
+    ],
+    "Lion Trainer": [
+      "Rotten Flesh"
+    ],
+    "Little Eater": [
+      "Defiled Luxroot",
+      "Nasty Residue"
+    ],
+    "Little Swimmer": [
+      "Fish Scales",
+      "Gylia Essence",
+      "Soggy Stone"
+    ],
+    "Lizardman Bruiser": [
+      "Lizard Scale",
+      "Lizard Tail",
+      "Reptile Scales",
+      "Stolen Harvest"
+    ],
+    "Lizardman Darter": [
+      "Lizard Scale",
+      "Lizard Tail",
+      "Reptile Scales",
+      "Stolen Harvest"
+    ],
+    "Loamsprout Orc Muckraker": [
+      "Natural Nitrates",
+      "Orc Eye",
+      "Torn Rawhide"
+    ],
+    "Loamsprout Orc Rotflinger": [
+      "Natural Nitrates",
+      "Orc Eye",
+      "Torn Rawhide"
+    ],
+    "Lonely Spider": [
+      "Rose"
+    ],
+    "Long-dead Soldier": [
+      "Rotten Bone"
+    ],
+    "Longleg Gripper": [
+      "Dark Iris",
+      "Engored Oculus"
+    ],
+    "Lost Adventurer": [
+      "Ancient Coins",
+      "Lost Talisman",
+      "Overgrown Bones"
+    ],
+    "Lotus Core": [
+      "Lotus Seedpod"
+    ],
+    "Lotus Germinator": [
+      "Bright Petal",
+      "Lotus Seedpod"
+    ],
+    "Luciola Larvae": [
+      "Jolting Geode",
+      "Luciolum",
+      "Luminescent Ink"
+    ],
+    "Lucy": [
+      "Warm Hide"
+    ],
+    "Luminescent Jelly": [
+      "Watery Aura"
+    ],
+    "Luna": [
+      "Bob's Tear"
+    ],
+    "Lunar Darksider": [
+      "Lunar Charm"
+    ],
+    "Lunar Effigy": [
+      "Lunar Charm",
+      "Lunar Chunk",
+      "Lunar Dust",
+      "Lunar Shard"
+    ],
+    "Lunar Parasite": [
+      "Lunar Chunk",
+      "Lunar Dust",
+      "Lunar Shard"
+    ],
+    "Lunar Possessed": [
+      "Lunar Charm",
+      "Lunar Chunk",
+      "Lunar Dust",
+      "Lunar Shard"
+    ],
+    "Lunatic Devote": [
+      "Dried Kelp",
+      "Lunar Charm",
+      "Lunar Chunk",
+      "Lunar Dust",
+      "Lunar Shard"
+    ],
+    "Lunatic Interloper": [
+      "Lunar Charm",
+      "Lunar Chunk",
+      "Lunar Dust",
+      "Lunar Shard"
+    ],
+    "Lunatic Remnant": [
+      "Lunar Chunk",
+      "Lunar Dust",
+      "Lunar Shard"
+    ],
+    "Lunatic Squid": [
+      "Algae Mat",
+      "Dried Kelp",
+      "Lunar Dust",
+      "Squid Beak",
+      "Squid Ink"
+    ],
+    "Lung Piranha": [
+      "Piranha Jaw"
+    ],
+    "Luu Luu Snake": [
+      "Luu Luu Vertebrae",
+      "Serpent's Fang"
+    ],
+    "Luxroot Sapling": [
+      "Leafy Stalk",
+      "Luxroot Cuttings"
+    ],
+    "Luxroot Sentinel": [
+      "Alginate Dressing",
+      "Ironwood Chips",
+      "Leafy Stalk",
+      "Luxroot Cuttings"
+    ],
+    "Lyran Cub": [
+      "Fancy Pelt"
+    ],
+    "Lyran Soldier": [
+      "Fancy Pelt",
+      "Sharp Claw"
+    ],
+    "Lyran Veteran": [
+      "Fancy Pelt",
+      "Razor-Sharp Tooth",
+      "Sharp Claw"
+    ],
+    "MM-0actical Unit": [
+      "Autonomous Core",
+      "Defective Circuits",
+      "Insulated Wiring",
+      "Linear Accelerator",
+      "Silver Bullet"
+    ],
+    "Maddened Fisherman": [
+      "Rotten Flesh"
+    ],
+    "Mage Zombie": [
+      "Strong Flesh"
+    ],
+    "Magic Essence": [
+      "Watery Aura"
+    ],
+    "Magic Trainer": [
+      "Broken Amulet"
+    ],
+    "Magical Flux": [
+      "Native Jadeite"
+    ],
+    "Magical Snowman": [
+      "Bob's Tear",
+      "Large Lapis",
+      "Snow Clump",
+      "Snow Heart"
+    ],
+    "Magma Entity": [
+      "Acid Magma",
+      "Tempered Core"
+    ],
+    "Magma Rock": [
+      "Crumbly Rock",
+      "Galvanic Stone",
+      "Mineral Cinder"
+    ],
+    "Magmatic Shambler": [
+      "Hardened Magma"
+    ],
+    "Magnetized Weird": [
+      "Arcane Anomaly",
+      "Gylia Essence",
+      "Repulsive Aspect"
+    ],
+    "Mahogany Colossus": [
+      "Ironwood Chips",
+      "Ironwood Scale",
+      "Mahogany Heartwood",
+      "Ruins Shard",
+      "Tangy Nectar"
+    ],
+    "Majestic Cave Squid": [
+      "Watery Aura"
+    ],
+    "Major": [
+      "Major's Badge"
+    ],
+    "Malevolent Mist": [
+      "Bottled Decay",
+      "Gloomy Orb"
+    ],
+    "Mama Zomble": [
+      "Rotten Flesh"
+    ],
+    "Man at Arms": [
+      "Bloodstained Steel",
+      "Torn Fabric"
+    ],
+    "Mandragora": [
+      "Gilded Bark",
+      "Ignited Faebloom",
+      "Leafy Stalk"
+    ],
+    "Mandrake": [
+      "Leafy Stalk"
+    ],
+    "Manifested Goo": [
+      "Gelatinous Slime Chunk"
+    ],
+    "Marinemite": [
+      "Terramarine Dust"
+    ],
+    "Marksman Drone": [
+      "Fiberglass Frame",
+      "Linear Accelerator",
+      "Optic Fiber",
+      "Shorting Wire"
+    ],
+    "Marsh Beast": [
+      "Exquisite Marsh Scale",
+      "Frog Eyeball",
+      "Preserved Relic",
+      "Sphagnum Moss"
+    ],
+    "Massive Rat": [
+      "Muscle"
+    ],
+    "Master Regenerator": [
+      "Adaptive Tissue",
+      "Flytrap Fangs",
+      "Regenerative Pins",
+      "Roots of Eternity",
+      "Spreading Fireweed",
+      "Suspicious Shrubs"
+    ],
+    "Matango": [
+      "Brown Mushroom",
+      "Red Mushroom"
+    ],
+    "Mauler Major": [
+      "Bloodstained Steel",
+      "Granite Maul"
+    ],
+    "Medusa": [
+      "Snake Skin"
+    ],
+    "Melting Cowboy": [
+      "Lava Blisters"
+    ],
+    "Melting Weird": [
+      "Arcane Anomaly"
+    ],
+    "Merlug": [
+      "Dry Seeds"
+    ],
+    "Mermaid": [
+      "Fish Scales",
+      "Gylia Essence",
+      "Iceberries"
+    ],
+    "Mesa Outlaw": [
+      "Gold Tooth"
+    ],
+    "Meskis": [
+      "Snake Skin"
+    ],
+    "Mesquis": [
+      "Snake Skin"
+    ],
+    "Middousagi": [
+      "Gilded Bark"
+    ],
+    "Migrant Grook": [
+      "Grook Feather"
+    ],
+    "Mine Crawler": [
+      "Crawler Sludge"
+    ],
+    "Mine Zombie": [
+      "Rotten Flesh"
+    ],
+    "Miner Chef": [
+      "Rotten Flesh"
+    ],
+    "Miner Zombie": [
+      "Rotten Flesh"
+    ],
+    "Miner Zombie Patron": [
+      "Rotten Flesh"
+    ],
+    "Mining Mech TERA-4M": [
+      "Mixed Jewel Deposit",
+      "Mixed Mineral Deposit",
+      "Shiny Mineral Deposit"
+    ],
+    "Minokawa": [
+      "Deep Ice Core",
+      "Serafite",
+      "Skybound Remnant",
+      "Void Particulates",
+      "Wind Ornament"
+    ],
+    "Minotaurus Bolter": [
+      "Fresh Game"
+    ],
+    "Minotaurus Cook": [
+      "Fresh Game"
+    ],
+    "Minotaurus Lancer": [
+      "Fresh Game"
+    ],
+    "Misfit": [
+      "Foul Fluid",
+      "Rancid Flesh"
+    ],
+    "Missy Longlegs": [
+      "Earthly Aura"
+    ],
+    "Mistake": [
+      "Flesh-forged Circuit"
+    ],
+    "Mistdawn Fogcatcher": [
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Runner's Bandages",
+      "Stretched Rawhide"
+    ],
+    "Mistdawn Raindancer": [
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Runner's Bandages",
+      "Stretched Rawhide"
+    ],
+    "Mistdawn Speaker": [
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Runner's Bandages",
+      "Stretched Rawhide"
+    ],
+    "Mistdawn Windwhistler": [
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Runner's Bandages",
+      "Stretched Rawhide"
+    ],
+    "Mistwoods Slug": [
+      "Glistening Slime",
+      "Slippery Muscle",
+      "Sluggish Substance"
+    ],
+    "Molarcephale": [
+      "Cavitated Bone",
+      "Decaying Arteries",
+      "Leg Eater Tooth",
+      "Malignant Nuclei"
+    ],
+    "Molten Archer": [
+      "Melted Steel",
+      "Terra Steel"
+    ],
+    "Molten Chevalier": [
+      "Melted Steel",
+      "Terra Steel"
+    ],
+    "Molten Knight": [
+      "Melted Steel",
+      "Terra Steel"
+    ],
+    "Molten Madoshi": [
+      "Melted Steel",
+      "Terra Steel"
+    ],
+    "Molten Man": [
+      "Burning Soul",
+      "Magmatic Skin"
+    ],
+    "Momma Longlegs": [
+      "Earthly Aura"
+    ],
+    "Moonlight Weird": [
+      "Arcane Anomaly"
+    ],
+    "Moorbadger": [
+      "Sharper Claw"
+    ],
+    "Moosebull Beetle": [
+      "Maple Bark",
+      "Ripe Aureate Fruit"
+    ],
+    "Mosquito Swarm": [
+      "Chitin Plate"
+    ],
+    "Mossy Golem": [
+      "Ancient Coins",
+      "Thick Vines"
+    ],
+    "Mountain Harpy": [
+      "Plucked Feather"
+    ],
+    "Mountain Pigman": [
+      "Pigman Meat"
+    ],
+    "Mountain Ram": [
+      "Broken Ram Horn",
+      "Crumbly Rock",
+      "Soapstone"
+    ],
+    "Mountain Zombie": [
+      "Large Lapis",
+      "Rotten Flesh"
+    ],
+    "Mousse": [
+      "Bob's Tear"
+    ],
+    "Mucklurker": [
+      "Cherished Heirloom",
+      "Earthenware Clay",
+      "Frog Eyeball",
+      "Water Dropwort"
+    ],
+    "Mud Animant": [
+      "Earthly Aura"
+    ],
+    "Mud Spider": [
+      "Thick Mud"
+    ],
+    "Mud-Spitting Serpent": [
+      "Snake Skin"
+    ],
+    "Muddled Weird": [
+      "Arcane Anomaly",
+      "Disturbed Aspect"
+    ],
+    "Muddy Zombie": [
+      "Thick Mud"
+    ],
+    "Mudshroom Beetle": [
+      "Chitin Plate",
+      "Iridescent Elytra"
+    ],
+    "Mudslinger": [
+      "Thick Mud"
+    ],
+    "Mudspring Orc Chemist": [
+      "Archaic Medallion",
+      "Natural Nitrates",
+      "Orc Eye",
+      "Orc Teeth",
+      "Stretched Rawhide"
+    ],
+    "Mudspring Orc Pulper": [
+      "Archaic Medallion",
+      "Natural Nitrates",
+      "Orc Eye",
+      "Orc Teeth",
+      "Stretched Rawhide"
+    ],
+    "Mudspring Orc Waterbearer": [
+      "Archaic Medallion",
+      "Natural Nitrates",
+      "Orc Eye",
+      "Orc Teeth",
+      "Stretched Rawhide"
+    ],
+    "Murex Mollusk": [
+      "Delectable Escargot",
+      "Iridescent Fortrepace",
+      "Potent Venom"
+    ],
+    "Mushroom": [
+      "Brown Mushroom",
+      "Red Mushroom"
+    ],
+    "Mushroom Mite": [
+      "Mashed Insect"
+    ],
+    "Mustard Beetle": [
+      "Maple Bark",
+      "Ripe Aureate Fruit"
+    ],
+    "Mutated Lutho Citizen": [
+      "Doom Stone",
+      "Sludge Parasite",
+      "Toxic Lumps"
+    ],
+    "Mutineer": [
+      "Conscription Letter",
+      "Gold Tooth"
+    ],
+    "Mycolite": [
+      "Brown Mushroom",
+      "Red Mushroom"
+    ],
+    "Myocardial Vascular": [
+      "Myocardial Leg"
+    ],
+    "Naga Commander": [
+      "Bloodstained Remains",
+      "Naga Tail"
+    ],
+    "Naga Fighter": [
+      "Naga Tail"
+    ],
+    "Nesting Osprey": [
+      "Osprey Egg"
+    ],
+    "Nesting Spider": [
+      "Corrupted Ichor",
+      "Forest Web",
+      "Lucky Spider Egg",
+      "Luxurious Silk",
+      "Poisonous Spider Eye",
+      "Spider Fang"
+    ],
+    "Nibbles": [
+      "Wybel Fluff"
+    ],
+    "Night Lurker": [
+      "Black Steel",
+      "Decaying Heart",
+      "Essence Of Dusk"
+    ],
+    "Nimbuseeker": [
+      "Sentient Water",
+      "Soggy Stone"
+    ],
+    "Nivlan Beauty": [
+      "Beak of the Nivlan Beauty",
+      "Blood of the Nivlan Beauty",
+      "Digestible Fungi",
+      "Feather of Grace",
+      "Glowing Tree Sap",
+      "Thin Quill",
+      "Webbed Offshoot"
+    ],
+    "Noble Peacock": [
+      "Peacock Plume"
+    ],
+    "Nohno Wife": [
+      "Egg"
+    ],
+    "Novice Fire Mage": [
+      "Fiery Aura"
+    ],
+    "Nucleated Observer": [
+      "Ancient Currency",
+      "Crystallized Organ",
+      "Eyes Yet Open",
+      "Malignant Nuclei"
+    ],
+    "Oasis Leech": [
+      "Spark of the Oasis"
+    ],
+    "Obelisk Of Inversion": [
+      "Accursed Effigy",
+      "Evolving Spores",
+      "Nova Bloom",
+      "Obelisk Core",
+      "Shadow of Ruin"
+    ],
+    "Obsidian Sentinel": [
+      "Antique Metal",
+      "Durable Skin"
+    ],
+    "Obturate Sludge": [
+      "Mucoid Matter",
+      "Oddly Untouched Marshmallow"
+    ],
+    "Ocean Skeleton": [
+      "Bone Meal"
+    ],
+    "Ocean Waker": [
+      "Dead Naval Shard",
+      "Oceanic Silt"
+    ],
+    "Olux Plague Doctor": [
+      "Acidic Solution",
+      "Aqua Vitae",
+      "Spiked Capsule"
+    ],
+    "Oni Shaman": [
+      "Rotten Flesh",
+      "Zombie Eye"
+    ],
+    "Oni Zombie": [
+      "Rotten Flesh"
+    ],
+    "Orange Woolly": [
+      "Illuminated Spirit",
+      "Shining Wool"
+    ],
+    "Orange Wybel": [
+      "Borange Fluff"
+    ],
+    "Orc Fighter": [
+      "Natural Nitrates",
+      "Orc Eye",
+      "Orc Teeth"
+    ],
+    "Orc Lookout": [
+      "Orc Eye",
+      "Orc Teeth",
+      "Rotten Log",
+      "Runner's Bandages",
+      "Wood Shavings"
+    ],
+    "Orc Zealot": [
+      "Orc Eye",
+      "Orc Teeth"
+    ],
+    "Orchard Owner": [
+      "Apple",
+      "Lively Apple"
+    ],
+    "Osprey Nest": [
+      "Osprey Egg"
+    ],
+    "Outlandish Weird": [
+      "Arcane Anomaly",
+      "Atmospheric Aspect",
+      "Repulsive Aspect",
+      "Shattered Aspect"
+    ],
+    "Outpost Hunter": [
+      "Warm Parka"
+    ],
+    "Outpost Patrol": [
+      "Warm Parka"
+    ],
+    "Overgrown Sentinel": [
+      "Ancient Moss",
+      "Resilient Stone"
+    ],
+    "Overgrown Zombie": [
+      "Ancient Coins",
+      "Rotten Flesh",
+      "Zombie Eye"
+    ],
+    "Ozone Weird": [
+      "Arcane Anomaly",
+      "Atmospheric Aspect",
+      "Gylia Essence"
+    ],
+    "P-1ogue Patroller": [
+      "Enhanced Pathfinding Microchip",
+      "Repair Toolkit",
+      "Robot Antenna"
+    ],
+    "PU-0iner Patroller": [
+      "Repair Toolkit",
+      "Robot Antenna"
+    ],
+    "Panic Zealot": [
+      "Coalescence",
+      "Fragmentation",
+      "Scopaesthesia"
+    ],
+    "Paramite": [
+      "Diseased Fluids",
+      "Flytrap Fangs",
+      "Parasitic Abscission",
+      "Spreading Fireweed",
+      "Suspicious Shrubs"
+    ],
+    "Pathogenesis": [
+      "Doom Stone",
+      "Sludge Parasite",
+      "Vile Stone"
+    ],
+    "Patrolling Cavalier": [
+      "Bloodstained Steel",
+      "Crazy Horse Glue",
+      "Mangled Titanium Scrap",
+      "Noble Ribbon",
+      "Ostentatious Cape",
+      "Winged Helmet"
+    ],
+    "Patrolling Constable": [
+      "Bloodstained Steel",
+      "Noble Ribbon"
+    ],
+    "Patrolling Guard": [
+      "Bloodstained Steel",
+      "Torn Fabric"
+    ],
+    "Peacock": [
+      "Peacock Plume"
+    ],
+    "Peculiar Weird": [
+      "Arcane Anomaly",
+      "Ritual Catalyst",
+      "Wintery Aspect"
+    ],
+    "Pegasus": [
+      "Mythical Hoof",
+      "Pegasus Feather",
+      "Serafite",
+      "Skybound Remnant",
+      "Void Particulates"
+    ],
+    "Penguin": [
+      "Large Lapis",
+      "Penguin Egg",
+      "Snow Clump"
+    ],
+    "Peppered Ghost": [
+      "Rose"
+    ],
+    "Pernix Monkey": [
+      "Perkish Potato"
+    ],
+    "Phantasm": [
+      "Unholy Spirit"
+    ],
+    "Phantasm of Emptiness": [
+      "Void Essence"
+    ],
+    "Phantasm of Regret": [
+      "Void Essence"
+    ],
+    "Phantom": [
+      "Frozen Ghostly Essence",
+      "Ghostly Essence",
+      "Large Lapis"
+    ],
+    "Photophobic Devourer": [
+      "Void Essence"
+    ],
+    "Phrumkin Gangster": [
+      "Leafy Stalk",
+      "Phrumkin Seeds"
+    ],
+    "Phrumkin Prankster": [
+      "Ignited Faebloom",
+      "Leafy Stalk",
+      "Phrumkin Seeds"
+    ],
+    "Phrumkinstein": [
+      "Phrumkin Seeds"
+    ],
+    "Pigman Overlord": [
+      "Pigman Ivory",
+      "Pigman Meat"
+    ],
+    "Pigman Raider": [
+      "Pigman Ivory",
+      "Pigman Meat"
+    ],
+    "Pigman Runner": [
+      "Pigman Ivory",
+      "Pigman Meat"
+    ],
+    "Pigman Striker": [
+      "Pigman Ivory",
+      "Pigman Meat"
+    ],
+    "Pink Pelulite": [
+      "Bionic Fiber",
+      "Creepvine Cluster",
+      "Cyclone Blue Leaves",
+      "Death Whistle Leaf",
+      "Mangrove Root",
+      "Pink Pelulite",
+      "Pink Pelute"
+    ],
+    "Pink Pelute": [
+      "Bionic Fiber",
+      "Creepvine Cluster",
+      "Cyclone Blue Leaves",
+      "Death Whistle Leaf",
+      "Mangrove Root",
+      "Pink Pelulite",
+      "Pink Pelute"
+    ],
+    "Pink Sheep of Greatness": [
+      "Pink Wool",
+      "Wool",
+      "Wooly Armour"
+    ],
+    "Pink Woolly": [
+      "Illuminated Spirit",
+      "Shining Wool"
+    ],
+    "Pirate": [
+      "Aquatic Beauty",
+      "Pirate Beard"
+    ],
+    "Pirate Captain": [
+      "Pirate Beard"
+    ],
+    "Pirate Guard": [
+      "Pirate Beard"
+    ],
+    "Plasmatic Shambler": [
+      "Fiery Aura"
+    ],
+    "Plasmatic Shellwalker": [
+      "Fiery Aura"
+    ],
+    "Plateau Coyote": [
+      "Coyote Fang",
+      "Prized Pelt"
+    ],
+    "Plumber": [
+      "Mucoid Matter",
+      "Oddly Untouched Marshmallow"
+    ],
+    "Poacher ": [
+      "Deceptively Large Bag",
+      "Filched Purse",
+      "Frog Eyeball",
+      "Shattered Ammunition"
+    ],
+    "Poison Tendril": [
+      "Doom Stone",
+      "Sludge Parasite",
+      "Viral Tentacle"
+    ],
+    "Polar Weird": [
+      "Arcane Anomaly",
+      "Atmospheric Aspect",
+      "Disturbed Aspect",
+      "Iceberries",
+      "Overload Aspect",
+      "Repulsive Aspect",
+      "Shattered Aspect",
+      "Wintery Aspect"
+    ],
+    "Poltergeist": [
+      "Hellish Cinders"
+    ],
+    "Pond Nymph": [
+      "Alga",
+      "Alginate Dressing",
+      "Purest Tear"
+    ],
+    "Possessed Armor Stand": [
+      "Dominant Force",
+      "Flashfrost",
+      "Ghostly Essence",
+      "Soul Stone",
+      "Ursine Claw",
+      "Wriggling Wooden Arm"
+    ],
+    "Possessed Oelnethite": [
+      "Hellish Cinders"
+    ],
+    "Possessive Militarist": [
+      "Chain Loop",
+      "Sharp Edge"
+    ],
+    "Posted Guard": [
+      "Bloodstained Steel",
+      "Torn Fabric"
+    ],
+    "Potato Imp": [
+      "Rare Potato",
+      "Rotten Flesh"
+    ],
+    "Power Trainer": [
+      "Broken Amulet"
+    ],
+    "Presocietal Stonewalker": [
+      "Stonewalker Core",
+      "Terracotta Chunk"
+    ],
+    "Pride Male Lion": [
+      "Lion Heart"
+    ],
+    "Prismatic Weird": [
+      "Arcane Anomaly",
+      "Evaporated Aspect"
+    ],
+    "Propagandist": [
+      "Misprinted Newspaper"
+    ],
+    "Protective Osprey": [
+      "Osprey Egg"
+    ],
+    "Pulsatile Mass": [
+      "Eyes Yet Open",
+      "Malignant Nuclei",
+      "Viral Tentacle"
+    ],
+    "Pyreant Larva": [
+      "Mashed Insect"
+    ],
+    "Pyreant Soldier": [
+      "Mashed Insect"
+    ],
+    "Pyreant Worker": [
+      "Mashed Insect"
+    ],
+    "Pyret": [
+      "Glacial Anomaly",
+      "Hybrid Skin",
+      "Rotten Teeth"
+    ],
+    "Pyroclastic Hydra": [
+      "Acid Magma",
+      "Ashen Hide",
+      "Ashstained Basalt",
+      "Draconic Bone Marrow",
+      "Infernal Flesh",
+      "Roasted Tissue",
+      "Soulfire Matterweave"
+    ],
+    "Pyrocobalt Screech": [
+      "Galvanic Stone",
+      "Mineral Cinder"
+    ],
+    "Pyrosilver Spitter": [
+      "Galvanic Stone",
+      "Mineral Cinder"
+    ],
+    "Quartz Bandit": [
+      "Bandit Rations",
+      "Chipped Quartz",
+      "Pure Quartz"
+    ],
+    "Quartz Ranger": [
+      "Bandit Rations",
+      "Chipped Quartz",
+      "Pure Quartz"
+    ],
+    "Queen Slime": [
+      "Ancient Coins",
+      "Gelatinous Slime Chunk",
+      "Viscous Slime"
+    ],
+    "Qunbos Boa": [
+      "Snake Skin"
+    ],
+    "RCC-16": [
+      "Repair Toolkit",
+      "Robot Antenna"
+    ],
+    "RCC-17": [
+      "Repair Toolkit",
+      "Robot Antenna"
+    ],
+    "RCC-18": [
+      "Repair Toolkit",
+      "Robot Antenna"
+    ],
+    "Raccoon": [
+      "Meal Scraps",
+      "Oddly Untouched Marshmallow",
+      "Raccoon Tail"
+    ],
+    "Rain Cloud Ram": [
+      "Storm Horn"
+    ],
+    "Raincloud Uma": [
+      "Broken Antic Bead",
+      "Ibjub Fruit",
+      "Native Jadeite"
+    ],
+    "Rambling Mushroom": [
+      "Red Mushroom"
+    ],
+    "Ramhead Charger": [
+      "Broken Ram Horn",
+      "Consecrated Ivory",
+      "Sanctified Sheep Soul",
+      "Soapstone"
+    ],
+    "Ramhead Worshipper": [
+      "Broken Ram Horn",
+      "Consecrated Ivory",
+      "Sanctified Sheep Soul",
+      "Soapstone"
+    ],
+    "Rampaging Blaze": [
+      "Blaze Powder"
+    ],
+    "Rat": [
+      "Rat Hair"
+    ],
+    "Ratel": [
+      "Snake Skin"
+    ],
+    "Raul": [
+      "Bob's Tear"
+    ],
+    "Ravenous Coyote": [
+      "Coyote Fang",
+      "Prized Pelt"
+    ],
+    "Ravine Pigman": [
+      "Pigman Ivory",
+      "Pigman Meat"
+    ],
+    "Reality Swimmer": [
+      "Decaying Arteries",
+      "Glow Bulb Seeds",
+      "Rigid Fin"
+    ],
+    "Reanimated Bones": [
+      "Bone Meal"
+    ],
+    "Rebel Cow": [
+      "Leather"
+    ],
+    "Recluse Spider": [
+      "Recluse Venom Sac"
+    ],
+    "Recluse Spiderling": [
+      "Recluse Venom Sac"
+    ],
+    "Red Dragonling": [
+      "Dragonling Scale"
+    ],
+    "Red Scale Spider": [
+      "Red Scale"
+    ],
+    "Redfin Swimmer": [
+      "Fish Scales",
+      "Gylia Essence",
+      "Soggy Stone"
+    ],
+    "Redline Weird": [
+      "Arcane Anomaly",
+      "Erratic Aspect",
+      "Gylia Essence",
+      "Igneous Aspect",
+      "Repulsive Aspect"
+    ],
+    "Refusal of Death": [
+      "Acidulous Plating",
+      "Cavitated Bone",
+      "Crystallized Organ",
+      "Depurinated Genome",
+      "Eyes Yet Open",
+      "Giant Teratoma",
+      "Leg Eater Tooth",
+      "Malignant Nuclei",
+      "Pluripotent Tissue",
+      "Viral Tentacle"
+    ],
+    "Regenerator": [
+      "Illuminated Spirit",
+      "Regenerative Pins"
+    ],
+    "Reggie": [
+      "Gunpowder",
+      "Lucky Rabbit's Foot",
+      "Regretless Talisman"
+    ],
+    "Regurgitator": [
+      "Defiled Luxroot",
+      "Devourer's Maw",
+      "Nasty Residue"
+    ],
+    "Rejuvenator": [
+      "Foul Fluid",
+      "Rancid Flesh"
+    ],
+    "Repurposed Host": [
+      "Decaying Arteries",
+      "Glow Bulb Seeds",
+      "Infected Mass"
+    ],
+    "Restless Armour": [
+      "Ghostly Essence",
+      "Large Lapis",
+      "Pillaged Fragment"
+    ],
+    "Resurrected Monster": [
+      "Rotten Flesh"
+    ],
+    "Resurrected Ragni Soldier": [
+      "Corruption Shard"
+    ],
+    "Revenant of Skien": [
+      "Large Titanium Chunk",
+      "Titanium Chunk"
+    ],
+    "Risen Explorer": [
+      "Ancient Coins",
+      "Lost Talisman",
+      "Overgrown Bones"
+    ],
+    "Risen Skeleton": [
+      "Spellbound Ash"
+    ],
+    "Rising Weird": [
+      "Arcane Anomaly",
+      "Compressed Aspect"
+    ],
+    "River Hog": [
+      "Earthenware Clay",
+      "Ripe Aureate Fruit"
+    ],
+    "River Locust Swarm": [
+      "Mashed Insect"
+    ],
+    "Rivertunnel Bottler": [
+      "Chipped Quartz",
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Pure Quartz",
+      "Runner's Bandages",
+      "Shimmering Jewel",
+      "Stretched Rawhide"
+    ],
+    "Rivertunnel Digger": [
+      "Chipped Quartz",
+      "Gold Nugget",
+      "Pure Quartz",
+      "Shimmering Jewel",
+      "Stretched Rawhide"
+    ],
+    "Rivertunnel Shiny Baron": [
+      "Chipped Quartz",
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Pure Quartz",
+      "Runner's Bandages",
+      "Shimmering Jewel",
+      "Stretched Rawhide"
+    ],
+    "Rivertunnel Siever": [
+      "Chipped Quartz",
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Pure Quartz",
+      "Runner's Bandages",
+      "Shimmering Jewel",
+      "Stretched Rawhide"
+    ],
+    "Roaming Ancient": [
+      "Aged Tome",
+      "Primordial Soul"
+    ],
+    "Roaming Skeleton": [
+      "Decaying Skin",
+      "Old Bone"
+    ],
+    "Roaming Zombie": [
+      "Decaying Skin",
+      "Muscle",
+      "Rotten Flesh"
+    ],
+    "Rock Bagworm": [
+      "Earthly Aura"
+    ],
+    "Rocky": [
+      "Wybel Fluff"
+    ],
+    "Rogue Mech-TE1": [
+      "Repair Toolkit",
+      "Robot Antenna"
+    ],
+    "Root Infestation": [
+      "Wood Snippet"
+    ],
+    "Root Ingrainer": [
+      "Wood Snippet"
+    ],
+    "Roothome Chanter": [
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Rotten Log",
+      "Runner's Bandages",
+      "Shimmering Jewel",
+      "Stretched Rawhide",
+      "Torn Rawhide",
+      "Wood Shavings"
+    ],
+    "Roothome Dancer": [
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Rotten Log",
+      "Runner's Bandages",
+      "Shimmering Jewel",
+      "Stretched Rawhide",
+      "Torn Rawhide",
+      "Wood Shavings"
+    ],
+    "Roothome Flutist": [
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Rotten Log",
+      "Runner's Bandages",
+      "Shimmering Jewel",
+      "Stretched Rawhide",
+      "Torn Rawhide",
+      "Wood Shavings"
+    ],
+    "Roothome Grudgebearer": [
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Rotten Log",
+      "Runner's Bandages",
+      "Shimmering Jewel",
+      "Stretched Rawhide",
+      "Torn Rawhide",
+      "Wood Shavings"
+    ],
+    "Roothome Orc Protector": [
+      "Orc Eye",
+      "Orc Teeth"
+    ],
+    "Roothome Overseer": [
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Rotten Log",
+      "Runner's Bandages",
+      "Shimmering Jewel",
+      "Stretched Rawhide",
+      "Torn Rawhide",
+      "Wood Shavings"
+    ],
+    "Roothome Scamp": [
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Rotten Log",
+      "Runner's Bandages",
+      "Shimmering Jewel",
+      "Stretched Rawhide",
+      "Torn Rawhide",
+      "Wood Shavings"
+    ],
+    "Rose Florist": [
+      "Rose"
+    ],
+    "Rot Wolf": [
+      "Fresh Bone"
+    ],
+    "Rot-Borer": [
+      "Soft Silk"
+    ],
+    "Rotten Deckhand": [
+      "Massive Anchor"
+    ],
+    "Rotten Flamecaster": [
+      "Cursed Ashes"
+    ],
+    "Rotten Woodcutter": [
+      "Bob's Tear",
+      "Large Lapis",
+      "Rotten Log",
+      "Snow Clump",
+      "Wood Shavings"
+    ],
+    "Rotten Zombie": [
+      "Ancient Coins",
+      "Rotting Bandage",
+      "Zombie Eye"
+    ],
+    "Rotting Luxroot": [
+      "Decaying Heart",
+      "Defiled Luxroot"
+    ],
+    "Rotting Myconid": [
+      "Myconid Spores",
+      "Prismatic Spores",
+      "Putrid Spores"
+    ],
+    "Royal Bug": [
+      "Royal Bug’s Blood"
+    ],
+    "Royal Dam Constable": [
+      "Noble Ribbon"
+    ],
+    "Royal Dam Constable Archer": [
+      "Noble Ribbon"
+    ],
+    "Royal Dam Wings Commander Kaezu": [
+      "Noble Ribbon",
+      "Winged Helmet"
+    ],
+    "Rucktoad": [
+      "Mruck"
+    ],
+    "Rukh": [
+      "Farcor's Trust",
+      "Serafite",
+      "Sky Flux",
+      "Skybound Remnant",
+      "Void Particulates"
+    ],
+    "Rymek Citizen": [
+      "Gold Tooth",
+      "Stolen Pearls"
+    ],
+    "S-3tealth Bot": [
+      "Enhanced Physics Microchip",
+      "Repair Toolkit",
+      "Robot Antenna"
+    ],
+    "Sablestone Orc Basher": [
+      "Orc Eye",
+      "Orc Teeth",
+      "Rabbit Carcass",
+      "Runner's Bandages",
+      "Torn Rawhide"
+    ],
+    "Sablestone Orc Smasher": [
+      "Orc Eye",
+      "Orc Teeth",
+      "Rabbit Carcass",
+      "Runner's Bandages",
+      "Torn Rawhide"
+    ],
+    "Sailsaur": [
+      "Green Fin"
+    ],
+    "Salamander Painbringer": [
+      "Serpent Tongue"
+    ],
+    "Salt-soaked Skeleton": [
+      "Dry Bone",
+      "Salt",
+      "Sandy Bonemeal"
+    ],
+    "Saltpetre Miner": [
+      "Damp Hairs",
+      "Saltpetre"
+    ],
+    "Salty Sandpile": [
+      "Desert Fossil",
+      "Soft Sand"
+    ],
+    "Sand Crawler": [
+      "Crawler Eye",
+      "Crawler Web"
+    ],
+    "Sand Golem": [
+      "Scalding Sand"
+    ],
+    "Sandshorn Skeleton": [
+      "Dry Bone",
+      "Gritty Rocks",
+      "Sandy Bonemeal"
+    ],
+    "Sandy": [
+      "Wybel Fluff"
+    ],
+    "Sandy Sandpile": [
+      "Desert Fossil",
+      "Soft Sand"
+    ],
+    "Sandy Scarab": [
+      "Mashed Insect",
+      "Scarab Husk"
+    ],
+    "Sandy Scarab Hiding In Sand": [
+      "Soft Sand"
+    ],
+    "Sapphire Dragonling": [
+      "Dragonling Scale"
+    ],
+    "Savage Hound": [
+      "Infernal Flesh",
+      "Rotten Teeth"
+    ],
+    "Savannah Ocelot": [
+      "Ocelot Pelt",
+      "Ocelot Tail"
+    ],
+    "Savannah Snake": [
+      "Snake Eye",
+      "Snake Tooth"
+    ],
+    "Saw-tooth Spider": [
+      "Corrupted Ichor"
+    ],
+    "Scarab": [
+      "Mashed Insect",
+      "Scarab Husk"
+    ],
+    "Scared Eye": [
+      "Ancient Currency",
+      "Engored Oculus",
+      "Retinal Membrane"
+    ],
+    "Scared Unicorn": [
+      "Fresh Game",
+      "Ivy Sprout",
+      "Luminous Rune",
+      "Purest Tear",
+      "Radiant Seeds",
+      "Unicorn Horn"
+    ],
+    "Scared Wybel": [
+      "Wybel Fluff"
+    ],
+    "Scavenger": [
+      "Climber's Padding",
+      "Crumbly Rock",
+      "Soapstone"
+    ],
+    "Scavenger Sentry": [
+      "Climber's Padding",
+      "Crumbly Rock",
+      "Soapstone"
+    ],
+    "Scorch Blob": [
+      "Conflagrite"
+    ],
+    "Scorched Zombie": [
+      "Cracked Skin",
+      "Tanned Flesh"
+    ],
+    "Scorchskin": [
+      "Scalding Sand"
+    ],
+    "Scotch": [
+      "Wybel Fluff"
+    ],
+    "Seafoam": [
+      "Wybel Fluff"
+    ],
+    "Secretcove Orc Ruinseeker": [
+      "Ancient Heart",
+      "Archaic Medallion",
+      "Green Scale",
+      "Orc Eye",
+      "Orc Teeth",
+      "Primeval Skin",
+      "Torn Rawhide"
+    ],
+    "Secretcove Orc Sneak": [
+      "Ancient Heart",
+      "Archaic Medallion",
+      "Green Scale",
+      "Orc Eye",
+      "Orc Teeth",
+      "Primeval Skin",
+      "Runner's Bandages",
+      "Torn Rawhide"
+    ],
+    "Sentient Polypore": [
+      "Dried Gill"
+    ],
+    "Sergeant at Arms": [
+      "Bloodstained Steel",
+      "Torn Fabric"
+    ],
+    "Shadow Dragonling": [
+      "Dragonling Scale"
+    ],
+    "Shadowy Weird": [
+      "Arcane Anomaly",
+      "Atmospheric Aspect",
+      "Ritual Catalyst"
+    ],
+    "Shifting Sandpile": [
+      "Desert Fossil",
+      "Soft Sand"
+    ],
+    "Shimmerstalk": [
+      "Watery Aura"
+    ],
+    "Shineridge Orc Appraiser": [
+      "Archaic Medallion",
+      "Chipped Quartz",
+      "Orc Eye",
+      "Orc Teeth",
+      "Pure Quartz",
+      "Stretched Rawhide"
+    ],
+    "Shineridge Orc Barterer": [
+      "Archaic Medallion",
+      "Chipped Quartz",
+      "Orc Eye",
+      "Orc Teeth",
+      "Pure Quartz",
+      "Stretched Rawhide"
+    ],
+    "Shineridge Orc Jewelsetter": [
+      "Archaic Medallion",
+      "Chipped Quartz",
+      "Orc Eye",
+      "Orc Teeth",
+      "Pure Quartz",
+      "Stretched Rawhide"
+    ],
+    "Shinesting Scorpion": [
+      "Shinesting Scorpion Tail"
+    ],
+    "Shipment Scrounger": [
+      "Meal Scraps"
+    ],
+    "Shrieking Observer": [
+      "Ancient Currency",
+      "Crystallized Organ"
+    ],
+    "Sickly Hermit": [
+      "Rotten Flesh"
+    ],
+    "Silt Formation": [
+      "Smooth Silt"
+    ],
+    "Sinking Weird": [
+      "Arcane Anomaly",
+      "Disturbed Aspect",
+      "Ritual Catalyst"
+    ],
+    "Skeeter": [
+      "Barbed Stinger",
+      "Cherished Heirloom",
+      "Earthenware Clay",
+      "Preserved Relic"
+    ],
+    "Skelemancer": [
+      "Blighted Brain",
+      "Kaolin Clay",
+      "Mysterious Mist",
+      "Rotting Bone",
+      "Salted Salmon"
+    ],
+    "Skeleton": [
+      "Bone Meal"
+    ],
+    "Skien's Bomber": [
+      "Broken Steel Blade",
+      "Broken Steel Hook",
+      "Corroded Chunk"
+    ],
+    "Skien's Bowman": [
+      "Broken Steel Hook",
+      "Corroded Chunk"
+    ],
+    "Skien's Elite": [
+      "Broken Steel Blade",
+      "Broken Steel Hook",
+      "Corroded Chunk"
+    ],
+    "Skien's Footsoldier": [
+      "Broken Steel Blade",
+      "Corroded Chunk"
+    ],
+    "Skien's Jailkeeper": [
+      "Broken Steel Hook",
+      "Corroded Chunk"
+    ],
+    "Skien's Marksman": [
+      "Broken Steel Hook"
+    ],
+    "Skien's Ravager": [
+      "Broken Steel Blade"
+    ],
+    "Skien's Scout": [
+      "Broken Steel Blade",
+      "Corroded Chunk"
+    ],
+    "Skien's Vanguard": [
+      "Broken Steel Blade"
+    ],
+    "Skulking Thief": [
+      "Bottomless Emerald Pouch",
+      "Eviction Notice",
+      "Filched Purse"
+    ],
+    "Sky Conure": [
+      "Glimmering Beak",
+      "Silver Feather"
+    ],
+    "Sky Dragonling": [
+      "Dragon Aura",
+      "Dragonling Egg",
+      "Dragonling Scale"
+    ],
+    "Sky Phoenix": [
+      "Wind Ornament"
+    ],
+    "Sky Snail": [
+      "Sky Snail Shell"
+    ],
+    "Skyraider": [
+      "Haphazard Serum"
+    ],
+    "Slimed Spider": [
+      "Rotten Flesh"
+    ],
+    "Slimy Swamp Zombie": [
+      "Sticky Mudball"
+    ],
+    "Sloughing Sandpile": [
+      "Desert Fossil",
+      "Soft Sand"
+    ],
+    "Sloughing Sludge": [
+      "Coagulated Clot",
+      "Gelatinous Slime Chunk",
+      "Putrid Gunk",
+      "River Clay",
+      "Sticky Fern",
+      "Thick Mud",
+      "Viscous Slime",
+      "Waterlogged Branch"
+    ],
+    "Sluice": [
+      "Mucoid Matter",
+      "Oddly Untouched Marshmallow"
+    ],
+    "Smelted Soul": [
+      "Soulbound Cinders"
+    ],
+    "Smoke Serpent": [
+      "Hybrid Skin",
+      "Serpent Tongue"
+    ],
+    "Snake": [
+      "Snake Eye"
+    ],
+    "Snow Fang": [
+      "Bob's Tear",
+      "Wolf Fang"
+    ],
+    "Snow Owl": [
+      "Large Lapis",
+      "Owl Feather",
+      "Snow Clump"
+    ],
+    "Snow-Bear": [
+      "Large Lapis",
+      "Snow Clump"
+    ],
+    "Snowball Projectile": [
+      "Bob's Tear",
+      "Snow Heart"
+    ],
+    "Soaked Zombie": [
+      "Rotten Flesh",
+      "Zombie Eye"
+    ],
+    "Soul Corrupter": [
+      "Coagulated Soulmass",
+      "Portal Emanation"
+    ],
+    "Soul Singer Harpy": [
+      "Harpy Bone",
+      "Harpy Wing",
+      "Rock-Hard Beak"
+    ],
+    "Sparkling Weird": [
+      "Arcane Anomaly",
+      "Atmospheric Aspect"
+    ],
+    "Spectral Fairy": [
+      "Unholy Water"
+    ],
+    "Spectre of Emptiness ": [
+      "Void Essence"
+    ],
+    "Speedy Scarab": [
+      "Mashed Insect",
+      "Scarab Husk"
+    ],
+    "Spewer": [
+      "Acidic Remains",
+      "Doom Stone",
+      "Sludge Parasite"
+    ],
+    "Spikes": [
+      "Disturbed Dye"
+    ],
+    "Spined Devil": [
+      "Demonic Blood"
+    ],
+    "Spinwarp Spider": [
+      "Corrupted Ichor"
+    ],
+    "Spirit of Vexation": [
+      "Residual Spirit",
+      "Unsettling Soul"
+    ],
+    "Spirit of the Lost": [
+      "Windy Aura"
+    ],
+    "Spitting Zombie": [
+      "Coagulated Clot",
+      "Putrid Gunk"
+    ],
+    "Spooky": [
+      "Wybel Fluff"
+    ],
+    "Sporadicavalry": [
+      "Intermittenstirrups"
+    ],
+    "Spore Launcher": [
+      "Toxic Spores"
+    ],
+    "Spore Shooter": [
+      "Red Mushroom"
+    ],
+    "Squid": [
+      "Squid",
+      "Squid Beak",
+      "Squid Brain",
+      "Squid Ink"
+    ],
+    "Squid Vicious": [
+      "Algae Mat",
+      "Squid Beak",
+      "Squid Brain",
+      "Squid Ink"
+    ],
+    "Stackpeak Hawk": [
+      "Stackpeak Plumage"
+    ],
+    "Stalker Spider": [
+      "Corrupted Ichor"
+    ],
+    "Starved Cortrich": [
+      "Egg"
+    ],
+    "Steam Weird": [
+      "Arcane Anomaly",
+      "Compressed Aspect"
+    ],
+    "Steppe-Lurker": [
+      "Glimmering Coin",
+      "Worn Coin"
+    ],
+    "Stingy Swimmer": [
+      "Fish Scales",
+      "Gylia Essence",
+      "Soggy Stone"
+    ],
+    "Stirge": [
+      "Mashed Insect",
+      "Torn Skin"
+    ],
+    "Stone Paladin": [
+      "Ancient Metal"
+    ],
+    "Stone Sentinel": [
+      "Resilient Stone"
+    ],
+    "Stone Soldier": [
+      "Ancient Metal"
+    ],
+    "Stonecave Orc Assayer": [
+      "Ancient Heart",
+      "Green Scale",
+      "Natural Nitrates",
+      "Orc Eye",
+      "Primeval Skin",
+      "Stretched Rawhide"
+    ],
+    "Stonecave Orc Metalworker": [
+      "Ancient Heart",
+      "Green Scale",
+      "Natural Nitrates",
+      "Orc Eye",
+      "Primeval Skin",
+      "Stretched Rawhide"
+    ],
+    "Stonecave Orc Rockwrecker": [
+      "Ancient Heart",
+      "Green Scale",
+      "Natural Nitrates",
+      "Orc Eye",
+      "Primeval Skin",
+      "Stretched Rawhide"
+    ],
+    "Storm Shaker": [
+      "Seabird Feather"
+    ],
+    "Stormcaller Garrison Commander": [
+      "Pirate Beard"
+    ],
+    "Storming Tempest": [
+      "Windy Aura"
+    ],
+    "Stormscarred Miner": [
+      "Broken Pick",
+      "Voidstone Sample"
+    ],
+    "Straggler": [
+      "Foul Fluid",
+      "Rancid Flesh"
+    ],
+    "Streetsweeper": [
+      "Discarded Junk"
+    ],
+    "Stringy Slime": [
+      "Rotten Flesh"
+    ],
+    "Strong Zombie": [
+      "Strong Flesh"
+    ],
+    "Strutting Mushroom": [
+      "Brown Mushroom"
+    ],
+    "Sturdy Crab": [
+      "Glittering Silt",
+      "Salt Water",
+      "Sea Salt",
+      "Seagrass"
+    ],
+    "Subterrane Bandit": [
+      "Shattered Blade"
+    ],
+    "Sun Effigy": [
+      "Rotten Flesh"
+    ],
+    "Sunlight Weird": [
+      "Arcane Anomaly"
+    ],
+    "Sunspark Orc Altarkris": [
+      "Archaic Medallion",
+      "Orc Eye",
+      "Orc Teeth"
+    ],
+    "Sunspark Orc Skyrollicker": [
+      "Archaic Medallion",
+      "Orc Eye",
+      "Orc Teeth"
+    ],
+    "Sunspark Orc Tomewriter": [
+      "Archaic Medallion",
+      "Orc Eye",
+      "Orc Teeth"
+    ],
+    "Sunstone Ram": [
+      "Broken Ram Horn",
+      "Maroferrous",
+      "Maromagnetite",
+      "Soapstone",
+      "Solcrystal Horn"
+    ],
+    "Super Spore Shooter": [
+      "Red Mushroom"
+    ],
+    "Swamp Naga": [
+      "Naga Tail"
+    ],
+    "Swamp Ogre": [
+      "Metal Scraps",
+      "Rusty Axe Head"
+    ],
+    "Sweet Fairy": [
+      "Bottled Fairy"
+    ],
+    "Sylph": [
+      "Purest Tear"
+    ],
+    "Sylphid Gatekeeper": [
+      "Fairy Powder",
+      "Ghostly Plume",
+      "Sylphid Tears"
+    ],
+    "Sylphid Ghost": [
+      "Fairy Powder",
+      "Ghostly Plume",
+      "Sylphid Tears"
+    ],
+    "Sylphid Servant": [
+      "Ghostly Plume",
+      "Sylphid Tears"
+    ],
+    "T-5lusive Surveillance Camera": [
+      "7-Yottabyte Storage Component",
+      "Autonomous Core",
+      "Defective Circuits",
+      "Enhanced Pathfinding Microchip",
+      "Incremental Mapping Module",
+      "Insulated Wiring",
+      "Optic Fiber",
+      "Optic Lens",
+      "Shorting Wire"
+    ],
+    "TNT Minecart": [
+      "Strange Geode"
+    ],
+    "Tamed Hyena": [
+      "Prized Pelt"
+    ],
+    "Tamed Kivaraptor": [
+      "Cerulean Rectrix",
+      "Serrated Canine"
+    ],
+    "Tamed Mustedog": [
+      "Sharper Claw"
+    ],
+    "Taskmaster": [
+      "Foul Fluid",
+      "Rancid Flesh"
+    ],
+    "Tempest": [
+      "Windy Aura"
+    ],
+    "Temple Serpent": [
+      "Snake Skin"
+    ],
+    "Temporal Rift": [
+      "Split Essence",
+      "Volatile Matter"
+    ],
+    "Tenebrous Alnamar": [
+      "Alnamar Meat",
+      "Decaying Arteries",
+      "Expelled Shrapnel",
+      "Glow Bulb Seeds"
+    ],
+    "Tenebrous Infantry": [
+      "Decaying Heart",
+      "Essence Of Dusk"
+    ],
+    "Tepidfur Bat": [
+      "Bat Ear"
+    ],
+    "Terra-Toma": [
+      "Pluripotent Tissue"
+    ],
+    "Terracotta Soldier": [
+      "Terracotta Chunk"
+    ],
+    "Terramite": [
+      "Terramarine Dust"
+    ],
+    "Terrified Pig": [
+      "Pig's Skull"
+    ],
+    "Thawing Ice Zombie": [
+      "Frostbitten Flesh",
+      "Large Lapis",
+      "Snow Clump"
+    ],
+    "Thawing Snow Zombie": [
+      "Frostbitten Flesh",
+      "Large Lapis",
+      "Snow Clump"
+    ],
+    "The Assistant": [
+      "Brown Mushroom",
+      "Red Mushroom"
+    ],
+    "The Cockatrice": [
+      "Condor Feather"
+    ],
+    "The Elephelk": [
+      "Altitude Shard",
+      "Elephant Toenail",
+      "Elephelk Trunk",
+      "Illusory Idol",
+      "Ivory Tusk",
+      "Mountain's Heart",
+      "Stone Plating",
+      "Tough Skin"
+    ],
+    "The Mammoth": [
+      "Earthly Aura"
+    ],
+    "The Unbound": [
+      "Enchanted Chain Link",
+      "Nightmare Fuel"
+    ],
+    "The Unfettered": [
+      "Eye of The Beast",
+      "Nightmare Fuel"
+    ],
+    "Thesead Marshal": [
+      "Major's Badge"
+    ],
+    "Thorn Bloom": [
+      "Spiky Vine"
+    ],
+    "Thunder Grub": [
+      "Ancient Coins",
+      "Soft Silk",
+      "Viscous Slime"
+    ],
+    "Thunder-Charged Goat": [
+      "Storm Horn"
+    ],
+    "Tidepool Spitter": [
+      "Fresh Water",
+      "Old Treasure֎"
+    ],
+    "Tiderider Squid": [
+      "Algae Mat",
+      "Squid Ink"
+    ],
+    "Time Anomaly": [
+      "Canyon Parsley",
+      "Highland Basil",
+      "Relic of the Future",
+      "Relic of the Past",
+      "Waterfall Thyme"
+    ],
+    "Tinkernook Exhibitioner": [
+      "Chipped Quartz",
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Pure Quartz",
+      "Runner's Bandages",
+      "Stretched Rawhide",
+      "Torn Rawhide"
+    ],
+    "Tinkernook Knapper": [
+      "Chipped Quartz",
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Pure Quartz",
+      "Rotten Log",
+      "Runner's Bandages",
+      "Stretched Rawhide",
+      "Torn Rawhide",
+      "Wood Shavings"
+    ],
+    "Tinkernook Smelter": [
+      "Chipped Quartz",
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Pure Quartz",
+      "Rotten Log",
+      "Runner's Bandages",
+      "Stretched Rawhide",
+      "Torn Rawhide",
+      "Wood Shavings"
+    ],
+    "Tinkernook Whittler": [
+      "Chipped Quartz",
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Pure Quartz",
+      "Rotten Log",
+      "Runner's Bandages",
+      "Stretched Rawhide",
+      "Torn Rawhide",
+      "Wood Shavings"
+    ],
+    "Tiontaith Beast": [
+      "Glowing Scales",
+      "Pristine Claw"
+    ],
+    "Tiontaith Hunter": [
+      "Glowing Scales",
+      "Pristine Claw"
+    ],
+    "Titan Salamander": [
+      "Titanic Tail"
+    ],
+    "Tosspot": [
+      "Discarded Junk",
+      "Oddly Untouched Marshmallow"
+    ],
+    "Toxitack": [
+      "Doom Stone",
+      "Sludge Parasite"
+    ],
+    "Toxxulous Ripper": [
+      "Calcified Ligament",
+      "Doom Stone",
+      "Sludge Parasite",
+      "Toxxulous Ripper’s Legs"
+    ],
+    "Trained Lion Cub": [
+      "Lion Fang"
+    ],
+    "Trapper ": [
+      "Deceptively Large Bag",
+      "Filched Purse",
+      "Frog Eyeball",
+      "Shattered Ammunition"
+    ],
+    "Trash Can": [
+      "Discarded Junk",
+      "Meal Scraps",
+      "Oddly Untouched Marshmallow"
+    ],
+    "Trash Scarab": [
+      "Meal Scraps"
+    ],
+    "Treant Archer": [
+      "Flashfrost",
+      "Large Lapis",
+      "Pykrete",
+      "Rotten Log",
+      "Snow Clump",
+      "Soul Stone",
+      "Ursine Claw",
+      "Wood Shavings"
+    ],
+    "Treant Basher": [
+      "Flashfrost",
+      "Large Lapis",
+      "Pykrete",
+      "Rotten Log",
+      "Snow Clump",
+      "Soul Stone",
+      "Ursine Claw",
+      "Wood Shavings"
+    ],
+    "Tree Cicada": [
+      "Mashed Insect"
+    ],
+    "Tree Spider": [
+      "Ancient Coins",
+      "Chitin Plate",
+      "Soft Silk"
+    ],
+    "Tribal Exile": [
+      "Gold Bar",
+      "Stolen Pearls"
+    ],
+    "Tribe Zombie Chief": [
+      "Broken Antic Bead"
+    ],
+    "Trigger": [
+      "Rotten Flesh"
+    ],
+    "Troggo The Pigsbane": [
+      "Astral Alloy",
+      "Braveheart",
+      "Etheric Fern",
+      "Magicule Sample",
+      "Pig's Blood"
+    ],
+    "Troglodyte Champion": [
+      "Ashen Hide",
+      "Infernal Flesh",
+      "Rotten Teeth"
+    ],
+    "Troglodyte Mauler": [
+      "Ashen Hide",
+      "Infernal Flesh",
+      "Rotten Teeth"
+    ],
+    "Troglodyte Runt": [
+      "Ashen Hide",
+      "Infernal Flesh",
+      "Rotten Teeth"
+    ],
+    "Troglodyte Scourge": [
+      "Ashen Hide",
+      "Infernal Flesh",
+      "Rotten Teeth"
+    ],
+    "Troll Brute": [
+      "Troll Hair"
+    ],
+    "Troll Keeper": [
+      "Troll Hair"
+    ],
+    "Troll Minion": [
+      "Troll Hair"
+    ],
+    "Troll Splinterbone": [
+      "Troll Hair"
+    ],
+    "Tropical Necromancer": [
+      "Cursed Ashes"
+    ],
+    "Tropical Wildcat": [
+      "Cat Tail"
+    ],
+    "Trunkstump Foot Biter": [
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Rabbit Carcass",
+      "Rotten Log",
+      "Runner's Bandages",
+      "Torn Rawhide",
+      "Wood Shavings"
+    ],
+    "Trunkstump Pebbleflinger": [
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Rabbit Carcass",
+      "Rotten Log",
+      "Runner's Bandages",
+      "Torn Rawhide",
+      "Wood Shavings"
+    ],
+    "Trunkstump Piker": [
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Rabbit Carcass",
+      "Rotten Log",
+      "Runner's Bandages",
+      "Torn Rawhide",
+      "Wood Shavings"
+    ],
+    "Tumbleweed": [
+      "Condor Feather",
+      "Gold Bar",
+      "Gritty Rocks",
+      "Gunpowder",
+      "Lucky Rabbit's Foot"
+    ],
+    "Tunnel Pigman": [
+      "Pigman Ivory",
+      "Pigman Meat"
+    ],
+    "Tunnel Spider": [
+      "Spider Eggs"
+    ],
+    "Turtle": [
+      "Coastal Shell",
+      "River Clay"
+    ],
+    "Twisted Fairy Devourer": [
+      "Foul Fairy Dust",
+      "Goblin Trinket",
+      "Lost Heirloom",
+      "Quartz Cluster",
+      "Twisted Organ"
+    ],
+    "U-0ervant Bot": [
+      "Repair Toolkit",
+      "Robot Antenna"
+    ],
+    "U-0iner Bot": [
+      "Enhanced Pathfinding Microchip",
+      "Gunpowder",
+      "Repair Toolkit",
+      "Robot Antenna"
+    ],
+    "U-0lockBot": [
+      "Enhanced Potential Microchip",
+      "Repair Toolkit",
+      "Robot Antenna"
+    ],
+    "U-45tabot": [
+      "Autonomous Core",
+      "Defective Circuits",
+      "Hydrofluoric Acid",
+      "Insulated Wiring",
+      "Plasteel Plating",
+      "Robot Antenna"
+    ],
+    "U-4epaired Bot": [
+      "Enhanced Post-Processing Microchip",
+      "Repair Toolkit",
+      "Robot Antenna"
+    ],
+    "Ulric": [
+      "Bob's Tear"
+    ],
+    "Umbral Arbalist": [
+      "Black Steel",
+      "Decaying Heart",
+      "Essence Of Dusk"
+    ],
+    "Umbral Sentinel": [
+      "Contorted Stone",
+      "Ominous Pearl"
+    ],
+    "Umbral Singularity": [
+      "Aspect of the Void",
+      "Serafite",
+      "Skybound Remnant",
+      "Void Particulates",
+      "Vortex Expulsion"
+    ],
+    "Undead Bandit": [
+      "Depreciating Flesh",
+      "Glimmering Coin",
+      "Worn Coin"
+    ],
+    "Undead Commander": [
+      "Aged Medallion",
+      "Bone Meal"
+    ],
+    "Undead Cragsman": [
+      "Rotten Flesh"
+    ],
+    "Undead Explorer": [
+      "Sticky Fern"
+    ],
+    "Undead Miner": [
+      "Gold Bar",
+      "Gritty Rocks"
+    ],
+    "Undead Noble Warrior": [
+      "Bone Meal"
+    ],
+    "Underground Zombie": [
+      "Rotten Flesh"
+    ],
+    "Valley Wanderer": [
+      "Bone Ash",
+      "Drained Bone",
+      "Warped Skin"
+    ],
+    "Vampire Bat": [
+      "Ancient Coins",
+      "Ibjub Fruit"
+    ],
+    "Vengeful Siren": [
+      "Watery Aura"
+    ],
+    "Void Hole?": [
+      "Dense Void Hole Chunk",
+      "Expelled Shrapnel",
+      "Plane of Nonexistence"
+    ],
+    "Void Soul Roamer": [
+      "Glow Bulb Seeds",
+      "Soul Essence"
+    ],
+    "Void Spirula": [
+      "Black Hole",
+      "Dark Matter",
+      "Serafite",
+      "Skybound Remnant",
+      "Void Essence",
+      "Void Particulates"
+    ],
+    "Volcanic Zerker": [
+      "Pigman Meat"
+    ],
+    "Volcano Sludge": [
+      "Blazing Stimulants",
+      "Crumbly Rock",
+      "Mineral Cinder"
+    ],
+    "Voltaic Animant": [
+      "Energetic Aura"
+    ],
+    "Vortexian Voidgap": [
+      "Dernic Parasite",
+      "Expelled Shrapnel",
+      "Gaze of Darkness",
+      "Glow Bulb Seeds",
+      "Olmic Artifact",
+      "Portal Rift",
+      "Vortexian Event Horizon"
+    ],
+    "Vulcantern": [
+      "Blazing Stimulants",
+      "Crumbly Rock",
+      "Mineral Cinder"
+    ],
+    "Vulcini": [
+      "Blazing Stimulants",
+      "Crumbly Rock",
+      "Mineral Cinder",
+      "Red Crystal Dust"
+    ],
+    "Vulcor Adrenophage": [
+      "Resistant Strain",
+      "Scuttling Syenite",
+      "Thermal Replication"
+    ],
+    "WW-10avager Automaton": [
+      "Autonomous Core",
+      "Defective Circuits",
+      "Fiberglass Frame",
+      "Insulated Wiring",
+      "Overheated Processor"
+    ],
+    "Wanderer": [
+      "Foul Fluid",
+      "Rancid Flesh"
+    ],
+    "Wandering Skeleton": [
+      "Lost Talisman",
+      "Overgrown Bones"
+    ],
+    "Wannabe Assassin": [
+      "Herbstzeitlose",
+      "Severed Leg"
+    ],
+    "Warden": [
+      "Crumpled Propaganda",
+      "Tailored Garments"
+    ],
+    "Warder": [
+      "Crumpled Propaganda",
+      "Tailored Garments"
+    ],
+    "Warg": [
+      "Rabbit Carcass",
+      "Stretched Rawhide",
+      "Torn Rawhide"
+    ],
+    "Warm Fleris": [
+      "Warm Fleris"
+    ],
+    "Warped Husk": [
+      "Jolting Geode"
+    ],
+    "Wary Avos": [
+      "Remedial Paste",
+      "Throbbing Avos Heart"
+    ],
+    "Wasteful Weird": [
+      "Compressed Aspect",
+      "Disturbed Aspect",
+      "Evaporated Aspect",
+      "Igneous Aspect",
+      "Shattered Aspect",
+      "Wintery Aspect"
+    ],
+    "Watchers": [
+      "Cataratite"
+    ],
+    "Water Collector": [
+      "Bloodstained Steel"
+    ],
+    "Waterlogged Zombie": [
+      "Old Treasure֎",
+      "Putrid Gunk"
+    ],
+    "Waterway Bootlegger": [
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Rabbit Carcass",
+      "Runner's Bandages",
+      "Torn Rawhide"
+    ],
+    "Waterway Bucket Brigade": [
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Rabbit Carcass",
+      "Runner's Bandages",
+      "Torn Rawhide"
+    ],
+    "Waterway Fermenter": [
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Rabbit Carcass",
+      "Runner's Bandages",
+      "Torn Rawhide"
+    ],
+    "Waterway Moonshiner": [
+      "Gold Nugget",
+      "Natural Nitrates",
+      "Rabbit Carcass",
+      "Runner's Bandages",
+      "Torn Rawhide"
+    ],
+    "Watery Sludge": [
+      "Coagulated Clot",
+      "Putrid Gunk",
+      "River Clay",
+      "Sticky Fern",
+      "Thick Mud",
+      "Viscous Slime",
+      "Waterlogged Branch"
+    ],
+    "Wave Cult Initiate": [
+      "Dried Kelp",
+      "Oceanic Silt"
+    ],
+    "Wave Raiser": [
+      "Dead Naval Shard"
+    ],
+    "Wayward Idol": [
+      "Ancient Coins",
+      "Ancient Metal",
+      "Lithoflesh"
+    ],
+    "Wayward Vagabond": [
+      "Chain Loop",
+      "Cracked Skin",
+      "Crawler Web",
+      "Crystal Dust",
+      "Gold Bar",
+      "Gritty Rocks",
+      "Salt",
+      "Sharp Edge",
+      "Spark of the Oasis"
+    ],
+    "Weak Zombie": [
+      "Pigman Meat",
+      "Rotten Flesh",
+      "Sturdy Flesh"
+    ],
+    "Weather Weird": [
+      "Arcane Anomaly",
+      "Atmospheric Aspect",
+      "Gylia Essence",
+      "Overload Aspect",
+      "Sentient Water",
+      "Soggy Stone",
+      "Wintery Aspect"
+    ],
+    "Well Bat": [
+      "Bat Ear"
+    ],
+    "Werecat": [
+      "Cat's Ears"
+    ],
+    "Werewolf": [
+      "Pristine Claw",
+      "Werewolf Tail"
+    ],
+    "Whirl Weird": [
+      "Arcane Anomaly",
+      "Gylia Essence",
+      "Sentient Water",
+      "Soggy Stone"
+    ],
+    "Whispering Djinn": [
+      "Windy Aura"
+    ],
+    "White Dragonling": [
+      "Dragonling Scale"
+    ],
+    "Wild Boar": [
+      "Boar Meat",
+      "Fresh Game"
+    ],
+    "Wild Grook": [
+      "Fresh Game",
+      "Grook Feather"
+    ],
+    "Wild Hound": [
+      "Infernal Flesh",
+      "Rotten Teeth"
+    ],
+    "Wild Leopard": [
+      "Ancient Coins",
+      "Leopard Blood"
+    ],
+    "Wild Marsufosa": [
+      "Marsufosa Pelt"
+    ],
+    "Wild Mooshroom": [
+      "Brown Mushroom",
+      "Mooshroom Ear",
+      "Red Mushroom",
+      "Toxic Spores"
+    ],
+    "Wild Wybel": [
+      "Wybel Fluff"
+    ],
+    "Wildered Miner": [
+      "Blighted Skull",
+      "Forgotten Pickaxe",
+      "Sought-After Ore"
+    ],
+    "Wings Commander": [
+      "Honoured Commander's Medal",
+      "Noble Ribbon",
+      "Winged Helmet"
+    ],
+    "Wings Knight": [
+      "Butterfly Buckler",
+      "Noble Ribbon",
+      "Winged Helmet"
+    ],
+    "Wings Sentinel": [
+      "Noble Ribbon",
+      "Winged Helmet"
+    ],
+    "Wings Suppressor": [
+      "Noble Ribbon",
+      "Winged Helmet"
+    ],
+    "Wings Trooper": [
+      "Noble Ribbon",
+      "Winged Helmet"
+    ],
+    "Wings Vanguard": [
+      "Noble Ribbon",
+      "Winged Helmet"
+    ],
+    "Withered Quasinobility": [
+      "Burial Talisman",
+      "Pokey Cactus",
+      "Red Shale",
+      "Spirograph Tablet",
+      "Weathered Idol"
+    ],
+    "Wolf Spider": [
+      "Cat Tail"
+    ],
+    "Wood Sprite": [
+      "Wood Scrap"
+    ],
+    "Woolly Rhino": [
+      "Giant Ivory Tusk",
+      "Warm Hide"
+    ],
+    "Wracked Husk": [
+      "Bone Meal"
+    ],
+    "Wraith": [
+      "Unholy Spirit"
+    ],
+    "Writher": [
+      "Foul Fluid",
+      "Rancid Flesh"
+    ],
+    "Wynnic Sailor": [
+      "Oceanic Sand"
+    ],
+    "Ximole": [
+      "Sandy Loam"
+    ],
+    "Yahya Apprentice": [
+      "Red Mushroom"
+    ],
+    "Yahya`s Apprentice": [
+      "Brown Mushroom",
+      "Red Mushroom",
+      "Rotten Flesh",
+      "Zombie Eye"
+    ],
+    "Yahyahe Final Form": [
+      "Brown Mushroom",
+      "Red Mushroom"
+    ],
+    "Yak": [
+      "Warm Hide"
+    ],
+    "Yale Rampager": [
+      "Fresh Game",
+      "Looted Alloy",
+      "Orc Skin"
+    ],
+    "Yeti": [
+      "Flashfrost",
+      "Large Lapis",
+      "Snow Clump",
+      "Soul Stone",
+      "Ursine Claw",
+      "Yeti Fur"
+    ],
+    "Yeti Poacher": [
+      "Rotten Flesh"
+    ],
+    "Young Forest Spider": [
+      "Forest Web",
+      "Spider Fang"
+    ],
+    "Young Wolf Spider": [
+      "Cat Tail"
+    ],
+    "Youthful Angel": [
+      "Angel's Blessing"
+    ],
+    "Zhight Villager": [
+      "Rotten Flesh"
+    ],
+    "Zombie": [
+      "Rotten Flesh",
+      "Sturdy Flesh",
+      "Undead Heart"
+    ],
+    "Zombie Archer": [
+      "Strong Flesh"
+    ],
+    "Zombie Assassin": [
+      "Strong Flesh"
+    ],
+    "Zombie Berserker": [
+      "Rotten Flesh",
+      "Sturdy Flesh"
+    ],
+    "Zombie Cow": [
+      "Rotten Flesh"
+    ],
+    "Zombie Fisher": [
+      "Rotten Flesh"
+    ],
+    "Zombie Grook": [
+      "Thin Quill"
+    ],
+    "Zombie Militia": [
+      "Bob's Tear",
+      "Royal Cake Slice"
+    ],
+    "Zombie Miner": [
+      "Rotten Flesh"
+    ],
+    "Zombie Pigman": [
+      "Pigman Ivory",
+      "Pigman Meat"
+    ],
+    "Zombie Soldier": [
+      "Rotten Flesh",
+      "Sturdy Flesh"
+    ],
+    "Zombie Warrior": [
+      "Rotten Flesh"
+    ],
+    "Zombified Guard": [
+      "Corrupted Fragment"
+    ],
+    "Zombified Sheep": [
+      "Sheep Hoof"
+    ],
+    "null": [
+      "Bat Ear",
+      "Earthly Aura",
+      "Pigman Meat",
+      "Rotten Flesh"
+    ],
+    "§Fool Eater": [
+      "Acidic Remains",
+      "Alnamar Meat",
+      "Beastial Viscera",
+      "Blighted Skull",
+      "Condensed Darkness",
+      "Crystallized Organ",
+      "Dernic Parasite",
+      "Gaze of Darkness",
+      "Glow Bulb Seeds",
+      "Gruesome Carnassial",
+      "Insanity Star",
+      "Ominous Pearl",
+      "Rigid Fin",
+      "Shrieker's Head",
+      "Soul Essence",
+      "Toxxulous Ripper’s Legs"
+    ],
+    "§bEarth Sprite": [
+      "Strange Trinket"
+    ],
+    "§bLight Sprite": [
+      "Strange Trinket"
+    ],
+    "§bWater Sprite": [
+      "Strange Trinket"
+    ],
+    "§eAlraune On Fire": [
+      "Faebloom Petal",
+      "Ignited Faebloom"
+    ],
+    "§eLunar Effigy": [
+      "Lunar Charm",
+      "Lunar Chunk",
+      "Lunar Dust",
+      "Lunar Shard"
+    ],
+    "§kTaga Soihf A Lin": [
+      "Transformativity"
+    ]
+  }
+}

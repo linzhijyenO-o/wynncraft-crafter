@@ -1,0 +1,6 @@
+﻿fetched_at : 2026-10-24T20:09:11.1154484+08:00
+finished_at : 2026-10-24T20:09:57.0222309+08:00
+endpoint   : https://api.wynncraft.com/v3/item/search
+pages      : 49
+count      : 972 (expect 972)
+page_size  : 20

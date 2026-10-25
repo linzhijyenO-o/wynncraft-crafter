@@ -1,0 +1,4563 @@
+{
+  "generated_at": "2026-10-24T20:09:57+08:00",
+  "source": "POST https://api.wynncraft.com/v3/item/search  body: {\"type\":[\"ingredient\"]}",
+  "item_count": 972,
+  "namespaces": [
+    {
+      "prefix": "type",
+      "name": "物品大类",
+      "description": "对象类型；目前抓取范围内恒为 ingredient",
+      "kind": "categorical"
+    },
+    {
+      "prefix": "tier",
+      "name": "阶级",
+      "description": "0=Normal 1=Unique 2=Rare 3=Legendary",
+      "kind": "categorical"
+    },
+    {
+      "prefix": "tier-name",
+      "name": "阶级名",
+      "description": "与 tier 一一对应的英文名",
+      "kind": "categorical"
+    },
+    {
+      "prefix": "profession",
+      "name": "制作职业",
+      "description": "该材料可用于哪些职业的配方",
+      "kind": "categorical"
+    },
+    {
+      "prefix": "crafting-level",
+      "name": "制作等级",
+      "description": "可用于配方的最低制作等级 1-119",
+      "kind": "categorical"
+    },
+    {
+      "prefix": "emblem",
+      "name": "徽记",
+      "description": "物品图标底框样式",
+      "kind": "categorical"
+    },
+    {
+      "prefix": "id",
+      "name": "词条 ID",
+      "description": "identifications 的键，即物品提供的属性词条",
+      "kind": "categorical"
+    },
+    {
+      "prefix": "item",
+      "name": "成品属性",
+      "description": "只作用于成品(装备)的属性，格式 item:属性:数值",
+      "kind": "value"
+    },
+    {
+      "prefix": "consumable",
+      "name": "消耗品属性",
+      "description": "只作用于消耗品(卷轴/药水)的属性，格式 consumable:属性:数值",
+      "kind": "value"
+    },
+    {
+      "prefix": "position",
+      "name": "相邻加成",
+      "description": "配方格相对位置的效果加成(%)，格式 position:位置:数值",
+      "kind": "value"
+    }
+  ],
+  "tags": [
+    {
+      "tag": "type:ingredient",
+      "namespace": "type",
+      "count": 972,
+      "share": 1.0
+    },
+    {
+      "tag": "tier:2",
+      "namespace": "tier",
+      "count": 294,
+      "share": 0.3025
+    },
+    {
+      "tag": "tier:1",
+      "namespace": "tier",
+      "count": 250,
+      "share": 0.2572
+    },
+    {
+      "tag": "tier:0",
+      "namespace": "tier",
+      "count": 233,
+      "share": 0.2397
+    },
+    {
+      "tag": "tier:3",
+      "namespace": "tier",
+      "count": 195,
+      "share": 0.2006
+    },
+    {
+      "tag": "tier-name:Rare",
+      "namespace": "tier-name",
+      "count": 294,
+      "share": 0.3025
+    },
+    {
+      "tag": "tier-name:Unique",
+      "namespace": "tier-name",
+      "count": 250,
+      "share": 0.2572
+    },
+    {
+      "tag": "tier-name:Normal",
+      "namespace": "tier-name",
+      "count": 233,
+      "share": 0.2397
+    },
+    {
+      "tag": "tier-name:Legendary",
+      "namespace": "tier-name",
+      "count": 195,
+      "share": 0.2006
+    },
+    {
+      "tag": "profession:armouring",
+      "namespace": "profession",
+      "count": 255,
+      "share": 0.2623
+    },
+    {
+      "tag": "profession:tailoring",
+      "namespace": "profession",
+      "count": 252,
+      "share": 0.2593
+    },
+    {
+      "tag": "profession:weaponsmithing",
+      "namespace": "profession",
+      "count": 226,
+      "share": 0.2325
+    },
+    {
+      "tag": "profession:woodworking",
+      "namespace": "profession",
+      "count": 207,
+      "share": 0.213
+    },
+    {
+      "tag": "profession:alchemism",
+      "namespace": "profession",
+      "count": 186,
+      "share": 0.1914
+    },
+    {
+      "tag": "profession:cooking",
+      "namespace": "profession",
+      "count": 160,
+      "share": 0.1646
+    },
+    {
+      "tag": "profession:scribing",
+      "namespace": "profession",
+      "count": 148,
+      "share": 0.1523
+    },
+    {
+      "tag": "profession:jeweling",
+      "namespace": "profession",
+      "count": 138,
+      "share": 0.142
+    },
+    {
+      "tag": "crafting-level:105",
+      "namespace": "crafting-level",
+      "count": 32,
+      "share": 0.0329
+    },
+    {
+      "tag": "crafting-level:90",
+      "namespace": "crafting-level",
+      "count": 24,
+      "share": 0.0247
+    },
+    {
+      "tag": "crafting-level:100",
+      "namespace": "crafting-level",
+      "count": 23,
+      "share": 0.0237
+    },
+    {
+      "tag": "crafting-level:115",
+      "namespace": "crafting-level",
+      "count": 21,
+      "share": 0.0216
+    },
+    {
+      "tag": "crafting-level:83",
+      "namespace": "crafting-level",
+      "count": 18,
+      "share": 0.0185
+    },
+    {
+      "tag": "crafting-level:103",
+      "namespace": "crafting-level",
+      "count": 17,
+      "share": 0.0175
+    },
+    {
+      "tag": "crafting-level:104",
+      "namespace": "crafting-level",
+      "count": 17,
+      "share": 0.0175
+    },
+    {
+      "tag": "crafting-level:60",
+      "namespace": "crafting-level",
+      "count": 17,
+      "share": 0.0175
+    },
+    {
+      "tag": "crafting-level:85",
+      "namespace": "crafting-level",
+      "count": 17,
+      "share": 0.0175
+    },
+    {
+      "tag": "crafting-level:117",
+      "namespace": "crafting-level",
+      "count": 15,
+      "share": 0.0154
+    },
+    {
+      "tag": "crafting-level:25",
+      "namespace": "crafting-level",
+      "count": 15,
+      "share": 0.0154
+    },
+    {
+      "tag": "crafting-level:55",
+      "namespace": "crafting-level",
+      "count": 15,
+      "share": 0.0154
+    },
+    {
+      "tag": "crafting-level:78",
+      "namespace": "crafting-level",
+      "count": 15,
+      "share": 0.0154
+    },
+    {
+      "tag": "crafting-level:92",
+      "namespace": "crafting-level",
+      "count": 15,
+      "share": 0.0154
+    },
+    {
+      "tag": "crafting-level:63",
+      "namespace": "crafting-level",
+      "count": 14,
+      "share": 0.0144
+    },
+    {
+      "tag": "crafting-level:70",
+      "namespace": "crafting-level",
+      "count": 14,
+      "share": 0.0144
+    },
+    {
+      "tag": "crafting-level:75",
+      "namespace": "crafting-level",
+      "count": 14,
+      "share": 0.0144
+    },
+    {
+      "tag": "crafting-level:80",
+      "namespace": "crafting-level",
+      "count": 14,
+      "share": 0.0144
+    },
+    {
+      "tag": "crafting-level:95",
+      "namespace": "crafting-level",
+      "count": 14,
+      "share": 0.0144
+    },
+    {
+      "tag": "crafting-level:118",
+      "namespace": "crafting-level",
+      "count": 13,
+      "share": 0.0134
+    },
+    {
+      "tag": "crafting-level:15",
+      "namespace": "crafting-level",
+      "count": 13,
+      "share": 0.0134
+    },
+    {
+      "tag": "crafting-level:45",
+      "namespace": "crafting-level",
+      "count": 13,
+      "share": 0.0134
+    },
+    {
+      "tag": "crafting-level:77",
+      "namespace": "crafting-level",
+      "count": 13,
+      "share": 0.0134
+    },
+    {
+      "tag": "crafting-level:102",
+      "namespace": "crafting-level",
+      "count": 12,
+      "share": 0.0123
+    },
+    {
+      "tag": "crafting-level:30",
+      "namespace": "crafting-level",
+      "count": 12,
+      "share": 0.0123
+    },
+    {
+      "tag": "crafting-level:65",
+      "namespace": "crafting-level",
+      "count": 12,
+      "share": 0.0123
+    },
+    {
+      "tag": "crafting-level:99",
+      "namespace": "crafting-level",
+      "count": 12,
+      "share": 0.0123
+    },
+    {
+      "tag": "crafting-level:10",
+      "namespace": "crafting-level",
+      "count": 11,
+      "share": 0.0113
+    },
+    {
+      "tag": "crafting-level:96",
+      "namespace": "crafting-level",
+      "count": 11,
+      "share": 0.0113
+    },
+    {
+      "tag": "crafting-level:98",
+      "namespace": "crafting-level",
+      "count": 11,
+      "share": 0.0113
+    },
+    {
+      "tag": "crafting-level:1",
+      "namespace": "crafting-level",
+      "count": 10,
+      "share": 0.0103
+    },
+    {
+      "tag": "crafting-level:20",
+      "namespace": "crafting-level",
+      "count": 10,
+      "share": 0.0103
+    },
+    {
+      "tag": "crafting-level:53",
+      "namespace": "crafting-level",
+      "count": 10,
+      "share": 0.0103
+    },
+    {
+      "tag": "crafting-level:62",
+      "namespace": "crafting-level",
+      "count": 10,
+      "share": 0.0103
+    },
+    {
+      "tag": "crafting-level:76",
+      "namespace": "crafting-level",
+      "count": 10,
+      "share": 0.0103
+    },
+    {
+      "tag": "crafting-level:113",
+      "namespace": "crafting-level",
+      "count": 9,
+      "share": 0.0093
+    },
+    {
+      "tag": "crafting-level:116",
+      "namespace": "crafting-level",
+      "count": 9,
+      "share": 0.0093
+    },
+    {
+      "tag": "crafting-level:23",
+      "namespace": "crafting-level",
+      "count": 9,
+      "share": 0.0093
+    },
+    {
+      "tag": "crafting-level:35",
+      "namespace": "crafting-level",
+      "count": 9,
+      "share": 0.0093
+    },
+    {
+      "tag": "crafting-level:37",
+      "namespace": "crafting-level",
+      "count": 9,
+      "share": 0.0093
+    },
+    {
+      "tag": "crafting-level:43",
+      "namespace": "crafting-level",
+      "count": 9,
+      "share": 0.0093
+    },
+    {
+      "tag": "crafting-level:50",
+      "namespace": "crafting-level",
+      "count": 9,
+      "share": 0.0093
+    },
+    {
+      "tag": "crafting-level:72",
+      "namespace": "crafting-level",
+      "count": 9,
+      "share": 0.0093
+    },
+    {
+      "tag": "crafting-level:73",
+      "namespace": "crafting-level",
+      "count": 9,
+      "share": 0.0093
+    },
+    {
+      "tag": "crafting-level:8",
+      "namespace": "crafting-level",
+      "count": 9,
+      "share": 0.0093
+    },
+    {
+      "tag": "crafting-level:97",
+      "namespace": "crafting-level",
+      "count": 9,
+      "share": 0.0093
+    },
+    {
+      "tag": "crafting-level:119",
+      "namespace": "crafting-level",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "crafting-level:33",
+      "namespace": "crafting-level",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "crafting-level:36",
+      "namespace": "crafting-level",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "crafting-level:56",
+      "namespace": "crafting-level",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "crafting-level:64",
+      "namespace": "crafting-level",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "crafting-level:7",
+      "namespace": "crafting-level",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "crafting-level:81",
+      "namespace": "crafting-level",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "crafting-level:84",
+      "namespace": "crafting-level",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "crafting-level:87",
+      "namespace": "crafting-level",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "crafting-level:89",
+      "namespace": "crafting-level",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "crafting-level:14",
+      "namespace": "crafting-level",
+      "count": 7,
+      "share": 0.0072
+    },
+    {
+      "tag": "crafting-level:26",
+      "namespace": "crafting-level",
+      "count": 7,
+      "share": 0.0072
+    },
+    {
+      "tag": "crafting-level:27",
+      "namespace": "crafting-level",
+      "count": 7,
+      "share": 0.0072
+    },
+    {
+      "tag": "crafting-level:42",
+      "namespace": "crafting-level",
+      "count": 7,
+      "share": 0.0072
+    },
+    {
+      "tag": "crafting-level:5",
+      "namespace": "crafting-level",
+      "count": 7,
+      "share": 0.0072
+    },
+    {
+      "tag": "crafting-level:106",
+      "namespace": "crafting-level",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "crafting-level:107",
+      "namespace": "crafting-level",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "crafting-level:108",
+      "namespace": "crafting-level",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "crafting-level:114",
+      "namespace": "crafting-level",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "crafting-level:22",
+      "namespace": "crafting-level",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "crafting-level:28",
+      "namespace": "crafting-level",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "crafting-level:3",
+      "namespace": "crafting-level",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "crafting-level:31",
+      "namespace": "crafting-level",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "crafting-level:32",
+      "namespace": "crafting-level",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "crafting-level:34",
+      "namespace": "crafting-level",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "crafting-level:41",
+      "namespace": "crafting-level",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "crafting-level:44",
+      "namespace": "crafting-level",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "crafting-level:57",
+      "namespace": "crafting-level",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "crafting-level:58",
+      "namespace": "crafting-level",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "crafting-level:59",
+      "namespace": "crafting-level",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "crafting-level:6",
+      "namespace": "crafting-level",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "crafting-level:66",
+      "namespace": "crafting-level",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "crafting-level:82",
+      "namespace": "crafting-level",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "crafting-level:86",
+      "namespace": "crafting-level",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "crafting-level:91",
+      "namespace": "crafting-level",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "crafting-level:93",
+      "namespace": "crafting-level",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "crafting-level:16",
+      "namespace": "crafting-level",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "crafting-level:18",
+      "namespace": "crafting-level",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "crafting-level:21",
+      "namespace": "crafting-level",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "crafting-level:40",
+      "namespace": "crafting-level",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "crafting-level:47",
+      "namespace": "crafting-level",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "crafting-level:74",
+      "namespace": "crafting-level",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "crafting-level:88",
+      "namespace": "crafting-level",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "crafting-level:101",
+      "namespace": "crafting-level",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "crafting-level:109",
+      "namespace": "crafting-level",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "crafting-level:46",
+      "namespace": "crafting-level",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "crafting-level:61",
+      "namespace": "crafting-level",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "crafting-level:68",
+      "namespace": "crafting-level",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "crafting-level:9",
+      "namespace": "crafting-level",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "crafting-level:94",
+      "namespace": "crafting-level",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "crafting-level:112",
+      "namespace": "crafting-level",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "crafting-level:12",
+      "namespace": "crafting-level",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "crafting-level:13",
+      "namespace": "crafting-level",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "crafting-level:2",
+      "namespace": "crafting-level",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "crafting-level:24",
+      "namespace": "crafting-level",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "crafting-level:38",
+      "namespace": "crafting-level",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "crafting-level:39",
+      "namespace": "crafting-level",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "crafting-level:4",
+      "namespace": "crafting-level",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "crafting-level:48",
+      "namespace": "crafting-level",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "crafting-level:49",
+      "namespace": "crafting-level",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "crafting-level:51",
+      "namespace": "crafting-level",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "crafting-level:54",
+      "namespace": "crafting-level",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "crafting-level:67",
+      "namespace": "crafting-level",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "crafting-level:71",
+      "namespace": "crafting-level",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "crafting-level:11",
+      "namespace": "crafting-level",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "crafting-level:110",
+      "namespace": "crafting-level",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "crafting-level:52",
+      "namespace": "crafting-level",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "crafting-level:79",
+      "namespace": "crafting-level",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "crafting-level:111",
+      "namespace": "crafting-level",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "crafting-level:17",
+      "namespace": "crafting-level",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "crafting-level:19",
+      "namespace": "crafting-level",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "crafting-level:29",
+      "namespace": "crafting-level",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "crafting-level:69",
+      "namespace": "crafting-level",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "emblem:square",
+      "namespace": "emblem",
+      "count": 972,
+      "share": 1.0
+    },
+    {
+      "tag": "id:walkSpeed",
+      "namespace": "id",
+      "count": 124,
+      "share": 0.1276
+    },
+    {
+      "tag": "id:rawHealth",
+      "namespace": "id",
+      "count": 107,
+      "share": 0.1101
+    },
+    {
+      "tag": "id:mainAttackDamage",
+      "namespace": "id",
+      "count": 89,
+      "share": 0.0916
+    },
+    {
+      "tag": "id:rawDefence",
+      "namespace": "id",
+      "count": 89,
+      "share": 0.0916
+    },
+    {
+      "tag": "id:spellDamage",
+      "namespace": "id",
+      "count": 82,
+      "share": 0.0844
+    },
+    {
+      "tag": "id:healthRegenRaw",
+      "namespace": "id",
+      "count": 79,
+      "share": 0.0813
+    },
+    {
+      "tag": "id:rawMainAttackDamage",
+      "namespace": "id",
+      "count": 74,
+      "share": 0.0761
+    },
+    {
+      "tag": "id:rawStrength",
+      "namespace": "id",
+      "count": 73,
+      "share": 0.0751
+    },
+    {
+      "tag": "id:fireDamage",
+      "namespace": "id",
+      "count": 61,
+      "share": 0.0628
+    },
+    {
+      "tag": "id:earthDamage",
+      "namespace": "id",
+      "count": 58,
+      "share": 0.0597
+    },
+    {
+      "tag": "id:rawAgility",
+      "namespace": "id",
+      "count": 58,
+      "share": 0.0597
+    },
+    {
+      "tag": "id:rawSpellDamage",
+      "namespace": "id",
+      "count": 52,
+      "share": 0.0535
+    },
+    {
+      "tag": "id:manaRegen",
+      "namespace": "id",
+      "count": 50,
+      "share": 0.0514
+    },
+    {
+      "tag": "id:thunderDamage",
+      "namespace": "id",
+      "count": 50,
+      "share": 0.0514
+    },
+    {
+      "tag": "id:waterDamage",
+      "namespace": "id",
+      "count": 50,
+      "share": 0.0514
+    },
+    {
+      "tag": "id:fireDefence",
+      "namespace": "id",
+      "count": 48,
+      "share": 0.0494
+    },
+    {
+      "tag": "id:gatherXpBonus",
+      "namespace": "id",
+      "count": 48,
+      "share": 0.0494
+    },
+    {
+      "tag": "id:lifeSteal",
+      "namespace": "id",
+      "count": 48,
+      "share": 0.0494
+    },
+    {
+      "tag": "id:healthRegen",
+      "namespace": "id",
+      "count": 47,
+      "share": 0.0484
+    },
+    {
+      "tag": "id:rawDexterity",
+      "namespace": "id",
+      "count": 47,
+      "share": 0.0484
+    },
+    {
+      "tag": "id:poison",
+      "namespace": "id",
+      "count": 46,
+      "share": 0.0473
+    },
+    {
+      "tag": "id:waterDefence",
+      "namespace": "id",
+      "count": 46,
+      "share": 0.0473
+    },
+    {
+      "tag": "id:airDamage",
+      "namespace": "id",
+      "count": 44,
+      "share": 0.0453
+    },
+    {
+      "tag": "id:lootBonus",
+      "namespace": "id",
+      "count": 44,
+      "share": 0.0453
+    },
+    {
+      "tag": "id:combatExperience",
+      "namespace": "id",
+      "count": 43,
+      "share": 0.0442
+    },
+    {
+      "tag": "id:earthDefence",
+      "namespace": "id",
+      "count": 41,
+      "share": 0.0422
+    },
+    {
+      "tag": "id:rawIntelligence",
+      "namespace": "id",
+      "count": 38,
+      "share": 0.0391
+    },
+    {
+      "tag": "id:airDefence",
+      "namespace": "id",
+      "count": 37,
+      "share": 0.0381
+    },
+    {
+      "tag": "id:thorns",
+      "namespace": "id",
+      "count": 34,
+      "share": 0.035
+    },
+    {
+      "tag": "id:manaSteal",
+      "namespace": "id",
+      "count": 33,
+      "share": 0.034
+    },
+    {
+      "tag": "id:reflection",
+      "namespace": "id",
+      "count": 30,
+      "share": 0.0309
+    },
+    {
+      "tag": "id:thunderDefence",
+      "namespace": "id",
+      "count": 30,
+      "share": 0.0309
+    },
+    {
+      "tag": "id:healingEfficiency",
+      "namespace": "id",
+      "count": 28,
+      "share": 0.0288
+    },
+    {
+      "tag": "id:exploding",
+      "namespace": "id",
+      "count": 20,
+      "share": 0.0206
+    },
+    {
+      "tag": "id:sprint",
+      "namespace": "id",
+      "count": 19,
+      "share": 0.0195
+    },
+    {
+      "tag": "id:sprintRegen",
+      "namespace": "id",
+      "count": 15,
+      "share": 0.0154
+    },
+    {
+      "tag": "id:gatherSpeed",
+      "namespace": "id",
+      "count": 13,
+      "share": 0.0134
+    },
+    {
+      "tag": "id:stealing",
+      "namespace": "id",
+      "count": 13,
+      "share": 0.0134
+    },
+    {
+      "tag": "id:rawAttackSpeed",
+      "namespace": "id",
+      "count": 10,
+      "share": 0.0103
+    },
+    {
+      "tag": "id:elementalDamage",
+      "namespace": "id",
+      "count": 9,
+      "share": 0.0093
+    },
+    {
+      "tag": "id:rawMaxMana",
+      "namespace": "id",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "id:jumpHeight",
+      "namespace": "id",
+      "count": 7,
+      "share": 0.0072
+    },
+    {
+      "tag": "id:lootQuality",
+      "namespace": "id",
+      "count": 7,
+      "share": 0.0072
+    },
+    {
+      "tag": "id:elementalDefence",
+      "namespace": "id",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "id:damage",
+      "namespace": "id",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "id:knockback",
+      "namespace": "id",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "id:rawEarthMainAttackDamage",
+      "namespace": "id",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "id:rawFireDamage",
+      "namespace": "id",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "id:rawFireSpellDamage",
+      "namespace": "id",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "id:rawThunderDamage",
+      "namespace": "id",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "id:rawWaterDamage",
+      "namespace": "id",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "id:mainAttackRange",
+      "namespace": "id",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "id:rawAirDamage",
+      "namespace": "id",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "id:rawWaterMainAttackDamage",
+      "namespace": "id",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "id:rawEarthSpellDamage",
+      "namespace": "id",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "id:rawFireMainAttackDamage",
+      "namespace": "id",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "id:rawThunderMainAttackDamage",
+      "namespace": "id",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "id:waterSpellDamage",
+      "namespace": "id",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "id:2ndSpellCost",
+      "namespace": "id",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "id:airSpellDamage",
+      "namespace": "id",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "id:earthMainAttackDamage",
+      "namespace": "id",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "id:elementalSpellDamage",
+      "namespace": "id",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "id:fireSpellDamage",
+      "namespace": "id",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "id:neutralDamage",
+      "namespace": "id",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "id:rawAirMainAttackDamage",
+      "namespace": "id",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "id:rawAirSpellDamage",
+      "namespace": "id",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "id:rawEarthDamage",
+      "namespace": "id",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "id:rawNeutralDamage",
+      "namespace": "id",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "id:rawNeutralMainAttackDamage",
+      "namespace": "id",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "id:rawThunderSpellDamage",
+      "namespace": "id",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "id:rawWaterSpellDamage",
+      "namespace": "id",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "id:waterMainAttackDamage",
+      "namespace": "id",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-52",
+      "namespace": "item",
+      "count": 23,
+      "share": 0.0237
+    },
+    {
+      "tag": "item:strength:+10",
+      "namespace": "item",
+      "count": 23,
+      "share": 0.0237
+    },
+    {
+      "tag": "item:defence:+10",
+      "namespace": "item",
+      "count": 20,
+      "share": 0.0206
+    },
+    {
+      "tag": "item:durability:-40",
+      "namespace": "item",
+      "count": 20,
+      "share": 0.0206
+    },
+    {
+      "tag": "item:agility:+10",
+      "namespace": "item",
+      "count": 18,
+      "share": 0.0185
+    },
+    {
+      "tag": "item:dexterity:+10",
+      "namespace": "item",
+      "count": 16,
+      "share": 0.0165
+    },
+    {
+      "tag": "item:durability:-70",
+      "namespace": "item",
+      "count": 16,
+      "share": 0.0165
+    },
+    {
+      "tag": "item:durability:-38",
+      "namespace": "item",
+      "count": 15,
+      "share": 0.0154
+    },
+    {
+      "tag": "item:durability:-26",
+      "namespace": "item",
+      "count": 13,
+      "share": 0.0134
+    },
+    {
+      "tag": "item:intelligence:+10",
+      "namespace": "item",
+      "count": 13,
+      "share": 0.0134
+    },
+    {
+      "tag": "item:defence:+12",
+      "namespace": "item",
+      "count": 12,
+      "share": 0.0123
+    },
+    {
+      "tag": "item:defence:+8",
+      "namespace": "item",
+      "count": 12,
+      "share": 0.0123
+    },
+    {
+      "tag": "item:durability:-35",
+      "namespace": "item",
+      "count": 12,
+      "share": 0.0123
+    },
+    {
+      "tag": "item:durability:-87",
+      "namespace": "item",
+      "count": 12,
+      "share": 0.0123
+    },
+    {
+      "tag": "item:intelligence:+12",
+      "namespace": "item",
+      "count": 12,
+      "share": 0.0123
+    },
+    {
+      "tag": "item:strength:+8",
+      "namespace": "item",
+      "count": 12,
+      "share": 0.0123
+    },
+    {
+      "tag": "item:durability:-105",
+      "namespace": "item",
+      "count": 11,
+      "share": 0.0113
+    },
+    {
+      "tag": "item:durability:-21",
+      "namespace": "item",
+      "count": 11,
+      "share": 0.0113
+    },
+    {
+      "tag": "item:durability:-24",
+      "namespace": "item",
+      "count": 11,
+      "share": 0.0113
+    },
+    {
+      "tag": "item:durability:-45",
+      "namespace": "item",
+      "count": 11,
+      "share": 0.0113
+    },
+    {
+      "tag": "item:strength:+5",
+      "namespace": "item",
+      "count": 11,
+      "share": 0.0113
+    },
+    {
+      "tag": "item:agility:+12",
+      "namespace": "item",
+      "count": 10,
+      "share": 0.0103
+    },
+    {
+      "tag": "item:defence:+15",
+      "namespace": "item",
+      "count": 10,
+      "share": 0.0103
+    },
+    {
+      "tag": "item:durability:-31",
+      "namespace": "item",
+      "count": 10,
+      "share": 0.0103
+    },
+    {
+      "tag": "item:durability:-47",
+      "namespace": "item",
+      "count": 10,
+      "share": 0.0103
+    },
+    {
+      "tag": "item:durability:-59",
+      "namespace": "item",
+      "count": 10,
+      "share": 0.0103
+    },
+    {
+      "tag": "item:durability:-79",
+      "namespace": "item",
+      "count": 10,
+      "share": 0.0103
+    },
+    {
+      "tag": "item:strength:+12",
+      "namespace": "item",
+      "count": 10,
+      "share": 0.0103
+    },
+    {
+      "tag": "item:agility:+15",
+      "namespace": "item",
+      "count": 9,
+      "share": 0.0093
+    },
+    {
+      "tag": "item:dexterity:+12",
+      "namespace": "item",
+      "count": 9,
+      "share": 0.0093
+    },
+    {
+      "tag": "item:durability:-110",
+      "namespace": "item",
+      "count": 9,
+      "share": 0.0093
+    },
+    {
+      "tag": "item:durability:-44",
+      "namespace": "item",
+      "count": 9,
+      "share": 0.0093
+    },
+    {
+      "tag": "item:durability:-90",
+      "namespace": "item",
+      "count": 9,
+      "share": 0.0093
+    },
+    {
+      "tag": "item:intelligence:+15",
+      "namespace": "item",
+      "count": 9,
+      "share": 0.0093
+    },
+    {
+      "tag": "item:intelligence:+20",
+      "namespace": "item",
+      "count": 9,
+      "share": 0.0093
+    },
+    {
+      "tag": "item:strength:+6",
+      "namespace": "item",
+      "count": 9,
+      "share": 0.0093
+    },
+    {
+      "tag": "item:agility:+20",
+      "namespace": "item",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "item:durability:-115",
+      "namespace": "item",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "item:durability:-150",
+      "namespace": "item",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "item:durability:-160",
+      "namespace": "item",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "item:durability:-30",
+      "namespace": "item",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "item:durability:-37",
+      "namespace": "item",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "item:durability:-42",
+      "namespace": "item",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "item:durability:-49",
+      "namespace": "item",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "item:durability:-51",
+      "namespace": "item",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "item:durability:-56",
+      "namespace": "item",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "item:durability:-58",
+      "namespace": "item",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "item:durability:-80",
+      "namespace": "item",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "item:durability:-98",
+      "namespace": "item",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "item:agility:+8",
+      "namespace": "item",
+      "count": 7,
+      "share": 0.0072
+    },
+    {
+      "tag": "item:defence:+14",
+      "namespace": "item",
+      "count": 7,
+      "share": 0.0072
+    },
+    {
+      "tag": "item:defence:+30",
+      "namespace": "item",
+      "count": 7,
+      "share": 0.0072
+    },
+    {
+      "tag": "item:dexterity:+8",
+      "namespace": "item",
+      "count": 7,
+      "share": 0.0072
+    },
+    {
+      "tag": "item:durability:-100",
+      "namespace": "item",
+      "count": 7,
+      "share": 0.0072
+    },
+    {
+      "tag": "item:durability:-149",
+      "namespace": "item",
+      "count": 7,
+      "share": 0.0072
+    },
+    {
+      "tag": "item:durability:-17",
+      "namespace": "item",
+      "count": 7,
+      "share": 0.0072
+    },
+    {
+      "tag": "item:durability:-33",
+      "namespace": "item",
+      "count": 7,
+      "share": 0.0072
+    },
+    {
+      "tag": "item:durability:-54",
+      "namespace": "item",
+      "count": 7,
+      "share": 0.0072
+    },
+    {
+      "tag": "item:durability:-63",
+      "namespace": "item",
+      "count": 7,
+      "share": 0.0072
+    },
+    {
+      "tag": "item:durability:-65",
+      "namespace": "item",
+      "count": 7,
+      "share": 0.0072
+    },
+    {
+      "tag": "item:defence:+16",
+      "namespace": "item",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "item:defence:+4",
+      "namespace": "item",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "item:defence:+5",
+      "namespace": "item",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "item:defence:-10",
+      "namespace": "item",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "item:dexterity:+20",
+      "namespace": "item",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "item:dexterity:+6",
+      "namespace": "item",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "item:durability:-122",
+      "namespace": "item",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "item:durability:-23",
+      "namespace": "item",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "item:durability:-50",
+      "namespace": "item",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "item:durability:-60",
+      "namespace": "item",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "item:durability:-66",
+      "namespace": "item",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "item:durability:-75",
+      "namespace": "item",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "item:durability:-78",
+      "namespace": "item",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "item:durability:-88",
+      "namespace": "item",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "item:intelligence:+8",
+      "namespace": "item",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "item:strength:+15",
+      "namespace": "item",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "item:strength:+18",
+      "namespace": "item",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "item:defence:+18",
+      "namespace": "item",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "item:defence:+20",
+      "namespace": "item",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "item:defence:+25",
+      "namespace": "item",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "item:dexterity:+14",
+      "namespace": "item",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "item:dexterity:+15",
+      "namespace": "item",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "item:dexterity:+5",
+      "namespace": "item",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "item:dexterity:+7",
+      "namespace": "item",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "item:dexterity:+9",
+      "namespace": "item",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "item:durability:-112",
+      "namespace": "item",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "item:durability:-120",
+      "namespace": "item",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "item:durability:-53",
+      "namespace": "item",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "item:durability:-73",
+      "namespace": "item",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "item:durability:-86",
+      "namespace": "item",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "item:durability:-94",
+      "namespace": "item",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "item:durability:-99",
+      "namespace": "item",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "item:intelligence:+25",
+      "namespace": "item",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "item:intelligence:+30",
+      "namespace": "item",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "item:intelligence:+5",
+      "namespace": "item",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "item:strength:+25",
+      "namespace": "item",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "item:strength:-10",
+      "namespace": "item",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "item:agility:-10",
+      "namespace": "item",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "item:dexterity:+30",
+      "namespace": "item",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "item:durability:-124",
+      "namespace": "item",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "item:durability:-125",
+      "namespace": "item",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "item:durability:-131",
+      "namespace": "item",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "item:durability:-135",
+      "namespace": "item",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "item:durability:-140",
+      "namespace": "item",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "item:durability:-145",
+      "namespace": "item",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "item:durability:-175",
+      "namespace": "item",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "item:durability:-61",
+      "namespace": "item",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "item:durability:-71",
+      "namespace": "item",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "item:durability:-74",
+      "namespace": "item",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "item:durability:-77",
+      "namespace": "item",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "item:durability:-85",
+      "namespace": "item",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "item:strength:+13",
+      "namespace": "item",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "item:agility:+4",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:agility:+5",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:agility:+7",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:defence:+35",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:defence:-25",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:defence:-5",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:dexterity:+16",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:dexterity:-10",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:durability:+56",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:durability:-101",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:durability:-107",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:durability:-108",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:durability:-109",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:durability:-119",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:durability:-126",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:durability:-154",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:durability:-157",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:durability:-165",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:durability:-172",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:durability:-19",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:durability:-28",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:durability:-34",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:durability:-39",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:durability:-62",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:durability:-68",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:durability:-76",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:durability:-89",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:durability:-92",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:durability:-96",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:durability:-97",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:intelligence:+18",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:intelligence:-10",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:strength:+14",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:strength:+16",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:strength:+20",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:strength:+30",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:strength:+9",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:strength:-15",
+      "namespace": "item",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "item:agility:+14",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:agility:+16",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:agility:+22",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:agility:+25",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:agility:+30",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:agility:-17",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:agility:-5",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:defence:+6",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:defence:+7",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:dexterity:+25",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:dexterity:+4",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:dexterity:-5",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:durability:+18",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:durability:+21",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:durability:+42",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:durability:+5",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:durability:-104",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:durability:-106",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:durability:-117",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:durability:-130",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:durability:-144",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:durability:-155",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:durability:-156",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:durability:-159",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:durability:-162",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:durability:-163",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:durability:-183",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:durability:-184",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:durability:-55",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:durability:-57",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:durability:-84",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:durability:-91",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:durability:-93",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:durability:-95",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:intelligence:+23",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:intelligence:+4",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:intelligence:+7",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:intelligence:-15",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:intelligence:-25",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:strength:+22",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:strength:+24",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:strength:+4",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:strength:-5",
+      "namespace": "item",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "item:agility:+11",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:agility:+13",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:agility:+18",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:agility:+23",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:agility:+24",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:agility:+3",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:agility:+35",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:agility:+6",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:agility:-15",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:agility:-20",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:agility:-25",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:agility:-35",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:agility:-8",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:defence:+13",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:defence:+17",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:defence:+19",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:defence:+24",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:defence:+29",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:defence:+3",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:defence:+34",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:defence:+9",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:defence:-17",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:defence:-20",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:defence:-40",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:dexterity:+11",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:dexterity:+13",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:dexterity:+19",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:dexterity:+21",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:dexterity:+27",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:dexterity:+65",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:dexterity:-15",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:dexterity:-17",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:dexterity:-20",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:dexterity:-25",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:dexterity:-6",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:+22",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:+35",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:+37",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:+39",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:+4",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:+41",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:+45",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:+47",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:+60",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:+63",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:+70",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:+80",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-102",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-103",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-111",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-114",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-116",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-118",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-121",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-127",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-129",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-133",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-136",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-138",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-139",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-141",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-142",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-148",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-151",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-153",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-158",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-164",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-166",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-169",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-170",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-177",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-179",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-181",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-185",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-187",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-192",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-20",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-22",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-29",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-36",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-46",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-48",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-64",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-67",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-69",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-72",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-81",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-82",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-83",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:durability:-9",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:intelligence:+13",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:intelligence:+14",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:intelligence:+16",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:intelligence:+28",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:intelligence:+3",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:intelligence:+35",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:intelligence:+37",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:intelligence:+40",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:intelligence:+6",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:intelligence:+9",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:intelligence:-11",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:intelligence:-12",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:intelligence:-20",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:strength:+11",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:strength:+17",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:strength:+21",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:strength:+28",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:strength:+3",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:strength:+35",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:strength:+38",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:strength:+7",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:strength:-13",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "item:strength:-25",
+      "namespace": "item",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-120",
+      "namespace": "consumable",
+      "count": 20,
+      "share": 0.0206
+    },
+    {
+      "tag": "consumable:duration:-100",
+      "namespace": "consumable",
+      "count": 12,
+      "share": 0.0123
+    },
+    {
+      "tag": "consumable:duration:-140",
+      "namespace": "consumable",
+      "count": 12,
+      "share": 0.0123
+    },
+    {
+      "tag": "consumable:duration:-160",
+      "namespace": "consumable",
+      "count": 11,
+      "share": 0.0113
+    },
+    {
+      "tag": "consumable:duration:-190",
+      "namespace": "consumable",
+      "count": 11,
+      "share": 0.0113
+    },
+    {
+      "tag": "consumable:duration:-110",
+      "namespace": "consumable",
+      "count": 10,
+      "share": 0.0103
+    },
+    {
+      "tag": "consumable:duration:-210",
+      "namespace": "consumable",
+      "count": 10,
+      "share": 0.0103
+    },
+    {
+      "tag": "consumable:duration:-300",
+      "namespace": "consumable",
+      "count": 10,
+      "share": 0.0103
+    },
+    {
+      "tag": "consumable:duration:-180",
+      "namespace": "consumable",
+      "count": 9,
+      "share": 0.0093
+    },
+    {
+      "tag": "consumable:charges:+1",
+      "namespace": "consumable",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "consumable:duration:-130",
+      "namespace": "consumable",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "consumable:duration:-150",
+      "namespace": "consumable",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "consumable:duration:-170",
+      "namespace": "consumable",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "consumable:duration:-200",
+      "namespace": "consumable",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "consumable:duration:-220",
+      "namespace": "consumable",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "consumable:duration:-400",
+      "namespace": "consumable",
+      "count": 8,
+      "share": 0.0082
+    },
+    {
+      "tag": "consumable:duration:-60",
+      "namespace": "consumable",
+      "count": 7,
+      "share": 0.0072
+    },
+    {
+      "tag": "consumable:duration:-90",
+      "namespace": "consumable",
+      "count": 7,
+      "share": 0.0072
+    },
+    {
+      "tag": "consumable:duration:-270",
+      "namespace": "consumable",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "consumable:duration:-350",
+      "namespace": "consumable",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "consumable:duration:-70",
+      "namespace": "consumable",
+      "count": 6,
+      "share": 0.0062
+    },
+    {
+      "tag": "consumable:duration:-48",
+      "namespace": "consumable",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "consumable:duration:-78",
+      "namespace": "consumable",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "consumable:charges:+2",
+      "namespace": "consumable",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "consumable:charges:-1",
+      "namespace": "consumable",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "consumable:duration:+90",
+      "namespace": "consumable",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "consumable:duration:-115",
+      "namespace": "consumable",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "consumable:duration:-230",
+      "namespace": "consumable",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "consumable:duration:-240",
+      "namespace": "consumable",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "consumable:duration:-250",
+      "namespace": "consumable",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "consumable:duration:-280",
+      "namespace": "consumable",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "consumable:duration:-360",
+      "namespace": "consumable",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "consumable:duration:-54",
+      "namespace": "consumable",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "consumable:duration:-84",
+      "namespace": "consumable",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "consumable:duration:-99",
+      "namespace": "consumable",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "consumable:duration:+120",
+      "namespace": "consumable",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "consumable:duration:-165",
+      "namespace": "consumable",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "consumable:duration:-225",
+      "namespace": "consumable",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "consumable:duration:-260",
+      "namespace": "consumable",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "consumable:duration:-310",
+      "namespace": "consumable",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "consumable:duration:-315",
+      "namespace": "consumable",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "consumable:duration:-36",
+      "namespace": "consumable",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "consumable:duration:-38",
+      "namespace": "consumable",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "consumable:duration:-380",
+      "namespace": "consumable",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "consumable:duration:-410",
+      "namespace": "consumable",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "consumable:duration:-45",
+      "namespace": "consumable",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "consumable:duration:-550",
+      "namespace": "consumable",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "consumable:duration:-620",
+      "namespace": "consumable",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "consumable:duration:-80",
+      "namespace": "consumable",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "consumable:duration:-93",
+      "namespace": "consumable",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "consumable:duration:+200",
+      "namespace": "consumable",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "consumable:duration:+30",
+      "namespace": "consumable",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "consumable:duration:+40",
+      "namespace": "consumable",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "consumable:duration:+60",
+      "namespace": "consumable",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "consumable:duration:-101",
+      "namespace": "consumable",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "consumable:duration:-290",
+      "namespace": "consumable",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "consumable:duration:-320",
+      "namespace": "consumable",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "consumable:duration:-325",
+      "namespace": "consumable",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "consumable:duration:-330",
+      "namespace": "consumable",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "consumable:duration:-370",
+      "namespace": "consumable",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "consumable:duration:-40",
+      "namespace": "consumable",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "consumable:duration:-460",
+      "namespace": "consumable",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "consumable:duration:-490",
+      "namespace": "consumable",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "consumable:duration:-560",
+      "namespace": "consumable",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "consumable:duration:-600",
+      "namespace": "consumable",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "consumable:duration:-66",
+      "namespace": "consumable",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "consumable:duration:-69",
+      "namespace": "consumable",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "consumable:duration:-720",
+      "namespace": "consumable",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "consumable:duration:-75",
+      "namespace": "consumable",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "consumable:duration:-95",
+      "namespace": "consumable",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "consumable:duration:-97",
+      "namespace": "consumable",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "consumable:duration:+100",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:+110",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:+125",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:+15",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:+160",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:+24",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:+280",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:+360",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:+370",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:+380",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:+400",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:+45",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:+48",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:+75",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:+96",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-10",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-103",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-105",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-1100",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-125",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-135",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-141",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-144",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-145",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-155",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-181",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-185",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-195",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-235",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-252",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-275",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-305",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-340",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-365",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-39",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-390",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-425",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-440",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-450",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-50",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-51",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-520",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-540",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-57",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-580",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-590",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-63",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-660",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-666",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-67",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-670",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-690",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-700",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-740",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-750",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-77",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-770",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-800",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-81",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-820",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-85",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-87",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-900",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-94",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-945",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-96",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "consumable:duration:-98",
+      "namespace": "consumable",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:touching:+25",
+      "namespace": "position",
+      "count": 5,
+      "share": 0.0051
+    },
+    {
+      "tag": "position:touching:+15",
+      "namespace": "position",
+      "count": 4,
+      "share": 0.0041
+    },
+    {
+      "tag": "position:left:-160",
+      "namespace": "position",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "position:not_touching:+15",
+      "namespace": "position",
+      "count": 3,
+      "share": 0.0031
+    },
+    {
+      "tag": "position:above:-160",
+      "namespace": "position",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "position:not_touching:-15",
+      "namespace": "position",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "position:not_touching:-40",
+      "namespace": "position",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "position:right:-160",
+      "namespace": "position",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "position:touching:+120",
+      "namespace": "position",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "position:touching:+20",
+      "namespace": "position",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "position:touching:+50",
+      "namespace": "position",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "position:touching:-110",
+      "namespace": "position",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "position:touching:-40",
+      "namespace": "position",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "position:touching:-50",
+      "namespace": "position",
+      "count": 2,
+      "share": 0.0021
+    },
+    {
+      "tag": "position:above:+110",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:above:+115",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:above:+25",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:above:+55",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:above:+60",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:above:+80",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:above:-100",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:above:-110",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:above:-120",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:above:-25",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:above:-40",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:above:-47",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:above:-75",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:left:+110",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:left:+130",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:left:+30",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:left:+85",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:left:-100",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:left:-120",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:left:-122",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:left:-15",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:left:-150",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:left:-200",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:left:-30",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:left:-40",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:left:-47",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:left:-50",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:left:-53",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:left:-60",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:not_touching:+10",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:not_touching:+115",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:not_touching:+25",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:not_touching:+30",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:not_touching:+50",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:not_touching:+55",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:not_touching:+60",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:not_touching:-100",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:not_touching:-25",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:not_touching:-30",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:not_touching:-35",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:not_touching:-65",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:not_touching:-80",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:right:+110",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:right:+140",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:right:+30",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:right:+85",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:right:-100",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:right:-122",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:right:-150",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:right:-180",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:right:-30",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:right:-40",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:right:-47",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:right:-50",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:right:-53",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:right:-60",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:touching:+115",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:touching:+30",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:touching:+35",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:touching:+47",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:touching:+53",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:touching:-1",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:touching:-10",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:touching:-100",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:touching:-115",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:touching:-15",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:touching:-25",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:touching:-80",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:under:+110",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:under:+115",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:under:+25",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:under:+55",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:under:+60",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:under:+80",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:under:-100",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:under:-120",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:under:-160",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:under:-20",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:under:-25",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:under:-40",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:under:-53",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    },
+    {
+      "tag": "position:under:-75",
+      "namespace": "position",
+      "count": 1,
+      "share": 0.001
+    }
+  ]
+}
